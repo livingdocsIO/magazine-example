@@ -1,0 +1,1 @@
+# livingdocs-magazine-boilerplate
