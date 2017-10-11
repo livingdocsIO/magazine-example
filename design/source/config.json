@@ -1,0 +1,276 @@
+{
+  "name": "timeline",
+  "label": "Timeline",
+  "version": "1.1.0",
+  "license": "Copyright (c) 2014 upfront GmbH, all rights reserved",
+
+  "assets": {
+    "css": ["./timeline.css", "./assets/stylesheets/slippry.css"],
+    "js": ["./assets/scripts/full_height.js", "./assets/scripts/jquery-2.1.3.min.js", "./assets/scripts/slippry.min.js", "./assets/scripts/activate_gallery.js"]
+  },
+
+  "componentProperties": {
+    "fixed-background": {
+      "label": "Fixed Background",
+      "type": "option",
+      "value": "peephole"
+    },
+    "caption-inside": {
+      "label": "Inside Caption",
+      "type": "option",
+      "value": "inside-caption"
+    },
+    "caption-fade": {
+      "label": "Inside Caption",
+      "type": "option",
+      "value": "caption-inside-fade"
+    },
+    "small-size": {
+      "label": "Small size",
+      "type": "option",
+      "value": "small"
+    },
+    "position": {
+      "label": "Position",
+      "type": "select",
+      "options": [
+        {
+          "caption": "Middle"
+        },
+        {
+          "caption": "Left",
+          "value": "left"
+        },
+        {
+          "caption": "Right",
+          "value": "right"
+        }
+      ]
+    },
+    "hide-image": {
+      "label": "Text only",
+      "type": "option",
+      "value": "hide-image"
+    },
+    "options": {
+      "id": "Options",
+      "label": "Options",
+      "type": "select",
+      "options": [
+        {
+          "caption": "Default"
+        },
+        {
+          "caption": "Stripe",
+          "value": "half-height"
+        }
+      ]
+    },
+    "featured": {
+      "label": "Featured",
+      "type": "option",
+      "value": "bleed"
+    },
+    "unordered": {
+      "label": "Unordered",
+      "type": "option",
+      "value": "bullet"
+    },
+    "dropcap": {
+      "label": "Drop Capital",
+      "type": "option",
+      "value": "drop-cap"
+    },
+    "large": {
+      "label": "Large",
+      "type": "option",
+      "value": "large"
+    },
+    "event-style": {
+      "label": "Style",
+      "type": "select",
+      "options": [
+        {
+          "caption": "Default"
+        },
+        {
+          "caption": "Bullets",
+          "value": "bullets"
+        }
+      ]
+    },
+    "quote-slide-background-color": {
+      "label": "Background Color",
+      "type": "select",
+      "options": [
+        {
+          "caption": "Default"
+        },
+        {
+          "caption": "Yellow",
+          "value": "media-gallery-quote-slide--yellow"
+        },
+        {
+          "caption": "Pink",
+          "value": "media-gallery-quote-slide--pink"
+        },
+        {
+          "caption": "Blue",
+          "value": "media-gallery-quote-slide--blue"
+        }
+      ]
+    },
+    "list-type": {
+      "label": "List Type",
+      "type": "select",
+      "options": [
+        {
+          "caption": "Bullets"
+        }, {
+          "caption": "Numbers",
+          "value": "decimal"
+        }, {
+          "caption": "Letters",
+          "value": "lower-latin"
+        }, {
+          "caption": "Romans",
+          "value": "lower-roman"
+        }
+      ]
+    }
+  },
+
+  "layouts": [
+    {
+      "name": "regular",
+      "caption": "Article",
+      "wrapper": "<div class=\"funky-wrapper doc-section\"></div>",
+      "icon": null,
+      "defaultContent": [
+        { "identifier": "timeline.head" },
+        { "identifier": "timeline.normal",
+          "styles": {
+            "position": "left",
+            "aspect-ratio": "square"
+          }
+        },
+        { "identifier": "timeline.p" }
+      ],
+      "groups": [
+        {
+          "label": "Collection",
+          "components": ["teaser", "embed-teaser", "list"]
+        },
+        {
+          "label": "Headers",
+          "components": ["head", "hero", "title"]
+        },
+        {
+          "label": "Text",
+          "components": ["p", "quote", "subtitle", "separator", "aside", "bullet-list"]
+        },
+        {
+          "label": "Images",
+          "components": ["full-size", "grid-of-6", "normal", "peephole"]
+        },
+        {
+          "label": "Embeds",
+          "components": ["tweet", "iframe", "free-html"]
+        },
+        {
+          "label": "Gallery",
+          "components": ["gallery", "image-slide", "media-slide", "quote-slide"]
+        },
+        {
+          "label": "Timeline",
+          "components": ["event"]
+        }
+      ]
+    }, {
+      "name": "page",
+      "caption": "Page",
+      "wrapper": "<div class=\"funky-page-wrapper doc-section\"></div>",
+      "icon": null,
+      "defaultContent": [],
+      "groups": [
+        {
+          "label": "Single Teasers",
+          "components": ["teaser-full-width", "teaser", "embed-teaser"]
+        }, {
+          "label": "Collection Teasers",
+          "components": ["top-row", "teaser-row", "teaser-row-high", "teaser-row-text"]
+        }, {
+          "label": "Embeds",
+          "components": ["tweet", "iframe", "free-html"]
+        }, {
+          "label": "Static",
+          "components": ["section-title"]
+        }
+      ]
+    }
+  ],
+
+  "defaultLayout": "regular",
+
+  "defaultComponents": {
+    "paragraph": "p",
+    "image": "normal",
+    "html": "free-html"
+  },
+
+  "imageRatios": {
+    "16:9": {
+      "label": "16:9",
+      "ratio": "16x9"
+    },
+    "1:1": {
+      "label": "1:1",
+      "ratio": "1x1"
+    },
+    "4:3": {
+      "label": "4:3",
+      "ratio": "4x3"
+    },
+    "3:4": {
+      "label": "3:4",
+      "ratio": "3x4"
+    }
+  },
+
+  "prefilledComponents": {
+    "hero": {
+      "text": {
+        "value": "author",
+        "type": "computed"
+      }
+    }
+  },
+
+  "metadata": [
+    {
+      "identifier": "title",
+      "type": "text",
+      "matches": ["hero.title", "title.title", "head.title"],
+      "isEditable": true
+    },
+    {
+      "identifier": "description",
+      "type": "text",
+      "matches": ["head.text", "p.text"],
+      "isEditable": true
+    },
+    {
+      "identifier": "author",
+      "type": "text",
+      "matches": ["hero.text"],
+      "isEditable": true
+    },
+    {
+      "identifier": "teaserImage",
+      "type": "image",
+      "matches": ["hero.image", "normal.image", "full-size.image", "peephole.image"],
+      "isEditable": true,
+      "imageRatios": ["16:9"]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.head {
+  p {
+    &.lead {
+      font-size: 1.2rem;
+      @include breakpoint($medium-screen) {
+        font-size: 1.4rem;
+      }
+      @include squish(0);
+    }
+  }
+}

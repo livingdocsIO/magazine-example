@@ -1,0 +1,40 @@
+<script type="ld-conf">
+  {
+    "name": "top-row",
+    "label": "Top Row",
+    "directives": {
+      "latest-news": {
+        "service": "list",
+        "defaultParams": {
+          "count": 5,
+          "layout": "news"
+        }
+      },
+      "top-teasers": {
+        "service": "list",
+        "config": {
+          "minCount": 3,
+          "maxCount": 3
+        },
+        "defaultParams": {
+          "layout": "teaserRowHigh"
+        }
+      }
+    }
+  }
+</script>
+
+<div class="teaser-row">
+  <div class="teaser-row__item teaser-row__item--high teaser-row__item--latest">
+    <div class="teaser-row__inside teaser-row__inside--latest">
+      <div class="teaser-latest__title" doc-editable="title">Title</div>
+      <div doc-include="latest-news">
+        <div class="placeholder-bg">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="top-three-teasers" doc-include="top-teasers">
+    <div class="placeholder-bg placeholder--top-teasers"></div>
+  </div>
+</div>

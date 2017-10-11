@@ -1,0 +1,88 @@
+body {
+  font-family: $font-serif;
+  color: $font-color;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: geometricPrecision;
+}
+
+a {
+  color: $upfront-color;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-sans-serif;
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 3rem;
+  @include breakpoint($medium-screen) {
+    font-size: 4.5rem;
+  }
+  @include breakpoint($large-screen) {
+    font-size: 5.5rem;
+  }
+}
+
+h2 {
+  font-size: 1.5rem;
+  @include breakpoint($medium-screen) {
+    font-size: 2rem;
+  }
+  @include breakpoint($large-screen) {
+    font-size: 2.75rem;
+  }
+}
+
+p, h2, h3, h4, h5, ul {
+  @include breakpoint($large-screen) {
+    // Squish doc: http://susydocs.oddbird.net/en/latest/toolkit/#squish
+    @include squish(1);
+  }
+}
+
+h2.title {
+  @include breakpoint($large-screen) {
+    @include squish(1, 0);
+  }
+  clear: both;
+}
+
+.section-title {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.hypens {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+p {
+  line-height: 1.5;
+  @include breakpoint($medium-screen) {
+    font-size: 1.125rem;
+  }
+
+  &.drop-cap:not(.doc-component-highlight) {
+    &:first-letter {
+      float: left;
+      padding-right: 5px;
+      margin-top: -1px;
+      margin-bottom: -1px;
+    };
+  }
+
+  &.lead {
+    font-size: 1.2rem;
+    @include breakpoint($medium-screen) {
+      font-size: 1.4rem;
+    }
+    @include squish(0);
+  }
+
+}

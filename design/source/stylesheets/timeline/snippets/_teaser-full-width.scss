@@ -1,0 +1,46 @@
+// Teaser Full Width
+.teaser-full-width {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 1.5em 0;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  @include breakpoint($small-screens) {
+    height: 360px;
+  }
+  &:hover {
+    .teaser-full-width__headline {
+      margin-bottom: .375em;
+      padding-bottom: .25em;
+    }
+  }
+}
+
+.teaser-full-width__inner {
+  width: 100%;
+  padding: 1.5em 1em;
+  text-align: center;
+  background-image: linear-gradient(transparent, $c-text);
+  color: white;
+  .teaser-author {
+    display: block;
+  }
+  .teaser-author__name {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.teaser-full-width__headline {
+  display: inline-block;
+  margin-bottom: .25em;
+  padding-bottom: .125em;
+  max-width: 600px;
+  border-bottom: 1px solid rgba(white,.5);
+  font-size: 2rem;
+  line-height: 1.1;
+  text-shadow: 0 1px 2px rgba($c-text,.3);
+  transition: margin .12s ease-in, padding .12s ease-in;
+}

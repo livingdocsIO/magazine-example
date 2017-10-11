@@ -1,0 +1,17 @@
+@mixin image-container {
+  .image-container {
+    background-position: center center;
+    background-size: cover;
+    height: inherit;
+
+    @include breakpoint($large-screen) {
+      background-attachment: fixed;
+    }
+
+  }
+}
+
+@mixin ratio-height($ratio) {
+  height: 0;
+  padding-bottom: $ratio;
+}

@@ -1,0 +1,45 @@
+blockquote {
+  color: lighten($font-color, 20%);
+  position: relative;
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+  @include breakpoint($large-screen) {
+    @include span(3);
+    clear: left;
+  }
+
+  &.large {
+    @include span(6);
+    clear: both;
+  }
+
+  .quotation-mark {
+    font-size: 7rem;
+    float: left;
+    position: relative;
+    top: -0.25em;
+    left: -0.1ch;
+    padding-right: 0.1ch;
+  }
+
+  p {
+    @include squish(0);
+    font-size: 1.5rem;
+    font-style: italic;
+    line-height: 1.2;
+  }
+
+  footer {
+    position: relative;
+    padding-left: 2ch;
+
+    &:after {
+      content: '\2014';
+      position: absolute;
+      left: 1.5em;
+      top: 0;
+    }
+  }
+
+}

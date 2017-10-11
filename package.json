@@ -1,0 +1,38 @@
+{
+  "name": "livingdocs-magazine-boilerplate",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --display-error-details",
+    "start:dev": "NODE_ENV=development node app/index.js",
+    "start:prod": "NODE_ENV=production node app/index.js",
+    "start": "npm run design:build && npm run start:prod"
+  },
+  "devDependencies": {
+    "chokidar": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.14",
+    "color": "^0.6.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "file-loader": "^1.1.5",
+    "html-loader": "^0.4.3",
+    "html-minifier": "^0.5.6",
+    "html-webpack-plugin": "^2.24.1",
+    "livingdocs-manager": "^4.1.0",
+    "node-sass": "^3.4.2",
+    "openpack": "^1.0.0",
+    "postcss-loader": "^1.1.1",
+    "resolve-url-loader": "^1.6.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "susy": "2.2.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.9.0",
+    "webpack-hot-middleware": "^2.15.0"
+  },
+  "dependencies": {
+    "express": "^4.1.1",
+    "compression": "^1.7.1"
+  }
+}

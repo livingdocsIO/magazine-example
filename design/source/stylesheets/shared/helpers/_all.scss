@@ -1,0 +1,39 @@
+// vertical rhythm
+
+body * + * {
+  margin-top: 1.5em;
+}
+
+
+// Size Modifieres
+.full-width {
+  margin-left: -50%;
+  margin-right: -50%;
+
+  @include breakpoint($medium-screens-or-smaller) {
+    margin-left: -.72222rem;
+    margin-right: -.72222rem;
+  }
+}
+
+// NOTE: full-height and half-height are handled via the full_height script
+
+.centered {
+  text-align: center;
+}
+
+.clearfix {
+  &::before,
+  &::after {
+    content: ' ';
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+.image-gradient {
+  background: rgba(0,0,0,.2);
+}
