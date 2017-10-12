@@ -14,9 +14,13 @@ let createArticle = require('./article')
 if (module.hot) {
   module.hot.accept('./page', function () {
     createPage = require('./page')
+    // reflect playground changes
+    mount(null, true)
   })
   module.hot.accept('./article', function () {
     createArticle = require('./article')
+    // reflect playground changes
+    mount(null, true)
   })
   module.hot.accept() // self
 }
@@ -51,12 +55,14 @@ function renderArticle (design) {
   })
 }
 
-function mount (changedDesign) {
+function mount (changedDesign, keepDesign) {
   // determine the design
   const design = changedDesign || initialDesign.timeline
 
   // load the design
-  loadDesign(design)
+  if (!keepDesign) {
+    loadDesign(design)
+  }
 
   // mount page, article and handle scrolling
   const scrollX = window.scrollX
@@ -66,6 +72,7 @@ function mount (changedDesign) {
       return renderArticle(design)
     })
     .then(function () {
+      // TODO: find out why we need a setTimeout here
       setTimeout(function () {
         window.scrollTo(scrollX, scrollY)
       })
@@ -76,23 +83,26 @@ $(document).ready(function () {
   // initial render of the playground
   mount()
   /*
-   *  NOTE: The playground index.js is registered with hot-reloading in the webpack-config.
+   *  NOTE: The playground index.js & timeline.scss both are
+   *  registered with hot-reloading in the webpack-config.
+   *
    *  Each change to
    *    - html files in components
    *    - this file (playground index.js)
    *    - page content definition (./page.js)
    *    - article content definition (./article.js)
    *    - timeline scss stylesheets
-   *  triggers the compiler's 'after-emit' event, which introduces a rebuild of the
-   *  serialized design via `BuildDesignPlugin`. After the design has changed, we publish the
-   *  'design-changed' event through server-side 'webpackHotMiddleware' and listen for it using
-   *  the client. As soon as we get the matching event, we do a full re-render with
-   *  the updated design.
+   *  will trigger the compiler's 'after-emit' event, which introduces a rebuild of the
+   *  serialized design via `BuildDesignPlugin`.
+   *  After the design has changed (it is explicitly checked!), we publish the
+   *  'design-changed' event through server-side 'webpackHotMiddleware'
+   *  and listen for it using the client. As soon as we get the matching event, we do
+   *  a full re-render with the updated design.
    */
   webpackHotMiddlewareClient.subscribe(function (updatedEvent) {
     // re-render the playground
     if (updatedEvent.type === 'design-changed') {
-      setTimeout(function () { mount(updatedEvent.design) })
+      mount(updatedEvent.design)
     }
   })
 })
