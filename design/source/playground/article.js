@@ -179,8 +179,8 @@ module.exports = function createArticle (doc, design) {
       }
     }],
     design: {
-      name: design.timeline.name,
-      version: design.timeline.version
+      name: design.name,
+      version: design.version
     }
   })
   return article

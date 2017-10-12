@@ -26,8 +26,8 @@ module.exports = function createPage (doc, design) {
       'component': 'teaser-row-high-resolved'
     }],
     design: {
-      name: design.timeline.name,
-      version: design.timeline.version
+      name: design.name,
+      version: design.version
     },
     layout: 'page'
   })

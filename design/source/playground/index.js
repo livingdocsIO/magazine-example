@@ -5,39 +5,45 @@ const webpackHotMiddlewareClient = require('webpack-hot-middleware/client')
 
 // globals
 const $ = require('jquery')
-const doc = require('doc')
-const design = require('design')
+const framework = require('doc')
+const initialDesign = require('design')
 
 let createPage = require('./page')
 let createArticle = require('./article')
 // handle hot reloading for content definitions
 if (module.hot) {
-  module.hot.accept() // self
   module.hot.accept('./page', function () {
     createPage = require('./page')
   })
   module.hot.accept('./article', function () {
     createArticle = require('./article')
   })
+  module.hot.accept() // self
 }
 
-function mount (changedDesign) {
+function loadDesign (design) {
+  // reset the design cache
+  framework.design.resetCache()
   // Load the design
-  doc.design.load(changedDesign || design.timeline, {basePath: '/'})
+  framework.design.load(design, {basePath: '/'})
+}
 
+function renderPage (design) {
   // mount the page related playground
-  const page = createPage(doc, design)
-  page.createView({
+  const page = createPage(framework, design)
+  return page.createView({
     host: '.page',
     interactive: true,
     loadResources: false,
     iframe: false,
     layoutName: 'page'
   })
+}
 
+function renderArticle (design) {
   // mount the article related playground
-  const article = createArticle(doc, design)
-  article.createView({
+  const article = createArticle(framework, design)
+  return article.createView({
     host: '.article',
     interactive: true,
     loadResources: false,
@@ -45,15 +51,25 @@ function mount (changedDesign) {
   })
 }
 
-function unmount () {
-  // reset the design cache
-  doc.design.resetCache()
+function mount (changedDesign) {
+  // determine the design
+  const design = changedDesign || initialDesign.timeline
 
-  // remove nodes
-  const page = document.querySelector('.page')
-  const article = document.querySelector('.article')
-  if (page.children.length > 0) page.removeChild(page.children[0])
-  if (article.children.length > 0) article.removeChild(article.children[0])
+  // load the design
+  loadDesign(design)
+
+  // mount page, article and handle scrolling
+  const scrollX = window.scrollX
+  const scrollY = window.scrollY
+  renderPage(design)
+    .then(function () {
+      return renderArticle(design)
+    })
+    .then(function () {
+      setTimeout(function () {
+        window.scrollTo(scrollX, scrollY)
+      })
+    })
 }
 
 $(document).ready(function () {
@@ -76,8 +92,7 @@ $(document).ready(function () {
   webpackHotMiddlewareClient.subscribe(function (updatedEvent) {
     // re-render the playground
     if (updatedEvent.type === 'design-changed') {
-      unmount()
-      mount(updatedEvent.design)
+      setTimeout(function () { mount(updatedEvent.design) })
     }
   })
 })
