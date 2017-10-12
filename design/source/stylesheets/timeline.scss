@@ -1,6 +1,82 @@
-@import 'timeline/settings';
-@import 'shared/all';
+// @import 'timeline/settings';
+// @import 'shared/all';
+//
+// @import 'timeline/grid';
+// @import 'timeline/fonts';
+// @import 'timeline/snippets/all';
 
-@import 'timeline/grid';
-@import 'timeline/fonts';
-@import 'timeline/snippets/all';
+// -----------------------------------------------------------------------------
+// TIMELINE.SCSS
+// -----------------------------------------------------------------------------
+
+// Settings
+@import "settings/colors";
+@import "settings/core";
+
+
+// Tools
+@import "tools/functions";
+@import "tools/font-size";
+@import "tools/clearfix";
+
+
+// Generic styles
+@import "generic/box-sizing";
+@import "generic/normalize";
+@import "generic/reset";
+@import "generic/shared";
+
+
+// Element styles
+@import "elements/page";
+@import "elements/images";
+@import "elements/headings";
+
+
+// Objects and abstractions
+@import "objects/grid";
+@import "objects/wrappers";
+
+
+// UTILITIES
+@import "utilities/headings";
+
+
+// COMPONENTS
+// -----------------------------------------------------------------------------
+// From here on you can import your component specifc SASS files.
+// We recommend to create a SASS file per html component and name it alike. This
+// keeps things organized and you can apply styles changes on a component level.
+// This is pretty powerful once you get the hang out of it.
+
+// Headers
+@import "components/head"; // WIP
+@import "components/hero"; // WIP
+@import "components/title"; // WIP
+// @import "components/section-title"; // WIP
+
+// Images
+@import "components/full-size"; // WIP
+@import "components/grid-of-6"; // WIP
+@import "components/normal"; // WIP
+@import "components/peephole"; // WIP
+
+// Lists
+@import "components/bullet-list"; // WIP
+
+// Text
+@import "components/sidenote"; // WIP
+@import "components/separator"; // WIP
+@import "components/quote"; // WIP
+
+// timeline
+@import "components/event"; // WIP
+
+// Plugins
+@import "components/gallery"; // WIP
+
+// Page components
+@import "components/teaser-full-width"; // WIP
+@import "components/teaser-row"; // WIP
+@import "components/placeholder"; // WIP
+@import "components/teaser"; // WIP

@@ -1,0 +1,26 @@
+// ------------------------------------
+// PEEPHOLE COMPONENT
+// ------------------------------------
+
+// Styles for the following component:
+// -> source/components/images/section-peephole.html
+
+.peephole {
+  figure {
+    min-height: 600px;
+
+    margin-left: -50%;
+    margin-right: -50%;
+
+    .container {
+      min-height: 600px;
+    }
+
+    .image-container {
+      background-position: center center;
+      background-size: cover;
+      height: inherit;
+      background-attachment: fixed;
+    }
+  }
+}

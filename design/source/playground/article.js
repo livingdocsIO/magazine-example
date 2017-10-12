@@ -5,7 +5,7 @@ module.exports = function createArticle (doc, design) {
     content: [{
       'component': 'hero',
       'content': {
-        'image': 'assets/images/mountains.jpg'
+        'image': 'assets/images/laputa.jpg'
       }
     }, {
       'component': 'p',
@@ -20,7 +20,7 @@ module.exports = function createArticle (doc, design) {
     }, {
       'component': 'peephole',
       'content': {
-        'image': 'assets/images/mountains.jpg'
+        'image': 'assets/images/laputa.jpg'
       }
     }, {
       'component': 'normal'
@@ -49,7 +49,7 @@ module.exports = function createArticle (doc, design) {
         'link': 'http://www.vox.com/2015/4/17/8446647/jeb-bush-endorses-death-panels-and-hes-right-to-do-so',
         'headline': 'Ezra Klein',
         'site': 'Vox',
-        'image': 'assets/images/mountains.jpg'
+        'image': 'assets/images/laputa.jpg'
       }
     }, {
       'component': 'teaser',
@@ -58,7 +58,7 @@ module.exports = function createArticle (doc, design) {
         'link': 'http://www.vox.com/2015/4/17/8446647/jeb-bush-endorses-death-panels-and-hes-right-to-do-so',
         'headline': 'Ezra Klein',
         'site': 'Vox',
-        'image': 'assets/images/mountains.jpg'
+        'image': 'assets/images/laputa.jpg'
       },
       'styles': {
         'position': 'left',
@@ -84,7 +84,7 @@ module.exports = function createArticle (doc, design) {
         'link': 'http://www.vox.com/2015/4/17/8446647/jeb-bush-endorses-death-panels-and-hes-right-to-do-so',
         'headline': 'Ezra Klein',
         'site': 'Vox',
-        'image': 'assets/images/mountains.jpg'
+        'image': 'assets/images/laputa.jpg'
       },
       'styles': {
         'position': 'left'
@@ -108,7 +108,7 @@ module.exports = function createArticle (doc, design) {
         'link': 'http://www.vox.com/2015/4/17/8446647/jeb-bush-endorses-death-panels-and-hes-right-to-do-so',
         'headline': 'Ezra Klein',
         'site': 'Vox',
-        'image': 'assets/images/mountains.jpg'
+        'image': 'assets/images/laputa.jpg'
       },
       'styles': {
         'hide-image': 'hide-image'

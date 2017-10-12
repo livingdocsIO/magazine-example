@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// SIDE NOTE COMPONENT
+// -----------------------------------------------------------------------------
+
+// Styles for the following component:
+// -> source/components/text/aside.html
+
+.sidenote {
+  margin-bottom: $base-spacing-unit;
+
+  p, h4 {
+    font-size: 0.9rem;
+  }
+
+  &.bleed {
+    background: #333;
+    color: white;
+
+    // Override roof
+    &:before {
+      display: none;
+    }
+  }
+
+  // Roof (typographic style)
+  &:before {
+    width: 30%;
+    display: block;
+    content: "";
+    height: 3px;
+    background: #eee;
+    margin-top: -3px;
+  }
+}
+
+
+// Modifiers
+.sidenote--right-aligned {
+  width: 25%;
+  float: right;
+  margin-left: $base-spacing-unit;
+}

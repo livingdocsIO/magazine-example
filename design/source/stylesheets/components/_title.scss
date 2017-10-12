@@ -1,0 +1,10 @@
+// ------------------------------------
+// TITLE COMPONENT
+// ------------------------------------
+
+// Styles for the following component:
+// -> source/components/headers/title.html
+
+.title {
+  @include font-size($heading-size-h2);
+}

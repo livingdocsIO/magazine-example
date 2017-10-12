@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// GRID
+// -----------------------------------------------------------------------------
+
+// Inspired by:
+// Dead Simple Grid (c) 2015 Vladimir Agafonkin
+// https://github.com/mourner/dead-simple-grid
+//
+// The class names has been altered and silent classes has been added
+
+.layout,
+%layout {
+  @include clearfix();
+  margin-left: halve(-$base-spacing-unit);
+  margin-right: halve(-$base-spacing-unit);
+}
+
+.layout .layout {
+  margin-left: halve(-$base-spacing-unit);
+  margin-right: halve(-$base-spacing-unit);
+}
+
+.layout__item,
+%layout__item {
+  float: left;
+  width: 100%;
+  padding: 0 halve($base-spacing-unit);
+}

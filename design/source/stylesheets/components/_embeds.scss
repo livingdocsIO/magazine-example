@@ -1,0 +1,51 @@
+// -----------------------------------------------------------------------------
+// QUOTE COMPONENT
+// -----------------------------------------------------------------------------
+
+// Styles for the following component:
+// -> source/components/embeds/embed-teaser.html
+// -> source/components/embeds/free-html.html
+// -> source/components/embeds/iframe.html
+// -> source/components/embeds/list.html
+// -> source/components/embeds/teaser.html
+// -> source/components/embeds/tweet.html
+
+.embed {
+  margin-bottom: $base-spacing-unit;
+
+  .placeholder {
+    color: #eee;
+
+    min-height: 200px;
+    background-color: #efefef;
+    background-position: 50% 50%;
+    background-size: 64px 64px;
+    background-repeat: no-repeat;
+    box-shadow: 0 2px 3px rgba(0,0,0,.3);
+  }
+
+  &.tweet .placeholder {
+    background-image: url('../assets/images/tweet-embed.svg');
+  }
+
+  &.iframe .placeholder {
+    background-image: url('../assets/images/iframe-embed.svg');
+  }
+
+  &.free-html .placeholder {
+    background-image: url('../assets/images/html-embed.svg');
+  }
+
+  &.teaser_ .placeholder {
+    background-image: url('../assets/images/teaser-embed.svg');
+  }
+
+  &.list .placeholder {
+    background-image: url('../assets/images/teaser-list.svg');
+  }
+
+}
+
+.embed-container {
+  clear: both;
+}

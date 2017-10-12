@@ -1,0 +1,14 @@
+// ------------------------------------
+// HEAD COMPONENT
+// ------------------------------------
+
+// Styles for the following component:
+// -> source/components/headers/head.html
+
+.head {
+  margin-bottom: double($base-spacing-unit);
+}
+
+.head__lead {
+  @include font-size($heading-size-h6, false);
+}

@@ -144,7 +144,7 @@
     {
       "name": "regular",
       "caption": "Article",
-      "wrapper": "<div class=\"funky-wrapper doc-section\"></div>",
+      "wrapper": "<div class=\"wrapper doc-section\"></div>",
       "icon": null,
       "defaultContent": [
         { "identifier": "timeline.head" },
