@@ -6,6 +6,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const BuildDesignPlugin = require('./lib/build_design_plugin')
+const OpenPackPlugin = require('openpack')
 
 const isDev = process.env.NODE_ENV !== 'production'
 const distPath = path.resolve('./design/dist')
@@ -84,18 +85,6 @@ module.exports = {
       filename: '[name].css',
       disable: isDev
     }),
-    new HtmlWebpackPlugin({
-      template: 'design/source/index.ejs',
-      filename: 'index.html',
-      inject: false,
-      isDev: isDev
-    }),
-    new HtmlWebpackPlugin({
-      template: 'design/source/iframe.ejs',
-      filename: 'iframe.html',
-      inject: false,
-      isDev: isDev
-    }),
     new CopyWebpackPlugin([{
       context: 'design/source',
       from: 'assets/@(images|scripts|stylesheets)/**',
@@ -113,9 +102,26 @@ module.exports = {
       ].join(',')}}`,
       to: path.resolve('./design/dist/vendor')
     }]),
-    new webpack.optimize.OccurrenceOrderPlugin(true)
+    new webpack.optimize.OccurrenceOrderPlugin(true),
+    new OpenPackPlugin({
+      host: '0.0.0.0',
+      port: '3000',
+      path: '/'
+    })
   ].concat(
     isDev ? [
+      new HtmlWebpackPlugin({
+        template: 'design/source/iframe.ejs',
+        filename: 'iframe.html',
+        inject: false,
+        isDev: isDev
+      }),
+      new HtmlWebpackPlugin({
+        template: 'design/source/index.ejs',
+        filename: 'index.html',
+        inject: false,
+        isDev: isDev
+      }),
       new webpack.HotModuleReplacementPlugin()
     ] : [
       new webpack.optimize.UglifyJsPlugin({sourceMap: true, warnings: true, minimize: true})

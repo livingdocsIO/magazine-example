@@ -1,6 +1,9 @@
 # livingdocs-magazine-boilerplate
 A Node.js website boilerplate that provides some common magazine requirements.
 
+## Prerequisites
+Node v8.x.x
+
 ## Getting Started
 
 ### Running the interactive design playground
