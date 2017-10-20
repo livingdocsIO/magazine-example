@@ -30,10 +30,7 @@ if (isDev) {
     try {
       publications = await liClient.getPublications({'metadata.homepage': true, limit: 1})
     } catch (e) {
-      // json server listens after this server hence the reload
-      const reloadScript = `
-        <script>setTimeout(function() { window.location.reload(); }, 500)</script>`
-      return next(new Error(`Could not fetch homepage... Will retry in 500ms...${reloadScript}`, e))
+      return next(new Error('json server not ready'))
     }
     if (!publications.length) return next(new Error('Homepage not found'))
 
@@ -79,6 +76,14 @@ if (isDev) {
 
   app.use((err, req, res, next) => {
     res.set('content-type', 'text/html')
+    // json server listens after this server hence the reload
+    const jsonServerNotReady = err.message === 'json server not ready'
+    const reloadScript = `
+      <script>setTimeout(function() { window.location.reload(); }, 500)</script>`
+    if (jsonServerNotReady) {
+      return res.status(404)
+        .send(`Could not fetch homepage... Will retry in 500ms...${reloadScript}`)
+    }
     const notFound = err.message === 'page not found'
     if (notFound) return res.status(404).send('page not found')
     console.error(err)
