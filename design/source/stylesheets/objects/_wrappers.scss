@@ -15,3 +15,8 @@ $wrapper-width:  1008px;
   padding-left:  $base-spacing-unit;
   max-width: $wrapper-width;
 }
+
+// Modifier
+.wrapper--wide {
+  max-width: 1440px;
+}

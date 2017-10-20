@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// CONTAINER COMPONENTS
+// -----------------------------------------------------------------------------
+
+// Styles for the following component:
+// -> source/components/containers/halves.html
+// -> source/components/containers/quarter.html
+// -> source/components/containers/thirds.html
+
+.container {
+  @extend %layout;
+  margin-bottom: double($base-spacing-unit);
+}
+
+.container__item {
+  @extend %layout__item;
+}
+
+.container--halves .container__item {
+  width: 50%;
+}
+
+.container--thirds .container__item {
+  width: 33.33%;
+}
+
+.container--quarter .container__item {
+  width: 25%;
+}

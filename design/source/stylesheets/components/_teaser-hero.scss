@@ -1,0 +1,97 @@
+// -----------------------------------------------------------------------------
+// TEASER HERO COMPONENT
+// -----------------------------------------------------------------------------
+
+// Styles for the following component:
+// -> source/components/teaser/teaser-hero.html
+
+.teaser-hero {
+  margin-bottom: $base-spacing-unit;
+}
+
+.teaser-hero > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.teaser-hero__header:hover {
+  opacity: .85;
+}
+
+.teaser-hero__header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28% 0;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: top center;
+  background-image: url("http://bit.ly/2xaDZnv");
+
+}
+
+
+.teaser-hero__header-text {
+  color: white;
+}
+
+.teaser-hero__catchline {
+  display: block;
+  font-size: smaller;
+  text-transform: uppercase;
+}
+
+.teaser-hero__title {
+  font-size: 30px;
+}
+
+.teaser-hero__title, .teaser-hero__catchline {
+  text-shadow: 1px 1px 2px rgba(0,0,0,.7);
+}
+
+.teaser-hero__flag {
+  color: rgba(0,0,0,.87);
+  left: 10px;
+  bottom: 10px;
+  position: absolute;
+  padding: 4px 10px;
+  background-color: lightgreen;
+}
+
+.teaser-hero__text {
+  margin-bottom: 20px;
+}
+
+.teaser-hero__byline {
+  color: rgba(0,0,0,.54);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: smaller;
+  overflow: hidden;
+}
+
+  .teaser-hero__byline li {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid rgba(0,0,0,.54);
+  }
+
+  .teaser-hero__byline li:first-child {
+    padding-left: 0;
+  }
+
+  .teaser-hero__byline li:last-child {
+    padding-right: 0;
+    border-right: none;
+  }
+
+  .teaser-hero__byline li a {
+    color: inherit;
+  }
+
+  .teaser-hero__byline li a:hover {
+    text-decoration: none;
+  }

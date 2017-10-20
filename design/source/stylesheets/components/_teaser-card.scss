@@ -1,0 +1,125 @@
+// -----------------------------------------------------------------------------
+// TEASER CARD COMPONENT
+// -----------------------------------------------------------------------------
+
+// Styles for the following component:
+// -> source/components/teaser/teaser-card.html
+
+.teaser-card {
+  margin-bottom: $base-spacing-unit;
+}
+
+.teaser-card__figure {
+  position: relative;
+  margin-bottom: halve($base-spacing-unit);
+}
+  .teaser-card__figure a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .teaser-card__figure img {
+    transition: opacity 150ms;
+  }
+  .teaser-card__figure:hover img {
+    opacity: .85;
+  }
+
+  .teaser-card__caption {
+    left: 15px;
+    bottom: 20px;
+    position: absolute;
+
+    padding: 4px 10px;
+    background-color: lightgreen;
+  }
+
+
+.teaser-card__catchline {
+  display: block;
+  margin-bottom: halve($base-spacing-unit);
+
+  @include font-size($mili-size);
+  text-transform: uppercase;
+}
+
+.teaser-card__title {
+  @include font-size($zeta-size);
+  margin-bottom: halve($base-spacing-unit);
+}
+  .teaser-card__title a {
+    color: inherit;
+  }
+  .teaser-card__title a:hover {
+    text-decoration: none;
+  }
+
+
+.teaser-card__text {
+  margin-bottom: halve($base-spacing-unit);
+}
+
+.teaser-card__byline {
+  margin-left: 0;
+
+  color: rgba(0,0,0,.54);
+  @include font-size($mili-size);
+
+  list-style: none;
+  overflow: hidden;
+}
+
+  .teaser-card__byline li {
+    float: left;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid rgba(0,0,0,.54);
+  }
+
+  .teaser-card__byline li:first-child {
+    padding-left: 0;
+  }
+  .teaser-card__byline li:last-child {
+    padding-right: 0;
+    border-right: none;
+  }
+
+  .teaser-card__byline li a {
+    color: inherit;
+  }
+
+  .teaser-card__byline li a:hover {
+    text-decoration: none;
+  }
+
+
+/* Modifier */
+.teaser-card--left-aligned-img {
+  display: flex;
+  align-items: flex-start;
+}
+
+.teaser-card--left-aligned-img .teaser-card__figure {
+  width: 40%;
+  margin-right: 20px;
+}
+
+.teaser-card--left-aligned-img .teaser-card__body {
+  flex: 1;
+}
+
+/* Modifier */
+.teaser-card--right-aligned-img {
+  display: flex;
+  align-items: flex-start;
+}
+
+.teaser-card--right-aligned-img .teaser-card__figure {
+  width: 40%;
+  margin-left: 20px;
+  order: 1;
+}
+
+.teaser-card--right-aligned-img .teaser-card__body {
+  flex: 1;
+}

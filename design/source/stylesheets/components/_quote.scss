@@ -6,36 +6,38 @@
 // -> source/components/text/quote.html
 
 .quote {
-  color: lighten($text-color, 20%);
   position: relative;
   margin-top: double($base-spacing-unit);
   margin-bottom: double($base-spacing-unit);
-
-  p {
-    font-size: 1.5rem;
-    font-style: italic;
-    // line-height: 1.2;
-  }
-
 }
 
 .quote__mark {
-  font-size: 7rem;
-  float: left;
-  position: relative;
-  top: -0.25em;
-  left: -0.1ch;
-  padding-right: 0.1ch;
+  position: absolute;
+
+  line-height: 1;
+  font-style: italic;
+  @include font-size(90px);
+}
+
+.quote__text {
+  margin-bottom: halve($base-spacing-unit);
+  margin-left: double($base-spacing-unit);
+
+  font-style: italic;
+  @include font-size($epsilon-size, false)
 }
 
 .quote__source {
   position: relative;
+
+  margin-left: double($base-spacing-unit);
   padding-left: 2ch;
 
-  &:after {
-    top: 0;
-    left: 1.5em;
+  clear: both;
+
+  &::after {
+    left: 0;
     position: absolute;
-    content: '\2014';
+    content: '–';
   }
 }

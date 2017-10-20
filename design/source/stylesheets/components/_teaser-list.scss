@@ -1,0 +1,38 @@
+// -----------------------------------------------------------------------------
+// TEASER LIST COMPONENT
+// -----------------------------------------------------------------------------
+
+// Styles for the following component:
+// -> source/components/teaser/teaser-list.html
+
+.teaser-list {
+  margin-bottom: halve($base-spacing-unit);
+
+  &:last-child {
+    margin-bottom: $base-spacing-unit;
+  }
+}
+
+.teaser-list__title {
+  position: relative;
+
+  margin-bottom: 0;
+  padding-left: 20px;
+
+  @include font-size($zeta-size);
+
+  &:before {
+    left: 0;
+    position: absolute;
+
+    content: '–';
+  }
+}
+
+.teaser-list__title a {
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+  }
+}

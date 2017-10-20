@@ -1,118 +1,65 @@
 /* eslint max-len: 0 */
 module.exports = function createArticle (doc, design) {
   const article = doc.createLivingdoc({
-    content: [{
+    content: [
+    {
       'component': 'hero',
       'content': {
         'image': 'assets/images/laputa.jpg'
       }
-    }, {
+    },
+
+    {
       'component': 'p',
       'content': {
         'text': 'In August 1996, Disney and Tokuma Shoten Publishing agreed that Disney would distribute international Tokuma’s Studio Ghibli animated films.'
       }
-    }, {
+    },
+
+    {
       'component': 'p',
       'content': {
         'text': 'Many of Ghibli’s works are distributed in Japan by Toho. Internationally, The Walt Disney Company has rights to all of Ghibli’s output that did not have previous international distribution, including the global, non-Japan distribution rights to Princess Mononoke and Spirited Away.[citation needed] As of September 2011, they share North American theatrical rights with GKids while domestic right remain with Disney.'
       }
-    }, {
+    },
+
+    {
       'component': 'peephole',
       'content': {
         'image': 'assets/images/laputa.jpg'
       }
-    }, {
+    },
+
+    {
       'component': 'normal'
-    }, {
+    },
+
+    {
       'component': 'normal',
       'styles': {
         'position': 'left'
       }
-    }, {
+    },
+
+    {
       'component': 'normal',
       'styles': {
         'position': 'right'
       }
-    }, {
+    },
+
+    {
       'component': 'p'
-    }, {
+    },
+
+    {
       'component': 'quote',
       'content': {
         'text': 'If a machine is expected to be infallible, it cannot also be intelligent.',
         'author': 'Alan Turing'
       }
-    }, {
-      'component': 'teaser',
-      'content': {
-        'title': "Jeb Bush endorses 'death panels' — and he's right to do so",
-        'link': 'http://www.vox.com/2015/4/17/8446647/jeb-bush-endorses-death-panels-and-hes-right-to-do-so',
-        'headline': 'Ezra Klein',
-        'site': 'Vox',
-        'image': 'assets/images/laputa.jpg'
-      }
-    }, {
-      'component': 'teaser',
-      'content': {
-        'title': "Jeb Bush endorses 'death panels' — and he's right to do so",
-        'link': 'http://www.vox.com/2015/4/17/8446647/jeb-bush-endorses-death-panels-and-hes-right-to-do-so',
-        'headline': 'Ezra Klein',
-        'site': 'Vox',
-        'image': 'assets/images/laputa.jpg'
-      },
-      'styles': {
-        'position': 'left',
-        'hide-image': 'hide-image'
-      }
-    }, {
-      'component': 'teaser',
-      'content': {
-        'title': 'A smarter way to look at fitness.',
-        'link': 'http://www.apple.com/watch/',
-        'headline': 'Steve Jobs',
-        'site': 'Apple',
-        'image': 'assets/images/applewatch.png'
-      },
-      'styles': {
-        'position': 'right',
-        'hide-image': 'hide-image'
-      }
-    }, {
-      'component': 'teaser',
-      'content': {
-        'title': "Jeb Bush endorses 'death panels' — and he's right to do so",
-        'link': 'http://www.vox.com/2015/4/17/8446647/jeb-bush-endorses-death-panels-and-hes-right-to-do-so',
-        'headline': 'Ezra Klein',
-        'site': 'Vox',
-        'image': 'assets/images/laputa.jpg'
-      },
-      'styles': {
-        'position': 'left'
-      }
-    }, {
-      'component': 'teaser',
-      'content': {
-        'title': 'A smarter way to look at fitness.',
-        'link': 'http://www.apple.com/watch/',
-        'headline': 'Steve Jobs',
-        'site': 'Apple',
-        'image': 'assets/images/applewatch.png'
-      },
-      'styles': {
-        'position': 'right'
-      }
-    }, {
-      'component': 'teaser',
-      'content': {
-        'title': "Jeb Bush endorses 'death panels' — and he's right to do so",
-        'link': 'http://www.vox.com/2015/4/17/8446647/jeb-bush-endorses-death-panels-and-hes-right-to-do-so',
-        'headline': 'Ezra Klein',
-        'site': 'Vox',
-        'image': 'assets/images/laputa.jpg'
-      },
-      'styles': {
-        'hide-image': 'hide-image'
-      }
-    }, {
+    },
+    {
       'component': 'tweet'
     }, {
       'component': 'iframe'
