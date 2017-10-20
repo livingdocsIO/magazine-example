@@ -1,5 +1,6 @@
 {
   "/api/v1/*": "/$1",
-  "/documents/*": "/$1",
-  "/documents/:id/latestPublication": "/latestPublications?systemdata.documentId=:id"
+  "/documents/latestPublications?limit=1&homepage=true": "/latestPublications?limit=1&metadata.homepage=true",
+  "/documents/:id/latestPublication": "/latestPublications?systemdata.documentId=:id",
+  "/documents/*": "/$1"
 }

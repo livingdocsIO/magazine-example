@@ -7,19 +7,18 @@ Node v8.x.x
 ## Getting Started
 
 ### First of all
-
 ```
 npm install
 ```
 
 ### Running the interactive design playground
 ```
-npm run start:dev
+npm run design:dev
 ```
 
 ### Creating a design build
 ```
-npm run build
+npm run design:build
 ```
 
 ### Running the demo magazine
@@ -42,4 +41,4 @@ npm link @livingdocs/sdk
 npm start
 ```
 
-Note that this will always also create a design build.
+Note that `npm start` will always also create a fresh design build.

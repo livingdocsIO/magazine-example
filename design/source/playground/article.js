@@ -1,5 +1,4 @@
 /* eslint max-len: 0 */
-
 module.exports = function createArticle (doc, design) {
   const article = doc.createLivingdoc({
     content: [{

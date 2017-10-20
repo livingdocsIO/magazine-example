@@ -105,17 +105,11 @@ module.exports = {
     new webpack.optimize.OccurrenceOrderPlugin(true),
     new OpenPackPlugin({
       host: '0.0.0.0',
-      port: '3000',
+      port: isDev ? '3333' : '3000',
       path: '/'
     })
   ].concat(
     isDev ? [
-      new HtmlWebpackPlugin({
-        template: 'design/source/iframe.ejs',
-        filename: 'iframe.html',
-        inject: false,
-        isDev: isDev
-      }),
       new HtmlWebpackPlugin({
         template: 'design/source/index.ejs',
         filename: 'index.html',

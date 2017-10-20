@@ -2,11 +2,11 @@
   "name": "livingdocs-magazine-boilerplate",
   "version": "0.0.1",
   "scripts": {
-    "build": "NODE_ENV=production webpack --display-error-details",
+    "design:dev": "NODE_ENV=development node design_server/index.js",
+    "design:build": "NODE_ENV=production webpack --display-error-details",
     "start:json-server": "json-server --routes ./json_server/routes.json --watch ./json_server/db.json --port 3001",
-    "start:dev": "NODE_ENV=development node app/index.js",
-    "start:prod": "NODE_ENV=production node app/index.js",
-    "start": "npm run build && npm run start:json-server & npm run start:prod"
+    "start:magazine": "node app/index.js",
+    "start": "npm run design:build && npm run start:json-server & npm run start:magazine"
   },
   "devDependencies": {
     "chokidar": "^1.7.0",
