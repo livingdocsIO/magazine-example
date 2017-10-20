@@ -5,7 +5,7 @@
     "build": "NODE_ENV=production webpack --display-error-details",
     "start:dev": "NODE_ENV=development node app/index.js",
     "start:prod": "NODE_ENV=production node app/index.js",
-    "start": "npm run design:build && npm run start:prod"
+    "start": "npm run build && npm run start:prod"
   },
   "devDependencies": {
     "chokidar": "^1.7.0",
