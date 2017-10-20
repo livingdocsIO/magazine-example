@@ -2,9 +2,9 @@
 const path = require('path')
 const express = require('express')
 const compression = require('compression')
-const webpackConfig = require('../webpack.config')
 const liSDK = require('@livingdocs/sdk')
-const renderShell = require('./renderShell')
+const webpackConfig = require('../webpack.config')
+const renderShell = require('./templates')
 
 const port = process.env.PORT || 3000
 const isDev = process.env.NODE_ENV !== 'production'
@@ -61,11 +61,16 @@ if (isDev) {
     // render the livingdoc instance to html
     const homepageHtml = liSDK.render({document: filteredDocument})
 
-    // render livingdoc html into shell
-    const renderingContext = {...homepagePublication, contentHtml: homepageHtml}
-    const shell = renderShell(renderingContext)
-    res.set('content-type', 'text/html')
-    res.send(shell)
+    // render livingdoc html into layout & shell
+    const layout = homepagePublication.systemdata.documentType
+    const renderingContext = {...homepagePublication, layout, contentHtml: homepageHtml}
+    try {
+      const shell = renderShell(renderingContext)
+      res.set('content-type', 'text/html')
+      res.send(shell)
+    } catch (e) {
+      next(e)
+    }
   })
 
   app.get('*', (req, res, next) => {
