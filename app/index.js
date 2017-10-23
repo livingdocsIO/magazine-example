@@ -23,39 +23,39 @@ app.get('/', async (req, res, next) => {
   // fetch home page through metadata filter
   let publications = []
   try {
-    publications = await liClient.getPublications({'homepage': true, limit: 1})
+    publications = await liClient.getPublications({homepage: true})
   } catch (e) {
     return next(new Error('json server not ready'))
   }
   if (!publications.length) return next(new Error('Homepage not found'))
 
-  // load livingdoc instance using serialized content & built design
+  // create a Livingdoc instance using the serialized content & built design
   const homepagePublication = publications[0]
   const content = homepagePublication.content
+  const design = require('../design/dist/design.json')
+  const document = liSDK.document.create({design, content})
 
-  async function referenceResolver ({type, id} = {}) {
-    try {
-      return await liClient.getPublication({documentId: id})
-    } catch (e) {
-      return {
-        metadata: {},
-        systemdata: {}
-      }
-    }
-  }
-  async function includeResolver () {}
-
+  /* EXAMPLE: filter paragraphs out
   function removeExceptParagraphs (component) {
     if (component.componentName !== 'p') {
       component.remove()
     }
   }
+  const filteredDocument = liSDK.document
+    .visit(document, {nodeType: 'component'}, removeExceptParagraphs)
+  */
 
-  const design = require('../design/dist/design.json')
+  // resolve includes
+  function includeResolver ({service, params}) {
+    return new Promise((resolve) =>
+      setTimeout(() =>
+        resolve(JSON.stringify({service, params}, null, 2)),
+      100)
+    )
+  }
+  await liSDK.document.resolveIncludes(document, includeResolver)
 
-  let document = liSDK.document.create({design, content, referenceResolver, includeResolver})
-  document = liSDK.document.visit(document, {nodeType: 'component'}, removeExceptParagraphs)
-
+  // render Livingdoc instance to html
   const homepageHtml = liSDK.document.render(document)
 
   // render livingdoc html into layout & shell

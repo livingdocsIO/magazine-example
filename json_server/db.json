@@ -3,80 +3,6 @@
     "systemdata": {
       "projectId": 461,
       "channelId": 473,
-      "documentId": 3544,
-      "documentType": "article",
-      "layout": "regular",
-      "design": {
-        "name": "timeline",
-        "version": "1.1.0"
-      }
-    },
-    "metadata": {
-      "homepage": true,
-      "title": "Homepage",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "teaserImage": {
-        "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/10/18/3602fb75-1258-4f58-b410-b784e808e80b.jpeg",
-        "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/10/18/3602fb75-1258-4f58-b410-b784e808e80b.jpeg",
-        "width": 1400,
-        "height": 805,
-        "imageService": "resrc.it",
-        "crops": [{
-          "url": "https://app.resrc.it/C=W1400,H788,X0,Y9/O=75/https://livingdocs-images.s3.amazonaws.com/2017/10/18/3602fb75-1258-4f58-b410-b784e808e80b.jpeg",
-          "name": "16:9",
-          "x": 0,
-          "y": 9,
-          "width": 1400,
-          "height": 788
-        }]
-      },
-      "dependencies": {
-        "js": [{
-          "src": "https://d2o08py1e264ss.cloudfront.net/assets/resrc-0.9.0.min.js",
-          "namespace": "browserPlugins.resrcit",
-          "componentIds": [
-            "doc-1bq0voakl1"
-          ]
-        }]
-      }
-    },
-    "content": [{
-        "id": "doc-1bq0voakl0",
-        "identifier": "timeline.head",
-        "content": {
-          "title": "Homepage",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-      },
-      {
-        "id": "doc-1bq0voakl1",
-        "identifier": "timeline.normal",
-        "content": {
-          "image": {
-            "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/10/18/3602fb75-1258-4f58-b410-b784e808e80b.jpeg",
-            "width": 1400,
-            "height": 805,
-            "mimeType": "image/jpeg",
-            "imageService": "resrc.it",
-            "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/10/18/3602fb75-1258-4f58-b410-b784e808e80b.jpeg"
-          }
-        },
-        "styles": {
-          "position": "left"
-        }
-      },
-      {
-        "id": "doc-1bq0voakm0",
-        "identifier": "timeline.p",
-        "content": {
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        }
-      }
-    ]
-  }, {
-    "systemdata": {
-      "projectId": 461,
-      "channelId": 473,
       "documentId": 3540,
       "documentType": "page",
       "layout": "page",
@@ -86,7 +12,7 @@
       }
     },
     "metadata": {
-      "homepage": false,
+      "homepage": true,
       "title": "Welcome to the nodejs example",
       "dependencies": {}
     },
@@ -195,6 +121,80 @@
               "mediaId": 3543
             }
           }
+        }
+      }
+    ]
+  }, {
+    "systemdata": {
+      "projectId": 461,
+      "channelId": 473,
+      "documentId": 3544,
+      "documentType": "article",
+      "layout": "regular",
+      "design": {
+        "name": "timeline",
+        "version": "1.1.0"
+      }
+    },
+    "metadata": {
+      "homepage": false,
+      "title": "Homepage",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "teaserImage": {
+        "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/10/18/3602fb75-1258-4f58-b410-b784e808e80b.jpeg",
+        "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/10/18/3602fb75-1258-4f58-b410-b784e808e80b.jpeg",
+        "width": 1400,
+        "height": 805,
+        "imageService": "resrc.it",
+        "crops": [{
+          "url": "https://app.resrc.it/C=W1400,H788,X0,Y9/O=75/https://livingdocs-images.s3.amazonaws.com/2017/10/18/3602fb75-1258-4f58-b410-b784e808e80b.jpeg",
+          "name": "16:9",
+          "x": 0,
+          "y": 9,
+          "width": 1400,
+          "height": 788
+        }]
+      },
+      "dependencies": {
+        "js": [{
+          "src": "https://d2o08py1e264ss.cloudfront.net/assets/resrc-0.9.0.min.js",
+          "namespace": "browserPlugins.resrcit",
+          "componentIds": [
+            "doc-1bq0voakl1"
+          ]
+        }]
+      }
+    },
+    "content": [{
+        "id": "doc-1bq0voakl0",
+        "identifier": "timeline.head",
+        "content": {
+          "title": "Homepage",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      },
+      {
+        "id": "doc-1bq0voakl1",
+        "identifier": "timeline.normal",
+        "content": {
+          "image": {
+            "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/10/18/3602fb75-1258-4f58-b410-b784e808e80b.jpeg",
+            "width": 1400,
+            "height": 805,
+            "mimeType": "image/jpeg",
+            "imageService": "resrc.it",
+            "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/10/18/3602fb75-1258-4f58-b410-b784e808e80b.jpeg"
+          }
+        },
+        "styles": {
+          "position": "left"
+        }
+      },
+      {
+        "id": "doc-1bq0voakm0",
+        "identifier": "timeline.p",
+        "content": {
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         }
       }
     ]
