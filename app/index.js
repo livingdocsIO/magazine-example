@@ -32,8 +32,8 @@ app.get('/', async (req, res, next) => {
   // load livingdoc instance using serialized content & built design
   const homepagePublication = publications[0]
   const content = homepagePublication.content
-  const design = require('../design/dist/design.json')
-  async function resolveReference ({type, id} = {}) {
+
+  async function referenceResolver ({type, id} = {}) {
     try {
       return await liClient.getPublication({documentId: id})
     } catch (e) {
@@ -43,15 +43,20 @@ app.get('/', async (req, res, next) => {
       }
     }
   }
-  const document = liSDK.loadDocument({content, design, resolveReference})
+  async function includeResolver () {}
 
-  // filter some components out
-  const filteredDocument = liSDK.filterComponents(document, (component) => {
-    return component.componentName !== 'p'
-  })
+  function removeExceptParagraphs (component) {
+    if (component.componentName !== 'p') {
+      component.remove()
+    }
+  }
 
-  // render the livingdoc instance to html
-  const homepageHtml = liSDK.render({document: filteredDocument})
+  const design = require('../design/dist/design.json')
+
+  let document = liSDK.document.create({design, content, referenceResolver, includeResolver})
+  document = liSDK.document.visit(document, {nodeType: 'component'}, removeExceptParagraphs)
+
+  const homepageHtml = liSDK.document.render(document)
 
   // render livingdoc html into layout & shell
   const layout = homepagePublication.systemdata.documentType
