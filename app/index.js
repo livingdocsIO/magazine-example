@@ -3,7 +3,9 @@ const path = require('path')
 const express = require('express')
 const compression = require('compression')
 const liSDK = require('@livingdocs/sdk')
-const renderShell = require('./templates')
+
+const renderShell = require('./shell')
+const resolveIncludes = require('./includes')
 
 const port = process.env.PORT || 3000
 const distPath = path.join(__dirname, '../design/dist')
@@ -46,14 +48,12 @@ app.get('/', async (req, res, next) => {
   */
 
   // resolve includes
-  function includeResolver ({service, params}) {
-    return new Promise((resolve) =>
-      setTimeout(() =>
-        resolve(JSON.stringify({service, params}, null, 2)),
-      100)
-    )
+  const includes = liSDK.document.getIncludes(document)
+  try {
+    await resolveIncludes(includes, liClient)
+  } catch (e) {
+    console.error('Couldn\'t resolve includes', e)
   }
-  await liSDK.document.resolveIncludes(document, includeResolver)
 
   // render Livingdoc instance to html
   const homepageHtml = liSDK.document.render(document)

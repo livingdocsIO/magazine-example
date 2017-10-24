@@ -1,5 +1,5 @@
 module.exports = function render ({layout = 'page', contentHtml = '', ...opts}) {
-  const renderShell = require('./shell')
+  const renderShell = require('./main')
   const renderLayout = require(`./layouts/${layout}`)
 
   const shellContentHtml = renderLayout({...opts, contentHtml})
