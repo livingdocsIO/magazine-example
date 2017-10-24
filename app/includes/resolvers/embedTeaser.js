@@ -1,9 +1,15 @@
 async function resolveEmbedTeaserIncludes (includes, liClient, renderEmbedTeaserInclude) {
-  for (const include of includes) {
-    const content = include.getContent()
-    const html = renderEmbedTeaserInclude(content)
-    include.resolve(html)
-  }
+  const proms = includes.map(include => {
+    const {params} = include.getContent()
+    return liClient.getPublication({documentId: params.mediaId})
+      .then(response => {
+        // TODO: the json server responds with an array (DI)
+        const [publication] = response
+        const html = renderEmbedTeaserInclude({...publication, params})
+        include.resolve(html)
+      })
+  })
+  await Promise.all(proms)
 }
 
 module.exports = resolveEmbedTeaserIncludes
