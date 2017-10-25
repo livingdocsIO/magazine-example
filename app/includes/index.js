@@ -10,13 +10,22 @@ const includeResolverConfig = {
 }
 
 module.exports = async function resolveIncludes (includeMap, liClient) {
-  for (const serviceName in includeMap) {
+  const resolverProms = Object.keys(includeMap).map(serviceName => {
     const includes = includeMap[serviceName]
-    if (serviceName in includeResolverConfig) {
-      const resolverConfig = includeResolverConfig[serviceName]
-      const resolver = resolverConfig.resolver
-      const template = resolverConfig.template
-      await resolver(includes, liClient, template)
+    const resolverConfig = includeResolverConfig[serviceName]
+    if (!resolverConfig) {
+      // TODO: Evaluate how to treat unregistered services (DI)
+      // For now we simply skip them and notify that it's not there
+      const message =
+        `There is no include resolver for service "${serviceName}", skipping...`
+      const err = new Error(message)
+      console.error(err)
+      return Promise.resolve()
     }
-  }
+
+    const resolver = resolverConfig.resolver
+    const template = resolverConfig.template
+    return resolver(includes, liClient, template)
+  })
+  await Promise.all(resolverProms)
 }
