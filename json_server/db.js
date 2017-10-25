@@ -1,18 +1,22 @@
 const fs = require('fs')
 
 const DIRS = {
-  latestPublications: [
-    './json_server/publications/articles',
-    './json_server/publications/pages'
+  menus: [
+    './json_server/menus'
   ],
   documentLists: [
     './json_server/document_lists'
+  ],
+  latestPublications: [
+    './json_server/publications/articles',
+    './json_server/publications/pages'
   ]
 }
 
 module.exports = () => ({
-  latestPublications: loadJsonData(DIRS.latestPublications),
-  documentLists: loadJsonData(DIRS.documentLists)
+  menus: loadJsonData(DIRS.menus),
+  documentLists: loadJsonData(DIRS.documentLists),
+  latestPublications: loadJsonData(DIRS.latestPublications)
 })
 
 function loadJsonData (dirs = []) {

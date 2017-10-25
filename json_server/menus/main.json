@@ -1,0 +1,38 @@
+{
+  "version": 8,
+  "handle": "main",
+  "label": "Main",
+  "maxDepth": 0,
+  "nodes": [
+    {
+      "label": "Home",
+      "uri": "/",
+      "type": "uri",
+      "nodes": []
+    },
+    {
+      "label": "Studio Ghibli",
+      "documentId": 2917,
+      "type": "id",
+      "nodes": []
+    },
+    {
+      "label": "Editor",
+      "type": "uri",
+      "uri": "https://beta.livingdocs.io",
+      "nodes": []
+    },
+    {
+      "label": "Livingdocs Homepage",
+      "type": "uri",
+      "uri": "https://livingdocs.io",
+      "nodes": []
+    },
+    {
+      "label": "Docs",
+      "type": "uri",
+      "uri": "https://docs.livingdocs.io",
+      "nodes": []
+    }
+  ]
+}

@@ -3,8 +3,8 @@ const dedent = require('dedent')
 const renderHeader = require('./header')
 const renderFooter = require('./footer')
 
-module.exports = ({contentHtml}) => dedent`
-  ${renderHeader()}
-  <div class="page wrapper">${contentHtml || ''}</div>
+module.exports = ({menu, location, documentHtml}) => dedent`
+  ${renderHeader({menu, location})}
+  <div class="page wrapper">${documentHtml || ''}</div>
   ${renderFooter()}
 `
