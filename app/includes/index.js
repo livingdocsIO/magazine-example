@@ -1,31 +1,49 @@
-const includeResolverConfig = {
-  list: {
-    resolver: require('./resolvers/list'),
-    template: require('./templates/list')
-  },
-  'embed-teaser': {
-    resolver: require('./resolvers/embedTeaser'),
-    template: require('./templates/embedTeaser')
+module.exports = async function resolveIncludes (includeMap, liClient) {
+  const resolverTasks = Object.keys(includeMap).map(serviceName => {
+    switch (serviceName) {
+      case 'list':
+        return {
+          serviceName: 'list',
+          resolver: resolveListIncludes({
+            liClient,
+            includes: includeMap['list']
+          })
+        }
+
+      case 'embed-teaser':
+        return {
+          serviceName: 'embed-teaser',
+          resolver: resolveEmbedTeaserIncludes({
+            liClient,
+            includes: includeMap['embed-teaser']
+          })
+        }
+
+      default:
+        const message =
+          `There is no include resolver for service "${serviceName}"`
+        throw new Error(message)
+    }
+  })
+
+  for (const task of resolverTasks) {
+    const {serviceName, resolver} = task
+    try {
+      await resolver
+    } catch (err) {
+      throw new Error(`Include resolver for "${serviceName}" failed`, err)
+    }
   }
 }
 
-module.exports = async function resolveIncludes (includeMap, liClient) {
-  const resolverProms = Object.keys(includeMap).map(serviceName => {
-    const includes = includeMap[serviceName]
-    const resolverConfig = includeResolverConfig[serviceName]
-    if (!resolverConfig) {
-      // TODO: Evaluate how to treat unregistered services (DI)
-      // For now we simply skip them and notify that it's not there
-      const message =
-        `There is no include resolver for service "${serviceName}", skipping...`
-      const err = new Error(message)
-      console.error(err)
-      return Promise.resolve()
-    }
+function resolveListIncludes ({includes, liClient}) {
+  const renderListInclude = require('./templates/list')
+  const listResolver = require('./resolvers/list')
+  return listResolver(includes, liClient, renderListInclude)
+}
 
-    const resolver = resolverConfig.resolver
-    const template = resolverConfig.template
-    return resolver(includes, liClient, template)
-  })
-  await Promise.all(resolverProms)
+function resolveEmbedTeaserIncludes ({includes, liClient}) {
+  const renderEmbedTeaserInclude = require('./templates/embedTeaser')
+  const embedTeaserResolver = require('./resolvers/embedTeaser')
+  return embedTeaserResolver(includes, liClient, renderEmbedTeaserInclude)
 }
