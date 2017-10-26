@@ -1,5 +1,17 @@
 module.exports = async function resolveIncludes (includeMap, liClient) {
-  const resolverTasks = Object.keys(includeMap).map(serviceName => {
+  const resolverTasks = startResolverTasks(includeMap, liClient)
+  for (const task of resolverTasks) {
+    const {serviceName, resolver} = task
+    try {
+      await resolver
+    } catch (err) {
+      throw new Error(`Include resolver for "${serviceName}" failed`, err)
+    }
+  }
+}
+
+function startResolverTasks (includeMap, liClient) {
+  return Object.keys(includeMap).map(serviceName => {
     switch (serviceName) {
       case 'list':
         return {
@@ -25,15 +37,6 @@ module.exports = async function resolveIncludes (includeMap, liClient) {
         throw new Error(message)
     }
   })
-
-  for (const task of resolverTasks) {
-    const {serviceName, resolver} = task
-    try {
-      await resolver
-    } catch (err) {
-      throw new Error(`Include resolver for "${serviceName}" failed`, err)
-    }
-  }
 }
 
 function resolveListIncludes ({includes, liClient}) {
