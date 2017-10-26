@@ -19,6 +19,12 @@ const liClient = new liSDK.Client({
   accessToken: 'my-awesome-token'
 })
 
+// favicon handler
+app.use(async (req, res, next) => {
+  if (req.url === '/favicon.ico') return res.end()
+  next()
+})
+
 // routes
 app.get('/', require('./routes/home')({liClient}))
 app.get('/articles/:id', require('./routes/articles')({liClient}))

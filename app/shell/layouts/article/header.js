@@ -34,7 +34,7 @@ module.exports = ({menu, location}) => dedent`
 
 function isCurrentLocation (node, location) {
   switch (node.type) {
-    case 'id':
+    case 'livingdoc':
       return location === `/articles/${node.documentId}`
     case 'uri':
       return location === node.uri
@@ -50,7 +50,7 @@ function getTarget (node) {
 
 function getHref (node) {
   switch (node.type) {
-    case 'id':
+    case 'livingdoc':
       return `/articles/${node.documentId}`
     case 'uri':
       return node.uri
