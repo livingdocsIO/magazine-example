@@ -17,7 +17,6 @@ function startDataFetchTasks (includes, liClient) {
   return includes.map(include => {
     const {params} = include.getContent()
     const limit = params.count
-    // TODO: find out how to handle the offset (DI)
     // const offset = params.offset
     const request = liClient.getDocumentList({listId: params.listId, limit})
     return {include, request}

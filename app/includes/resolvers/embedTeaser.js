@@ -3,7 +3,6 @@ async function resolveEmbedTeaserIncludes (includes, liClient, renderEmbedTeaser
   for (const task of dataFetchTasks) {
     const {include, request} = task
     try {
-      // TODO: the json server responds with an array (DI)
       const [publication] = await request
       const {params} = include.getContent()
       const html = renderEmbedTeaserInclude({...publication, params})
