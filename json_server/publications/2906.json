@@ -1,0 +1,86 @@
+{
+  "systemdata": {
+    "projectId": 319,
+    "channelId": 334,
+    "documentId": 2906,
+    "documentType": "article",
+    "layout": "default",
+    "design": {
+      "name": "timeline",
+      "version": "1.0.0"
+    }
+  },
+  "metadata": {
+    "title": "The Whale Hunt",
+    "author": "Wikipedia contributors",
+    "teaserImage": {
+      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/1456273f-b26a-4ca1-9de7-cebd2eb41dd9.jpeg",
+      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/1456273f-b26a-4ca1-9de7-cebd2eb41dd9.jpeg",
+      "width": 1200,
+      "height": 848,
+      "imageService": "resrc.it",
+      "crops": [
+        {
+          "name": "16:9",
+          "url": "https://app.resrc.it/C=W1200,H675,X0,Y86.5/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/1456273f-b26a-4ca1-9de7-cebd2eb41dd9.jpeg",
+          "x": 0,
+          "y": 86.5,
+          "width": 1200,
+          "height": 675
+        }
+      ]
+    },
+    "dependencies": {}
+  },
+  "content": [
+    {
+      "id": "doc-1avoenb0j0",
+      "identifier": "timeline.title",
+      "content": {
+        "title": "The Whale Hunt"
+      }
+    },
+    {
+      "id": "doc-1avoelo5j0",
+      "identifier": "timeline.normal",
+      "content": {
+        "image": {
+          "url": "https://app.resrc.it/O=75/https://livingdocs-images-dev.s3.amazonaws.com/2016/10/23/b5266ddc-3216-4084-aa76-690d620dad99.jpeg",
+          "width": 1200,
+          "height": 848,
+          "mimeType": "image/jpeg",
+          "imageService": "resrc.it",
+          "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2016/10/23/b5266ddc-3216-4084-aa76-690d620dad99.jpeg"
+        }
+      }
+    },
+    {
+      "id": "doc-1avoejpkq1",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "Kujiratori (くじらとり, lit. \"Whale Hunt\") is a 2001 short animated film written and directed by <a href=\"https://en.wikipedia.org/wiki/Hayao_Miyazaki\">Hayao Miyazaki</a>, shown only in the <a href=\"https://en.wikipedia.org/wiki/Ghibli_Museum\">Ghibli Museum</a> in&nbsp;Mitaka, Japan. The film has a running time of 16 minutes.&nbsp;It is drawn in a different, simpler style compared to other Studio Ghibli films and uses bright pastel colors."
+      }
+    },
+    {
+      "id": "doc-1avoeorab0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "<em>Kujiratori</em> tells the story of school children pretending they are building a boat. As imagination replaces reality, they find themselves on the ocean, hunting for a whale. A big, gentle whale appears, accompanies them back to land and plays with them. Then the fantasy ends and the children are back in their class room."
+      }
+    },
+    {
+      "id": "doc-1avoeored0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "The film was shown at the 2002 <a href=\"https://en.wikipedia.org/wiki/New_York_International_Children%27s_Film_Festival\">New York International Children's Film Festival</a>. It has won the Ōfuji Noburō Award at the <a href=\"https://en.wikipedia.org/wiki/Mainichi_Film_Award\">Mainichi Film Award</a> in 2001."
+      }
+    },
+    {
+      "id": "doc-1avoeph1a0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "<em>Source: Wikipedia</em>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "systemdata": {
+    "projectId": 319,
+    "channelId": 334,
+    "documentId": 2905,
+    "documentType": "article",
+    "layout": "default",
+    "design": {
+      "name": "timeline",
+      "version": "1.0.0"
+    }
+  },
+  "metadata": {
+    "title": "Koro no Daisanpo",
+    "author": "Wikipedia contributors",
+    "teaserImage": {
+      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/2f412477-3046-4241-8567-7f6167c67041.jpeg",
+      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/2f412477-3046-4241-8567-7f6167c67041.jpeg",
+      "width": 1100,
+      "height": 789,
+      "imageService": "resrc.it",
+      "crops": [
+        {
+          "name": "16:9",
+          "url": "https://app.resrc.it/C=W1100,H619,X0,Y41/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/2f412477-3046-4241-8567-7f6167c67041.jpeg",
+          "x": 0,
+          "y": 41,
+          "width": 1100,
+          "height": 619
+        }
+      ]
+    },
+    "dependencies": {}
+  },
+  "content": [
+    {
+      "id": "doc-1avoetjdc0",
+      "identifier": "timeline.title",
+      "content": {
+        "title": "<em>Koro no Daisanpo</em>"
+      }
+    },
+    {
+      "id": "doc-1avoetejl0",
+      "identifier": "timeline.normal",
+      "content": {
+        "image": {
+          "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/808ce4e0-aba6-4cb2-a950-5d2ba6049b88.jpeg",
+          "width": 1100,
+          "height": 789,
+          "mimeType": "image/jpeg",
+          "imageService": "resrc.it",
+          "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/808ce4e0-aba6-4cb2-a950-5d2ba6049b88.jpeg"
+        }
+      }
+    },
+    {
+      "id": "doc-1avoetejm0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "Koro no Daisanpo (コロの大さんぽ <em>Koro no Daisanpo</em>), <em>Koro's Big Day Out</em> (lit. <em>Koro's big walk</em>), is a 2002 Japanese animated short film. <a href=\"https://en.wikipedia.org/wiki/Hayao_Miyazaki\">Hayao Miyazaki</a> of <a href=\"https://en.wikipedia.org/wiki/Studio_Ghibli\">Studio Ghibli</a> is the writer and director. The film is about Koro the puppy, who runs away from his mistress, experiences some adventures around town and who is finally happily returned home. The film was exclusively shown at the <a href=\"https://en.wikipedia.org/wiki/Ghibli_Museum\">Ghibli Museum</a> in Japan."
+      }
+    },
+    {
+      "id": "doc-1avof0tcp0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "<em>Source: Wikipedia</em>"
+      }
+    }
+  ]
+}

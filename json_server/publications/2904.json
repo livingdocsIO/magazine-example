@@ -1,0 +1,70 @@
+{
+  "systemdata": {
+    "projectId": 319,
+    "channelId": 334,
+    "documentId": 2904,
+    "documentType": "article",
+    "layout": "default",
+    "design": {
+      "name": "timeline",
+      "version": "1.0.0"
+    }
+  },
+  "metadata": {
+    "title": "Ghiblies Episode 2",
+    "author": "Wikipedia contributors",
+    "teaserImage": {
+      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/aa1ee9ce-ff6c-4c47-a283-199fec8ba159.png",
+      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/aa1ee9ce-ff6c-4c47-a283-199fec8ba159.png",
+      "width": 1500,
+      "height": 882,
+      "imageService": "resrc.it",
+      "crops": [
+        {
+          "name": "16:9",
+          "url": "https://app.resrc.it/C=W1500,H843.75,X0,Y19.125/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/aa1ee9ce-ff6c-4c47-a283-199fec8ba159.png",
+          "x": 0,
+          "y": 19.125,
+          "width": 1500,
+          "height": 843.75
+        }
+      ]
+    },
+    "dependencies": {}
+  },
+  "content": [
+    {
+      "id": "doc-1avodh4750",
+      "identifier": "timeline.title",
+      "content": {
+        "title": "Ghiblies Episode 2"
+      }
+    },
+    {
+      "id": "doc-1avodggh10",
+      "identifier": "timeline.iframe",
+      "content": {
+        "iframe": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://www.youtube.com/embed/oma2bN3HWsU\" frameborder=\"0\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></div>"
+      },
+      "data": {
+        "_iframeDirective": {
+          "_embedHandler": "iframe"
+        }
+      }
+    },
+    {
+      "id": "doc-1avodg9lg1",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "A 25-minute sequel, titled <em><strong>Ghiblies Episode 2</strong></em>, was released in theaters with <em><a href=\"https://en.wikipedia.org/wiki/The_Cat_Returns\">The Cat Returns</a></em> on July 19, 2002. Momose wrote the script and directed the sequel, with assistance directing from Eiichirō Tashiro and Chika Matsumura. Manto Watanabe, the drummer for the Okinawan band <a href=\"https://en.wikipedia.org/wiki/Shang_Shang_Typhoon\">Shang Shang Typhoon</a>, created the music for the short film. Other staff members included art director Noboru Yoshida, original character designer <a href=\"https://en.wikipedia.org/wiki/Toshio_Suzuki_(producer)\">Toshio Suzuki</a>, and special character designer <a href=\"https://en.wikipedia.org/wiki/Hisaichi_Ishii\">Hisaichi Ishii</a>."
+      }
+    },
+    {
+      "id": "doc-1avodi7o70",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "<em>Source: Wikipedia</em>"
+      }
+    }
+  ]
+}

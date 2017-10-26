@@ -1,0 +1,268 @@
+{
+  "systemdata": {
+    "projectId": 319,
+    "channelId": 334,
+    "documentId": 2917,
+    "documentType": "article",
+    "layout": "default",
+    "design": {
+      "name": "timeline",
+      "version": "1.0.0"
+    }
+  },
+  "metadata": {
+    "title": "Studio Ghibli",
+    "description": "Studio Ghibli, Inc. is a Japanese animation film studio based in Koganei, Tokyo, Japan. The studio is best known for its anime feature films. Studio Ghibli began in June 1985 after the success of Nausicaä of the Valley of the Wind with funding by Tokuma Shoten. The company's logo features the character Totoro (a large forest spirit) from Miyazaki’s film My Neighbor Totoro. At one time the studio was based in Kichijōji, Musashino, Tokyo.",
+    "author": "Wikipedia contributors",
+    "teaserImage": {
+      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+      "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+      "width": 2560,
+      "height": 1600,
+      "imageService": "resrc.it",
+      "crops": [
+        {
+          "name": "16:9",
+          "url": "https://app.resrc.it/C=W1638,H922,X728,Y132/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+          "x": 728,
+          "y": 132,
+          "width": 1638,
+          "height": 922
+        }
+      ]
+    },
+    "tasks": {
+      "total": 1,
+      "completed": 0,
+      "pending": 1,
+      "proofreading": {
+        "name": "proofreading",
+        "status": "todo",
+        "updatedAt": "2017-02-20T17:40:47.179Z",
+        "updatedBy": {
+          "id": 378,
+          "firstName": "Christian",
+          "lastName": "Felder"
+        }
+      }
+    },
+    "dependencies": {}
+  },
+  "content": [
+    {
+      "id": "doc-1b059n7s00",
+      "identifier": "timeline.hero",
+      "content": {
+        "image": {
+          "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+          "width": 2560,
+          "height": 1600,
+          "mimeType": "image/jpeg",
+          "imageService": "resrc.it"
+        },
+        "title": "Studio Ghi &nbsp;bdli",
+        "subtitle": "A world of magical imagination in service of realism",
+        "text": "Wikipedia contributors"
+      }
+    },
+    {
+      "id": "doc-1bamesh220",
+      "identifier": "timeline.normal",
+      "content": {
+        "image": {
+          "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg",
+          "width": 3264,
+          "height": 2448,
+          "mimeType": "image/jpeg",
+          "imageService": "resrc.it",
+          "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg"
+        }
+      }
+    },
+    {
+      "id": "doc-1b9e9nlc10",
+      "identifier": "timeline.normal",
+      "content": {
+        "image": {
+          "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png",
+          "width": 1500,
+          "height": 938,
+          "mimeType": "image/png",
+          "imageService": "resrc.it",
+          "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png"
+        }
+      }
+    },
+    {
+      "id": "doc-1b059mu4e0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "Studio Ghibli, Inc. is a Japanese animation film studio based in Koganei, Tokyo, Japan. The studio is best known for its anime feature films. Studio Ghibli began in June 1985 after the success of Nausicaä of the Valley of the Wind with funding by Tokuma Shoten. The company's logo features the character Totoro (a large forest spirit) from Miyazaki’s film My Neighbor Totoro. At one time the studio was based in Kichijōji, Musashino, Tokyo."
+      },
+      "styles": {
+        "dropcap": "drop-cap"
+      }
+    },
+    {
+      "id": "doc-1b059ofb40",
+      "identifier": "timeline.subtitle",
+      "content": {
+        "title": "The Studio"
+      }
+    },
+    {
+      "id": "doc-1b059prcu0",
+      "identifier": "timeline.aside",
+      "content": {
+        "title": "The studio's name",
+        "text": "The name Ghibli was given by Hayao Miyazaki bearing the Caproni Ca.309 Ghibli in mind. The Italian noun “ghibli” is based on the Arabic name for the sirocco, or Mediterranean wind, the idea being the studio would “blow a new wind through the anime industry.” Although the Italian word is pronounced with a very hard ɡ, the Japanese pronunciation of the studio's name is with a soft g, [dʑíbu͍ɾi]."
+      }
+    },
+    {
+      "id": "doc-1b059oql40",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "Founded in June 1985, the studio is headed by the directors Hayao Miyazaki and Isao Takahata and the producer Toshio Suzuki. Prior to the formation of the studio, Miyazaki and Takahata had already had long careers in Japanese film and television animation and had worked together on Hols: Prince of the Sun and Panda! Go, Panda!; and Suzuki was an editor at Tokuma Shoten's Animage manga magazine."
+      }
+    },
+    {
+      "id": "doc-1b059p1v30",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "The studio was founded after the success of the 1984 film Nausicaä of the Valley of the Wind, written and directed by Miyazaki for Topcraft and distributed by Toei Company. The origins of the film lie in the first two volumes of a serialized manga written by Miyazaki for publication in Animage as a way of generating interest in an anime version. Suzuki was part of the production team on the film and founded Studio Ghibli with Miyazaki, who also invited Takahata to join the new studio."
+      }
+    },
+    {
+      "id": "doc-1b059pmlm0",
+      "identifier": "timeline.normal",
+      "content": {
+        "image": {
+          "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/dcf5ebaf-1123-4004-859e-f959ffe963d8.jpeg",
+          "width": 293,
+          "height": 300,
+          "mimeType": "image/jpeg",
+          "imageService": "resrc.it",
+          "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/dcf5ebaf-1123-4004-859e-f959ffe963d8.jpeg"
+        },
+        "caption": "Hayao Miyazaki, the co-founder of Studio Ghibli and director of many of its films."
+      },
+      "styles": {
+        "position": "left"
+      }
+    },
+    {
+      "id": "doc-1b059p8sb0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "Many anime features created by Studio Ghibli have won the Animage Anime Grand Prix award and three have won the Japan Academy Prize for Animation of the Year. In 2002, Spirited Away won a Golden Bear and an Oscar for Best Animated Feature."
+      }
+    },
+    {
+      "id": "doc-1b059perl0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "The studio has mainly produced films by Miyazaki, with the second most prolific director being Takahata (most notably with Grave of the Fireflies). Other directors who have worked with Studio Ghibli include Yoshifumi Kondo, Hiroyuki Morita and Gorō Miyazaki. Composer Joe Hisaishi has provided the soundtracks for most of Miyazaki's Studio Ghibli films. In their book Anime Classics Zettai!, Brian Camp and Julie Davis made note of Michiyo Yasuda as “a mainstay of Studio Ghibli’s extraordinary design and production team.”"
+      }
+    },
+    {
+      "id": "doc-1b059qtoj0",
+      "identifier": "timeline.separator"
+    },
+    {
+      "id": "doc-1b059rdci0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "<em>Recent history</em>"
+      }
+    },
+    {
+      "id": "doc-1b059r2s60",
+      "identifier": "timeline.event",
+      "content": {
+        "time": "2012",
+        "keyword": "The Tale of the Bamboo cutter",
+        "text": "As of 2012, Takahata is developing a project for release after Gorō Miyazaki's (director of Tales from Earthsea and Hayao's son) From Up on Poppy Hill. Takahata is working on an adaptation of the tale of The Tale of the Bamboo Cutter. Hayao Miyazaki is developing a project called The Wind Rises which is about the Mitsubishi A6M Zero and its founder."
+      },
+      "styles": {
+        "event-style": "bullets"
+      }
+    },
+    {
+      "id": "doc-1b059r4g40",
+      "identifier": "timeline.event",
+      "content": {
+        "time": "2013",
+        "keyword": "Retirement",
+        "text": "Sunday, September 1, 2013, Hayao Miyazaki held a press conference in Venice, confirming his retirement saying: “I know I’ve said I would retire many times in the past. Many of you must think, ‘Once again.’ But this time I am quite serious...” Now it is time for Hayao's son, Goro Miyazaki, to take the torch and follow in his father's footsteps."
+      },
+      "styles": {
+        "event-style": "bullets"
+      }
+    },
+    {
+      "id": "doc-1b059r5ms0",
+      "identifier": "timeline.event",
+      "content": {
+        "time": "2014",
+        "keyword": "TV Series",
+        "text": "On January 31, 2014, it was announced that Gorō Miyazaki will direct his first anime TV series, Sanzoku no Musume Rōnya, an adaptation of Astrid Lindgren's Ronia the Robber's Daughter for NHK. The series is computer-animated, produced by Polygon Pictures, and co-produced by Studio Ghibli."
+      },
+      "styles": {
+        "event-style": "bullets"
+      }
+    },
+    {
+      "id": "doc-1b059qv270",
+      "identifier": "timeline.separator"
+    },
+    {
+      "id": "doc-1b059t6040",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "Many of Ghibli’s works are distributed in Japan by Toho. Internationally, The Walt Disney Company has rights to all of Ghibli’s output that did not have previous international distribution, including the global, non-Japan distribution rights to Princess Mononoke and Spirited Away. As of September 2011, they share North American theatrical rights with GKids while domestic right remain with Disney."
+      }
+    },
+    {
+      "id": "doc-1b059tei20",
+      "identifier": "timeline.peephole",
+      "content": {
+        "image": {
+          "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/724d047c-e1ab-4dd2-9617-75743ea14ce7.jpeg",
+          "width": 2700,
+          "height": 1606,
+          "mimeType": "image/jpeg",
+          "imageService": "resrc.it"
+        }
+      }
+    },
+    {
+      "id": "doc-1b059tv050",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "Over the years, there has been a close relationship between Studio Ghibli and the magazine Animage, which regularly runs exclusive articles on the studio and its members in a section titled “Ghibli Notes.” Artwork from Ghibli's films and other works are frequently featured on the cover of the magazine. Between 1999 and 2005 Studio Ghibli was a subsidiary of Tokuma Shoten, the publisher of Animage."
+      }
+    },
+    {
+      "id": "doc-1b059ughi0",
+      "identifier": "timeline.quote",
+      "content": {
+        "text": "We depict hatred, but it is to depict that there are more important things. We depict a curse, to depict the joy of liberation.",
+        "author": "Hayao Miyazaki"
+      }
+    },
+    {
+      "id": "doc-1b059u0rm0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "In October 2001, the Ghibli Museum opened in Tokyo. It contains exhibits based on Studio Ghibli films and shows animations, including a number of short Studio Ghibli films not available elsewhere."
+      }
+    },
+    {
+      "id": "doc-1b059uc150",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "The studio is also known for its strict “no-edits” policy in licensing their films abroad due to Nausicaä of the Valley of Wind being heavily edited for the film’s release in the United States as Warriors of the Wind. The “no cuts” policy was highlighted when Miramax co-chairman Harvey Weinstein suggested editing Princess Mononoke to make it more marketable. A Studio Ghibli producer is rumoured to have sent an authentic Japanese sword with a simple message: “No cuts.”"
+      }
+    }
+  ]
+}

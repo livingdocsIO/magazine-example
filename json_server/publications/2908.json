@@ -1,0 +1,106 @@
+{
+  "systemdata": {
+    "projectId": 319,
+    "channelId": 334,
+    "documentId": 2908,
+    "documentType": "article",
+    "layout": "default",
+    "design": {
+      "name": "timeline",
+      "version": "1.0.0"
+    }
+  },
+  "metadata": {
+    "title": "Iblard Jikan",
+    "author": "Wikipedia contributors",
+    "teaserImage": {
+      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png",
+      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png",
+      "width": 1500,
+      "height": 781,
+      "imageService": "resrc.it",
+      "crops": [
+        {
+          "name": "16:9",
+          "url": "https://app.resrc.it/C=W1388.4444444444443,H781,X55.77777777777783,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png",
+          "x": 55.77777777777783,
+          "y": 0,
+          "width": 1388.4444444444443,
+          "height": 781
+        }
+      ]
+    },
+    "dependencies": {}
+  },
+  "content": [
+    {
+      "id": "doc-1avoec4a60",
+      "identifier": "timeline.title",
+      "content": {
+        "title": "Iblard Jikan"
+      }
+    },
+    {
+      "id": "doc-1avoebqjb0",
+      "identifier": "timeline.iframe",
+      "content": {
+        "iframe": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://www.youtube.com/embed/VhcMaqrE4CM\" frameborder=\"0\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></div>"
+      },
+      "data": {
+        "_iframeDirective": {
+          "_embedHandler": "iframe"
+        }
+      }
+    },
+    {
+      "id": "doc-1avoebk4e0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "Iblard Jikan (イバラード時間 <em>Ibarādo Jikan</em><a href=\"https://en.wikipedia.org/wiki/Help:Installing_Japanese_character_sets\">?</a>, literally \"Iblard Time\") is a Japanese anime OVA produced by <a href=\"https://en.wikipedia.org/wiki/Studio_Ghibli\">Studio Ghibli</a>, released in Japan on DVD and Blu-ray disc on July 4, 2007, as part of the \"Ghibli ga Ippai Collection\".&nbsp;It is directed by <a href=\"https://en.wikipedia.org/wiki/Naohisa_Inoue\">Naohisa Inoue</a>. The story is set in the imaginary world of Iblard, originally depicted in paintings by Inoue. The paintings of Iblard also inspired the fantasy sequences of Ghibli's <em><a href=\"https://en.wikipedia.org/wiki/Whisper_of_the_Heart_(film)\">Whisper of the Heart</a></em>."
+      }
+    },
+    {
+      "id": "doc-1avoeeg080",
+      "identifier": "timeline.subtitle",
+      "content": {
+        "title": "Production"
+      }
+    },
+    {
+      "id": "doc-1avoegpp30",
+      "identifier": "timeline.aside",
+      "content": {
+        "title": "Soundtrack",
+        "text": "The original soundtrack for the OVA was composed by <a href=\"https://en.wikipedia.org/w/index.php?title=Kiyonori_Matsuo&amp;action=edit&amp;redlink=1\">Kiyonori Matsuo</a>. The release of <em>Iblard Jikan</em> includes a bonus soundtrack CD with eight tracks performed by Matsuo."
+      }
+    },
+    {
+      "id": "doc-1avoeermh0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "The OVA is 30 minutes long and consists primarily of Inoue's fantasy paintings of the Iblard world. Studio Ghibli digitally animated portions of the paintings and integrated original elements into the scenery. There are eight separate segments, each featuring a different painting or landscape and instrumental musical piece. The OVA focuses mostly on static shots of \"moving\" scenery: Inoue's paintings digitally altered, so that grass moves in the wind, people walk, etc. There is no dialogue."
+      }
+    },
+    {
+      "id": "doc-1avoefk9l0",
+      "identifier": "timeline.subtitle",
+      "content": {
+        "title": "Critical reception"
+      }
+    },
+    {
+      "id": "doc-1avoefq660",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "Chris Beveridge of <em>Anime on DVD</em> noted that the OVA is quite calming and relaxing, and provides a great showcase of Ghibli \"eye candy\", but its appeal would likely be restricted to those seeking to complete their collection of Ghibli pieces due to its focus on \"looking through the window\" rather than telling an overarching story."
+      }
+    },
+    {
+      "id": "doc-1avoehc6e0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "<em>Source: Wikipedia</em>"
+      }
+    }
+  ]
+}

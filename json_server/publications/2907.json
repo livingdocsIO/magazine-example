@@ -1,0 +1,84 @@
+{
+  "systemdata": {
+    "projectId": 319,
+    "channelId": 334,
+    "documentId": 2907,
+    "documentType": "article",
+    "layout": "default",
+    "design": {
+      "name": "timeline",
+      "version": "1.0.0"
+    }
+  },
+  "metadata": {
+    "title": "The Night of Taneyamagahara",
+    "author": "Wikipedia contributors",
+    "teaserImage": {
+      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/67fbd400-4961-4d2f-8846-221a1351f415.png",
+      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/67fbd400-4961-4d2f-8846-221a1351f415.png",
+      "width": 1500,
+      "height": 972,
+      "imageService": "resrc.it",
+      "crops": [
+        {
+          "name": "16:9",
+          "url": "https://app.resrc.it/C=W1500,H843.75,X0,Y64.125/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/67fbd400-4961-4d2f-8846-221a1351f415.png",
+          "x": 0,
+          "y": 64.125,
+          "width": 1500,
+          "height": 843.75
+        }
+      ]
+    },
+    "dependencies": {}
+  },
+  "content": [
+    {
+      "id": "doc-1avoe6et70",
+      "identifier": "timeline.title",
+      "content": {
+        "title": "The Night of Taneyamagahara"
+      }
+    },
+    {
+      "id": "doc-1avoe61tf0",
+      "identifier": "timeline.iframe",
+      "content": {
+        "iframe": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://www.youtube.com/embed/JfTFNTBff2I\" frameborder=\"0\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></div>"
+      },
+      "data": {
+        "_iframeDirective": {
+          "_embedHandler": "iframe"
+        }
+      }
+    },
+    {
+      "id": "doc-1avoe5pum0",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "The Night of Taneyamagahara (種山ヶ原の夜 <em>Taneyamagahara no Yoru</em>) is a short anime film directed by <a href=\"https://en.wikipedia.org/wiki/Kazuo_Oga\">Kazuo Oga</a> and released by <a href=\"https://en.wikipedia.org/wiki/Studio_Ghibli\">Studio Ghibli</a>. A DVD version was released for Japan on July 7, 2006. It is based on a short story of the same name by <a href=\"https://en.wikipedia.org/wiki/Kenji_Miyazawa\">Kenji Miyazawa</a>."
+      }
+    },
+    {
+      "id": "doc-1avoe9a7c0",
+      "identifier": "timeline.subtitle",
+      "content": {
+        "title": "Plot"
+      }
+    },
+    {
+      "id": "doc-1avoe91r20",
+      "identifier": "timeline.p",
+      "content": {
+        "text": " Some farmers are out on the mountain, waiting for dawn so they can begin cutting grass. They talk about some of the things in their lives. One of them wants to buy a plot of land he's heard of. When they hear the sound of a horse, the others walk away to investigate, leaving the farmer who wanted to buy the land alone. He falls asleep and dreams he's talking to plants and trees, asking them about the plot of land. Eventually, the others return, and because the sun has come up, they get ready for work."
+      }
+    },
+    {
+      "id": "doc-1avoe9gs00",
+      "identifier": "timeline.p",
+      "content": {
+        "text": "<em>Source: Wikipedia</em>"
+      }
+    }
+  ]
+}

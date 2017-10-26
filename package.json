@@ -4,7 +4,7 @@
   "scripts": {
     "design:dev": "NODE_ENV=development node design_server/index.js",
     "design:build": "NODE_ENV=production webpack --display-error-details",
-    "start:json-server": "json-server --routes ./json_server/routes.json --watch ./json_server/db.json --port 3001",
+    "start:json-server": "json-server ./json_server/db.js --routes ./json_server/routes.json --watch ./json_server/db.js --port 3001",
     "start:magazine": "node app/index.js",
     "start": "npm run design:build && npm run start:json-server & npm run start:magazine"
   },
