@@ -39,21 +39,6 @@
       }
     },
     {
-      "id": "doc-1btbv1b6l0",
-      "identifier": "timeline.teaser-row",
-      "content": {
-        "list": {
-          "service": "list",
-          "params": {
-            "count": 4,
-            "layout": "teaserRow",
-            "listId": 40,
-            "offset": 0
-          }
-        }
-      }
-    },
-    {
       "id": "doc-1btbv2a6o0",
       "identifier": "timeline.section-title",
       "content": {
@@ -73,21 +58,6 @@
       }
     },
     {
-      "id": "doc-1btbv4do80",
-      "identifier": "timeline.teaser-row-high",
-      "content": {
-        "list": {
-          "service": "list",
-          "params": {
-            "count": 4,
-            "layout": "teaserRowHigh",
-            "listId": 42,
-            "offset": 0
-          }
-        }
-      }
-    },
-    {
       "id": "doc-1btbv5ju80",
       "identifier": "timeline.section-title",
       "content": {
@@ -95,81 +65,10 @@
       }
     },
     {
-      "id": "doc-1btbv6d6g0",
-      "identifier": "timeline.top-row",
-      "content": {
-        "title": "Biographies",
-        "latest-news": {
-          "service": "list",
-          "params": {
-            "count": 5,
-            "layout": "news",
-            "listId": 42,
-            "offset": 0
-          }
-        },
-        "top-teasers": {
-          "service": "list",
-          "params": {
-            "layout": "teaserRowHigh",
-            "listId": 41,
-            "count": 3,
-            "offset": 0
-          }
-        }
-      }
-    },
-    {
       "id": "doc-1btbv8hv10",
       "identifier": "timeline.section-title",
       "content": {
         "section-title": "Misc"
-      }
-    },
-    {
-      "id": "doc-1btbv8tau0",
-      "identifier": "timeline.teaser-row-text",
-      "content": {
-        "title-1": "First Bios",
-        "list-1": {
-          "service": "list",
-          "params": {
-            "count": 4,
-            "layout": "teaserRowText",
-            "listId": 42,
-            "offset": 0
-          }
-        },
-        "title-2": "Features",
-        "list-2": {
-          "service": "list",
-          "params": {
-            "count": 4,
-            "layout": "teaserRowText",
-            "listId": 41,
-            "offset": 0
-          }
-        },
-        "title-3": "Shorts",
-        "list-3": {
-          "service": "list",
-          "params": {
-            "count": 4,
-            "layout": "teaserRowText",
-            "listId": 40,
-            "offset": 0
-          }
-        },
-        "title-4": "Long Longs",
-        "list-4": {
-          "service": "list",
-          "params": {
-            "count": 4,
-            "layout": "teaserRowText",
-            "listId": 42,
-            "offset": 4
-          }
-        }
       }
     }
   ]

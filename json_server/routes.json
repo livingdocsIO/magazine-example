@@ -1,7 +1,6 @@
 {
   "/api/v1/*": "/$1",
   "/menus/web*": "/menus$1",
-  "/document-lists/*": "/documentLists/$1",
   "/documents/latestPublications?limit=10&homepage=true": "/latestPublications?limit=1&metadata.homepage=true",
   "/documents/:id/latestPublication": "/latestPublications?systemdata.documentId=:id",
   "/documents/*": "/$1"

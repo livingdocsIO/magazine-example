@@ -4,9 +4,6 @@ const DIRS = {
   menus: [
     './json_server/menus'
   ],
-  documentLists: [
-    './json_server/document_lists'
-  ],
   latestPublications: [
     './json_server/publications/articles',
     './json_server/publications/pages'
@@ -15,7 +12,6 @@ const DIRS = {
 
 module.exports = () => ({
   menus: loadJsonData(DIRS.menus),
-  documentLists: loadJsonData(DIRS.documentLists),
   latestPublications: loadJsonData(DIRS.latestPublications)
 })
 
