@@ -10,23 +10,17 @@ function commonRouteHandlerFactory ({liClient, design}) {
     if (!publication) return next(new Error('Page not found'))
 
     // create a Livingdoc instance using the serialized content & built design
-    const content = publication.content
-    const document = liSDK.document.create({design, content})
-
-    /* EXAMPLE: filter paragraphs out
-    function removeExceptParagraphs (component) {
-      if (component.componentName !== 'p') {
-        component.remove()
-      }
+    let livingdoc = {}
+    try {
+      const content = publication.content
+      livingdoc = liSDK.document.create({design, content})
+    } catch (e) {
+      return next(new Error(`Couldn't create the livingdoc ${e}`))
     }
-    const filteredDocument = liSDK.document
-      .visit(document, {nodeType: 'component'}, removeExceptParagraphs)
-    */
 
     // resolve includes
-    const includes = liSDK.document.getIncludes(document)
     try {
-      await resolveIncludes(includes, liClient)
+      await resolveIncludes(livingdoc, liClient)
     } catch (e) {
       console.error('Couldn\'t resolve includes', e)
     }
@@ -41,7 +35,7 @@ function commonRouteHandlerFactory ({liClient, design}) {
     }
 
     // render Livingdoc instance to html
-    const documentHtml = liSDK.document.render(document)
+    const documentHtml = liSDK.document.render(livingdoc)
 
     // render livingdoc html into layout & shell
     const layout = publication.systemdata.documentType

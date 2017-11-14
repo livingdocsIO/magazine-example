@@ -1,32 +1,28 @@
-module.exports = async function resolveIncludes (includeMap, liClient) {
-  const resolverTasks = startResolverTasks(includeMap, liClient)
+const liSDK = require('@livingdocs/sdk')
+
+module.exports = async function resolveIncludes (livingdoc, liClient) {
+  const resolverTasks = startResolverTasks(livingdoc, liClient)
   for (const task of resolverTasks) {
     const {serviceName, resolver} = task
     try {
       await resolver
     } catch (err) {
-      throw new Error(`Include resolver for "${serviceName}" failed`, err)
+      throw new Error(`Include resolver for "${serviceName}" failed with ${err}`)
     }
   }
 }
 
-function startResolverTasks (includeMap, liClient) {
+function startResolverTasks (livingdoc, liClient) {
+  const includeMap = liSDK.document.getIncludes(livingdoc)
   return Object.keys(includeMap).map(serviceName => {
     switch (serviceName) {
-      case 'list':
-        return {
-          serviceName: 'list',
-          resolver: resolveListIncludes({
-            liClient,
-            includes: includeMap['list']
-          })
-        }
 
       case 'embed-teaser':
         return {
           serviceName: 'embed-teaser',
           resolver: resolveEmbedTeaserIncludes({
             liClient,
+            livingdoc,
             includes: includeMap['embed-teaser']
           })
         }
@@ -35,18 +31,12 @@ function startResolverTasks (includeMap, liClient) {
         const message =
           `There is no include resolver for service "${serviceName}"`
         throw new Error(message)
+
     }
   })
 }
 
-function resolveListIncludes ({includes, liClient}) {
-  const renderListInclude = require('./templates/list')
-  const listResolver = require('./resolvers/list')
-  return listResolver(includes, liClient, renderListInclude)
-}
-
-function resolveEmbedTeaserIncludes ({includes, liClient}) {
-  const renderEmbedTeaserInclude = require('./templates/embedTeaser')
-  const embedTeaserResolver = require('./resolvers/embedTeaser')
-  return embedTeaserResolver(includes, liClient, renderEmbedTeaserInclude)
+function resolveEmbedTeaserIncludes ({livingdoc, includes, liClient}) {
+  const embedTeaserResolver = require('./embedTeaser')
+  return embedTeaserResolver(livingdoc, includes, liClient)
 }
