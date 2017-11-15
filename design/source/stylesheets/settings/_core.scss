@@ -2,8 +2,8 @@
 // CORE
 // -----------------------------------------------------------------------------
 
-// Import font from Google Fonts
-@import url('https://fonts.googleapis.com/css?family=Cormorant:700|Libre+Franklin:400,400i');
+// Getting fonts from Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Cormorant:700|Libre+Franklin:400,400i,600');
 
 
 // Scale used for defining type sizes:
@@ -12,18 +12,22 @@
 
 // Global font settings
 $base-font-size:        16px;
-$base-line-height:      27px;
+$base-line-height:      29px;
 $base-text-color:       $text-color;
-$base-font-stack:       'Libre Franklin', sans-serif;
+
+
+// Font stacks
+$sans-serif-font:       'Libre Franklin', serif;
+$serif-font:            'Cormorant', sans-serif;
 
 
 // Headings sizes
-$heading-size-h1:        63px;
-$heading-size-h2:        45px;
-$heading-size-h3:        39px;
-$heading-size-h4:        31px;
-$heading-size-h5:        28px;
-$heading-size-h6:        22px;
+$heading-size-h1:       63px;
+$heading-size-h2:       45px;
+$heading-size-h3:       39px;
+$heading-size-h4:       31px;
+$heading-size-h5:       28px;
+$heading-size-h6:       22px;
 
 
 // Set up some font size vars for use across the project
@@ -36,8 +40,8 @@ $zeta-size:             $heading-size-h6;
 
 
 // Small type sizes
-$mili-size:             12px;
-$micro-size:            10px;
+$mili-size:             14px;
+$micro-size:            12px;
 
 
 // Define a base spacing unit that’s based on the on the line-height.

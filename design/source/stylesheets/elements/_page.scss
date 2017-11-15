@@ -17,7 +17,7 @@ html {
   color: $text-color;
   font-size: ($base-font-size / 16px) * 1em; // [1]
   line-height: $base-line-height / $base-font-size; // [1]
-  font-family: $base-font-stack;
+  font-family: $sans-serif-font;
   overflow-y: scroll; // [2]
   min-height: 100%; // [3]
 }
