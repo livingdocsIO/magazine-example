@@ -9,6 +9,43 @@
   margin-bottom: double($base-spacing-unit);
 }
 
+.head__flag {
+  font-weight: bold;
+  color: $flag-color;
+  text-transform: uppercase;
+  @include font-size($mili-size);
+}
+
+.head__title {
+  margin-bottom: halve($base-spacing-unit);
+
+  font-family: $serif-font;
+  @include font-size($beta-size, false); // 45px
+}
+
 .head__lead {
-  @include font-size($heading-size-h6, false);
+  @include font-size($zeta-size, false); // 22px
+}
+
+.head__meta {
+  position: relative;
+
+  color: $secondary-color;
+
+  &::after {
+    left: 0;
+    position: absolute;
+    top: halve(-$base-spacing-unit);
+
+    height: 2px;
+    width: 3 * $base-spacing-unit;
+
+    background-color: $divider-color;
+
+    content: '';
+  }
+}
+
+.head__flag, .head__meta {
+  display: block;
 }
