@@ -21,6 +21,11 @@ npm run design:dev
 npm run design:build
 ```
 
+### Publish the design
+```
+npm run design:publish
+```
+
 ### Running the demo magazine
 1. Clone the [livingdocs/sdk](https://github.com/upfrontIO/livingdocs-sdk) project
 
