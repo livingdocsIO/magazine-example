@@ -2,10 +2,14 @@
 // COLORS
 // ------------------------------------
 
-$alpha-color-base:   #000;
+$black:    #000;
+$lavender: #bb6bd9;
 
-$text-color:         rgba($alpha-color-base, .87);
-$secondary-color:    rgba($alpha-color-base, .54);
-$icon-color:         rgba($alpha-color-base, .65);
-$hint-text-color:    rgba($alpha-color-base, .26);
-$divider-color:      rgba($alpha-color-base, .18);
+// Semantic colors
+$text-color:         rgba($black, .87);
+$secondary-color:    rgba($black, .54);
+$icon-color:         rgba($black, .65);
+$hint-text-color:    rgba($black, .26);
+$divider-color:      rgba($black, .18);
+
+$flag-color:         $lavender;
