@@ -15,21 +15,43 @@
       "type": "option",
       "value": "peephole"
     },
+
     "caption-inside": {
       "label": "Inside Caption",
       "type": "option",
       "value": "inside-caption"
     },
+
     "caption-fade": {
       "label": "Inside Caption",
       "type": "option",
       "value": "caption-inside-fade"
     },
+
     "small-size": {
       "label": "Small size",
       "type": "option",
       "value": "small"
     },
+
+    "image-position": {
+      "label": "Position",
+      "type": "select",
+      "options": [
+        {
+          "caption": "Middle"
+        },
+        {
+          "caption": "Left",
+          "value": "c-image--left"
+        },
+        {
+          "caption": "Right",
+          "value": "c-image--left"
+        }
+      ]
+    },
+
     "position": {
       "label": "Position",
       "type": "select",
@@ -43,15 +65,17 @@
         },
         {
           "caption": "Right",
-          "value": "right"
+          "value": "left"
         }
       ]
     },
+
     "hide-image": {
       "label": "Text only",
       "type": "option",
       "value": "hide-image"
     },
+
     "options": {
       "id": "Options",
       "label": "Options",
@@ -66,31 +90,37 @@
         }
       ]
     },
+
     "featured": {
       "label": "Featured",
       "type": "option",
       "value": "bleed"
     },
+
     "selected-menu": {
       "label": "Selected Menu Item",
       "type": "option",
       "value": "selected"
     },
+
     "unordered": {
       "label": "Unordered",
       "type": "option",
       "value": "bullet"
     },
+
     "dropcap": {
       "label": "Drop Capital",
       "type": "option",
       "value": "drop-cap"
     },
+
     "large": {
       "label": "Large",
       "type": "option",
       "value": "large"
     },
+
     "event-style": {
       "label": "Style",
       "type": "select",
@@ -104,6 +134,7 @@
         }
       ]
     },
+
     "quote-slide-background-color": {
       "label": "Background Color",
       "type": "select",
@@ -125,6 +156,7 @@
         }
       ]
     },
+
     "list-type": {
       "label": "List Type",
       "type": "select",
@@ -149,7 +181,7 @@
     {
       "name": "regular",
       "caption": "Article",
-      "wrapper": "<div class=\"wrapper doc-section\"></div>",
+      "wrapper": "<div class=\"doc-section\"></div>",
       "icon": null,
       "defaultContent": [
         { "identifier": "timeline.head" },
@@ -194,7 +226,7 @@
     }, {
       "name": "page",
       "caption": "Page",
-      "wrapper": "<div class=\"funky-page-wrapper doc-section\"></div>",
+      "wrapper": "<div class=\"doc-section\"></div>",
       "icon": null,
       "defaultContent": [],
       "groups": [
@@ -218,8 +250,8 @@
   "defaultLayout": "regular",
 
   "defaultComponents": {
-    "paragraph": "p",
-    "image": "normal",
+    "paragraph": "paragraph",
+    "image": "image",
     "html": "free-html"
   },
 

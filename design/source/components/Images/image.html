@@ -1,7 +1,7 @@
 <script type="ld-conf">
 {
-  "label": "Normal Image",
-  "properties": ["position", "caption-fade"],
+  "label": "Image",
+  "properties": ["image-position"],
   "directives": {
     "image": {
       "imageRatios": ["16:9", "1:1", "4:3", "3:4"],
@@ -11,7 +11,7 @@
 }
 </script>
 
-<figure class="aspect-ratio">
+<figure class="c-image">
   <img doc-image="image"/>
-  <figcaption doc-editable="caption" doc-optional="true">Add image caption</figcaption>
+  <figcaption class="c-image__caption" doc-editable="caption" doc-optional="true">Add image caption</figcaption>
 </figure>
