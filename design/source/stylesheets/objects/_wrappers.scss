@@ -9,14 +9,18 @@ $wrapper-width:  1008px;
 .wrapper {
   @include clearfix();
 
+  margin-left: auto;
   margin-right: auto;
-  margin-left:  auto;
-  padding-right: $base-spacing-unit;
-  padding-left:  $base-spacing-unit;
   max-width: $wrapper-width;
+  padding-right: $base-spacing-unit;
+  padding-left: $base-spacing-unit;
 }
 
 // Modifier
 .wrapper--wide {
   max-width: 1440px;
+}
+
+.wrapper--narrow {
+  max-width: 676px;
 }
