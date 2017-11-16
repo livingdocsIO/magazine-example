@@ -30,7 +30,7 @@ function pageNotFoundResponse (res) {
 function internalErrorResponse (res, err) {
   const context = {
     title: 'Internal Error',
-    description: JSON.stringify(err, null, 2)
+    description: err.message
   }
   return renderErrorPageWith(res, context, 500)
 }
@@ -40,7 +40,8 @@ function renderErrorPageWith (res, context, status) {
 }
 
 function renderingFailedResponse (res) {
-  return function (err) {
-    res.status(500).send(err.message)
+  return function (err, html) {
+    if (err) return res.status(500).send(err.message)
+    return res.send(html)
   }
 }

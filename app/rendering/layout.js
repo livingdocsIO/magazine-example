@@ -53,7 +53,7 @@ function renderLayoutComponent (livingdoc, componentName, {menu, location, docum
 function getLayoutComponentContent ({menu, location, documentHtml}) {
   const headerItems = getHeaderItems(menu, location)
   return {
-    // header: { 'header-item': headerItems },
+    header: { 'header-item': headerItems },
     content: documentHtml
     // footer: should resolve the content automatically through linkage in design
   }
