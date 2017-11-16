@@ -19,6 +19,13 @@
   },
   "content": [
     {
+      "id": "doc-1btbv0ajf0",
+      "identifier": "timeline.section-title",
+      "content": {
+        "section-title": "Latest"
+      }
+    },
+    {
       "id": "doc-1btbuv1ng0",
       "identifier": "timeline.teaser-full-width",
       "content": {
@@ -32,13 +39,6 @@
       }
     },
     {
-      "id": "doc-1btbv0ajf0",
-      "identifier": "timeline.section-title",
-      "content": {
-        "section-title": "Latest"
-      }
-    },
-    {
       "id": "doc-1btbv2a6o0",
       "identifier": "timeline.section-title",
       "content": {
@@ -46,13 +46,14 @@
       }
     },
     {
-      "id": "doc-1btbv3a440",
-      "identifier": "timeline.embed-teaser",
+      "id": "doc-1btbuv1ng0",
+      "identifier": "timeline.teaser-full-width",
       "content": {
-        "embed-teaser": {
+        "teaser": {
           "service": "embed-teaser",
           "params": {
-            "mediaId": 2573
+            "style": "full-width",
+            "mediaId": 2916
           }
         }
       }
@@ -65,10 +66,36 @@
       }
     },
     {
+      "id": "doc-1btbuv1ng0",
+      "identifier": "timeline.teaser-full-width",
+      "content": {
+        "teaser": {
+          "service": "embed-teaser",
+          "params": {
+            "style": "full-width",
+            "mediaId": 2904
+          }
+        }
+      }
+    },
+    {
       "id": "doc-1btbv8hv10",
       "identifier": "timeline.section-title",
       "content": {
         "section-title": "Misc"
+      }
+    },
+    {
+      "id": "doc-1btbv3a440",
+      "identifier": "timeline.teaser-full-width",
+      "content": {
+        "teaser": {
+          "service": "embed-teaser",
+          "params": {
+            "style": "full-width",
+            "mediaId": 2905
+          }
+        }
       }
     }
   ]
