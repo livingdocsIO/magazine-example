@@ -1,0 +1,25 @@
+.layout-footer {
+  clear: both;
+  margin-left: 50%;
+
+  @at-root #{&}__inner {
+    margin-left: -50vw;
+    width: 100vw;
+    border-top: 1px solid #eaeae7;
+
+    &--centered {
+      margin: 30px auto;
+      width: 200px;
+
+      a {
+        color: #666;
+        font-size: 0.8em;
+      }
+
+      svg {
+        width: 200px;
+        margin-top: -15px;
+      }
+    }
+  }
+}

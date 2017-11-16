@@ -1,0 +1,38 @@
+<script type="ld-conf">
+  {
+    "name": "default-layout",
+    "label": "Default Layout",
+    "directives": {
+      "header": {
+        "defaultComponents": {
+          "paragraph": "default-layout-header"
+        },
+        "defaultContent": [
+          {
+            "component": "default-layout-header"
+          }
+        ]
+      },
+      "content": {
+        "plainText": false,
+        "excludeFromTextCount": true
+      },
+      "footer": {
+        "defaultComponents": {
+          "paragraph": "default-layout-footer"
+        },
+        "defaultContent": [
+          {
+            "component": "default-layout-footer"
+          }
+        ]
+      }
+    }
+  }
+</script>
+
+<div class="layout wrapper default">
+  <div class="layout-header default" doc-container="header"></div>
+  <div class="wrapper default" doc-editable="content"></div>
+  <div class="layout-footer default" doc-container="footer"></div>
+</div>

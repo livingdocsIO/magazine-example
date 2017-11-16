@@ -1,0 +1,38 @@
+<script type="ld-conf">
+  {
+    "name": "article-layout",
+    "label": "Article Layout",
+    "directives": {
+      "header": {
+        "defaultComponents": {
+          "paragraph": "article-layout-header"
+        },
+        "defaultContent": [
+          {
+            "component": "article-layout-header"
+          }
+        ]
+      },
+      "content": {
+        "plainText": false,
+        "excludeFromTextCount": true
+      },
+      "footer": {
+        "defaultComponents": {
+          "paragraph": "article-layout-footer"
+        },
+        "defaultContent": [
+          {
+            "component": "article-layout-footer"
+          }
+        ]
+      }
+    }
+  }
+</script>
+
+<div class="layout wrapper article">
+  <div class="layout-header article" doc-container="header"></div>
+  <div class="wrapper article" doc-editable="content"></div>
+  <div class="layout-footer article" doc-container="footer"></div>
+</div>

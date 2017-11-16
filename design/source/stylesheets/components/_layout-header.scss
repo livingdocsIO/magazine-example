@@ -1,0 +1,25 @@
+.layout-header {
+  display: flex;
+  padding: 3em 0;
+
+  @at-root #{&}__inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    &__item {
+      padding: 3em;
+
+      &--link {
+        color: #2aba6f;
+      }
+
+      &.selected > &--link {
+        padding: 1em;
+        color: #ffffff;
+        background-color: #2aba6f;
+      }
+    }
+  }
+}

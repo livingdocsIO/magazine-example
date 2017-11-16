@@ -71,6 +71,11 @@
       "type": "option",
       "value": "bleed"
     },
+    "selected-menu": {
+      "label": "Selected Menu Item",
+      "type": "option",
+      "value": "selected"
+    },
     "unordered": {
       "label": "Unordered",
       "type": "option",

@@ -49,6 +49,10 @@
 // keeps things organized and you can apply styles changes on a component level.
 // This is pretty powerful once you get the hang out of it.
 
+// Layouts
+@import "components/layout-header";
+@import "components/layout-footer";
+
 // Headers
 @import "components/head"; // WIP
 @import "components/hero"; // WIP

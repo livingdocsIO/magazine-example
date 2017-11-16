@@ -1,0 +1,38 @@
+<script type="ld-conf">
+  {
+    "name": "page-layout",
+    "label": "Page Layout",
+    "directives": {
+      "header": {
+        "defaultComponents": {
+          "paragraph": "page-layout-header"
+        },
+        "defaultContent": [
+          {
+            "component": "page-layout-header"
+          }
+        ]
+      },
+      "content": {
+        "plainText": false,
+        "excludeFromTextCount": true
+      },
+      "footer": {
+        "defaultComponents": {
+          "paragraph": "page-layout-footer"
+        },
+        "defaultContent": [
+          {
+            "component": "page-layout-footer"
+          }
+        ]
+      }
+    }
+  }
+</script>
+
+<div class="layout wrapper page">
+  <div class="layout-header page" doc-container="header"></div>
+  <div class="wrapper page" doc-editable="content"></div>
+  <div class="layout-footer page" doc-container="footer"></div>
+</div>
