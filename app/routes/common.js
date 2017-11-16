@@ -1,8 +1,8 @@
 const liSDK = require('@livingdocs/sdk')
-const renderShell = require('../shell')
 const resolveIncludes = require('../includes')
+const renderLayout = require('../rendering/layout')
 
-function commonRouteHandlerFactory ({liClient, design}) {
+module.exports = function commonRouteHandlerFactory ({liClient, design}) {
   return async (req, res, next) => {
     // our retrieved publication
     const publication = req.publication
@@ -34,26 +34,16 @@ function commonRouteHandlerFactory ({liClient, design}) {
       console.error('Couldn\'t get the header menus', e)
     }
 
-    // render Livingdoc instance to html
-    const documentHtml = liSDK.document.render(livingdoc)
-
-    // render livingdoc html into layout & shell
-    const layout = publication.systemdata.documentType
-    const renderingContext = {
-      ...publication,
-      layout,
-      menu,
-      location,
-      documentHtml
-    }
+    // - render Livingdoc instance to html
+    // - render it into layout & shell
     try {
-      const shell = renderShell(renderingContext)
-      res.set('content-type', 'text/html')
-      res.send(shell)
+      const documentHtml = liSDK.document.render(livingdoc)
+      const layout = publication.systemdata.documentType
+      const renderingContext = {layout, menu, location, documentHtml}
+      const renderedLayout = renderLayout(livingdoc, renderingContext)
+      res.render('shell', {...publication, content: renderedLayout})
     } catch (e) {
-      next(e)
+      next(new Error(`Rendering failed with ${e}`))
     }
   }
 }
-
-module.exports = commonRouteHandlerFactory
