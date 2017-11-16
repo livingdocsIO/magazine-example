@@ -25,14 +25,16 @@ app.use(async (req, res, next) => {
   next()
 })
 
-// setup
+// setup rendering
 require('./setup/rendering')(app)
-require('./setup/error_handling')(app)
 
 // routes
 app.get('/', require('./routes/home')({liClient}))
 app.get('/articles/:id', require('./routes/articles')({liClient}))
 app.get('*', require('./routes/common')({liClient, design}))
+
+// setup error handling
+require('./setup/error_handling')(app)
 
 // go
 app.listen(port, '0.0.0.0', (err) => {
