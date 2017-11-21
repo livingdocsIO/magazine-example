@@ -15,7 +15,7 @@ module.exports = function commonRouteHandlerFactory ({liClient, design}) {
       const content = publication.content
       livingdoc = liSDK.document.create({design, content})
     } catch (e) {
-      return next(new Error(`Couldn't create the livingdoc ${e}`))
+      return next(e)
     }
 
     // resolve includes
@@ -34,16 +34,16 @@ module.exports = function commonRouteHandlerFactory ({liClient, design}) {
       console.error('Couldn\'t get the header menus', e)
     }
 
-    // - render Livingdoc instance to html
-    // - render it into layout & shell
+    // compose layout with the publication livingdoc
+    // and render it into the shell
     try {
-      const documentHtml = liSDK.document.render(livingdoc)
-      const layout = publication.systemdata.documentType
-      const renderingContext = {layout, menu, location, documentHtml}
-      const renderedLayout = renderLayout(livingdoc, renderingContext)
-      res.render('shell', {...publication, content: renderedLayout})
+      const documentType = publication.systemdata.documentType
+      res.render('shell', {
+        ...publication,
+        content: renderLayout(design, livingdoc, {documentType, menu, location})
+      })
     } catch (e) {
-      next(new Error(`Rendering failed with ${e}`))
+      next(e)
     }
   }
 }

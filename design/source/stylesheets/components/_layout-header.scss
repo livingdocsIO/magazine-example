@@ -1,8 +1,10 @@
 .layout-header {
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 3em 0;
 
-  @at-root #{&}__inner {
+  &__inner {
     display: flex;
     flex-direction: row;
     align-items: center;

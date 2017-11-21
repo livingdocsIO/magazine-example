@@ -1,10 +1,13 @@
 .layout-footer {
-  clear: both;
-  margin-left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  @at-root #{&}__inner {
-    margin-left: -50vw;
-    width: 100vw;
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     border-top: 1px solid #eaeae7;
 
     &--centered {

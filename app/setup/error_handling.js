@@ -13,10 +13,9 @@ function jsonServerNotReadyResponse (res) {
   const context = {
     title: 'Mock server not ready',
     description: 'Could not fetch homepage... Will retry in 500ms...',
-    // json server listens after this server hence the reload
     scripts: '<script>setTimeout(function() { window.location.reload(); }, 500)</script>'
   }
-  return renderErrorPageWith(res, context, 200)
+  return renderErrorPageWith(context, res, 200)
 }
 
 function pageNotFoundResponse (res) {
@@ -24,7 +23,7 @@ function pageNotFoundResponse (res) {
     title: 'Not found',
     description: 'The page you are looking for could not be found...'
   }
-  return renderErrorPageWith(res, context, 404)
+  return renderErrorPageWith(context, res, 404)
 }
 
 function internalErrorResponse (res, err) {
@@ -32,16 +31,12 @@ function internalErrorResponse (res, err) {
     title: 'Internal Error',
     description: err.message
   }
-  return renderErrorPageWith(res, context, 500)
+  return renderErrorPageWith(context, res, 500)
 }
 
-function renderErrorPageWith (res, context, status) {
-  return res.status(status).render('error', context, renderingFailedResponse(res))
-}
-
-function renderingFailedResponse (res) {
-  return function (err, html) {
+function renderErrorPageWith (context, res, status) {
+  return res.status(status).render('error', context, function (err, html) {
     if (err) return res.status(500).send(err.message)
     return res.send(html)
-  }
+  })
 }
