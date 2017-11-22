@@ -2,8 +2,9 @@
 // COLORS
 // ------------------------------------
 
-$black:    #000;
-$lavender: #bb6bd9;
+$black:       #000;
+$lavender:    #bb6bd9;
+$royal-blue:  #2f80ed;
 
 // Semantic colors
 $text-color:         rgba($black, .87);
@@ -13,3 +14,4 @@ $hint-text-color:    rgba($black, .26);
 $divider-color:      rgba($black, .18);
 
 $flag-color:         $lavender;
+$link-color:         $royal-blue;
