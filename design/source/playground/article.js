@@ -35,6 +35,13 @@ module.exports = function createArticle (doc, design) {
     },
 
     {
+      'component': 'subtitle',
+      'content': {
+        'title': 'Last Flag Flying'
+      }
+    },
+
+    {
       'component': 'image',
       'styles': {
         'image-position': 'c-image--left'
@@ -74,49 +81,27 @@ module.exports = function createArticle (doc, design) {
       }
     },
 
-    // {
-    //   'component': 'hero',
-    //   'content': {
-    //     'image': 'assets/images/laputa.jpg'
-    //   }
-    // },
-
-    // {
-    //   'component': 'peephole',
-    //   'content': {
-    //     'image': 'assets/images/laputa.jpg'
-    //   }
-    // },
-
-    // {
-    //   'component': 'normal'
-    // },
-
-    // {
-    //   'component': 'normal',
-    //   'styles': {
-    //     'position': 'left'
-    //   }
-    // },
-    //
-    // {
-    //   'component': 'normal',
-    //   'styles': {
-    //     'position': 'right'
-    //   }
-    // },
-
     {
       'component': 'tweet'
-    }, {
+    },
+
+    {
       'component': 'iframe'
-    }, {
+    },
+
+    {
       'component': 'free-html'
-    }, {
+    },
+
+    {
       'component': 'embed-teaser'
-    }, {
+    },
+
+    {
       'component': 'list'
-    }, {
+    },
+
+    {
       'component': 'gallery',
       'content': {
         'title': 'Image Gallery'
@@ -144,21 +129,21 @@ module.exports = function createArticle (doc, design) {
           }
         }]
       }
-    }, {
+    },
+
+    {
       'component': 'grid-of-6'
-    }, {
-      'component': 'title'
-    }, {
+    },
+
+    {
       'component': 'full-size'
-    }, {
-      'component': 'aside'
-    }, {
+    },
+
+    {
       'component': 'separator'
-    }, {
-      'component': 'subtitle'
-    }, {
-      'component': 'event'
-    }, {
+    },
+
+    {
       'component': 'bullet-list',
       'styles': {
         'list-type': 'lower-latin'
