@@ -9,7 +9,6 @@
 
 .container {
   @extend %layout;
-  margin-bottom: double($base-spacing-unit);
 }
 
 .container__item {
