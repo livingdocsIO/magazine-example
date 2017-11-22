@@ -1,0 +1,37 @@
+// -----------------------------------------------------------------------------
+// AUTHOR CARD COMPONENT
+// -----------------------------------------------------------------------------
+
+// Styles for the following component:
+// -> source/components/teaser/author-card.html
+
+.c-author-card {
+  display: flex;
+  align-items: flex-start;
+
+  margin-top: double($base-spacing-unit);
+  margin-bottom: double($base-spacing-unit);
+}
+
+.c-author-card__image {
+  padding-right: $base-spacing-unit;
+  margin-right: halve($base-spacing-unit);
+}
+
+.c-author-card__body {
+  flex: 1;
+
+  & > p {
+    margin-bottom: halve($base-spacing-unit);
+
+    font-family: $serif-font;
+    @include font-size($zeta-size, false); // 22px
+  }
+
+  & > a {
+    font-weight: bold;
+    @include font-size($mili-size);
+
+    color: $link-color;
+  }
+}

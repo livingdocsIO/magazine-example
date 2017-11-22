@@ -113,6 +113,18 @@ module.exports = function createArticle (doc, design) {
     },
 
     {
+      'component': 'author-card',
+      'content': {
+        'image': 'assets/images/author-john.png',
+        'text': '<a href="#">John Cassidy</a> has been a film critic for the Living Times since 2006. He can perform a Shoryuken with one single hand'
+      }
+    },
+
+    {
+      'component': 'separator'
+    },
+
+    {
       'component': 'tweet'
     },
 
@@ -126,10 +138,6 @@ module.exports = function createArticle (doc, design) {
 
     {
       'component': 'embed-teaser'
-    },
-
-    {
-      'component': 'separator'
     },
 
     {
