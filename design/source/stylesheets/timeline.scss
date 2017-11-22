@@ -48,10 +48,9 @@
 @import "components/layout-footer";
 
 // Headers
-@import "components/head"; // WIP
+@import "components/head";
 @import "components/hero"; // WIP
-@import "components/title"; // WIP
-// @import "components/section-title"; // WIP
+@import "components/subtitle";
 
 // Images
 @import "components/full-size"; // WIP
@@ -63,12 +62,8 @@
 @import "components/bullet-list"; // WIP
 
 // Text
-@import "components/sidenote"; // WIP
 @import "components/separator"; // WIP
 @import "components/quote"; // WIP
-
-// Event
-@import "components/event"; // WIP
 
 // Plugins
 @import "components/gallery"; // WIP
