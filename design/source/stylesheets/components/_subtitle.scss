@@ -6,5 +6,5 @@
 // -> source/components/images/subtitle.html
 
 .subtitle {
-  @extend %u-h4;
+  @include font-size($epsilon-size); // 28px
 }
