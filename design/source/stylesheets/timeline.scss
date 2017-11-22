@@ -24,6 +24,7 @@
 @import "elements/page";
 @import "elements/images";
 @import "elements/headings";
+@import "elements/links";
 
 
 // Objects and abstractions
@@ -52,7 +53,7 @@
 @import "components/subtitle";
 
 // Images
-@import "components/image"; // WIP
+@import "components/image";
 
 // Lists
 @import "components/bullet-list"; // WIP
