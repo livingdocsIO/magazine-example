@@ -102,44 +102,6 @@ module.exports = function createArticle (doc, design) {
     },
 
     {
-      'component': 'gallery',
-      'content': {
-        'title': 'Image Gallery'
-      },
-      'containers': {
-        'slides': [{
-          'component': 'image-slide',
-          'content': {
-            'image': 'assets/images/applewatch.png',
-            'caption': 'What a useless device'
-          }
-        }, {
-          'component': 'media-slide',
-          'content': {
-            'iframe': '<div class="responsiveContainer" style="position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;"><iframe src="https://player.vimeo.com/video/157125359" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div>'
-          }
-        }, {
-          'component': 'quote-slide',
-          'styles': {
-            'quote-slide-background-color': 'media-gallery-quote-slide--blue'
-          },
-          'content': {
-            'quote': 'If a machine is expected to be infallible, it cannot also be intelligent.',
-            'citation': 'Alan Turing'
-          }
-        }]
-      }
-    },
-
-    {
-      'component': 'grid-of-6'
-    },
-
-    {
-      'component': 'full-size'
-    },
-
-    {
       'component': 'separator'
     },
 

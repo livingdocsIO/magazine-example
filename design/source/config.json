@@ -10,30 +10,6 @@
   },
 
   "componentProperties": {
-    "fixed-background": {
-      "label": "Fixed Background",
-      "type": "option",
-      "value": "peephole"
-    },
-
-    "caption-inside": {
-      "label": "Inside Caption",
-      "type": "option",
-      "value": "inside-caption"
-    },
-
-    "caption-fade": {
-      "label": "Inside Caption",
-      "type": "option",
-      "value": "caption-inside-fade"
-    },
-
-    "small-size": {
-      "label": "Small size",
-      "type": "option",
-      "value": "small"
-    },
-
     "image-position": {
       "label": "Position",
       "type": "select",
