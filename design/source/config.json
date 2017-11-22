@@ -46,12 +46,6 @@
       ]
     },
 
-    "hide-image": {
-      "label": "Text only",
-      "type": "option",
-      "value": "hide-image"
-    },
-
     "options": {
       "id": "Options",
       "label": "Options",
@@ -85,38 +79,10 @@
       "value": "bullet"
     },
 
-    "dropcap": {
-      "label": "Drop Capital",
-      "type": "option",
-      "value": "drop-cap"
-    },
-
     "large": {
       "label": "Large",
       "type": "option",
       "value": "large"
-    },
-
-    "quote-slide-background-color": {
-      "label": "Background Color",
-      "type": "select",
-      "options": [
-        {
-          "caption": "Default"
-        },
-        {
-          "caption": "Yellow",
-          "value": "media-gallery-quote-slide--yellow"
-        },
-        {
-          "caption": "Pink",
-          "value": "media-gallery-quote-slide--pink"
-        },
-        {
-          "caption": "Blue",
-          "value": "media-gallery-quote-slide--blue"
-        }
-      ]
     },
 
     "list-type": {
