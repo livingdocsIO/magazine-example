@@ -74,6 +74,37 @@ module.exports = function createArticle (doc, design) {
       }
     },
 
+    // Three cols and images
+    {
+      'component': 'thirds',
+      'containers': {
+        'column-one': [
+          {
+            'component': 'image',
+            'content': {
+              'image': 'assets/images/suburbicon-movie.jpg'
+            }
+          }
+        ],
+        'column-two': [
+          {
+            'component': 'image',
+            'content': {
+              'image': 'assets/images/suburbicon-movie.jpg'
+            }
+          }
+        ],
+        'column-three': [
+          {
+            'component': 'image',
+            'content': {
+              'image': 'assets/images/suburbicon-movie.jpg'
+            }
+          }
+        ]
+      }
+    },
+
     {
       'component': 'paragraph',
       'content': {
@@ -95,10 +126,6 @@ module.exports = function createArticle (doc, design) {
 
     {
       'component': 'embed-teaser'
-    },
-
-    {
-      'component': 'list'
     },
 
     {
