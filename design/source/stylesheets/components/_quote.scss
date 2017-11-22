@@ -7,7 +7,7 @@
 
 .quote {
   position: relative;
-  margin: double($base-spacing-unit) double($base-spacing-unit) double($base-spacing-unit);
+  margin: double($base-spacing-unit) $base-spacing-unit double($base-spacing-unit);
 }
 
 .quote__mark {
@@ -22,8 +22,9 @@
   margin-bottom: halve($base-spacing-unit);
   margin-left: double($base-spacing-unit);
 
+  line-height: 1.5;
   font-style: italic;
-  @include font-size($epsilon-size, false)
+  @include font-size($epsilon-size, false);
 }
 
 .quote__source {
