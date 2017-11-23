@@ -4,20 +4,20 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-Language" content="en">
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
     <title>{{ title }}</title>
     <meta name="Description" content="{{ description }}" />
-
-    <link href="/assets/stylesheets/slippry.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="/timeline.css" media="screen" rel="stylesheet" type="text/css" />
+    {{#unless isDev}}
+      <link href="/timeline.css" media="screen" rel="stylesheet" type="text/css" />
+    {{/unless}}
   </head>
   <body lang="en">
-
     <div class="wrapper page">
       <h1>{{ title }}</h1>
       <p>{{ description }}</p>
     </div>
-
-    {{ scripts }}
+    <script src="/scripts.js"></script>
+    {{#if isDev}}
+      <script src="/helpers.js"></script>
+    {{/if}}
   </body>
 </html>

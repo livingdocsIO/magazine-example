@@ -1,29 +1,40 @@
 /* eslint no-console: 0 */
 const path = require('path')
 const express = require('express')
-const compression = require('compression')
 const liSDK = require('@livingdocs/sdk')
+const conf = require('../conf')
 
 const port = process.env.PORT || 3000
 const distPath = path.join(__dirname, '../design/dist')
-const design = require('../design/dist/design.json')
-
-const app = express()
-
-app.use(compression())
-app.use(express.static(distPath))
 
 // get a livingdocs api client instance
-const liClient = new liSDK.Client({
-  url: 'http://localhost:3001',
-  accessToken: 'my-awesome-token'
-})
+const liClientConfig = conf.get('client')
+const liClient = new liSDK.Client(liClientConfig)
+
+const app = express()
+app.use(express.static(distPath))
+
+// setup app configurations
+require('./setup/configuration')(app)
 
 // favicon handler
-app.use(async (req, res, next) => {
+app.use((req, res, next) => {
   if (req.url === '/favicon.ico') return res.end()
-  next()
+  return next()
 })
+
+// setup dev middlewares and watchers
+if (process.env.NODE_ENV === 'development') {
+  require('../lib/dev_setup')({
+    app,
+    designPath: path.join(distPath, 'design.json'),
+    onDesignChanged () {
+      Object.keys(require.cache).forEach(id => {
+        if (/design\.json$/.test(id)) delete require.cache[id]
+      })
+    }
+  })
+}
 
 // setup rendering
 require('./setup/rendering')(app)
@@ -31,7 +42,7 @@ require('./setup/rendering')(app)
 // routes
 app.get('/', require('./routes/home')({liClient}))
 app.get('/articles/:id', require('./routes/articles')({liClient}))
-app.get('*', require('./routes/common')({liClient, design}))
+app.get('*', require('./routes/common')({liClient, conf}))
 
 // setup error handling
 require('./setup/error_handling')(app)

@@ -1,4 +1,4 @@
-module.exports = function getHeaderComponent (tree, {menu, location}, {header, headerItem}) {
+module.exports = function getHeaderComponent (tree, {header, headerItem}, {menu, location}) {
   const headerComponent = tree.createComponent(header)
   const headerItemContainer = headerComponent.containers.get('header-item')
 

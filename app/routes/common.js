@@ -2,12 +2,18 @@ const liSDK = require('@livingdocs/sdk')
 const resolveIncludes = require('../includes')
 const renderLayout = require('../rendering/layout')
 
-module.exports = function commonRouteHandlerFactory ({liClient, design}) {
+module.exports = function commonRouteHandlerFactory ({liClient, conf}) {
+  const defaultDocumentType = conf.get('defaultDocumentType')
+  const documentTypes = conf.get('documentTypes')
+
   return async (req, res, next) => {
     // our retrieved publication
     const publication = req.publication
     // not found
     if (!publication) return next(new Error('Page not found'))
+
+    // get the design
+    const design = require('../../design/dist/design.json')
 
     // create a Livingdoc instance using the serialized content & built design
     let livingdoc = {}
@@ -38,9 +44,15 @@ module.exports = function commonRouteHandlerFactory ({liClient, design}) {
     // and render it into the shell
     try {
       const documentType = publication.systemdata.documentType
+      const currentDocumentType = documentTypes.find(type => type.handle === documentType)
+      const targetDocumentType = currentDocumentType || defaultDocumentType
+
+      const data = {menu, location}
+      const layoutComponents = targetDocumentType.layoutComponents
+      const renderedLayout = renderLayout(design, livingdoc, layoutComponents, data)
       res.render('shell', {
         ...publication,
-        content: renderLayout(design, livingdoc, {documentType, menu, location})
+        content: renderedLayout
       })
     } catch (e) {
       next(e)

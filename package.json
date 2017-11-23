@@ -2,13 +2,15 @@
   "name": "livingdocs-magazine-boilerplate",
   "version": "0.0.1",
   "scripts": {
-    "design:dev": "NODE_ENV=development node design_server/index.js",
+    "design:dev": "NODE_ENV=development npm run start:magazine",
+    "design:dev:mocked": "NODE_ENV=development run-p start:json-server start:magazine:watch",
     "design:build": "NODE_ENV=production webpack --display-error-details",
-    "design:publish": "NODE_ENV=production npm run design:build && ldm design:publish design/dist",
-    "start:json-server": "json-server ./json_server/db.js --routes ./json_server/routes.json --port 3001",
+    "design:publish": "npm run design:build && ldm design:publish design/dist",
+    "start:json-server": "nodemon --watch ./mocks --exec 'json-server ./mocks/db.js --routes ./mocks/routes.json --port 3001'",
     "start:magazine": "node app/index.js",
+    "start:magazine:watch": "nodemon --watch lib --watch app app/index.js",
     "start:magazine:mocked": "run-p start:json-server start:magazine",
-    "start": "npm-run-all design:build start:magazine:mocked"
+    "start": "npm run design:dev:mocked"
   },
   "devDependencies": {
     "chokidar": "^1.7.0",
@@ -20,10 +22,10 @@
     "file-loader": "^1.1.5",
     "html-loader": "^0.4.3",
     "html-minifier": "^0.5.6",
-    "html-webpack-plugin": "^2.24.1",
     "json-server": "^0.12.0",
     "livingdocs-manager": "^4.1.0",
     "node-sass": "^3.4.2",
+    "nodemon": "^1.12.1",
     "npm-run-all": "^4.1.2",
     "openpack": "^1.0.0",
     "postcss-loader": "^1.1.1",
@@ -37,7 +39,9 @@
     "webpack-hot-middleware": "^2.15.0"
   },
   "dependencies": {
+    "@livingdocs/conf": "^1.0.1",
     "compression": "^1.7.1",
-    "express": "^4.1.1"
+    "express": "^4.1.1",
+    "handlebars": "^4.0.11"
   }
 }

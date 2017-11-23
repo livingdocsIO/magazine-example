@@ -4,7 +4,6 @@ const autoprefixer = require('autoprefixer')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
 const BuildDesignPlugin = require('./lib/build_design_plugin')
 const OpenPackPlugin = require('openpack')
 
@@ -12,17 +11,16 @@ const isDev = process.env.NODE_ENV !== 'production'
 const distPath = path.resolve('./design/dist')
 
 module.exports = {
-  context: __dirname,
+  context: path.resolve('./design/source'),
   devtool: isDev ? 'source-map' : 'nosources-source-map',
   entry: Object.assign({}, {
-    timeline: [
-      './design/source/stylesheets/timeline.scss'
-    ].concat(isDev ? [
+    scripts: [
+      './scripts/index.js',
       'webpack-hot-middleware/client?reload=true'
-    ] : [])
+    ]
   }, isDev ? {
-    playground: [
-      './design/source/playground',
+    helpers: [
+      './helpers/index.js',
       'webpack-hot-middleware/client?reload=true'
     ]
   } : {}),
@@ -30,11 +28,6 @@ module.exports = {
     path: distPath,
     filename: '[name].js'
   },
-  externals: Object.assign({}, isDev ? {
-    'jquery': 'jQuery',
-    'doc': 'doc',
-    'design': 'design'
-  } : {}),
   module: {
     rules: [{
       test: /\.(png|jpe?g|svg|gif)$/,
@@ -82,43 +75,29 @@ module.exports = {
       dest: distPath
     }),
     new ExtractTextPlugin({
-      filename: '[name].css',
+      filename: 'timeline.css',
       disable: isDev
     }),
     new CopyWebpackPlugin([{
       context: 'design/source',
-      from: 'assets/@(images|scripts|stylesheets)/**',
+      from: 'assets/@(images|stylesheets)/**',
       to: distPath
-    }, {
-      context: 'design/source',
-      from: '*.html',
-      to: distPath
-    }, {
-      context: 'design/source/vendor',
-      from: `{${[
-        'livingdocs-framework-6.4.1.min.js',
-        'livingdocs-framework-6.4.1.min.css',
-        'editable-1.2.1.min.js'
-      ].join(',')}}`,
-      to: path.resolve('./design/dist/vendor')
     }]),
-    new webpack.optimize.OccurrenceOrderPlugin(true),
-    new OpenPackPlugin({
-      host: '0.0.0.0',
-      port: isDev ? '3333' : '3000',
-      path: '/'
-    })
+    new webpack.optimize.OccurrenceOrderPlugin(true)
   ].concat(
     isDev ? [
-      new HtmlWebpackPlugin({
-        template: 'design/source/index.ejs',
-        filename: 'index.html',
-        inject: false,
-        isDev: isDev
-      }),
-      new webpack.HotModuleReplacementPlugin()
+      new webpack.HotModuleReplacementPlugin(),
+      new OpenPackPlugin({
+        host: '0.0.0.0',
+        port: '3000',
+        path: '/'
+      })
     ] : [
-      new webpack.optimize.UglifyJsPlugin({sourceMap: true, warnings: true, minimize: true})
+      new webpack.optimize.UglifyJsPlugin({
+        sourceMap: true,
+        warnings: true,
+        minimize: true
+      })
     ]
   )
 }

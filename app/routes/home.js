@@ -5,9 +5,9 @@ function homeRouteHandlerFactory ({liClient}) {
     try {
       publications = await liClient.getPublications({homepage: true})
     } catch (e) {
-      return next(new Error('json server not ready'))
+      return next(e)
     }
-    if (!publications.length) return next(new Error('Homepage not found'))
+    if (!publications.length) return next()
 
     // assign publication for the common route handler
     const homepagePublication = publications[0]
