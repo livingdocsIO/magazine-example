@@ -20,19 +20,18 @@
   "content": [
     {
       "id": "doc-1btbv0ajf0",
-      "identifier": "timeline.section-title",
+      "identifier": "timeline.subtitle",
       "content": {
-        "section-title": "Latest"
+        "title": "Latest"
       }
     },
     {
       "id": "doc-1btbuv1ng0",
-      "identifier": "timeline.teaser-full-width",
+      "identifier": "timeline.teaser-hero",
       "content": {
         "teaser": {
           "service": "embed-teaser",
           "params": {
-            "style": "full-width",
             "mediaId": 2917
           }
         }
@@ -40,19 +39,18 @@
     },
     {
       "id": "doc-1btbv2a6o0",
-      "identifier": "timeline.section-title",
+      "identifier": "timeline.subtitle",
       "content": {
-        "section-title": "Culture"
+        "title": "Culture"
       }
     },
     {
       "id": "doc-1btbuv1ng0",
-      "identifier": "timeline.teaser-full-width",
+      "identifier": "timeline.teaser-hero",
       "content": {
         "teaser": {
           "service": "embed-teaser",
           "params": {
-            "style": "full-width",
             "mediaId": 2916
           }
         }
@@ -60,19 +58,18 @@
     },
     {
       "id": "doc-1btbv5ju80",
-      "identifier": "timeline.section-title",
+      "identifier": "timeline.subtitle",
       "content": {
-        "section-title": "Economy"
+        "title": "Economy"
       }
     },
     {
       "id": "doc-1btbuv1ng0",
-      "identifier": "timeline.teaser-full-width",
+      "identifier": "timeline.teaser-hero",
       "content": {
         "teaser": {
           "service": "embed-teaser",
           "params": {
-            "style": "full-width",
             "mediaId": 2904
           }
         }
@@ -80,19 +77,18 @@
     },
     {
       "id": "doc-1btbv8hv10",
-      "identifier": "timeline.section-title",
+      "identifier": "timeline.subtitle",
       "content": {
-        "section-title": "Misc"
+        "title": "Misc"
       }
     },
     {
       "id": "doc-1btbv3a440",
-      "identifier": "timeline.teaser-full-width",
+      "identifier": "timeline.teaser-hero",
       "content": {
         "teaser": {
           "service": "embed-teaser",
           "params": {
-            "style": "full-width",
             "mediaId": 2905
           }
         }

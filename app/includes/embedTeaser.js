@@ -28,16 +28,13 @@ function renderEmbedTeaserInclude (livingdoc, {params, systemdata, metadata}) {
   component.setContent('title', getTitle(metadata))
   component.setContent('image', getImage(metadata))
   component.setContent('author', getAuthor(metadata))
-  if (componentName === 'embed-teaser-template') {
-    component.setContent('date', getPublishDate(metadata))
-  }
+  component.setContent('date', getPublishDate(metadata))
 
   return liSDK.document.renderComponent(component)
 }
 
 function determineComponentName (params = {}) {
-  if (params.style === 'full-width') return 'teaser-full-width-template'
-  return 'embed-teaser-template'
+  return 'teaser-hero-template'
 }
 
 function getLink (systemdata = {}) {
