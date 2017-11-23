@@ -3,4 +3,4 @@ node_modules
 design/dist
 npm-debug.log
 conf/secrets/*
-conf/secrets/secret.sample.js
+!conf/secrets/secret.sample.js
