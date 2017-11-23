@@ -2,11 +2,11 @@ const fs = require('fs')
 
 const DIRS = {
   menus: [
-    './json_server/menus'
+    './mocks/menus'
   ],
   latestPublications: [
-    './json_server/publications/articles',
-    './json_server/publications/pages'
+    './mocks/publications/articles',
+    './mocks/publications/pages'
   ]
 }
 
