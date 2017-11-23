@@ -8,7 +8,7 @@ function exit () {
   console.error(`
 ----------------------------------------------------------
 Environment variable ENVIRONMENT must be set. eg:
-    ENVIRONMENT=local node index.js
+    ENVIRONMENT=local npm start
 for local development.
 ----------------------------------------------------------
   `)
