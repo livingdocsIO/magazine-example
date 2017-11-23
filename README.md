@@ -11,21 +11,6 @@ Node v8.x.x
 npm install
 ```
 
-### Running the interactive design playground
-```
-npm run design:dev
-```
-
-### Creating a design build
-```
-npm run design:build
-```
-
-### Publish the design
-```
-npm run design:publish
-```
-
 ### Running the demo magazine
 1. Clone the [livingdocs/sdk](https://github.com/upfrontIO/livingdocs-sdk) project
 
@@ -46,4 +31,12 @@ npm link @livingdocs/sdk
 npm start
 ```
 
-Note that `npm start` will always also create a fresh design build.
+### Creating a design build
+```
+npm run design:build
+```
+
+### Publish the design
+```
+npm run design:publish
+```
