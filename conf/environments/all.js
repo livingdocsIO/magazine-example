@@ -8,10 +8,13 @@ module.exports = {
   },
   includes: {
     'embed-teaser': {
+      desiredImageCrop: '16:9',
       defaultTemplate: 'embed-teaser-template',
       templates: {
         hero: 'teaser-hero-template',
-        card: 'teaser-card-template'
+        card: 'teaser-card-template',
+        gallery: 'teaser-gallery-template',
+        'gallery-hero': 'teaser-gallery-template'
       }
     }
   },

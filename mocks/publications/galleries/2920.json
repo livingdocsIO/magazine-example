@@ -1,0 +1,104 @@
+{
+  "systemdata": {
+    "projectId": 319,
+    "channelId": 334,
+    "documentId": 2920,
+    "documentType": "article",
+    "layout": "gallery",
+    "design": {
+      "name": "living-times",
+      "version": "0.0.1"
+    }
+  },
+  "metadata": {
+    "title": "On your mark",
+    "description": "\"<strong>On Your Mark</strong>\" (オン・ユア・マーク <em>On Yua Māku</em>) is a song by the Japanese rock duo <a href=\"https://en.wikipedia.org/wiki/Chage_and_Aska\">Chage &amp; Aska</a>. At their request, animator Hayao Miyazaki produced a music video for the song. The music video was created in 1995, is entirely animated, has no dialogue, and runs for about six and a half minutes.&nbsp;The song was used in advertisements for <a href=\"https://en.wikipedia.org/wiki/NEC\">NEC</a>, and was shown at the theatrical release of <em><a href=\"https://en.wikipedia.org/wiki/Whisper_of_the_Heart_(film)\">Whisper of the Heart</a></em> in Japan.",
+    "author": "Wikipedia contributors",
+    "publishDate": "on Thu Sep 14 2017",
+    "teaserImage": {
+      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/7852b8b6-fdcd-44c1-b04e-b97fe8cbf846.png",
+      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/7852b8b6-fdcd-44c1-b04e-b97fe8cbf846.png",
+      "width": 1500,
+      "height": 820,
+      "imageService": "resrc.it",
+      "crops": [
+        {
+          "name": "16:9",
+          "url": "https://app.resrc.it/C=W1457.7777777777776,H820,X21.1111111111112,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/7852b8b6-fdcd-44c1-b04e-b97fe8cbf846.png",
+          "x": 21.1111111111112,
+          "y": 0,
+          "width": 1457.7777777777776,
+          "height": 820
+        }
+      ]
+    },
+    "dependencies": {}
+  },
+  "content": [
+    {
+      "identifier": "living-times.article-container",
+      "containers": {
+        "header": [
+          { "identifier": "living-times.head" }
+        ],
+        "body": [
+          {
+            "identifier": "living-times.gallery-container",
+            "containers": {
+              "gallery": [
+                {
+                  "identifier": "living-times.image",
+                  "content": {
+                    "image": {
+                      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/7852b8b6-fdcd-44c1-b04e-b97fe8cbf846.png",
+                      "url": "https://app.resrc.it/C=W1457.7777777777776,H820,X21.1111111111112,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/7852b8b6-fdcd-44c1-b04e-b97fe8cbf846.png",
+                      "width": 1457.7777777777776,
+                      "height": 820,
+                      "mimeType": "image/png",
+                      "imageService": "resrc.it",
+                      "crop": {
+                        "name": "16:9",
+                        "x": 21.1111111111112,
+                        "y": 0,
+                        "width": 1457.7777777777776,
+                        "height": 820
+                      }
+                    },
+                    "caption": "\"<strong>On Your Mark</strong>\" (オン・ユア・マーク <em>On Yua Māku</em>) is a song by the Japanese rock duo <a href=\"https://en.wikipedia.org/wiki/Chage_and_Aska\">Chage &amp; Aska</a>. At their request, animator Hayao Miyazaki produced a music video for the song. The music video was created in 1995, is entirely animated, has no dialogue, and runs for about six and a half minutes.&nbsp;The song was used in advertisements for <a href=\"https://en.wikipedia.org/wiki/NEC\">NEC</a>, and was shown at the theatrical release of <em><a href=\"https://en.wikipedia.org/wiki/Whisper_of_the_Heart_(film)\">Whisper of the Heart</a></em> in Japan."
+                  }
+                },
+                {
+                  "identifier": "living-times.image",
+                  "content": {
+                    "image": {
+                      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg",
+                      "width": 3264,
+                      "height": 2448,
+                      "mimeType": "image/jpeg",
+                      "imageService": "resrc.it",
+                      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg"
+                    }
+                  }
+                },
+                {
+                  "identifier": "living-times.image",
+                  "content": {
+                    "image": {
+                      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png",
+                      "width": 1500,
+                      "height": 938,
+                      "mimeType": "image/png",
+                      "imageService": "resrc.it",
+                      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "sidebar": []
+      }
+    }
+  ]
+}

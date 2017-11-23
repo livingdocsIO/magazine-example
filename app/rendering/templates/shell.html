@@ -12,6 +12,10 @@
   </head>
   <body lang="en">
     {{{ content }}}
+    <script src="/scripts.js"></script>
+    {{#if isDev}}
+      <script src="/helpers.js"></script>
+    {{/if}}
     <script
       src="https://code.jquery.com/jquery-2.2.4.min.js"
       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
@@ -31,9 +35,5 @@
         }
       });
     </script>
-    <script src="/scripts.js"></script>
-    {{#if isDev}}
-      <script src="/helpers.js"></script>
-    {{/if}}
   </body>
 </html>

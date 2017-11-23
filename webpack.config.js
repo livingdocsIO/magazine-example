@@ -14,17 +14,17 @@ const HMRClient =
   'webpack-hot-middleware/client?reload=true'
 
 module.exports = {
-  context: path.resolve('./design/source'),
+  context: __dirname,
   devtool: isDev ? 'source-map' : 'nosources-source-map',
   entry: Object.assign({}, {
     scripts: [
       isDev && HMRClient,
-      './scripts/index.js'
+      './design/source/scripts/index.js'
     ].filter(Boolean)
   }, isDev ? {
     helpers: [
       HMRClient,
-      './helpers/index.js'
+      './design/source/helpers/index.js'
     ]
   } : {}),
   output: {
@@ -40,6 +40,17 @@ module.exports = {
       test: /\.html$/,
       loader: 'html-loader'
     }, {
+      test: /\.css$/,
+      use: ExtractTextPlugin.extract({
+        use: [isDev && {
+          loader: 'style-loader'
+        }, {
+          loader: 'css-loader'
+        }, {
+          loader: 'resolve-url-loader'
+        }].filter(Boolean)
+      })
+    }, {
       test: /living-times\.scss$/,
       use: ExtractTextPlugin.extract({
         use: [isDev && {
@@ -54,11 +65,9 @@ module.exports = {
         }, {
           loader: 'postcss-loader',
           options: {
-            plugins: function () {
-              return [
-                autoprefixer()
-              ]
-            }
+            plugins: [
+              autoprefixer()
+            ]
           }
         }, {
           loader: 'sass-loader'
@@ -69,6 +78,7 @@ module.exports = {
   resolve: {
     extensions: [
       '.scss',
+      '.css',
       '.js'
     ]
   },

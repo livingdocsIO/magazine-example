@@ -121,7 +121,7 @@
             "body": [
               { "identifier": "living-times.image",
                 "styles": {
-                  "image-position": "left",
+                  "image-position": "c-image--left",
                   "aspect-ratio": "square"
                 }
               },

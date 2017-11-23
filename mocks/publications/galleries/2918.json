@@ -1,0 +1,118 @@
+{
+  "systemdata": {
+    "projectId": 319,
+    "channelId": 334,
+    "documentId": 2918,
+    "documentType": "article",
+    "layout": "gallery",
+    "design": {
+      "name": "living-times",
+      "version": "0.0.1"
+    }
+  },
+  "metadata": {
+    "title": "Studio Ghibli",
+    "description": "Studio Ghibli, Inc. is a Japanese animation film studio based in Koganei, Tokyo, Japan. The studio is best known for its anime feature films. Studio Ghibli began in June 1985 after the success of Nausicaä of the Valley of the Wind with funding by Tokuma Shoten. The company's logo features the character Totoro (a large forest spirit) from Miyazaki’s film My Neighbor Totoro. At one time the studio was based in Kichijōji, Musashino, Tokyo.",
+    "author": "Wikipedia contributors",
+    "publishDate": "on Thu Sep 14 2017",
+    "teaserImage": {
+      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+      "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+      "width": 2560,
+      "height": 1600,
+      "imageService": "resrc.it",
+      "crops": [
+        {
+          "name": "16:9",
+          "url": "https://app.resrc.it/C=W1638,H922,X728,Y132/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+          "x": 728,
+          "y": 132,
+          "width": 1638,
+          "height": 922
+        }
+      ]
+    },
+    "dependencies": {}
+  },
+  "content": [
+    {
+      "identifier": "living-times.article-container",
+      "containers": {
+        "header": [
+          { "identifier": "living-times.head" }
+        ],
+        "body": [
+          {
+            "identifier": "living-times.gallery-container",
+            "containers": {
+              "gallery": [
+                {
+                  "identifier": "living-times.image",
+                  "content": {
+                    "image": {
+                      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+                      "url": "https://app.resrc.it/C=W1638,H922,X728,Y132/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+                      "width": 1638,
+                      "height": 922,
+                      "mimeType": "image/jpeg",
+                      "imageService": "resrc.it",
+                      "crop": {
+                        "name": "16:9",
+                        "x": 728,
+                        "y": 132,
+                        "width": 1638,
+                        "height": 922
+                      }
+                    },
+                    "caption": "A world of magical imagination in service of realism"
+                  }
+                },
+                {
+                  "identifier": "living-times.image",
+                  "content": {
+                    "image": {
+                      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg",
+                      "width": 3264,
+                      "height": 2448,
+                      "mimeType": "image/jpeg",
+                      "imageService": "resrc.it",
+                      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg"
+                    }
+                  }
+                },
+                {
+                  "identifier": "living-times.image",
+                  "content": {
+                    "image": {
+                      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png",
+                      "width": 1500,
+                      "height": 938,
+                      "mimeType": "image/png",
+                      "imageService": "resrc.it",
+                      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png"
+                    }
+                  }
+                },
+                {
+                  "identifier": "living-times.image",
+                  "content": {
+                    "image": {
+                      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/dcf5ebaf-1123-4004-859e-f959ffe963d8.jpeg",
+                      "width": 293,
+                      "height": 300,
+                      "mimeType": "image/jpeg",
+                      "imageService": "resrc.it",
+                      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/dcf5ebaf-1123-4004-859e-f959ffe963d8.jpeg"
+                    },
+                    "caption": "Hayao Miyazaki, the co-founder of Studio Ghibli and director of many of its films."
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "sidebar": []
+      }
+    }
+  ]
+}
