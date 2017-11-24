@@ -1,28 +1,38 @@
-.layout-footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+// -----------------------------------------------------------------------------
+// FOOTER
+// -----------------------------------------------------------------------------
 
-  &__inner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    border-top: 1px solid #eaeae7;
+// Styles for the following components:
+// -> source/components/layout/article-layout.html
+// -> source/components/layout/article-layout-footer.html
 
-    &--centered {
-      margin: 30px auto;
-      width: 200px;
+.page-foot {
+  margin-top: double($base-spacing-unit);
+}
 
-      a {
-        color: #666;
-        font-size: 0.8em;
-      }
+.footer-links {
+  margin-left: 0;
 
-      svg {
-        width: 200px;
-        margin-top: -15px;
-      }
-    }
+  @include font-size($mili-size, false);
+
+  list-style: none;
+
+  & > li {
+    display: inline-block;
+    margin-right: halve($base-spacing-unit);
   }
+
+  & > li:last-child {
+    margin-right: 0;
+  }
+
+}
+
+// Modifier
+.footer-links--left-aligned {
+  float: left;
+}
+
+.footer-links--right-aligned {
+  float: right;
 }
