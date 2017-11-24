@@ -10,22 +10,26 @@ const OpenPackPlugin = require('openpack')
 const isDev = process.env.NODE_ENV !== 'production'
 const distPath = path.resolve('./design/dist')
 
+const HMRClient =
+  'webpack-hot-middleware/client?path=http://0.0.0.0:3000/__webpack_hmr&reload=true'
+
 module.exports = {
   context: path.resolve('./design/source'),
   devtool: isDev ? 'source-map' : 'nosources-source-map',
   entry: Object.assign({}, {
     scripts: [
-      './scripts/index.js',
-      'webpack-hot-middleware/client?reload=true'
-    ]
+      isDev && HMRClient,
+      './scripts/index.js'
+    ].filter(Boolean)
   }, isDev ? {
     helpers: [
-      './helpers/index.js',
-      'webpack-hot-middleware/client?reload=true'
+      HMRClient,
+      './helpers/index.js'
     ]
   } : {}),
   output: {
     path: distPath,
+    publicPath: '/',
     filename: '[name].js'
   },
   module: {
