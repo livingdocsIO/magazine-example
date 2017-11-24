@@ -8,6 +8,8 @@
 
 .page-foot {
   margin-top: double($base-spacing-unit);
+  padding-top: halve($base-spacing-unit);
+  border-top: 1px solid $divider-color;
 }
 
 .footer-links {
