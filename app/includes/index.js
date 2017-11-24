@@ -1,18 +1,19 @@
 const liSDK = require('@livingdocs/sdk')
 
-module.exports = async function resolveIncludes (livingdoc, liClient) {
-  const resolverTasks = startResolverTasks(livingdoc, liClient)
+module.exports = async function resolveIncludes (livingdoc, liClient, includesConfig) {
+  const resolverTasks = startResolverTasks(livingdoc, liClient, includesConfig)
   for (const task of resolverTasks) {
     const {serviceName, resolver} = task
     try {
       await resolver
     } catch (err) {
-      throw new Error(`Include resolver for "${serviceName}" failed with ${err}`)
+      err.message = `Include resolver for "${serviceName}" failed with: ${err.message}`
+      throw err
     }
   }
 }
 
-function startResolverTasks (livingdoc, liClient) {
+function startResolverTasks (livingdoc, liClient, includesConfig) {
   const includeMap = liSDK.document.getIncludes(livingdoc)
   return Object.keys(includeMap).map(serviceName => {
     switch (serviceName) {
@@ -23,7 +24,8 @@ function startResolverTasks (livingdoc, liClient) {
           resolver: resolveEmbedTeaserIncludes({
             liClient,
             livingdoc,
-            includes: includeMap['embed-teaser']
+            includes: includeMap['embed-teaser'],
+            includeConfig: includesConfig['embed-teaser']
           })
         }
 
@@ -36,7 +38,7 @@ function startResolverTasks (livingdoc, liClient) {
   })
 }
 
-function resolveEmbedTeaserIncludes ({livingdoc, includes, liClient}) {
+function resolveEmbedTeaserIncludes ({livingdoc, liClient, includes, includeConfig}) {
   const embedTeaserResolver = require('./embedTeaser')
-  return embedTeaserResolver(livingdoc, includes, liClient)
+  return embedTeaserResolver(livingdoc, liClient, includes, includeConfig)
 }

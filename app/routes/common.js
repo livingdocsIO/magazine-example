@@ -3,6 +3,7 @@ const resolveIncludes = require('../includes')
 const renderLayout = require('../rendering/layout')
 
 module.exports = function commonRouteHandlerFactory ({liClient, conf}) {
+  const includesConfig = conf.get('includes')
   const defaultDocumentType = conf.get('defaultDocumentType')
   const documentTypes = conf.get('documentTypes')
 
@@ -26,9 +27,9 @@ module.exports = function commonRouteHandlerFactory ({liClient, conf}) {
 
     // resolve includes
     try {
-      await resolveIncludes(livingdoc, liClient)
+      await resolveIncludes(livingdoc, liClient, includesConfig)
     } catch (e) {
-      console.error('Couldn\'t resolve includes', e)
+      console.error(e)
     }
 
     // get the location & menu for navigation purposes

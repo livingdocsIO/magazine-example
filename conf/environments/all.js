@@ -3,6 +3,11 @@ module.exports = {
     url: 'http://localhost:3001',
     accessToken: 'your access token'
   },
+  includes: {
+    'embed-teaser': {
+      template: 'teaser-hero-template'
+    }
+  },
   defaultDocumentType: {
     layoutComponents: {
       layout: 'default-layout',

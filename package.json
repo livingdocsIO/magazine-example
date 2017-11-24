@@ -8,7 +8,7 @@
     "design:publish": "npm run design:build && ldm design:publish design/dist",
     "start:json-server": "nodemon --watch ./mocks --exec 'json-server ./mocks/db.js --routes ./mocks/routes.json --port 3001'",
     "start:magazine": "node app/index.js",
-    "start:magazine:watch": "nodemon --watch lib --watch app app/index.js",
+    "start:magazine:watch": "nodemon --watch conf --watch lib --watch app app/index.js",
     "start:magazine:mocked": "run-p start:json-server start:magazine",
     "start": "npm run design:dev:mocked"
   },
