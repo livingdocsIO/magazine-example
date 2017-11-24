@@ -70,7 +70,7 @@
     "selected-menu": {
       "label": "Selected Menu Item",
       "type": "option",
-      "value": "selected"
+      "value": "is-selected"
     },
 
     "unordered": {

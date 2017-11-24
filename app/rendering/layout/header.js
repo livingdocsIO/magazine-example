@@ -11,7 +11,7 @@ module.exports = function getHeaderComponent (tree, {header, headerItem}, {menu,
 
     const isCurrent = isCurrentLocation(node, location)
     if (isCurrent) {
-      headerItemComponent.setStyle('selected-menu', 'selected')
+      headerItemComponent.setStyle('selected-menu', 'is-selected')
     }
 
     headerItemContainer.append(headerItemComponent)

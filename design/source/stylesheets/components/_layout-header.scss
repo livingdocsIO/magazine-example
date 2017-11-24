@@ -1,27 +1,75 @@
-.layout-header {
+// -----------------------------------------------------------------------------
+// HEADER
+// -----------------------------------------------------------------------------
+
+// Styles for the following components:
+// -> source/components/layout/article-layout.html
+// -> source/components/layout/article-layout-header.html
+
+.page-head {
+  margin-bottom: $base-spacing-unit;
+}
+
+// Logo
+.logo {
+  max-width: 322px;
+  margin: $base-spacing-unit auto $base-spacing-unit;
+}
+
+// Meta navgation styles
+.meta-nav {
+  top: 36px;
+  position: absolute;
+  right: $base-spacing-unit;
+
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 3em 0;
+  justify-content: flex-end;
+}
 
-  &__inner {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.meta-nav__item a {
+  display: block;
+  padding: quarter($base-spacing-unit);
 
-    &__item {
-      padding: 3em;
+  text-decoration: none;
+  @include font-size($mili-size);
 
-      &--link {
-        color: #2aba6f;
-      }
+  &:hover {
+    text-decoration: underline;
+  }
+}
 
-      &.selected > &--link {
-        padding: 1em;
-        color: #ffffff;
-        background-color: #2aba6f;
-      }
-    }
+.meta-nav__item--highlight a {
+  color: $jungle-green;
+}
+
+
+// Main navigation styles
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: halve($base-spacing-unit);
+  border-top: 1px solid $divider-color;
+  border-bottom: 1px solid $divider-color;
+}
+
+.main-nav__item {
+  flex: 1 1 auto;
+  text-align: center;
+  transition: background-color 250ms;
+
+  > a {
+    display: block;
+    padding: quarter($base-spacing-unit);
+
+    text-decoration: none;
+    @include font-size($mili-size); // 14px
+  }
+
+  &:hover {
+    background-color: lighten($text-color, 97%);
+  }
+
+  &.is-selected a {
+    font-weight: bold;
   }
 }

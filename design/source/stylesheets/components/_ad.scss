@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// AD
+// -----------------------------------------------------------------------------
+
+// Styles for the ad component
+
+.ad {
+  padding-bottom: halve($base-spacing-unit);
+  text-align: center;
+  border-bottom: 1px solid $divider-color;
+}
