@@ -1,0 +1,20 @@
+<script type="ld-conf">
+{
+  "name": "article-container",
+  "label": "Article Container",
+  "directives": {
+    "header": {
+      "allowedChildren": ["head", "subtitle"]
+    },
+    "sidebar": {
+      "allowedChildren": []
+    }
+  }
+}
+</script>
+
+<div class="article-container">
+  <div class="content-header" doc-container="header"></div>
+  <div class="content-body" doc-container="body"></div>
+  <div class="content-sidebar" doc-container="sidebar"></div>
+</div>

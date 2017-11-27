@@ -1,12 +1,12 @@
 {
-  "name": "timeline",
-  "label": "Timeline",
-  "version": "1.0.0",
+  "name": "living-times",
+  "label": "Living Times",
+  "version": "0.0.1",
   "license": "Copyright (c) 2017 Livingdocs GmbH, all rights reserved",
 
   "assets": {
-    "css": ["/timeline.css"],
-    "js": []
+    "css": ["/styles.css"],
+    "js": ["/scripts.js"]
   },
 
   "componentProperties": {
@@ -15,6 +15,24 @@
       "label": "Selected Menu Item",
       "type": "option",
       "value": "is-selected"
+    },
+
+    "position": {
+      "label": "Position",
+      "type": "select",
+      "options": [
+        {
+          "caption": "Middle"
+        },
+        {
+          "caption": "Left",
+          "value": "left"
+        },
+        {
+          "caption": "Right",
+          "value": "right"
+        }
+      ]
     },
 
     "image-position": {
@@ -31,24 +49,6 @@
         {
           "caption": "Right",
           "value": "c-image--left"
-        }
-      ]
-    },
-
-    "position": {
-      "label": "Position",
-      "type": "select",
-      "options": [
-        {
-          "caption": "Middle"
-        },
-        {
-          "caption": "Left",
-          "value": "left"
-        },
-        {
-          "caption": "Right",
-          "value": "left"
         }
       ]
     },
@@ -113,23 +113,28 @@
       "wrapper": "<div class=\"doc-section\"></div>",
       "icon": null,
       "defaultContent": [
-        { "identifier": "timeline.head" },
-        { "identifier": "timeline.normal",
-          "styles": {
-            "position": "left",
-            "aspect-ratio": "square"
+        { "identifier": "living-times.article-container",
+          "containers": {
+            "header": [
+              { "identifier": "living-times.head" }
+            ],
+            "body": [
+              { "identifier": "living-times.image",
+                "styles": {
+                  "image-position": "left",
+                  "aspect-ratio": "square"
+                }
+              },
+              { "identifier": "living-times.paragraph" }
+            ],
+            "sidebar": []
           }
-        },
-        { "identifier": "timeline.p" }
+        }
       ],
       "groups": [
         {
-          "label": "Collection",
-          "components": ["teaser", "embed-teaser", "list"]
-        },
-        {
           "label": "Headers",
-          "components": ["head", "hero", "subtitle"]
+          "components": ["head", "subtitle"]
         },
         {
           "label": "Text",
@@ -137,18 +142,64 @@
         },
         {
           "label": "Images",
-          "components": ["full-size", "grid-of-6", "normal", "peephole"]
+          "components": ["image"]
+        },
+        {
+          "label": "Containers",
+          "components": []
+        },
+        {
+          "label": "Teasers",
+          "components": []
+        },
+        {
+          "label": "Sidebar",
+          "components": []
         },
         {
           "label": "Embeds",
           "components": ["tweet", "iframe", "free-html"]
-        },
-        {
-          "label": "Gallery",
-          "components": ["gallery", "image-slide", "media-slide", "quote-slide"]
         }
       ]
-    }, {
+    },
+    {
+      "name": "gallery",
+      "caption": "Gallery",
+      "wrapper": "<div class=\"doc-section\"></div>",
+      "icon": null,
+      "defaultContent": [
+        { "identifier": "living-times.article-container",
+          "containers": {
+            "header": [
+              { "identifier": "living-times.head" }
+            ],
+            "body": [
+              {
+                "identifier": "living-times.gallery-container",
+                "containers": {
+                  "gallery": [
+                    { "identifier": "living-times.image" },
+                    { "identifier": "living-times.image" }
+                  ]
+                }
+              }
+            ],
+            "sidebar": []
+          }
+        }
+      ],
+      "groups": [
+        {
+          "label": "Headers",
+          "components": ["head"]
+        },
+        {
+          "label": "Bild",
+          "components": ["gallery-container", "image"]
+        }
+      ]
+    },
+    {
       "name": "page",
       "caption": "Page",
       "wrapper": "<div class=\"doc-section\"></div>",
@@ -156,17 +207,20 @@
       "defaultContent": [],
       "groups": [
         {
-          "label": "Single Teasers",
-          "components": ["teaser-full-width", "teaser", "embed-teaser"]
-        }, {
-          "label": "Collection Teasers",
-          "components": ["top-row", "teaser-row", "teaser-row-high", "teaser-row-text"]
-        }, {
+          "label": "Static Components",
+          "components": []
+        },
+        {
+          "label": "Containers",
+          "components": []
+        },
+        {
+          "label": "Teasers",
+          "components": ["teaser-hero", "embed-teaser"]
+        },
+        {
           "label": "Embeds",
           "components": ["tweet", "iframe", "free-html"]
-        }, {
-          "label": "Static",
-          "components": ["section-title"]
         }
       ]
     }
@@ -200,8 +254,8 @@
   },
 
   "prefilledComponents": {
-    "hero": {
-      "text": {
+    "head": {
+      "meta": {
         "value": "author",
         "type": "computed"
       }
@@ -212,25 +266,25 @@
     {
       "identifier": "title",
       "type": "text",
-      "matches": ["hero.title", "title.title", "head.title"],
+      "matches": ["head.title"],
       "isEditable": true
     },
     {
       "identifier": "description",
       "type": "text",
-      "matches": ["head.text", "p.text"],
+      "matches": ["head.text", "paragraph.text"],
       "isEditable": true
     },
     {
       "identifier": "author",
       "type": "text",
-      "matches": ["hero.text"],
+      "matches": ["head.meta"],
       "isEditable": true
     },
     {
       "identifier": "teaserImage",
       "type": "image",
-      "matches": ["hero.image", "normal.image", "full-size.image", "peephole.image"],
+      "matches": ["image.image"],
       "isEditable": true,
       "imageRatios": ["16:9"]
     }
