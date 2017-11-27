@@ -11,7 +11,7 @@ const isDev = process.env.NODE_ENV !== 'production'
 const distPath = path.resolve('./design/dist')
 
 const HMRClient =
-  'webpack-hot-middleware/client?path=http://0.0.0.0:3000/__webpack_hmr&reload=true'
+  'webpack-hot-middleware/client?reload=true'
 
 module.exports = {
   context: path.resolve('./design/source'),
