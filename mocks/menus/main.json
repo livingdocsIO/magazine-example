@@ -5,27 +5,45 @@
   "maxDepth": 0,
   "nodes": [
     {
-      "label": "Home",
+      "label": "News",
       "uri": "/",
       "type": "uri",
       "nodes": []
     },
     {
-      "label": "Studio Ghibli",
-      "documentId": 2917,
-      "type": "document",
+      "label": "Culture",
+      "type": "uri",
+      "uri": "#",
       "nodes": []
     },
     {
-      "label": "Editor",
+      "label": "Books",
       "type": "uri",
-      "uri": "https://beta.livingdocs.io",
+      "uri": "#",
       "nodes": []
     },
     {
-      "label": "Livingdocs Homepage",
+      "label": "Business",
       "type": "uri",
-      "uri": "https://livingdocs.io",
+      "uri": "#",
+      "nodes": []
+    },
+    {
+      "label": "Humor",
+      "type": "uri",
+      "uri": "#",
+      "nodes": []
+    },
+    {
+      "label": "Video",
+      "type": "uri",
+      "uri": "#",
+      "nodes": []
+    },
+    {
+      "label": "Archive",
+      "type": "uri",
+      "uri": "#",
       "nodes": []
     },
     {

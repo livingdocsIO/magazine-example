@@ -6,13 +6,13 @@
     "documentType": "article",
     "layout": "default",
     "design": {
-      "name": "timeline",
+      "name": "living-times",
       "version": "1.0.0"
     }
   },
   "metadata": {
     "title": "The Tale of the Princess Kaguya",
-    "description": "The Tale of the Princess Kaguya (Japanese: かぐや姫の物語) is a 2013 Japanese animated fantasy drama film produced by Studio Ghibli. Co-written and directed by Isao Takahata, the film features an ensemble cast that includes Aki Asakura, Kengo Kora,Takeo Chii, Nobuko Miyamoto, Atsuko Takahata, Tomoko Tabata, Tatekawa Shinosuke, Takaya Kamikawa, Hikaru Ijūin, Ryudo Uzaki, Nakamura Shichinosuke II, Isao Hashizume and Tamaki Kojo, and is based on the folktale The Tale of the Bamboo Cutter. It is Takahata's fifth film for Studio Ghibli, and his first since 1999's My Neighbors the Yamadas. It was released on November 23, 2013. The film received critical acclaim and was nominated for the Academy Award for Best Animated Feature at the 87th Academy Awards.",
+    "description": "The Tale of the Princess Kaguya (Japanese: かぐや姫の物語) is a 2013 Japanese animated fantasy drama film produc...",
     "author": "Wikipedia contributors",
     "publishDate": "on Thu Sep 14 2017",
     "teaserImage": {
@@ -48,7 +48,7 @@
   "content": [
     {
       "id": "doc-1avmpc64e0",
-      "identifier": "timeline.hero",
+      "identifier": "living-times.hero",
       "content": {
         "image": {
           "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/26303a92-2cf7-425e-b5b3-15d5b54c5564.jpeg",
@@ -67,7 +67,7 @@
     },
     {
       "id": "doc-1avmpbnnp0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "The Tale of the Princess Kaguya (Japanese: かぐや姫の物語) is a 2013 Japanese animated fantasy drama film produced by <a href=\"https://en.wikipedia.org/wiki/Studio_Ghibli\">Studio Ghibli</a>. Co-written and directed by <a href=\"https://en.wikipedia.org/wiki/Isao_Takahata\">Isao Takahata</a>, the film features an ensemble cast that includes Aki Asakura, Kengo Kora,Takeo Chii, Nobuko Miyamoto, Atsuko Takahata, Tomoko Tabata, Tatekawa Shinosuke, Takaya Kamikawa, Hikaru Ijūin, Ryudo Uzaki, Nakamura Shichinosuke II, Isao Hashizume and Tamaki Kojo, and is based on the folktale <em><a href=\"https://en.wikipedia.org/wiki/The_Tale_of_the_Bamboo_Cutter\">The Tale of the Bamboo Cutter</a></em>.&nbsp;It is Takahata's fifth film for Studio Ghibli, and his first since 1999's <em><a href=\"https://en.wikipedia.org/wiki/My_Neighbors_the_Yamadas\">My Neighbors the Yamadas</a></em>. It was released on November 23, 2013. The film received critical acclaim and was nominated for the Academy Award for Best Animated Feature at the 87th Academy Awards."
       },
@@ -77,28 +77,28 @@
     },
     {
       "id": "doc-1avmpm2db0",
-      "identifier": "timeline.subtitle",
+      "identifier": "living-times.subtitle",
       "content": {
         "title": "Plot Summary"
       }
     },
     {
       "id": "doc-1avmpm7ii0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "A bamboo cutter named Sanuki no Miyatsuko discovers a miniature girl inside a glowing bamboo shoot. Believing her to be a divine presence, Miyatsuko and his wife decide to raise her as their own, calling her \"Princess\". The girl grows rapidly and conspicuously, marveling her parents and earning her the nickname \"Takenoko\" (Little Bamboo) from the other children in the village. Sutemaru, the oldest among Kaguya's friends, develops a particularly close relationship with her."
       }
     },
     {
       "id": "doc-1avmpmi670",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Miyatsuko comes upon gold and fine cloth in the bamboo grove in the same way he found his daughter. He takes these as proof of her divine royalty and begins planning to make her a proper princess. He soon relocates the family to the capital, forcing her to leave her friends behind. She finds herself in a mansion, replete with servants and fine clothes. She is also saddled with a governess who is tasked with taming her into a proper noblewoman. She struggles with the restraints of nobility, arguing that life should be full of laughter and struggle."
       }
     },
     {
       "id": "doc-1avmppq5a0",
-      "identifier": "timeline.aside",
+      "identifier": "living-times.aside",
       "content": {
         "title": "Soundtrack",
         "text": "In 2012, Shinichiro Ikebe was announced to write the film's score. However, in 2013, <a href=\"https://en.wikipedia.org/wiki/Joe_Hisaishi\">Joe Hisaishi</a> replaced Ikebe as the composer. This is the first time that Hisaishi has scored a film directed by Isao Takahata.&nbsp;The theme song \"When I Remember This Life\" was performed by Kazumi Nikaidō.&nbsp;The film's soundtrack was released on 20 November 2013."
@@ -106,49 +106,49 @@
     },
     {
       "id": "doc-1avmpmi6c0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "When the girl comes of age, she is granted the formal name of \"Princess Kaguya\" for the light and life that radiates from her. Miyatsuko holds a celebration in commemoration of Kaguya's naming. At the celebration, Kaguya overhears partygoers ridiculing her father's attempts to turn a peasant girl into a noble through money. Kaguya flees the capital in despair and runs back to the mountains, seeking Sutemaru and her other friends, but discovers that they have all moved away. Kaguya passes out in the snow and awakens back at the party."
       }
     },
     {
       "id": "doc-1avmpmi6d0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Kaguya grows in beauty, attracting scores of would-be suitors. Five men of noble standing court her, comparing her to mythical treasures. Not wanting to marry any of them, Kaguya tells them she will only marry whoever can bring her the mythical treasure mentioned. Two suitors unsuccessfully attempt to persuade her with counterfeits. The third abandons his conquest out of cowardice, and the fourth attempts to woo her with flattering lies. When one of the men is killed in his quest, Kaguya falls into depression. Eventually, the Emperor takes notice of her. Taken with her beauty, he makes advances toward her, revolting her. Kaguya then demonstrates the ability to disappear at will, surprising the Emperor. Understanding that he has been too forward, the Emperor takes his leave."
       }
     },
     {
       "id": "doc-1avmpmi6f0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "After this encounter, Kaguya cries to the moon, praying for protection. She reveals to her parents that she originally came from the Moon, after it spoke to her. Once a resident of the Moon, she broke its laws, hoping to be exiled to Earth, so that she could experience mortal life. When the Emperor made his advances, she silently begged the Moon to help her. Having heard her prayer, the Moon will reclaim her during the next full moon. Kaguya confesses her attachment to Earth and her reluctance to leave."
       }
     },
     {
       "id": "doc-1avmpmi6g0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Miyatsuko swears to protect Kaguya and begins assembling defensive forces. Kaguya returns to her hometown in the mountains once more. She finds Sutemaru and tells him she would have been happiest with him; Sutemaru vows to protect her. The two run around the grass field and Kaguya demonstrates the ability to fly. However, she loses it and the two drop into the water. Sutemaru wakes up on the grass field, thinking it was a dream, while Kaguya wakes up in the palace."
       }
     },
     {
       "id": "doc-1avmpmi6g1",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "On the night of the full moon, a procession of celestial beings descends from the Moon, and Miyatsuko is unable to stop it. An attendant offers Kaguya a robe that will erase her memories of Earth. Kaguya begs the attendant to grant her a last moment with her parents."
       }
     },
     {
       "id": "doc-1avmpmi6h0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "The attendant assures her that upon returning to the Moon, she will be free of Earth's impurities. Kaguya rebuffs her, saying that Earth is full of wonder and life. The attendant then drapes the robe around Kaguya, and she appears to forget about her life on Earth. The procession ascends to the Moon, leaving Miyatsuko and his wife distraught, as Kaguya looks back one last time with tears in her eyes."
       }
     },
     {
       "id": "doc-1avmq9i7a0",
-      "identifier": "timeline.gallery",
+      "identifier": "living-times.gallery",
       "content": {
         "title": "Impressions"
       },
@@ -156,7 +156,7 @@
         "slides": [
           {
             "id": "doc-1avmqblda0",
-            "identifier": "timeline.image-slide",
+            "identifier": "living-times.image-slide",
             "content": {
               "image": {
                 "url": "https://app.resrc.it/C=W926,H520,X49,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/56272c55-6496-483a-b943-cbb2b1a7e29d.jpeg",
@@ -177,7 +177,7 @@
           },
           {
             "id": "doc-1avmqeo370",
-            "identifier": "timeline.image-slide",
+            "identifier": "living-times.image-slide",
             "content": {
               "image": {
                 "url": "https://app.resrc.it/C=W1040,H584,X0,Y122/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/814baab1-e751-4752-b9de-2f3c2cdeaa40.jpeg",
@@ -198,7 +198,7 @@
           },
           {
             "id": "doc-1avmqetu70",
-            "identifier": "timeline.image-slide",
+            "identifier": "living-times.image-slide",
             "content": {
               "image": {
                 "url": "https://app.resrc.it/C=W1711,H961,X33,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/f4752678-6a59-4907-99d8-d87e4f350767.jpeg",
@@ -219,7 +219,7 @@
           },
           {
             "id": "doc-1avmqerkr0",
-            "identifier": "timeline.image-slide",
+            "identifier": "living-times.image-slide",
             "content": {
               "image": {
                 "url": "https://app.resrc.it/C=W1711,H961,X33,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/6f2ac737-f219-4591-bc71-7ecfa7dcf59d.jpeg",
@@ -240,7 +240,7 @@
           },
           {
             "id": "doc-1avmqeq650",
-            "identifier": "timeline.image-slide",
+            "identifier": "living-times.image-slide",
             "content": {
               "image": {
                 "url": "https://app.resrc.it/C=W1711,H961,X33,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/deb78800-0cb7-4ed8-9855-2afb03eafa51.jpeg",
@@ -264,21 +264,21 @@
     },
     {
       "id": "doc-1avmqmf0q0",
-      "identifier": "timeline.subtitle",
+      "identifier": "living-times.subtitle",
       "content": {
         "title": "Critical reception"
       }
     },
     {
       "id": "doc-1avmqn92p0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Review aggregator <a href=\"https://en.wikipedia.org/wiki/Rotten_Tomatoes\">Rotten Tomatoes</a> assigned the film <a href=\"https://en.wikipedia.org/wiki/List_of_films_with_a_100%25_rating_on_Rotten_Tomatoes\">a score of 100%</a> \"Certified Fresh\" with an average rating of 8.3/10 based on 80 reviews. The critics' consensus says, \"Boasting narrative depth, frank honesty, and exquisite visual beauty, <em>The Tale of the Princess Kaguya</em> is a modern animated treasure with timeless appeal.\""
       }
     },
     {
       "id": "doc-1avmqe72k0",
-      "identifier": "timeline.tweet",
+      "identifier": "living-times.tweet",
       "content": {
         "tweet": "<blockquote class=\"twitter-tweet\" data-lang=\"false\"><p lang=\"en\" dir=\"ltr\">WHOO on THE TALE OF PRINCESS KAGUYA's Oscar nom for Best Animated Feature <a href=\"https://twitter.com/ghibli_intl\">@ghibli_intl</a> Proud to have been a small part of it. Go Lil Bamboo!</p>— Darren Criss (@DarrenCriss) <a href=\"https://twitter.com/DarrenCriss/status/555924896539082752\">January 16, 2015</a></blockquote>"
       },
@@ -290,21 +290,21 @@
     },
     {
       "id": "doc-1avmqnapm0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "In February 2014, <em>The Tale of the Princess Kaguya</em> placed 4th in both <a href=\"https://en.wikipedia.org/wiki/Kinema_Junpo\">Kinema Junpo</a>'s Best Ten and their Reader's Choice Awards.&nbsp;David Ehrlich of <em><a href=\"https://en.wikipedia.org/wiki/The_A.V._Club\">The A.V. Club</a></em> gave the film an A, deeming it \"the best animated movie of the year,\" adding that it is \"destined to be remembered as one of the revered Studio Ghibli’s finest achievements.\"&nbsp;Nicolas Rapold of <em>The New York Times</em> praised the artwork calling it \"exquisitely drawn with both watercolor delicacy and a brisk sense of line.\""
       }
     },
     {
       "id": "doc-1avmq12j80",
-      "identifier": "timeline.subtitle",
+      "identifier": "living-times.subtitle",
       "content": {
         "title": "Reviews"
       }
     },
     {
       "id": "doc-1avmq04440",
-      "identifier": "timeline.teaser",
+      "identifier": "living-times.teaser",
       "content": {
         "link": "https://www.theguardian.com/film/2015/mar/22/tale-of-princess-kaguya-review-kermode",
         "image": {
@@ -317,7 +317,7 @@
     },
     {
       "id": "doc-1avmq2lt90",
-      "identifier": "timeline.teaser",
+      "identifier": "living-times.teaser",
       "content": {
         "link": "http://www.theverge.com/2014/10/17/6992413/the-tale-of-the-princess-kaguya-review",
         "image": {
@@ -330,7 +330,7 @@
     },
     {
       "id": "doc-1avmq4h0o0",
-      "identifier": "timeline.teaser",
+      "identifier": "living-times.teaser",
       "content": {
         "link": "http://www.npr.org/2014/10/16/356111666/beauty-and-loss-in-the-tale-of-princess-kaguya",
         "image": {

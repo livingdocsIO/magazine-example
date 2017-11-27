@@ -6,7 +6,7 @@
     "documentType": "article",
     "layout": "default",
     "design": {
-      "name": "timeline",
+      "name": "living-times",
       "version": "1.0.0"
     }
   },
@@ -36,7 +36,7 @@
   "content": [
     {
       "id": "doc-1avp19q3t0",
-      "identifier": "timeline.head",
+      "identifier": "living-times.head",
       "content": {
         "title": "Spirited Away",
         "text": "Ten-year-old Chihiro Ogino and her parents are traveling to their new home when her father takes a wrong turn."
@@ -44,7 +44,7 @@
     },
     {
       "id": "doc-1avp1aa0v0",
-      "identifier": "timeline.peephole",
+      "identifier": "living-times.peephole",
       "content": {
         "image": {
           "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/53da8f6a-5d60-469e-8ba1-64ddd57fb7d5.jpeg",
@@ -57,7 +57,7 @@
     },
     {
       "id": "doc-1avp1b8910",
-      "identifier": "timeline.peephole",
+      "identifier": "living-times.peephole",
       "content": {
         "image": {
           "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/b874eca2-da37-4892-a195-e535eec85aa0.jpeg",
@@ -70,7 +70,7 @@
     },
     {
       "id": "doc-1avp1gple0",
-      "identifier": "timeline.peephole",
+      "identifier": "living-times.peephole",
       "content": {
         "image": {
           "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/7d63d7b5-79b9-4dc6-a594-8683793c8a03.jpeg",
@@ -83,7 +83,7 @@
     },
     {
       "id": "doc-1avp19q3v0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Spirited Away (Japanese: 千と千尋の神隠し) is a 2001 Japanese&nbsp;anime fantasy film written and directed by <a href=\"https://en.wikipedia.org/wiki/Hayao_Miyazaki\">Hayao Miyazaki</a> and produced by <a href=\"https://en.wikipedia.org/wiki/Studio_Ghibli\">Studio Ghibli</a>.&nbsp;The film stars Rumi Hiiragi, Miyu Irino, Mari Natsuki, Takeshi Naito, Yasuko Sawaguchi, Tsunehiko Kamijō, Takehiko Ono and Bunta Sugawara, and tells the story of Chihiro Ogino (Hiiragi), a sullen ten-year-old girl who, while moving to a new neighborhood, enters the spirit world. After her parents are transformed into pigs by the witch Yubaba (Natsuki), Chihiro takes a job working in Yubaba's bathhouse to find a way to free herself and her parents and return to the human world."
       },
@@ -93,35 +93,35 @@
     },
     {
       "id": "doc-1avp1e0gg0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Miyazaki wrote the script after he decided the film would be based on the ten-year-old daughter of his friend, associate producer Seiji Okuda, who came to visit his house each summer.&nbsp;At the time, Miyazaki was developing two personal projects, but they were rejected. With a budget of US$19 million, production of <em>Spirited Away</em> began in 2000. During production, Miyazaki realized the film would be over three hours long and decided to cut out several parts of the story. <a href=\"https://en.wikipedia.org/wiki/Pixar\">Pixar</a> director John Lasseter, a fan of Miyazaki, was approached by Walt Disney Pictures to supervise an English-language translation for the film's North American release. Lasseter hired Kirk Wise as director and Donald W. Ernst as producer of the adaptation. Screenwriters Cindy Davis Hewitt and Donald H. Hewitt wrote the English-language dialogue, which they wrote to match the characters' original Japanese-language lip movements."
       }
     },
     {
       "id": "doc-1avp1e0gq0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "The film was released on 20 July 2001, and became the most successful film in Japanese history, grossing about $289 million worldwide and receiving widespread critical acclaim. The film overtook <em>Titanic</em> (at the time the top-grossing film worldwide) in the Japanese box office to become the&nbsp;highest-grossing film in Japanese history with a ¥30.4 billion total. <em>Spirited Away</em> is frequently ranked among the greatest animated films.&nbsp;It won the Academy Award for Best Animated Feature at the 75th Academy Awards, making it the only hand drawn animated film and Japanese animated film to win best animated film; the Golden Bear at the 2002 Berlin International Film Festival, tied with <em>Bloody Sunday</em>; and is on the British Film Institute's list of \"Top fifty films for children up to the age of 14\"."
       }
     },
     {
       "id": "doc-1avp1e0h00",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "In 2016, it was voted the #4 best film of the 21st century as picked by 177 film critics from around the world."
       }
     },
     {
       "id": "doc-1avp1lsuu0",
-      "identifier": "timeline.subtitle",
+      "identifier": "living-times.subtitle",
       "content": {
         "title": "Plot"
       }
     },
     {
       "id": "doc-1avp1o28r0",
-      "identifier": "timeline.iframe",
+      "identifier": "living-times.iframe",
       "content": {
         "iframe": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://www.youtube.com/embed/ByXuk9QqQkk\" frameborder=\"0\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></div>"
       },
@@ -133,28 +133,28 @@
     },
     {
       "id": "doc-1avp1m5320",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Ten-year-old Chihiro Ogino and her parents are traveling to their new home when her father takes a wrong turn. They unknowingly enter a magical world that Chihiro's father insists on exploring. While Chihiro's parents eat like pigs at an empty restaurant stall, Chihiro finds an exquisite bathhouse&nbsp;and meets a young boy named Haku who warns her to return across the river before sunset. However, Chihiro discovers too late that her parents have turned into pigs and she is unable to cross the flooded river, becoming trapped in the spirit world."
       }
     },
     {
       "id": "doc-1avp1mdk50",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "After finding Chihiro, Haku has her ask for a job from the bathhouse's boiler-man, Kamaji, a spider <a href=\"https://en.wikipedia.org/wiki/Y%C5%8Dkai\">yōkai</a> commanding the <a href=\"https://en.wikipedia.org/wiki/Susuwatari\">susuwatari</a>. Kamaji and the worker Lin send Chihiro to the witch, Yubaba, who runs the bathhouse; she gives Chihiro a job but renames her Sen (千). While visiting her parents' pigpen, Sen finds a goodbye card addressed to Chihiro and realizes that she has already forgotten her name. Haku warns her that Yubaba controls people by taking their names and that if she forgets hers like he has forgotten his, she will not be able to leave the spirit world. While working, Sen invites a silent masked creature named No-Face inside, believing him to be a customer. A 'stink spirit' arrives as Sen's first customer. She discovers he is the spirit of a polluted river. In gratitude for cleaning him, he gives Sen a magic emetic dumpling. Meanwhile, No-Face tempts a worker with gold, then swallows him. He demands food and begins tipping extensively. As the workers swarm him hoping to be tipped, he swallows yet another two greedy workers."
       }
     },
     {
       "id": "doc-1avp1mdke0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Sen discovers paper shikigami attacking a dragon and recognizes the dragon as Haku transformed. When a grievously-injured Haku crashes into Yubaba's penthouse, Sen follows him upstairs. When she reaches Haku, a shikigami that stowed away on her back transforms into Zeniba, Yubaba's twin sister. She transforms Yubaba's baby son Boh into a mouse, creates a decoy baby and turns Yubaba's bird creature into a tiny bird. Zeniba tells Sen that Haku has stolen a magic golden seal from her, and warns Sen that it carries a deadly curse. After Haku dives to the boiler room with Sen and Boh on his back, she feeds him part of the dumpling, causing him to vomit both the seal and a black slug, which Sen crushes with her foot."
       }
     },
     {
       "id": "doc-1avp1jrh30",
-      "identifier": "timeline.quote",
+      "identifier": "living-times.quote",
       "content": {
         "text": "I created a heroine who is an ordinary girl, someone with whom the audience can sympathize. It's not a story in which the characters grow up, but a story in which they draw on something already inside them, brought out by the particular circumstances. I want my young friends to live like that, and I think they, too, have such a wish.",
         "author": "Hayao Miyazaki"
@@ -162,21 +162,21 @@
     },
     {
       "id": "doc-1avp1mdkf0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "With Haku unconscious, Sen resolves to return the seal and apologize for Haku. Before she leaves the bathhouse, Sen confronts No-Face, who is now massive, and feeds him the rest of the dumpling. No-Face chases Sen out of the bathhouse, steadily vomiting out those he has eaten. Sen, No-Face and Boh travel to see Zeniba. Enraged at the damage caused by No-Face, Yubaba blames Sen for inviting him in and orders that her parents be slaughtered. After Haku reveals that Boh is missing, he promises to retrieve Boh in exchange for Yubaba freeing Sen and her parents."
       }
     },
     {
       "id": "doc-1avp1mdkg0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Sen, No-Face and Boh arrive at Zeniba's house, where Zeniba, now the benevolent \"Granny\", reveals that Sen's love for Haku broke her curse and that Yubaba had used the black slug to control Haku. Haku appears in his dragon form and flies both Sen and Boh back to the bathhouse. No-Face unexpectedly shows itself as a very good spinner for Zeniba and accepts her proposal to stay as a worker. On the way back, Sen recalls a memory from her youth in which she had fallen into the Kohaku River but was washed safely ashore. After correctly guessing that Haku is the spirit of the Kohaku River (and thus revealing his real name), Haku is completely freed from Yubaba's control. When they arrive at the bathhouse, Yubaba tells Sen that in order to break the curse on her parents, she must identify them from among a group of pigs. After Sen correctly states that none of the pigs are her parents, she is given back her real name Chihiro. Haku takes her to the now dry riverbed and vows to meet her again. Chihiro crosses the river and reunites with her restored parents, who do not remember what happened. They walk back to their car and drive away."
       }
     },
     {
       "id": "doc-1avp28uep0",
-      "identifier": "timeline.grid-of-6",
+      "identifier": "living-times.grid-of-6",
       "content": {
         "image1": {
           "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/a995fb8d-6c94-4c92-b8e5-c99f5df67a5b.gif",
@@ -207,21 +207,21 @@
     },
     {
       "id": "doc-1avp1ul6l0",
-      "identifier": "timeline.subtitle",
+      "identifier": "living-times.subtitle",
       "content": {
         "title": "Themes"
       }
     },
     {
       "id": "doc-1avp1upfb0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "The film has been compared to Lewis Carroll's <em><a href=\"https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland\">Alice's Adventures in Wonderland</a></em> as the stories have some elements in common such being set in a fantasy world, the plots including a disturbance in logic and stability, and there being motifs such as food having transformational qualities; though developments and themes are not shared.&nbsp;Among other stories compared to <em>Spirited Away</em>, <em><a href=\"https://en.wikipedia.org/wiki/The_Wonderful_Wizard_of_Oz\">The Wonderful Wizard of Oz</a></em> is seen to be more closely linked thematically."
       }
     },
     {
       "id": "doc-1avp1quj80",
-      "identifier": "timeline.aside",
+      "identifier": "living-times.aside",
       "content": {
         "title": "Interpretations",
         "text": "<em>Chihiro’s parents turning into pigs symbolizes how some humans become greedy. At the very moment Chihiro says there is something odd about this town, her parents turn into pigs. There were people that “turned into pigs” during Japan’s bubble economy (consumer society) of the 1980s, and these people still haven’t realized they’ve become pigs. Once someone becomes a pig, they don’t return to being human but instead gradually start to have the “body and soul of a pig\". These people are the ones saying, ‘We are in a recession and don’t have enough to eat.' This doesn’t just apply to the fantasy world. Perhaps this isn’t a coincidence and the food is actually (an analogy for) \"a trap to catch lost humans.\" —&nbsp;<em><strong>Author's own commentary, in a letter written by Studio Ghibli paraphrasing Hayao Miyazaki</strong></em></em>"
@@ -229,70 +229,70 @@
     },
     {
       "id": "doc-1avp1uq2n0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "The major themes of <em>Spirited Away</em> center on the protagonist Chihiro and her liminal journey through the realm of spirits. The archetypal entrance into another world demarcates Chihiro's status as one somewhere between child and adult. Chihiro also stands outside societal boundaries in the supernatural setting. The use of the word kamikakushi (literally \"hidden by gods\") within the Japanese title, and its associated folklore, reinforces this liminal passage: \"Kamikakushi is a verdict of 'social death' in this world, and coming back to this world from Kamikakushi meant 'social resurrection.'\""
       }
     },
     {
       "id": "doc-1avp1uq2t0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Yubaba has many similarities to The Coachman from <em><a href=\"https://en.wikipedia.org/wiki/Pinocchio_(1940_film)\">Pinocchio</a></em>, in the sense that she transforms humans into pigs in a similar way that the boys of <a href=\"https://en.wikipedia.org/wiki/Pleasure_Island_(Pinocchio)\">Pleasure Island</a> were transformed into donkeys. Upon gaining employment at the bathhouse, Yubaba's seizure of Chihiro's true name symbolically kills the child,&nbsp;who must then assume adulthood. She then undergoes a rite of passage according to the monomyth format; to recover continuity with her past, Chihiro must create a new identity."
       }
     },
     {
       "id": "doc-1avp1uq2t1",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Along with its function within the ostensible coming of age theme, Yubaba's act of taking Chihiro's name and replacing it with Sen (literally, \"one thousand\"), is symbolic of capitalism's single-minded concern with value, reflecting the film's exploration of capitalism and its effect on traditional Japanese culture."
       }
     },
     {
       "id": "doc-1avp1uq2v0",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Yubaba is stylistically unique within the bathhouse, wearing Western dress and living among European décor and furnishings, in contrast with the minimalist Japanese style of her employee's quarters, representing the Western capitalist influence over Japan in its <a href=\"https://en.wikipedia.org/wiki/Meiji_period\">Meiji period</a> and beyond. The meiji design of the abandoned theme park is the setting for Chihiro's parents' transformation - the family arrives in an imported Audi car and the father wears a European style polo shirt, reassuring Chihiro that he has \"credit cards and cash\", before their morphing into literal consumerist pigs."
       }
     },
     {
       "id": "doc-1avp1uq320",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "<em>Spirited Away</em> contains critical commentary on modern Japanese society concerning generational conflicts and environmental pollution.&nbsp;Chihiro has been seen as a representation of the <a href=\"https://en.wikipedia.org/wiki/Sh%C5%8Djo\">shōjo</a>, whose roles and ideology had changed dramatically since post-war Japan."
       }
     },
     {
       "id": "doc-1avp1uq330",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Just as Chihiro seeks her past identity, Japan, in its anxiety over the economic downturn occurring during the release of the film in 2001, sought to reconnect to past values.&nbsp;In an interview, Miyazaki has commented on this nostalgic element for an old Japan."
       }
     },
     {
       "id": "doc-1avp1uq360",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "However, the bathhouse of the spirits cannot be seen as a place free of ambiguity and darkness.&nbsp;Many of the employees are rude to Chihiro because she is human, and corruption is ever-present;&nbsp;it is a place of excess and greed, as depicted in the initial appearance of the No-Face.&nbsp;In stark contrast to the simplicity of Chihiro's journey and transformation is the constant chaotic carnival in the background."
       }
     },
     {
       "id": "doc-1avp1uq370",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Additional themes are expressed through the No-Face, who reflects the characters which surround him, learning by example and taking the traits of whomever he consumes. This nature results in No-Face's monstrous rampage through the bath house. After Chihiro saves No-Face with the emetic dumpling, he becomes timid once more. At the end of the film, Zeniba decides to take care of No-Face so he can develop without the negative influence of the bathhouse."
       }
     },
     {
       "id": "doc-1avp2olo20",
-      "identifier": "timeline.subtitle",
+      "identifier": "living-times.subtitle",
       "content": {
         "title": "Reviews"
       }
     },
     {
       "id": "doc-1avp2hltr0",
-      "identifier": "timeline.teaser",
+      "identifier": "living-times.teaser",
       "content": {
         "link": "http://www.rogerebert.com/reviews/spirited-away-2002",
         "image": {
@@ -317,7 +317,7 @@
     },
     {
       "id": "doc-1avp2sji00",
-      "identifier": "timeline.teaser",
+      "identifier": "living-times.teaser",
       "content": {
         "link": "https://www.theguardian.com/film/2003/sep/12/spirited-away-review",
         "image": {
@@ -342,7 +342,7 @@
     },
     {
       "id": "doc-1avp2ov5d0",
-      "identifier": "timeline.teaser",
+      "identifier": "living-times.teaser",
       "content": {
         "link": "http://www.nzz.ch/zuerich/zuercher_kultur/mit-ambivalenz-leben-1.18576134",
         "image": {

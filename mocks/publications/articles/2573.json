@@ -6,7 +6,7 @@
     "documentType": "article",
     "layout": "default",
     "design": {
-      "name": "timeline",
+      "name": "living-times",
       "version": "0.4.2"
     }
   },
@@ -38,7 +38,7 @@
   "content": [
     {
       "id": "doc-1agcuk0940",
-      "identifier": "timeline.head",
+      "identifier": "living-times.head",
       "content": {
         "title": "Deutschland weist Erdogans Kritik zurück",
         "text": "Im Satire-Streit mit der Türkei sieht die deutsche Regierung keinen Anlass für weitere Gespräche. Die vorhandenen Gesprächskanäle seien genutzt worden, sagte Vize-Regierungssprecherin Christiane Wirtz am Mittwoch in Berlin."
@@ -46,7 +46,7 @@
     },
     {
       "id": "doc-1agcuk0941",
-      "identifier": "timeline.normal",
+      "identifier": "living-times.normal",
       "content": {
         "image": {
           "url": "https://app.resrc.it/C=W349,H465,X265,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/4/15/7bf17400-7944-473a-841e-947dbdde8e9e.jpeg",
@@ -70,14 +70,14 @@
     },
     {
       "id": "doc-1agcuk0950",
-      "identifier": "timeline.p",
+      "identifier": "living-times.p",
       "content": {
         "text": "Die Regierung sehe daher \"derzeit keinen weiteren Gesprächsbedarf\", sagte sie auf die Frage, ob etwa die deutsche Kanzlerin Angela Merkel ein direktes Gespräch mit dem türkischen Präsidenten Recep Tayyip Erdogan für notwendig halte."
       }
     },
     {
       "id": "doc-1agcunnug0",
-      "identifier": "timeline.p"
+      "identifier": "living-times.p"
     }
   ]
 }
