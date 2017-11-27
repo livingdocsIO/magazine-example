@@ -46,7 +46,7 @@ module.exports = function commonRouteHandlerFactory ({liClient, conf}) {
     // and render it into the shell
     try {
       const documentType = publication.systemdata.documentType
-      const currentDocumentType = documentTypes.find(type => type.handle === documentType)
+      const currentDocumentType = documentTypes && documentTypes[documentType]
       const targetDocumentType = currentDocumentType || defaultDocumentType
 
       const data = {menu, location}

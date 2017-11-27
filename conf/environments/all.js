@@ -23,9 +23,8 @@ module.exports = {
       footer: 'default-layout-footer'
     }
   },
-  documentTypes: [
-    {
-      handle: 'page',
+  documentTypes: {
+    page: {
       layoutComponents: {
         layout: 'page-layout',
         header: 'page-layout-header',
@@ -33,8 +32,7 @@ module.exports = {
         footer: 'page-layout-footer'
       }
     },
-    {
-      handle: 'article',
+    article: {
       layoutComponents: {
         layout: 'article-layout',
         header: 'article-layout-header',
@@ -42,5 +40,5 @@ module.exports = {
         footer: 'article-layout-footer'
       }
     }
-  ]
+  }
 }
