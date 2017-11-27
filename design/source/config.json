@@ -5,11 +5,18 @@
   "license": "Copyright (c) 2017 Livingdocs GmbH, all rights reserved",
 
   "assets": {
-    "css": ["/timeline.css", "/assets/stylesheets/slippry.css"],
-    "js": ["/assets/scripts/jquery-2.1.3.min.js", "/assets/scripts/slippry.min.js", "/assets/scripts/activate_gallery.js"]
+    "css": ["/timeline.css"],
+    "js": []
   },
 
   "componentProperties": {
+
+    "selected-menu": {
+      "label": "Selected Menu Item",
+      "type": "option",
+      "value": "is-selected"
+    },
+
     "image-position": {
       "label": "Position",
       "type": "select",
@@ -65,12 +72,6 @@
       "label": "Featured",
       "type": "option",
       "value": "bleed"
-    },
-
-    "selected-menu": {
-      "label": "Selected Menu Item",
-      "type": "option",
-      "value": "is-selected"
     },
 
     "unordered": {
