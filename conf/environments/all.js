@@ -8,7 +8,11 @@ module.exports = {
   },
   includes: {
     'embed-teaser': {
-      template: 'teaser-hero-template'
+      defaultTemplate: 'embed-teaser-template',
+      templates: {
+        hero: 'teaser-hero-template',
+        card: 'teaser-card-template'
+      }
     }
   },
   defaultDocumentType: {

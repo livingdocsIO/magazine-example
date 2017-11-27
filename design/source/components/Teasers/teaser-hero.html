@@ -4,13 +4,15 @@
     "label": "Teaser Hero",
     "directives": {
       "teaser": {
-        "service": "embed-teaser"
+        "service": "embed-teaser",
+        "defaultParams": {
+          "layout": "hero"
+        }
       }
     }
   }
 </script>
 
-
-<div doc-include="teaser" class="placeholder--teaser-full-width">
+<div doc-include="teaser" class="placeholder--teaser-hero">
   <div class="placeholder-bg"></div>
 </div>
