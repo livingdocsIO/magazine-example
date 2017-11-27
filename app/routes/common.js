@@ -3,6 +3,7 @@ const resolveIncludes = require('../includes')
 const renderLayout = require('../rendering/layout')
 
 module.exports = function commonRouteHandlerFactory ({liClient, conf}) {
+  const headerMenuHandle = conf.get('navigation:headerMenuHandle')
   const includesConfig = conf.get('includes')
   const defaultDocumentType = conf.get('defaultDocumentType')
   const documentTypes = conf.get('documentTypes')
@@ -25,20 +26,20 @@ module.exports = function commonRouteHandlerFactory ({liClient, conf}) {
       return next(e)
     }
 
+    // get the location & menu for navigation purposes
+    const location = req.url
+    let menu = {}
+    try {
+      [menu] = await liClient.getMenus({handle: headerMenuHandle})
+    } catch (e) {
+      console.error('Couldn\'t get the header menus', e)
+    }
+
     // resolve includes
     try {
       await resolveIncludes(livingdoc, liClient, includesConfig)
     } catch (e) {
       console.error(e)
-    }
-
-    // get the location & menu for navigation purposes
-    const location = req.url
-    let menu = {}
-    try {
-      [menu] = await liClient.getMenus({handle: 'main'})
-    } catch (e) {
-      console.error('Couldn\'t get the header menus', e)
     }
 
     // compose layout with the publication livingdoc

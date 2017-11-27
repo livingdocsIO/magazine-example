@@ -3,6 +3,9 @@ module.exports = {
     url: 'http://localhost:3001',
     accessToken: 'your access token'
   },
+  navigation: {
+    headerMenuHandle: 'main'
+  },
   includes: {
     'embed-teaser': {
       template: 'teaser-hero-template'
