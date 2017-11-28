@@ -16,7 +16,7 @@ module.exports = async function resolveEmbedTeaserIncludes (
     const layout = params.layout
     if (!hasValidConfig(layout, templates)) {
       const msg =
-        `Template component for layout "${params.layout}" not found in "templates" configuration`
+        `Template component for layout "${layout}" not found in "templates" configuration`
       throw new Error(msg)
     }
 

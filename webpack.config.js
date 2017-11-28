@@ -40,7 +40,7 @@ module.exports = {
       test: /\.html$/,
       loader: 'html-loader'
     }, {
-      test: /timeline\.scss$/,
+      test: /living-times\.scss$/,
       use: ExtractTextPlugin.extract({
         use: [isDev && {
           loader: 'style-loader'
@@ -79,7 +79,7 @@ module.exports = {
       dest: distPath
     }),
     new ExtractTextPlugin({
-      filename: 'timeline.css',
+      filename: 'styles.css',
       disable: isDev
     }),
     new CopyWebpackPlugin([{

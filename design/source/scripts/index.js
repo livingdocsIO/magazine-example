@@ -1,1 +1,1 @@
-require('../stylesheets/timeline.scss')
+require('../stylesheets/living-times.scss')
