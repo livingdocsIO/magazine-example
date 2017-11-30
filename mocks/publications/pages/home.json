@@ -147,6 +147,103 @@
     {
       "identifier": "living-times.subtitle",
       "content": {
+        "title": "Videos"
+      }
+    },
+    {
+      "id": "doc-1btbuv1ng0",
+      "identifier": "living-times.halves",
+      "containers": {
+        "column-one": [
+          {
+            "identifier": "living-times.halves",
+            "containers": {
+              "column-one": [
+                {
+                  "identifier": "living-times.teaser-video",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "video",
+                        "mediaId": 2923
+                      }
+                    }
+                  }
+                }
+              ],
+              "column-two": [
+                {
+                  "identifier": "living-times.teaser-video",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "video",
+                        "mediaId": 2924
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "identifier": "living-times.halves",
+            "containers": {
+              "column-one": [
+                {
+                  "identifier": "living-times.teaser-video",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "video",
+                        "mediaId": 2926
+                      }
+                    }
+                  }
+                }
+              ],
+              "column-two": [
+                {
+                  "identifier": "living-times.teaser-video",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "video",
+                        "mediaId": 2927
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "column-two": [
+          {
+            "identifier": "living-times.teaser-video",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "video-hero",
+                  "mediaId": 2925
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "identifier": "living-times.separator"
+    },
+    {
+      "identifier": "living-times.subtitle",
+      "content": {
         "title": "Photo Galleries"
       }
     },

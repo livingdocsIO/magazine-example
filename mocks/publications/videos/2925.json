@@ -1,0 +1,87 @@
+{
+  "systemdata": {
+    "projectId": 319,
+    "channelId": 334,
+    "documentId": 2925,
+    "documentType": "article",
+    "layout": "video",
+    "design": {
+      "name": "living-times",
+      "version": "0.0.1"
+    }
+  },
+  "metadata": {
+    "title": "On your mark",
+    "description": "\"<strong>On Your Mark</strong>\" (オン・ユア・マーク <em>On Yua Māku</em>) is a song by the Japanese rock duo <a href=\"https://en.wikipedia.org/wiki/Chage_and_Aska\">Chage &amp; Aska</a>. At their request, animator Hayao Miyazaki produced a music video for the song. The music video was created in 1995, is entirely animated, has no dialogue, and runs for about six and a half minutes.&nbsp;The song was used in advertisements for <a href=\"https://en.wikipedia.org/wiki/NEC\">NEC</a>, and was shown at the theatrical release of <em><a href=\"https://en.wikipedia.org/wiki/Whisper_of_the_Heart_(film)\">Whisper of the Heart</a></em> in Japan.",
+    "author": "Wikipedia contributors",
+    "publishDate": "on Thu Sep 14 2017",
+    "teaserImage": {
+      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/7852b8b6-fdcd-44c1-b04e-b97fe8cbf846.png",
+      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/7852b8b6-fdcd-44c1-b04e-b97fe8cbf846.png",
+      "width": 1500,
+      "height": 820,
+      "imageService": "resrc.it",
+      "crops": [
+        {
+          "name": "16:9",
+          "url": "https://app.resrc.it/C=W1457.7777777777776,H820,X21.1111111111112,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/7852b8b6-fdcd-44c1-b04e-b97fe8cbf846.png",
+          "x": 21.1111111111112,
+          "y": 0,
+          "width": 1457.7777777777776,
+          "height": 820
+        }
+      ]
+    },
+    "dependencies": {}
+  },
+  "content": [
+    {
+      "identifier": "living-times.article-container",
+      "containers": {
+        "header": [
+          { "identifier": "living-times.head" }
+        ],
+        "body": [
+          {
+            "identifier": "living-times.video-container",
+            "containers": {
+              "image": [
+                {
+                  "identifier": "living-times.image",
+                  "content": {
+                    "image": {
+                      "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/7852b8b6-fdcd-44c1-b04e-b97fe8cbf846.png",
+                      "url": "https://app.resrc.it/C=W1457.7777777777776,H820,X21.1111111111112,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/7852b8b6-fdcd-44c1-b04e-b97fe8cbf846.png",
+                      "width": 1457.7777777777776,
+                      "height": 820,
+                      "mimeType": "image/png",
+                      "imageService": "resrc.it",
+                      "crop": {
+                        "name": "16:9",
+                        "x": 21.1111111111112,
+                        "y": 0,
+                        "width": 1457.7777777777776,
+                        "height": 820
+                      }
+                    },
+                    "caption": "\"<strong>On Your Mark</strong>\" (オン・ユア・マーク <em>On Yua Māku</em>) is a song by the Japanese rock duo <a href=\"https://en.wikipedia.org/wiki/Chage_and_Aska\">Chage &amp; Aska</a>. At their request, animator Hayao Miyazaki produced a music video for the song. The music video was created in 1995, is entirely animated, has no dialogue, and runs for about six and a half minutes.&nbsp;The song was used in advertisements for <a href=\"https://en.wikipedia.org/wiki/NEC\">NEC</a>, and was shown at the theatrical release of <em><a href=\"https://en.wikipedia.org/wiki/Whisper_of_the_Heart_(film)\">Whisper of the Heart</a></em> in Japan."
+                  }
+                }
+              ],
+              "video": [
+                {
+                  "id": "doc-1c07d92ff0",
+                  "identifier": "living-times.free-html",
+                  "content": {
+                    "free-html": "<iframe src=\"https://www.youtube.com/embed/aVS4W7GZSq0?ecver=2\" width=\"854\" height=\"480\" frameborder=\"0\" gesture=\"media\" allow=\"encrypted-media\" allowfullscreen></iframe>"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "sidebar": []
+      }
+    }
+  ]
+}

@@ -7,7 +7,8 @@ const DIRS = {
   latestPublications: [
     './mocks/publications/pages',
     './mocks/publications/articles',
-    './mocks/publications/galleries'
+    './mocks/publications/galleries',
+    './mocks/publications/videos'
   ]
 }
 

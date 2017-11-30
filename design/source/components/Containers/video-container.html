@@ -1,0 +1,19 @@
+<script type="ld-conf">
+  {
+    "name": "video-container",
+    "label": "Video Container",
+    "directives": {
+      "image": {
+        "allowedChildren": ["image"]
+      },
+      "video": {
+        "allowedChildren": ["free-html", "iframe"]
+      }
+    }
+  }
+</script>
+
+<div class="video-container">
+  <div class="content-image" doc-container="image"></div>
+  <div class="content-video" doc-container="video"></div>
+</div>

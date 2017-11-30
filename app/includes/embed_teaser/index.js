@@ -1,4 +1,5 @@
 const liSDK = require('@livingdocs/sdk')
+const handleVideoTeaser = require('./video_teaser')
 const handleGalleryTeaser = require('./gallery_teaser')
 
 module.exports = async function resolveEmbedTeaserIncludes (
@@ -21,6 +22,7 @@ module.exports = async function resolveEmbedTeaserIncludes (
     }
 
     const [publication] = await request
+    if (!publication) throw new Error(`Article embed with id "${params.mediaId}" not found`)
 
     const html = renderEmbedTeaserInclude(livingdoc, layout, includeConfig, publication)
     include.resolve(html)
@@ -42,7 +44,10 @@ function renderEmbedTeaserInclude (
 ) {
   const templateComponent = templates[layout] || defaultTemplate
   const component = livingdoc.createComponent(templateComponent)
+
+  if (['video', 'video-hero'].includes(layout)) handleVideoTeaser(component, content)
   if (['gallery', 'gallery-hero'].includes(layout)) handleGalleryTeaser(component, content)
+
   const includeContent = getIncludeContent(layout, desiredImageCrop, {systemdata, metadata})
   component.setContent(includeContent)
   return liSDK.document.renderComponent(component)
@@ -62,9 +67,9 @@ function getIncludeContent (layout, desiredImageCrop, {systemdata, metadata}) {
     title: getTitle(metadata),
     image: getImage(metadata, desiredImageCrop)
   }
-  if (layout === 'gallery') {
+  if (['gallery', 'video'].includes(layout)) {
     return base
-  } else if (layout === 'gallery-hero') {
+  } else if (['gallery-hero', 'video-hero'].includes(layout)) {
     return {...base, text}
   } else if (layout === 'hero') {
     return {...base, link, text, author, date}
