@@ -9,13 +9,12 @@
   margin-bottom: double($base-spacing-unit);
 }
 
-// .teaser-hero > a {
-//   color: inherit;
-//   text-decoration: none;
-// }
+.teaser-hero > a {
+  text-decoration: none;
+}
 
-.teaser-hero__header:hover {
-  opacity: .85;
+.teaser-hero__header:hover .teaser-hero__title {
+  text-decoration: underline;
 }
 
 .teaser-hero__header {
