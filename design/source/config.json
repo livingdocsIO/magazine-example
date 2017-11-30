@@ -53,6 +53,20 @@
       ]
     },
 
+    "teaser-hero": {
+      "label": "Margin",
+      "type": "select",
+      "options": [
+        {
+          "caption": "Normal"
+        },
+        {
+          "caption": "Breath",
+          "value": "teaser-hero--breath"
+        }
+      ]
+    },
+
     "options": {
       "id": "Options",
       "label": "Options",

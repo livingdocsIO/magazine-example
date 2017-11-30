@@ -95,3 +95,9 @@
   .teaser-hero__byline li a:hover {
     text-decoration: none;
   }
+
+// Modfier
+.teaser-hero--breath {
+  margin-left: calc(8.33% + #{$base-spacing-unit});  
+  margin-right: calc(8.33% + #{$base-spacing-unit});
+}
