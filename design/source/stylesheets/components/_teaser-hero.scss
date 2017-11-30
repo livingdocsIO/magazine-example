@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 28% 0;
+  padding: 20% 0;
   margin-bottom: 20px;
   background-size: cover;
   background-position: top center;
@@ -33,30 +33,32 @@
 
 
 .teaser-hero__header-text {
-  color: white;
+  max-width: 60%;
 }
 
-.teaser-hero__catchline {
-  display: block;
-  font-size: smaller;
+.teaser-hero__flag {
+  display: inline-block;
+  padding-right: quarter($base-spacing-unit);
+  padding-left: quarter($base-spacing-unit);
+  margin-bottom: quarter($base-spacing-unit);
+
+  font-weight: bold;
+  color: $flag-color;
   text-transform: uppercase;
+  @include font-size($mili-size, false);
+
+  border-radius: 2px;
+  background-color: #fff;
 }
 
 .teaser-hero__title {
-  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+  @include font-size($delta-size, false);
 }
 
 .teaser-hero__title, .teaser-hero__catchline {
   text-shadow: 1px 1px 2px rgba(0,0,0,.7);
-}
-
-.teaser-hero__flag {
-  color: rgba(0,0,0,.87);
-  left: 10px;
-  bottom: 10px;
-  position: absolute;
-  padding: 4px 10px;
-  background-color: lightgreen;
 }
 
 .teaser-hero__text {
@@ -73,19 +75,12 @@
 }
 
   .teaser-hero__byline li {
-    float: left;
-    padding-right: 10px;
-    padding-left: 10px;
-    border-right: 1px solid rgba(0,0,0,.54);
-  }
-
-  .teaser-hero__byline li:first-child {
-    padding-left: 0;
+    display: inline-block;
+    margin-right: quarter($base-spacing-unit);
   }
 
   .teaser-hero__byline li:last-child {
-    padding-right: 0;
-    border-right: none;
+    margin-right: 0;
   }
 
   .teaser-hero__byline li a {
@@ -98,6 +93,6 @@
 
 // Modfier
 .teaser-hero--breath {
-  margin-left: calc(8.33% + #{$base-spacing-unit});  
+  margin-left: calc(8.33% + #{$base-spacing-unit});
   margin-right: calc(8.33% + #{$base-spacing-unit});
 }

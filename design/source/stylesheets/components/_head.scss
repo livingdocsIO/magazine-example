@@ -13,7 +13,7 @@
   font-weight: bold;
   color: $flag-color;
   text-transform: uppercase;
-  @include font-size($mili-size);
+  @include font-size($mili-size); // 14px
 }
 
 .head__title {
