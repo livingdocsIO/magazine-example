@@ -10,6 +10,7 @@
       "version": "0.0.1"
     }
   },
+
   "metadata": {
     "homepage": true,
     "title": "Homepage",
@@ -17,23 +18,28 @@
     "publishDate": "on Thu Sep 14 2017",
     "dependencies": {}
   },
+
   "content": [
     {
-      "id": "doc-1btbuv1ng0",
-      "identifier": "living-times.teaser-hero",
-      "content": {
-        "teaser": {
-          "service": "embed-teaser",
-          "params": {
-            "layout": "hero",
-            "mediaId": 2917
+      "component": "whole",
+      "styles":  {
+        "container-style-breath": "container--breath"
+      },
+      "containers": {
+        "column-one": [
+          {
+            "component": "teaser-hero-resolved"
           }
-        }
+        ]
       }
     },
+
     {
       "id": "doc-1btbuv1ng0",
       "identifier": "living-times.thirds",
+      "styles":  {
+        "container-style-lined": "container--lined"
+      },
       "containers": {
         "column-one": [
           {
@@ -79,9 +85,72 @@
         ]
       }
     },
+
+    {
+      "component": "quarter",
+      "styles" : {
+        "container-style-lined": "container--lined"
+      },
+      "containers": {
+        "column-one": [
+          {
+            "component": "teaser-card-no-image-resolved"
+          }
+        ],
+        "column-two": [
+          {
+            "component": "teaser-card-no-image-resolved"
+          }
+        ],
+        "column-three": [
+          {
+            "component": "teaser-card-no-image-resolved"
+          }
+        ],
+        "column-four": [
+          {
+            "component": "teaser-card-no-image-resolved"
+          }
+        ]
+      }
+    },
+
+    {
+      "component": "whole",
+      "content": {
+        "title": "The latest"
+      },
+      "styles" : {
+        "container-style-lined": "container--lined",
+        "container-style-breath": "container--breath"
+      },
+      "containers": {
+        "column-one": [
+          {
+            "component": "teaser-card-resolved"
+          },
+          {
+            "component": "teaser-card-resolved"
+          },
+          {
+            "component": "teaser-card-resolved"
+          },
+          {
+            "component": "teaser-card-resolved"
+          }
+        ]
+      }
+    },
+
     {
       "id": "doc-1btbuv1ng0",
       "identifier": "living-times.quarter",
+      "content": {
+        "title": "Spotlight"
+      },
+      "styles": {
+        "container-style-lined": "container--lined"
+      },
       "containers": {
         "column-one": [
           {
@@ -331,6 +400,43 @@
                 }
               }
             }
+          }
+        ]
+      }
+    },
+
+    {
+      "component": "halves",
+      "styles": {
+        "container-style-lined": "container--lined"
+      },
+      "containers": {
+        "column-one": [
+          {
+            "component": "teaser-card-author"
+          },
+          {
+            "component": "teaser-card-author"
+          },
+          {
+            "component": "teaser-card-author"
+          },
+          {
+            "component": "teaser-card-author"
+          }
+        ],
+        "column-two": [
+          {
+            "component": "teaser-card-numbered"
+          },
+          {
+            "component": "teaser-card-numbered"
+          },
+          {
+            "component": "teaser-card-numbered"
+          },
+          {
+            "component": "teaser-card-numbered"
           }
         ]
       }
