@@ -53,18 +53,16 @@
       ]
     },
 
-    "teaser-hero": {
-      "label": "Margin",
-      "type": "select",
-      "options": [
-        {
-          "caption": "Normal"
-        },
-        {
-          "caption": "Breath",
-          "value": "teaser-hero--breath"
-        }
-      ]
+    "container-style-breath": {
+      "label": "Extra margin",
+      "type": "option",
+      "value": "container--breath"
+    },
+
+    "container-style-lined": {
+      "label": "Add lines",
+      "type": "option",
+      "value": "container--lined"
     },
 
     "options": {
