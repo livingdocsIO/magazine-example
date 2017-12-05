@@ -13,20 +13,20 @@
   position: relative;
   margin-bottom: halve($base-spacing-unit);
 }
-  .teaser-card__figure a {
-    color: inherit;
-    text-decoration: none;
-  }
 
-  .teaser-card__caption {
-    left: 15px;
-    bottom: 20px;
-    position: absolute;
+.teaser-card__figure a {
+  color: inherit;
+  text-decoration: none;
+}
 
-    padding: 4px 10px;
-    background-color: lightgreen;
-  }
+.teaser-card__caption {
+  left: 15px;
+  bottom: 20px;
+  position: absolute;
 
+  padding: 4px 10px;
+  background-color: lightgreen;
+}
 
 .teaser-card__flag {
   display: inline-block;
@@ -35,7 +35,12 @@
   font-weight: bold;
   color: $flag-color;
   text-transform: uppercase;
-  @include font-size($mili-size); // 14px
+  @include font-size($micro-size); // 13px
+}
+
+.teaser-card__number {
+  font-family: $serif-font;
+  @include font-size($alpha-size, false);
 }
 
 .teaser-card__title {
@@ -70,6 +75,10 @@
   display: inline-block;
   margin-right: quarter($base-spacing-unit);
 
+  &:first-child {
+    font-weight: bold;
+  }
+
   &:last-child {
     margin-right: 0;
   }
@@ -84,23 +93,16 @@
 }
 
 
-// Modifier
+// Modifier: Align image right / left
 .teaser-card--left-aligned-img, .teaser-card--right-aligned-img {
   display: flex;
-  align-items: flex-start;
-}
-
-.teaser-card--left-aligned-img .teaser-card__figure,
-.teaser-card--right-aligned-img .teaser-card__figure {
-  width: 40%;
-  margin-right: 20px;
+  align-items: center;
 }
 
 .teaser-card--left-aligned-img .teaser-card__figure,
 .teaser-card--right-aligned-img .teaser-card__figure {
   width: 40%;
 }
-
 
 .teaser-card--left-aligned-img .teaser-card__body,
 .teaser-card--right-aligned-img .teaser-card__body  {
@@ -114,4 +116,26 @@
 .teaser-card--right-aligned-img .teaser-card__figure {
   margin-left: 20px;
   order: 1;
+}
+
+
+// Modifier: Color flag text black
+.teaser-card__flag--black {
+  color: $text-color;
+}
+
+
+// Modifier: Align number left
+.teaser-card--left-aligned-number {
+  display: flex;
+  align-items: center;
+}
+
+.teaser-card--left-aligned-number .teaser-card__number {
+  width: 15%;
+  margin-right: 20px;
+}
+
+.teaser-card--left-aligned-number .teaser-card__body {
+  flex: 1;
 }
