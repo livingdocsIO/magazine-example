@@ -7,6 +7,9 @@
 // -> source/components/layout/article-layout-header.html
 
 .page-head {
+  @extend .wrapper;
+  @extend .wrapper--wide;
+
   margin-bottom: $base-spacing-unit;
 }
 

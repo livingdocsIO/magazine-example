@@ -7,9 +7,15 @@
 // -> source/components/layout/article-layout-footer.html
 
 .page-foot {
+  @extend .wrapper;
+  @extend .wrapper--wide;
+
   margin-top: double($base-spacing-unit);
-  padding-top: halve($base-spacing-unit);
+}
+
+.page-foot__wrapper {
   border-top: 1px solid $divider-color;
+  padding-top: halve($base-spacing-unit);
 }
 
 .footer-links {
