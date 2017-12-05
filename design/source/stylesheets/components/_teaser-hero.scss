@@ -24,7 +24,8 @@
   align-items: center;
   justify-content: center;
 
-  padding: 20% 0;
+  height: 0;
+  padding: 36.25% 0 20%;
   margin-bottom: halve($base-spacing-unit);
 
   background-size: cover;
@@ -46,7 +47,7 @@
   font-weight: bold;
   color: $flag-color;
   text-transform: uppercase;
-  @include font-size($mili-size, false);
+  @include font-size($micro-size, false);
 
   border-radius: 2px;
   background-color: #fff;
@@ -74,22 +75,26 @@
   @include font-size($mili-size);
 }
 
-  .teaser-hero__byline li {
-    display: inline-block;
-    margin-right: quarter($base-spacing-unit);
+.teaser-hero__byline li {
+  display: inline-block;
+  margin-right: quarter($base-spacing-unit);
+
+  &:first-child {
+    font-weight: bold;
   }
 
-  .teaser-hero__byline li:last-child {
+  &:last-child {
     margin-right: 0;
   }
 
-  .teaser-hero__byline li a {
+  a {
     color: inherit;
   }
 
-  .teaser-hero__byline li a:hover {
+  a:hover {
     text-decoration: none;
   }
+}
 
 // Modfier
 .teaser-hero--breath {
