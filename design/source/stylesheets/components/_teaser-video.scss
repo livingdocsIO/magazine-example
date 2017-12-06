@@ -7,16 +7,16 @@
 
 .teaser-video {
 
-  .teaser-card__image {
-    cursor: pointer;
-  }
-
-  .teaser-card__title {
-    cursor: pointer;
-  }
-
   &__markup {
     display: none;
+  }
+
+  .teaser-card {
+    cursor: pointer;
+  }
+
+  .teaser-hero {
+    cursor: pointer;
   }
 
 }

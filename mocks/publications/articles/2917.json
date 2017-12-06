@@ -81,12 +81,8 @@
             }
           }
         ],
-        "sidebar": [
-
-        ],
-        "footer": [
-
-        ]
+        "sidebar": [],
+        "footer": []
       }
     }
   ]

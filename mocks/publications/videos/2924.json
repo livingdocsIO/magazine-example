@@ -41,7 +41,7 @@
         "header": [
           { "identifier": "living-times.head" }
         ],
-        "body": [
+        "main": [
           {
             "identifier": "living-times.video-container",
             "containers": {
@@ -86,7 +86,8 @@
             }
           }
         ],
-        "sidebar": []
+        "sidebar": [],
+        "footer": []
       }
     }
   ]

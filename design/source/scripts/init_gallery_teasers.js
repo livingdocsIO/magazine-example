@@ -22,15 +22,18 @@ module.exports = function initGalleryTeasers (window, document) {
 
   function registerClickListeners () {
     for (const galleryTeaserEl of galleryTeasers) {
-      const teaserTitleEl = galleryTeaserEl.querySelector('.teaser-card__title')
+      const teaserHeroEl = galleryTeaserEl.querySelector('.teaser-hero')
+      const teaserHeroImageEl = galleryTeaserEl.querySelector('.teaser-hero__header')
+      const teaserCardEl = galleryTeaserEl.querySelector('.teaser-card')
       const teaserImageEl = galleryTeaserEl.querySelector('.teaser-card__image')
-      const onTeaserClick = function (e) {
+
+      const target = teaserHeroEl || teaserCardEl
+      const imageEl = teaserHeroImageEl || teaserImageEl
+      target && target.addEventListener('click', function (e) {
         e = e || window.event
         e.preventDefault ? e.preventDefault() : e.returnValue = false
-        openGallery(galleryTeaserEl, teaserImageEl)
-      }
-      teaserTitleEl.addEventListener('click', onTeaserClick)
-      teaserImageEl.addEventListener('click', onTeaserClick)
+        openGallery(galleryTeaserEl, imageEl)
+      })
     }
   }
 

@@ -9,15 +9,22 @@ module.exports = function initGalleryTeasers (window, document) {
 
   function registerClickListeners () {
     for (const videoTeaserEl of videoTeasers) {
+      const teaserHeroEl = videoTeaserEl.querySelector('.teaser-hero')
+      const teaserHeroTitleEl = videoTeaserEl.querySelector('.teaser-hero__title')
+      const teaserHeroImageEl = videoTeaserEl.querySelector('.teaser-hero__header')
+
+      const teaserCardEl = videoTeaserEl.querySelector('.teaser-card')
       const teaserTitleEl = videoTeaserEl.querySelector('.teaser-card__title')
       const teaserImageEl = videoTeaserEl.querySelector('.teaser-card__image')
-      const onTeaserClick = function (e) {
+
+      const target = teaserHeroEl || teaserCardEl
+      const imageEl = teaserHeroImageEl || teaserImageEl
+      const titleEl = teaserHeroTitleEl || teaserTitleEl
+      target && target.addEventListener('click', function (e) {
         e = e || window.event
         e.preventDefault ? e.preventDefault() : e.returnValue = false
-        openGallery(videoTeaserEl, teaserImageEl, teaserTitleEl)
-      }
-      teaserTitleEl.addEventListener('click', onTeaserClick)
-      teaserImageEl.addEventListener('click', onTeaserClick)
+        openGallery(videoTeaserEl, imageEl, titleEl)
+      })
     }
   }
 
@@ -45,10 +52,21 @@ module.exports = function initGalleryTeasers (window, document) {
   }
 
   function getImageItem (teaserImageEl, teaserTitleEl) {
+    const isImgEl = teaserImageEl.tagName === 'IMG'
+    const imageSrc = isImgEl
+      ? teaserImageEl.getAttribute('src')
+      : teaserImageEl.style.backgroundImage.replace(/(url\(|\)|")/g, '')
+    const rect = !isImgEl && teaserImageEl.getBoundingClientRect()
+    const imageWidth = isImgEl
+      ? teaserImageEl.naturalWidth
+      : rect.width
+    const imageHeight = isImgEl
+      ? teaserImageEl.naturalHeight
+      : rect.height
     const item = {
-      src: teaserImageEl.getAttribute('src'),
-      w: teaserImageEl.naturalWidth,
-      h: teaserImageEl.naturalHeight,
+      src: imageSrc,
+      w: imageWidth,
+      h: imageHeight,
       title: teaserTitleEl ? teaserTitleEl.innerHTML : ''
     }
     return item
