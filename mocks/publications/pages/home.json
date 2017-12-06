@@ -28,7 +28,16 @@
       "containers": {
         "column-one": [
           {
-            "component": "teaser-hero-resolved"
+            "component": "teaser-hero",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "hero",
+                  "mediaId": 2917
+                }
+              }
+            }
           }
         ]
       }
@@ -211,6 +220,42 @@
       }
     },
     {
+      "component": "halves",
+      "styles": {
+        "container-style-lined": "container--lined"
+      },
+      "containers": {
+        "column-one": [
+          {
+            "component": "teaser-card-author"
+          },
+          {
+            "component": "teaser-card-author"
+          },
+          {
+            "component": "teaser-card-author"
+          },
+          {
+            "component": "teaser-card-author"
+          }
+        ],
+        "column-two": [
+          {
+            "component": "teaser-card-numbered"
+          },
+          {
+            "component": "teaser-card-numbered"
+          },
+          {
+            "component": "teaser-card-numbered"
+          },
+          {
+            "component": "teaser-card-numbered"
+          }
+        ]
+      }
+    },
+    {
       "id": "doc-1btbuv1ng0",
       "identifier": "living-times.halves",
       "content": {
@@ -388,43 +433,6 @@
                 }
               }
             }
-          }
-        ]
-      }
-    },
-
-    {
-      "component": "halves",
-      "styles": {
-        "container-style-lined": "container--lined"
-      },
-      "containers": {
-        "column-one": [
-          {
-            "component": "teaser-card-author"
-          },
-          {
-            "component": "teaser-card-author"
-          },
-          {
-            "component": "teaser-card-author"
-          },
-          {
-            "component": "teaser-card-author"
-          }
-        ],
-        "column-two": [
-          {
-            "component": "teaser-card-numbered"
-          },
-          {
-            "component": "teaser-card-numbered"
-          },
-          {
-            "component": "teaser-card-numbered"
-          },
-          {
-            "component": "teaser-card-numbered"
           }
         ]
       }
