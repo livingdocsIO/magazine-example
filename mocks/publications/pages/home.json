@@ -211,17 +211,11 @@
       }
     },
     {
-      "identifier": "living-times.separator"
-    },
-    {
-      "identifier": "living-times.subtitle",
-      "content": {
-        "title": "Videos"
-      }
-    },
-    {
       "id": "doc-1btbuv1ng0",
       "identifier": "living-times.halves",
+      "content": {
+        "title": "Videos"
+      },
       "containers": {
         "column-one": [
           {
@@ -308,17 +302,11 @@
       }
     },
     {
-      "identifier": "living-times.separator"
-    },
-    {
-      "identifier": "living-times.subtitle",
-      "content": {
-        "title": "Photo Galleries"
-      }
-    },
-    {
       "id": "doc-1btbuv1ng0",
       "identifier": "living-times.halves",
+      "content": {
+        "title": "Photo galleries"
+      },
       "containers": {
         "column-one": [
           {

@@ -54,9 +54,19 @@
 }
 
 .teaser-hero__title {
+  margin-bottom: 0;
+
   color: #fff;
   font-weight: bold;
   @include font-size($delta-size, false);
+}
+
+.teaser-hero__label {
+  @extend .teaser-card__caption;
+}
+
+.teaser-hero__icon {
+  @extend .teaser-card__icon;
 }
 
 .teaser-hero__title, .teaser-hero__catchline {
@@ -96,8 +106,9 @@
   }
 }
 
-// Modfier
-.teaser-hero--breath {
-  margin-left: calc(8.33% + #{$base-spacing-unit});
-  margin-right: calc(8.33% + #{$base-spacing-unit});
+// Modifier: Video + gallery hero
+.teaser-hero--video .teaser-hero__header,
+.teaser-hero--gallery .teaser-hero__header {
+  padding-top: 28.125%;
+  padding-bottom: 28.125%;
 }
