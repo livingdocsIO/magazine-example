@@ -10,6 +10,8 @@
   @extend .wrapper;
   @extend .wrapper--wide;
 
+  position: relative;
+
   margin-bottom: $base-spacing-unit;
 }
 
@@ -21,7 +23,7 @@
 
 // Meta navgation styles
 .meta-nav {
-  top: 36px;
+  top: 8px;
   position: absolute;
   right: $base-spacing-unit;
 
