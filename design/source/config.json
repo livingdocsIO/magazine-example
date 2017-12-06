@@ -130,7 +130,7 @@
             "header": [
               { "identifier": "living-times.head" }
             ],
-            "body": [
+            "main": [
               { "identifier": "living-times.image",
                 "styles": {
                   "image-position": "c-image--left",
@@ -139,7 +139,8 @@
               },
               { "identifier": "living-times.paragraph" }
             ],
-            "sidebar": []
+            "sidebar": [],
+            "footer": []
           }
         }
       ],
