@@ -48,7 +48,7 @@
         },
         {
           "caption": "Right",
-          "value": "c-image--left"
+          "value": "c-image--right"
         }
       ]
     },
@@ -143,13 +143,15 @@
       "wrapper": "<div class=\"doc-section\"></div>",
       "icon": null,
       "defaultContent": [
-        { "identifier": "living-times.article-container",
+        {
+          "identifier": "living-times.article-container",
           "containers": {
             "header": [
               { "identifier": "living-times.head" }
             ],
             "main": [
-              { "identifier": "living-times.image",
+              {
+                "identifier": "living-times.image",
                 "styles": {
                   "image-position": "c-image--left",
                   "aspect-ratio": "square"
@@ -331,7 +333,7 @@
 
   "prefilledComponents": {
     "head": {
-      "meta": {
+      "author": {
         "value": "author",
         "type": "computed"
       }
@@ -354,7 +356,7 @@
     {
       "identifier": "author",
       "type": "text",
-      "matches": ["head.meta"],
+      "matches": ["head.author"],
       "isEditable": true
     },
     {

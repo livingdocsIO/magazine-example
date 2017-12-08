@@ -105,7 +105,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "card-no-image",
-                  "mediaId": 2906
+                  "mediaId": 2573
                 }
               }
             }
@@ -119,7 +119,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "card-no-image",
-                  "mediaId": 2907
+                  "mediaId": 2910
                 }
               }
             }
@@ -147,7 +147,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "card-no-image",
-                  "mediaId": 2910
+                  "mediaId": 2907
                 }
               }
             }
@@ -261,7 +261,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "card",
-                  "mediaId": 2906
+                  "mediaId": 2909
                 }
               }
             }
@@ -275,7 +275,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "card",
-                  "mediaId": 2907
+                  "mediaId": 2910
                 }
               }
             }
@@ -289,7 +289,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "card",
-                  "mediaId": 2908
+                  "mediaId": 2911
                 }
               }
             }

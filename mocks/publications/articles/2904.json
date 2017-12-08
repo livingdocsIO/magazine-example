@@ -7,7 +7,7 @@
     "layout": "default",
     "design": {
       "name": "living-times",
-      "version": "1.0.0"
+      "version": "0.0.1"
     }
   },
   "metadata": {
@@ -37,36 +37,49 @@
   },
   "content": [
     {
-      "id": "doc-1avodh4750",
-      "identifier": "living-times.title",
-      "content": {
-        "title": "Ghiblies Episode 2"
-      }
-    },
-    {
-      "id": "doc-1avodggh10",
-      "identifier": "living-times.iframe",
-      "content": {
-        "iframe": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://www.youtube.com/embed/oma2bN3HWsU\" frameborder=\"0\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></div>"
-      },
-      "data": {
-        "_iframeDirective": {
-          "_embedHandler": "iframe"
-        }
-      }
-    },
-    {
-      "id": "doc-1avodg9lg1",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "A 25-minute sequel, titled <em><strong>Ghiblies Episode 2</strong></em>, was released in theaters with <em><a href=\"https://en.wikipedia.org/wiki/The_Cat_Returns\">The Cat Returns</a></em> on July 19, 2002. Momose wrote the script and directed the sequel, with assistance directing from Eiichirō Tashiro and Chika Matsumura. Manto Watanabe, the drummer for the Okinawan band <a href=\"https://en.wikipedia.org/wiki/Shang_Shang_Typhoon\">Shang Shang Typhoon</a>, created the music for the short film. Other staff members included art director Noboru Yoshida, original character designer <a href=\"https://en.wikipedia.org/wiki/Toshio_Suzuki_(producer)\">Toshio Suzuki</a>, and special character designer <a href=\"https://en.wikipedia.org/wiki/Hisaichi_Ishii\">Hisaichi Ishii</a>."
-      }
-    },
-    {
-      "id": "doc-1avodi7o70",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "<em>Source: Wikipedia</em>"
+      "identifier": "living-times.article-container",
+      "containers": {
+        "header": [
+          {
+            "id": "doc-1agcuk0940",
+            "identifier": "living-times.head",
+            "content": {
+              "title": "Ghiblies Episode 2",
+              "text": "A 25-minute sequel, titled <em><strong>Ghiblies Episode 2</strong></em>, was released in theaters with...",
+              "author": "Wikipedia contributors"
+            }
+          }
+        ],
+        "main": [
+          {
+            "id": "doc-1avodggh10",
+            "identifier": "living-times.iframe",
+            "content": {
+              "iframe": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://www.youtube.com/embed/oma2bN3HWsU\" frameborder=\"0\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></div>"
+            },
+            "data": {
+              "_iframeDirective": {
+                "_embedHandler": "iframe"
+              }
+            }
+          },
+          {
+            "id": "doc-1agcuk0950",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "A 25-minute sequel, titled <em><strong>Ghiblies Episode 2</strong></em>, was released in theaters with <em><a href=\"https://en.wikipedia.org/wiki/The_Cat_Returns\">The Cat Returns</a></em> on July 19, 2002. Momose wrote the script and directed the sequel, with assistance directing from Eiichirō Tashiro and Chika Matsumura. Manto Watanabe, the drummer for the Okinawan band <a href=\"https://en.wikipedia.org/wiki/Shang_Shang_Typhoon\">Shang Shang Typhoon</a>, created the music for the short film. Other staff members included art director Noboru Yoshida, original character designer <a href=\"https://en.wikipedia.org/wiki/Toshio_Suzuki_(producer)\">Toshio Suzuki</a>, and special character designer <a href=\"https://en.wikipedia.org/wiki/Hisaichi_Ishii\">Hisaichi Ishii</a>."
+            }
+          },
+          {
+            "id": "doc-1agcuk0950",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "<em>Source: Wikipedia</em>"
+            }
+          }
+        ],
+        "sidebar": [],
+        "footer": []
       }
     }
   ]

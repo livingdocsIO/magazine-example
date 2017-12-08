@@ -7,7 +7,7 @@
     "layout": "default",
     "design": {
       "name": "living-times",
-      "version": "1.0.0"
+      "version": "0.0.1"
     }
   },
   "metadata": {
@@ -37,50 +37,63 @@
   },
   "content": [
     {
-      "id": "doc-1avoe6et70",
-      "identifier": "living-times.title",
-      "content": {
-        "title": "The Night of Taneyamagahara"
-      }
-    },
-    {
-      "id": "doc-1avoe61tf0",
-      "identifier": "living-times.iframe",
-      "content": {
-        "iframe": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://www.youtube.com/embed/JfTFNTBff2I\" frameborder=\"0\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></div>"
-      },
-      "data": {
-        "_iframeDirective": {
-          "_embedHandler": "iframe"
-        }
-      }
-    },
-    {
-      "id": "doc-1avoe5pum0",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "The Night of Taneyamagahara (種山ヶ原の夜 <em>Taneyamagahara no Yoru</em>) is a short anime film directed by <a href=\"https://en.wikipedia.org/wiki/Kazuo_Oga\">Kazuo Oga</a> and released by <a href=\"https://en.wikipedia.org/wiki/Studio_Ghibli\">Studio Ghibli</a>. A DVD version was released for Japan on July 7, 2006. It is based on a short story of the same name by <a href=\"https://en.wikipedia.org/wiki/Kenji_Miyazawa\">Kenji Miyazawa</a>."
-      }
-    },
-    {
-      "id": "doc-1avoe9a7c0",
-      "identifier": "living-times.subtitle",
-      "content": {
-        "title": "Plot"
-      }
-    },
-    {
-      "id": "doc-1avoe91r20",
-      "identifier": "living-times.p",
-      "content": {
-        "text": " Some farmers are out on the mountain, waiting for dawn so they can begin cutting grass. They talk about some of the things in their lives. One of them wants to buy a plot of land he's heard of. When they hear the sound of a horse, the others walk away to investigate, leaving the farmer who wanted to buy the land alone. He falls asleep and dreams he's talking to plants and trees, asking them about the plot of land. Eventually, the others return, and because the sun has come up, they get ready for work."
-      }
-    },
-    {
-      "id": "doc-1avoe9gs00",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "<em>Source: Wikipedia</em>"
+      "identifier": "living-times.article-container",
+      "containers": {
+        "header": [
+          {
+            "id": "doc-1agcuk0940",
+            "identifier": "living-times.head",
+            "content": {
+              "title": "The Night of Taneyamagahara",
+              "text": "The Night of Taneyamagahara (種山ヶ原の夜 <em>Taneyamagahara no Yoru</em>) is a short anime film directed by...",
+              "author": "Wikipedia contributors"
+            }
+          }
+        ],
+        "main": [
+          {
+            "id": "doc-1avoe61tf0",
+            "identifier": "living-times.iframe",
+            "content": {
+              "iframe": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://www.youtube.com/embed/JfTFNTBff2I\" frameborder=\"0\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></div>"
+            },
+            "data": {
+              "_iframeDirective": {
+                "_embedHandler": "iframe"
+              }
+            }
+          },
+          {
+            "id": "doc-1agcuk0950",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "The Night of Taneyamagahara (種山ヶ原の夜 <em>Taneyamagahara no Yoru</em>) is a short anime film directed by <a href=\"https://en.wikipedia.org/wiki/Kazuo_Oga\">Kazuo Oga</a> and released by <a href=\"https://en.wikipedia.org/wiki/Studio_Ghibli\">Studio Ghibli</a>. A DVD version was released for Japan on July 7, 2006. It is based on a short story of the same name by <a href=\"https://en.wikipedia.org/wiki/Kenji_Miyazawa\">Kenji Miyazawa</a>."
+            }
+          },
+          {
+            "id": "doc-1avoe9a7c0",
+            "identifier": "living-times.subtitle",
+            "content": {
+              "title": "Plot"
+            }
+          },
+          {
+            "id": "doc-1agcuk0950",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "Some farmers are out on the mountain, waiting for dawn so they can begin cutting grass. They talk about some of the things in their lives. One of them wants to buy a plot of land he's heard of. When they hear the sound of a horse, the others walk away to investigate, leaving the farmer who wanted to buy the land alone. He falls asleep and dreams he's talking to plants and trees, asking them about the plot of land. Eventually, the others return, and because the sun has come up, they get ready for work."
+            }
+          },
+          {
+            "id": "doc-1agcuk0950",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "<em>Source: Wikipedia</em>"
+            }
+          }
+        ],
+        "sidebar": [],
+        "footer": []
       }
     }
   ]

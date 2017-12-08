@@ -37,138 +37,160 @@
   },
   "content": [
     {
-      "id": "doc-1b05a45f40",
-      "identifier": "living-times.hero",
-      "content": {
-        "image": {
-          "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/c69e1760-2185-49dd-bb27-0b5beaf158e2.jpeg",
-          "width": 1115,
-          "height": 747,
-          "mimeType": "image/jpeg",
-          "imageService": "resrc.it"
-        },
-        "title": "Hayao Miyazaki",
-        "subtitle": "The creation of a single world comes from a huge number of fragments and chaos.",
-        "text": "Wikipedia contributors"
-      }
-    },
-    {
-      "id": "doc-1b05a3v3m0",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "<strong>Hayao Miyazaki</strong> (宮崎 駿 <em>Miyazaki Hayao</em>, born January 5, 1941) is a Japanese film director, producer, screenwriter, animator, author, and manga artist. Through a career that has spanned five decades, Miyazaki has attained international acclaim as a masterful storyteller and as a maker of anime feature films and, along with <a href=\"https://en.wikipedia.org/wiki/Isao_Takahata\">Isao Takahata</a>, co-founded Studio Ghibli, a film and animation studio."
-      },
-      "styles": {
-        "dropcap": "drop-cap"
-      }
-    },
-    {
-      "id": "doc-1b05a5sn90",
-      "identifier": "living-times.normal",
-      "content": {
-        "image": {
-          "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/b0d6fff9-ffa7-4e0c-b282-a6fe2628f9f6.jpeg",
-          "width": 293,
-          "height": 300,
-          "mimeType": "image/jpeg",
-          "imageService": "resrc.it",
-          "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/b0d6fff9-ffa7-4e0c-b282-a6fe2628f9f6.jpeg"
-        }
-      },
-      "styles": {
-        "position": "right"
-      }
-    },
-    {
-      "id": "doc-1b05a59060",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "Born in Bunkyō, Tokyo, Miyazaki began his animation career in 1963, when he joined Toei Animation. From there, Miyazaki worked as an in-between artist for <em><a href=\"https://en.wikipedia.org/wiki/Gulliver%27s_Travels_Beyond_the_Moon\">Gulliver's Travels Beyond the Moon</a></em>, where he pitched ideas that eventually became the movie's ending. He continued to work in various roles in the animation industry until he directed his first feature film, <em>Lupin III: <a href=\"https://en.wikipedia.org/wiki/The_Castle_of_Cagliostro\">The Castle of Cagliostro</a></em>, released in 1979. After the success of his next film, <em><a href=\"https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)\">Nausicaä of the Valley of the Wind</a></em> (1984), he co-founded Studio Ghibli, where he continued to produce many feature films. While Miyazaki's films have long enjoyed both commercial and critical success in Japan, he remained largely unknown to the West until Miramax Films released <em><a href=\"https://en.wikipedia.org/wiki/Princess_Mononoke\">Princess Mononoke</a></em> (1997). <em>Princess Mononoke</em> was briefly the highest-grossing film in Japan until it was eclipsed by another 1997 film, <em><a href=\"https://en.wikipedia.org/wiki/Titanic_(1997_film)\">Titanic</a></em>, and it became the first animated film to win Picture of the Year at the Japanese Academy Awards. Miyazaki's next film, <em><a href=\"https://en.wikipedia.org/wiki/Spirited_Away\">Spirited Away</a></em> (2001), won Picture of the Year at the Japanese Academy Awards, and"
-      }
-    },
-    {
-      "id": "doc-1b05a5f1s0",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "Miyazaki's films often contain recurrent themes, like humanity's relationship with nature and technology, and the difficulty of maintaining a pacifist ethic. His films's protagonists are often strong girls or young women. While two of his films, <em><a href=\"https://en.wikipedia.org/wiki/The_Castle_of_Cagliostro\">The Castle of Cagliostro</a></em> and <em><a href=\"https://en.wikipedia.org/wiki/Castle_in_the_Sky\">Castle in the Sky</a></em>, involve traditional villains, his other films like <em><a href=\"https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)\">Nausicaä</a></em> and <em>Princess Mononoke</em> present morally ambiguous antagonists with redeeming qualities. He co-wrote films <em><a href=\"https://en.wikipedia.org/wiki/Arrietty\">The Secret World of Arrietty</a></em>, released in July 2010 in Japan and February 2012 in the United States; and <em><a href=\"https://en.wikipedia.org/wiki/From_Up_on_Poppy_Hill\">From Up on Poppy Hill</a></em> released in July 2011 in Japan and March 2013 in the United States. Miyazaki's newest film <em><a href=\"https://en.wikipedia.org/wiki/The_Wind_Rises\">The Wind Rises</a></em> was released on July 20, 2013 and screened internationally in February 2014. The film would go on to earn him his third American Academy Award nomination and first Golden Globe Award nomination. Miyazaki announced on September 1, 2013 that <em>The Wind Rises</em> would be his final feature-length movie. In November 2014, Miyazaki was awarded an Honorary Academy Award for his impact on animation and cinema. He is the second Japanese filmmaker to win this award, after <a href=\"https://en.wikipedia.org/wiki/Akira_Kurosawa\">Akira Kurosawa</a> in 1990. In 2002, American film critic Roger Ebert suggested that Miyazaki may be the best animation filmmaker in history, praising the depth and artistry of his films."
-      }
-    },
-    {
-      "id": "doc-1b05a6ghu0",
-      "identifier": "living-times.title",
-      "content": {
-        "title": "Personal life and views"
-      }
-    },
-    {
-      "id": "doc-1b05a6n2b0",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "In October 1965, Miyazaki married fellow animator Akemi Ota, and together they had two sons, <a href=\"https://en.wikipedia.org/wiki/Gor%C5%8D_Miyazaki\">Gorō</a> and Keisuke.&nbsp;Miyazaki's dedication to his work has often been reported to have impacted negatively on his relationship with Gorō.&nbsp;He has expressed he does not wish to create a dynasty of animators and his son has to create a name for himself. Nonetheless he has shown support of his son's career in animation in recent times, co-writing the screenplay for Gorō's feature <em><a href=\"https://en.wikipedia.org/wiki/From_Up_on_Poppy_Hill\">From Up on Poppy Hill</a></em> and was developing the story for his son's third film as of November 2011."
-      }
-    },
-    {
-      "id": "doc-1b05a79r90",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "In a 2014 interview, Miyazaki criticized the current state of the anime industry, saying that animators are not being realistic when it comes to people. According to Miyazaki, this is a problem because in order to produce content worthy of the industry, one's work must be based off lived experience and observation of people. He goes on to say that the reason why the industry is full of otaku is because anime is produced by \"humans who can’t stand looking at other humans\"."
-      }
-    },
-    {
-      "id": "doc-1b05a7vai1",
-      "identifier": "living-times.subtitle",
-      "content": {
-        "title": "Controversies"
-      }
-    },
-    {
-      "id": "doc-1b05a7mu10",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "For the release of his 2013 film <em><a href=\"https://en.wikipedia.org/wiki/The_Wind_Rises\">The Wind Rises</a></em>, Miyazaki and other Studio Ghibli staff members renewed criticism of Prime Minister Shinzō Abe's policies, and the proposed Constitutional amendment to <a href=\"https://en.wikipedia.org/wiki/Article_96_of_the_Japanese_Constitution\">Article 96</a>, a clause that stipulates procedures needed for revisions, which would allow Abe to revise Article 9 of the Constitution of Japan, which outlaws war as a means to settle international disputes. After the release of the film he received approval as well as negative criticism online for his anti-war message. Some online critics have labeled his film, as well as his expressed opinions, as \"Anti-Japanese\" and have called Miyazaki a \"traitor\". This is due to the film's subject, a young man who designs planes during World War II. Among the planes used in the film is the Mitsubishi A5M, a predecessor of the Mitsubishi A6M Zero. Since he was young, Miyazaki has had a fascination with planes, in part, due to his father's line of work on A6M Zero fighter planes during the Second World War. This fascination is made obvious by the recurring use of planes in his films; from <em>Nausicaä of the Valley of the Wind</em> to <em>Porco Rosso</em> and beyond. This film, however, is Miyazaki's first to be inspired by a historical figure. Despite the unexpected backlash from political viewers, <em>The Wind Rises</em> had the biggest opening of the year in Japan, taking in 960 million yen, or $9.78 million."
-      }
-    },
-    {
-      "id": "doc-1b05a9f0t0",
-      "identifier": "living-times.quote",
-      "content": {
-        "text": "Modern life is so thin and shallow and fake. I look forward to when developers go bankrupt, Japan gets poorer and wild grasses take over.",
-        "author": "Hayao Miyazaki"
-      }
-    },
-    {
-      "id": "doc-1b05a81mh0",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "Miyazaki has expressed his opinion on politics several times in the past, including a disapproval in the discussion of the revision of the Japanese constitution, and Abe's denial of Japanese World War II crimes. Part of the controversy over <em>The Wind Rises</em> stems from his statement that proper compensation should be given to comfort women. While some were critical of his remarks, they were welcomed by others. This is not his only instance of controversy. In 2003, Miyazaki won an Oscar for his film <em>Spirited Away</em> but did not attend the 75th Academy Awards in Hollywood, Los Angeles in protest of the United States' involvement in the Iraq War, later stating that \"I didn't want to visit a country that was bombing Iraq.\" He did not publicly express this opinion at the request of his producer until 2009, when he lifted his boycott and attended the San Diego Comic Con International as a favor to his friend John Lasseter."
-      }
-    },
-    {
-      "id": "doc-1b05a8aa90",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "Miyazaki also expressed his opinion about the terrorist attack at the offices of the French satirical magazine <em>Charlie Hebdo</em> and gave his opinion about the magazine's decision to publish the content cited as the trigger for the incident. He said, \"I think it's a mistake to caricaturize the figures venerated by another culture. You shouldn't do it.\" He asserts, \"Instead of doing something like that, you should first make caricatures of your own country's politicians.\""
-      }
-    },
-    {
-      "id": "doc-1b05a8n5r1",
-      "identifier": "living-times.subtitle",
-      "content": {
-        "title": "Semi-retirement"
-      }
-    },
-    {
-      "id": "doc-1b05a8sj70",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "Miyazaki stated several times over the years that he wanted to retire, but on September 7, 2013, stated that he was \"quite serious\" this time. Having turned 72 the previous January, he felt that after 50 years, he'd been in the industry long enough and it was time to hand the reins over to younger staff. He also added that \"At my age, I can't work long hours like I used to.\" However, he plans on pursuing new goals, such as working on the Studio Ghibli Museum, on which he commented \"I might even become an exhibit myself\". Studio Ghibli producer Toshio Suzuki revealed that Miyazaki will continue to illustrate manga and is currently working on a serialized samurai series. Fellow animator Isao Takahata has publicly stated that he believes Miyazaki's retirement to be non-permanent. \"...I think there is a decent chance that may change. I think so, since I've known him a long time. Don't be at all surprised if that happens.\" During a New Year's Eve radio show, broadcast on Tokyo FM, on December 31, 2013, Toshio Suzuki speculated that Miyazaki might revoke his latest retirement (apparently his sixth to date)."
-      }
-    },
-    {
-      "id": "doc-1b05a92pg0",
-      "identifier": "living-times.p",
-      "content": {
-        "text": "A previous home that Miyazaki spent part of his childhood in has been transformed into a museum. The home's current resident, Asuko Thomas, says that she did not know that the house has once belonged to the family of the world-renowned animator. The current owner of the house has named the gallery \"Hanna\", meaning \"bond\" and \"harmony\". Many elements of the house have been the inspiration for scenes in several of his films. One example is the stairs in the household, very similar to the hidden stairs in <em>My Neighbor Totoro</em>."
+      "identifier": "living-times.article-container",
+      "containers": {
+        "header": [
+          {
+            "id": "doc-1agcuk0940",
+            "identifier": "living-times.head",
+            "content": {
+              "title": "Hayao Miyazaki",
+              "text": "The creation of a single world comes from a huge number of fragments and chaos.",
+              "author": "Wikipedia contributors"
+            }
+          }
+        ],
+        "main": [
+          {
+            "id": "doc-1agcuk0941",
+            "identifier": "living-times.image",
+            "content": {
+              "image": {
+                "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/c69e1760-2185-49dd-bb27-0b5beaf158e2.jpeg",
+                "width": 1115,
+                "height": 747,
+                "mimeType": "image/jpeg",
+                "imageService": "resrc.it"
+              }
+            }
+          },
+          {
+            "id": "doc-1b05a3v3m0",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "<strong>Hayao Miyazaki</strong> (宮崎 駿 <em>Miyazaki Hayao</em>, born January 5, 1941) is a Japanese film director, producer, screenwriter, animator, author, and manga artist. Through a career that has spanned five decades, Miyazaki has attained international acclaim as a masterful storyteller and as a maker of anime feature films and, along with <a href=\"https://en.wikipedia.org/wiki/Isao_Takahata\">Isao Takahata</a>, co-founded Studio Ghibli, a film and animation studio."
+            }
+          },
+          {
+            "id": "doc-1agcuk0941",
+            "identifier": "living-times.image",
+            "styles": {
+              "image-position": "c-image--right"
+            },
+            "content": {
+              "image": {
+                "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/b0d6fff9-ffa7-4e0c-b282-a6fe2628f9f6.jpeg",
+                "width": 293,
+                "height": 300,
+                "mimeType": "image/jpeg",
+                "imageService": "resrc.it",
+                "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/b0d6fff9-ffa7-4e0c-b282-a6fe2628f9f6.jpeg"
+              },
+              "caption": "Hayao Miyazaki at the film directors convention 2013"
+            }
+          },
+          {
+            "id": "doc-1b05a59060",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "Born in Bunkyō, Tokyo, Miyazaki began his animation career in 1963, when he joined Toei Animation. From there, Miyazaki worked as an in-between artist for <em><a href=\"https://en.wikipedia.org/wiki/Gulliver%27s_Travels_Beyond_the_Moon\">Gulliver's Travels Beyond the Moon</a></em>, where he pitched ideas that eventually became the movie's ending. He continued to work in various roles in the animation industry until he directed his first feature film, <em>Lupin III: <a href=\"https://en.wikipedia.org/wiki/The_Castle_of_Cagliostro\">The Castle of Cagliostro</a></em>, released in 1979. After the success of his next film, <em><a href=\"https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)\">Nausicaä of the Valley of the Wind</a></em> (1984), he co-founded Studio Ghibli, where he continued to produce many feature films. While Miyazaki's films have long enjoyed both commercial and critical success in Japan, he remained largely unknown to the West until Miramax Films released <em><a href=\"https://en.wikipedia.org/wiki/Princess_Mononoke\">Princess Mononoke</a></em> (1997). <em>Princess Mononoke</em> was briefly the highest-grossing film in Japan until it was eclipsed by another 1997 film, <em><a href=\"https://en.wikipedia.org/wiki/Titanic_(1997_film)\">Titanic</a></em>, and it became the first animated film to win Picture of the Year at the Japanese Academy Awards. Miyazaki's next film, <em><a href=\"https://en.wikipedia.org/wiki/Spirited_Away\">Spirited Away</a></em> (2001), won Picture of the Year at the Japanese Academy Awards, and"
+            }
+          },
+          {
+            "id": "doc-1b05a5f1s0",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "Miyazaki's films often contain recurrent themes, like humanity's relationship with nature and technology, and the difficulty of maintaining a pacifist ethic. His films's protagonists are often strong girls or young women. While two of his films, <em><a href=\"https://en.wikipedia.org/wiki/The_Castle_of_Cagliostro\">The Castle of Cagliostro</a></em> and <em><a href=\"https://en.wikipedia.org/wiki/Castle_in_the_Sky\">Castle in the Sky</a></em>, involve traditional villains, his other films like <em><a href=\"https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)\">Nausicaä</a></em> and <em>Princess Mononoke</em> present morally ambiguous antagonists with redeeming qualities. He co-wrote films <em><a href=\"https://en.wikipedia.org/wiki/Arrietty\">The Secret World of Arrietty</a></em>, released in July 2010 in Japan and February 2012 in the United States; and <em><a href=\"https://en.wikipedia.org/wiki/From_Up_on_Poppy_Hill\">From Up on Poppy Hill</a></em> released in July 2011 in Japan and March 2013 in the United States. Miyazaki's newest film <em><a href=\"https://en.wikipedia.org/wiki/The_Wind_Rises\">The Wind Rises</a></em> was released on July 20, 2013 and screened internationally in February 2014. The film would go on to earn him his third American Academy Award nomination and first Golden Globe Award nomination. Miyazaki announced on September 1, 2013 that <em>The Wind Rises</em> would be his final feature-length movie. In November 2014, Miyazaki was awarded an Honorary Academy Award for his impact on animation and cinema. He is the second Japanese filmmaker to win this award, after <a href=\"https://en.wikipedia.org/wiki/Akira_Kurosawa\">Akira Kurosawa</a> in 1990. In 2002, American film critic Roger Ebert suggested that Miyazaki may be the best animation filmmaker in history, praising the depth and artistry of his films."
+            }
+          },
+          {
+            "id": "doc-1b05a6ghu0",
+            "identifier": "living-times.subtitle",
+            "content": {
+              "title": "Personal life and views"
+            }
+          },
+          {
+            "id": "doc-1b05a6n2b0",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "In October 1965, Miyazaki married fellow animator Akemi Ota, and together they had two sons, <a href=\"https://en.wikipedia.org/wiki/Gor%C5%8D_Miyazaki\">Gorō</a> and Keisuke.&nbsp;Miyazaki's dedication to his work has often been reported to have impacted negatively on his relationship with Gorō.&nbsp;He has expressed he does not wish to create a dynasty of animators and his son has to create a name for himself. Nonetheless he has shown support of his son's career in animation in recent times, co-writing the screenplay for Gorō's feature <em><a href=\"https://en.wikipedia.org/wiki/From_Up_on_Poppy_Hill\">From Up on Poppy Hill</a></em> and was developing the story for his son's third film as of November 2011."
+            }
+          },
+          {
+            "id": "doc-1b05a79r90",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "In a 2014 interview, Miyazaki criticized the current state of the anime industry, saying that animators are not being realistic when it comes to people. According to Miyazaki, this is a problem because in order to produce content worthy of the industry, one's work must be based off lived experience and observation of people. He goes on to say that the reason why the industry is full of otaku is because anime is produced by \"humans who can’t stand looking at other humans\"."
+            }
+          },
+          {
+            "id": "doc-1b05a7vai1",
+            "identifier": "living-times.subtitle",
+            "content": {
+              "title": "Controversies"
+            }
+          },
+          {
+            "id": "doc-1b05a7mu10",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "For the release of his 2013 film <em><a href=\"https://en.wikipedia.org/wiki/The_Wind_Rises\">The Wind Rises</a></em>, Miyazaki and other Studio Ghibli staff members renewed criticism of Prime Minister Shinzō Abe's policies, and the proposed Constitutional amendment to <a href=\"https://en.wikipedia.org/wiki/Article_96_of_the_Japanese_Constitution\">Article 96</a>, a clause that stipulates procedures needed for revisions, which would allow Abe to revise Article 9 of the Constitution of Japan, which outlaws war as a means to settle international disputes. After the release of the film he received approval as well as negative criticism online for his anti-war message. Some online critics have labeled his film, as well as his expressed opinions, as \"Anti-Japanese\" and have called Miyazaki a \"traitor\". This is due to the film's subject, a young man who designs planes during World War II. Among the planes used in the film is the Mitsubishi A5M, a predecessor of the Mitsubishi A6M Zero. Since he was young, Miyazaki has had a fascination with planes, in part, due to his father's line of work on A6M Zero fighter planes during the Second World War. This fascination is made obvious by the recurring use of planes in his films; from <em>Nausicaä of the Valley of the Wind</em> to <em>Porco Rosso</em> and beyond. This film, however, is Miyazaki's first to be inspired by a historical figure. Despite the unexpected backlash from political viewers, <em>The Wind Rises</em> had the biggest opening of the year in Japan, taking in 960 million yen, or $9.78 million."
+            }
+          },
+          {
+            "id": "doc-1b05a9f0t0",
+            "identifier": "living-times.quote",
+            "content": {
+              "text": "Modern life is so thin and shallow and fake. I look forward to when developers go bankrupt, Japan gets poorer and wild grasses take over.",
+              "author": "Hayao Miyazaki"
+            }
+          },
+          {
+            "id": "doc-1b05a81mh0",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "Miyazaki has expressed his opinion on politics several times in the past, including a disapproval in the discussion of the revision of the Japanese constitution, and Abe's denial of Japanese World War II crimes. Part of the controversy over <em>The Wind Rises</em> stems from his statement that proper compensation should be given to comfort women. While some were critical of his remarks, they were welcomed by others. This is not his only instance of controversy. In 2003, Miyazaki won an Oscar for his film <em>Spirited Away</em> but did not attend the 75th Academy Awards in Hollywood, Los Angeles in protest of the United States' involvement in the Iraq War, later stating that \"I didn't want to visit a country that was bombing Iraq.\" He did not publicly express this opinion at the request of his producer until 2009, when he lifted his boycott and attended the San Diego Comic Con International as a favor to his friend John Lasseter."
+            }
+          },
+          {
+            "id": "doc-1b05a8aa90",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "Miyazaki also expressed his opinion about the terrorist attack at the offices of the French satirical magazine <em>Charlie Hebdo</em> and gave his opinion about the magazine's decision to publish the content cited as the trigger for the incident. He said, \"I think it's a mistake to caricaturize the figures venerated by another culture. You shouldn't do it.\" He asserts, \"Instead of doing something like that, you should first make caricatures of your own country's politicians.\""
+            }
+          },
+          {
+            "id": "doc-1b05a8n5r1",
+            "identifier": "living-times.subtitle",
+            "content": {
+              "title": "Semi-retirement"
+            }
+          },
+          {
+            "id": "doc-1b05a8sj70",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "Miyazaki stated several times over the years that he wanted to retire, but on September 7, 2013, stated that he was \"quite serious\" this time. Having turned 72 the previous January, he felt that after 50 years, he'd been in the industry long enough and it was time to hand the reins over to younger staff. He also added that \"At my age, I can't work long hours like I used to.\" However, he plans on pursuing new goals, such as working on the Studio Ghibli Museum, on which he commented \"I might even become an exhibit myself\". Studio Ghibli producer Toshio Suzuki revealed that Miyazaki will continue to illustrate manga and is currently working on a serialized samurai series. Fellow animator Isao Takahata has publicly stated that he believes Miyazaki's retirement to be non-permanent. \"...I think there is a decent chance that may change. I think so, since I've known him a long time. Don't be at all surprised if that happens.\" During a New Year's Eve radio show, broadcast on Tokyo FM, on December 31, 2013, Toshio Suzuki speculated that Miyazaki might revoke his latest retirement (apparently his sixth to date)."
+            }
+          },
+          {
+            "id": "doc-1b05a92pg0",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "A previous home that Miyazaki spent part of his childhood in has been transformed into a museum. The home's current resident, Asuko Thomas, says that she did not know that the house has once belonged to the family of the world-renowned animator. The current owner of the house has named the gallery \"Hanna\", meaning \"bond\" and \"harmony\". Many elements of the house have been the inspiration for scenes in several of his films. One example is the stairs in the household, very similar to the hidden stairs in <em>My Neighbor Totoro</em>."
+            }
+          },
+          {
+            "id": "doc-1agcuk0950",
+            "identifier": "living-times.paragraph",
+            "content": {
+              "text": "<em>Source: Wikipedia</em>"
+            }
+          }
+        ],
+        "sidebar": [],
+        "footer": []
       }
     }
   ]
