@@ -13,6 +13,8 @@ module.exports = {
       templates: {
         hero: 'teaser-hero-template',
         card: 'teaser-card-template',
+        'card-no-image': 'teaser-card-no-image-template',
+        numbered: 'teaser-card-numbered-template',
         gallery: 'teaser-gallery-template',
         'gallery-hero': 'teaser-gallery-hero-template',
         video: 'teaser-video-template',

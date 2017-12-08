@@ -60,21 +60,26 @@ function hasValidConfig (layout, templates) {
 
 function getIncludeContent (layout, desiredImageCrop, {systemdata, metadata}) {
   const link = getLink(systemdata)
+  const image = getImage(metadata, desiredImageCrop)
   const text = getDescription(metadata)
+  const flag = getFlag(metadata)
   const author = getAuthor(metadata)
   const date = getPublishDate(metadata)
   const base = {
-    title: getTitle(metadata),
-    image: getImage(metadata, desiredImageCrop)
+    title: getTitle(metadata)
   }
   if (['gallery', 'video'].includes(layout)) {
-    return base
+    return {...base, image}
   } else if (['gallery-hero', 'video-hero'].includes(layout)) {
-    return {...base, text}
+    return {...base, image, text}
+  } else if (layout === 'numbered') {
+    return {...base, link, flag, author, date}
+  } else if (layout === 'card-no-image') {
+    return {...base, link, flag, text, author, date}
   } else if (layout === 'hero') {
-    return {...base, link, text, author, date}
+    return {...base, link, image, flag, text, author, date}
   } else if (layout === 'card') {
-    return {...base, link, text, author, date, link2: link}
+    return {...base, link, image, flag, text, author, date, link2: link}
   } else {
     return {}
   }
@@ -105,6 +110,10 @@ function getImage (metadata = {}, desiredImageCrop) {
     }
   }
   return teaserImage
+}
+
+function getFlag (metadata = {}) {
+  return metadata.flag
 }
 
 function getAuthor (metadata = {}) {

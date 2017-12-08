@@ -103,22 +103,58 @@
       "containers": {
         "column-one": [
           {
-            "component": "teaser-card-no-image-resolved"
+            "component": "teaser-card-no-image",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "card-no-image",
+                  "mediaId": 2906
+                }
+              }
+            }
           }
         ],
         "column-two": [
           {
-            "component": "teaser-card-no-image-resolved"
+            "component": "teaser-card-no-image",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "card-no-image",
+                  "mediaId": 2907
+                }
+              }
+            }
           }
         ],
         "column-three": [
           {
-            "component": "teaser-card-no-image-resolved"
+            "component": "teaser-card-no-image",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "card-no-image",
+                  "mediaId": 2908
+                }
+              }
+            }
           }
         ],
         "column-four": [
           {
-            "component": "teaser-card-no-image-resolved"
+            "component": "teaser-card-no-image",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "card-no-image",
+                  "mediaId": 2910
+                }
+              }
+            }
           }
         ]
       }
@@ -136,21 +172,56 @@
       "containers": {
         "column-one": [
           {
-            "component": "teaser-card-resolved"
+            "component": "teaser-card",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "card",
+                  "mediaId": 2904
+                }
+              }
+            }
           },
           {
-            "component": "teaser-card-resolved"
+            "component": "teaser-card",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "card",
+                  "mediaId": 2905
+                }
+              }
+            }
           },
           {
-            "component": "teaser-card-resolved"
+            "component": "teaser-card",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "card",
+                  "mediaId": 2906
+                }
+              }
+            }
           },
           {
-            "component": "teaser-card-resolved"
+            "component": "teaser-card",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "card",
+                  "mediaId": 2907
+                }
+              }
+            }
           }
         ]
       }
     },
-
     {
       "id": "doc-1btbuv1ng0",
       "identifier": "living-times.quarter",
@@ -241,16 +312,52 @@
         ],
         "column-two": [
           {
-            "component": "teaser-card-numbered"
+            "component": "teaser-card-numbered",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "numbered",
+                  "mediaId": 2912
+                }
+              }
+            }
           },
           {
-            "component": "teaser-card-numbered"
+            "component": "teaser-card-numbered",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "numbered",
+                  "mediaId": 2913
+                }
+              }
+            }
           },
           {
-            "component": "teaser-card-numbered"
+            "component": "teaser-card-numbered",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "numbered",
+                  "mediaId": 2914
+                }
+              }
+            }
           },
           {
-            "component": "teaser-card-numbered"
+            "component": "teaser-card-numbered",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "numbered",
+                  "mediaId": 2915
+                }
+              }
+            }
           }
         ]
       }
