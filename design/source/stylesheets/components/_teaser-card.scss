@@ -117,7 +117,7 @@
 
 
 // Modifier: Align image right / left
-.teaser-card--left-aligned-img, .teaser-card--right-aligned-img {
+.teaser-card--left-aligned-img .teaser-card, .teaser-card--right-aligned-img .teaser-card {
   display: flex;
   align-items: center;
 }

@@ -10,7 +10,6 @@
       "version": "0.0.1"
     }
   },
-
   "metadata": {
     "homepage": true,
     "title": "Homepage",
@@ -18,7 +17,6 @@
     "publishDate": "on Thu Sep 14 2017",
     "dependencies": {}
   },
-
   "content": [
     {
       "component": "whole",
@@ -42,7 +40,6 @@
         ]
       }
     },
-
     {
       "id": "doc-1btbuv1ng0",
       "identifier": "living-times.thirds",
@@ -94,7 +91,6 @@
         ]
       }
     },
-
     {
       "component": "quarter",
       "styles" : {
@@ -159,20 +155,22 @@
         ]
       }
     },
-
     {
       "component": "whole",
-      "content": {
-        "title": "The latest"
-      },
       "styles" : {
         "container-style-lined": "container--lined",
         "container-style-breath": "container--breath"
+      },
+      "content": {
+        "title": "The latest"
       },
       "containers": {
         "column-one": [
           {
             "component": "teaser-card",
+            "styles" : {
+              "teaser-image-position": "teaser-card--left-aligned-img"
+            },
             "content": {
               "teaser": {
                 "service": "embed-teaser",
@@ -185,6 +183,9 @@
           },
           {
             "component": "teaser-card",
+            "styles" : {
+              "teaser-image-position": "teaser-card--left-aligned-img"
+            },
             "content": {
               "teaser": {
                 "service": "embed-teaser",
@@ -197,6 +198,9 @@
           },
           {
             "component": "teaser-card",
+            "styles" : {
+              "teaser-image-position": "teaser-card--left-aligned-img"
+            },
             "content": {
               "teaser": {
                 "service": "embed-teaser",
@@ -209,6 +213,9 @@
           },
           {
             "component": "teaser-card",
+            "styles" : {
+              "teaser-image-position": "teaser-card--left-aligned-img"
+            },
             "content": {
               "teaser": {
                 "service": "embed-teaser",

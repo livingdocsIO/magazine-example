@@ -53,6 +53,24 @@
       ]
     },
 
+    "teaser-image-position": {
+      "label": "Position",
+      "type": "select",
+      "options": [
+        {
+          "caption": "Normal"
+        },
+        {
+          "caption": "Left",
+          "value": "teaser-card--left-aligned-img"
+        },
+        {
+          "caption": "Right",
+          "value": "teaser-card--right-aligned-img"
+        }
+      ]
+    },
+
     "container-style-breath": {
       "label": "Extra margin",
       "type": "option",
