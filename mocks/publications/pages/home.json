@@ -305,16 +305,52 @@
       "containers": {
         "column-one": [
           {
-            "component": "teaser-card-author"
+            "component": "teaser-card-author",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "card-author",
+                  "mediaId": 2928
+                }
+              }
+            }
           },
           {
-            "component": "teaser-card-author"
+            "component": "teaser-card-author",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "card-author",
+                  "mediaId": 2928
+                }
+              }
+            }
           },
           {
-            "component": "teaser-card-author"
+            "component": "teaser-card-author",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "card-author",
+                  "mediaId": 2928
+                }
+              }
+            }
           },
           {
-            "component": "teaser-card-author"
+            "component": "teaser-card-author",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "card-author",
+                  "mediaId": 2928
+                }
+              }
+            }
           }
         ],
         "column-two": [

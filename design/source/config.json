@@ -153,12 +153,58 @@
               {
                 "identifier": "living-times.image",
                 "styles": {
-                  "image-position": "c-image--left",
-                  "aspect-ratio": "square"
+                  "image-position": "c-image--left"
                 }
               },
               { "identifier": "living-times.paragraph" }
             ],
+            "sidebar": [],
+            "footer": []
+          }
+        }
+      ],
+      "groups": [
+        {
+          "label": "Headers",
+          "components": ["head", "subtitle"]
+        },
+        {
+          "label": "Text",
+          "components": ["paragraph", "quote", "separator", "bullet-list"]
+        },
+        {
+          "label": "Images",
+          "components": ["image"]
+        },
+        {
+          "label": "Containers",
+          "components": []
+        },
+        {
+          "label": "Teasers",
+          "components": []
+        },
+        {
+          "label": "Sidebar",
+          "components": []
+        },
+        {
+          "label": "Embeds",
+          "components": ["tweet", "iframe", "free-html"]
+        }
+      ]
+    },
+    {
+      "name": "author",
+      "caption": "Author",
+      "wrapper": "<div class=\"doc-section\"></div>",
+      "icon": null,
+      "defaultContent": [
+        {
+          "identifier": "living-times.article-container",
+          "containers": {
+            "header": [],
+            "main": [],
             "sidebar": [],
             "footer": []
           }

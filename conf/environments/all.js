@@ -14,6 +14,7 @@ module.exports = {
         hero: 'teaser-hero-template',
         card: 'teaser-card-template',
         'card-no-image': 'teaser-card-no-image-template',
+        'card-author': 'teaser-card-author-template',
         numbered: 'teaser-card-numbered-template',
         gallery: 'teaser-gallery-template',
         'gallery-hero': 'teaser-gallery-hero-template',

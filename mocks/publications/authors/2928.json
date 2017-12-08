@@ -1,0 +1,35 @@
+{
+  "systemdata": {
+    "projectId": 319,
+    "channelId": 334,
+    "documentId": 2928,
+    "documentType": "article",
+    "layout": "author",
+    "design": {
+      "name": "living-times",
+      "version": "0.0.1"
+    }
+  },
+  "metadata": {
+    "title": "John Cassidy",
+    "description": "The best author ever, he writes very interesting articles daily and his best performances are during night hours",
+    "author": "Livingdocs",
+    "publishDate": "on Thu Sep 14 2017",
+    "teaserImage": {
+      "originalUrl": "assets/images/author-john.png",
+      "url": "assets/images/author-john.png"
+    },
+    "dependencies": {}
+  },
+  "content": [
+    {
+      "identifier": "living-times.article-container",
+      "containers": {
+        "header": [],
+        "main": [],
+        "sidebar": [],
+        "footer": []
+      }
+    }
+  ]
+}

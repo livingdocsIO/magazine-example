@@ -72,6 +72,8 @@ function getIncludeContent (layout, desiredImageCrop, {systemdata, metadata}) {
     return {...base, image}
   } else if (['gallery-hero', 'video-hero'].includes(layout)) {
     return {...base, image, text}
+  } else if (layout === 'card-author') {
+    return {...base, link, image, text, link2: link}
   } else if (layout === 'numbered') {
     return {...base, link, flag, author, date}
   } else if (layout === 'card-no-image') {
