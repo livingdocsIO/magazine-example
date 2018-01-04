@@ -14,8 +14,9 @@
   position: absolute;
 
   line-height: 1;
+  font-size: 90px;
   font-style: italic;
-  @include font-size(90px);
+
 }
 
 .quote__text {
