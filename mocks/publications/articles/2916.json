@@ -187,10 +187,70 @@
             "content": {
               "text": "<em>Source: Wikipedia</em>"
             }
+          },
+          {
+            "component": "author-card",
+            "content": {
+              "image": "/assets/images/author-john.png",
+              "text": "John Cassidy has been a film critic for the Living Times since 2006. He can perform a Shoryuken with one single hand."
+            }
           }
         ],
-        "sidebar": [],
-        "footer": []
+        "sidebar": [
+          {
+            "component": "ad-halfpage-resolved"
+          },
+          {
+            "component": "sidebar-title",
+            "content": {
+              "title": "Most Popular"
+            }
+          },
+          {
+            "component": "teaser-card-sidebar-resolved"
+          },
+          {
+            "component": "teaser-card-sidebar-resolved"
+          },
+          {
+            "component": "teaser-card-sidebar-resolved"
+          },
+          {
+            "component": "teaser-card-sidebar-resolved"
+          },
+          {
+            "component": "ad-halfpage-resolved"
+          }
+        ],
+        "footer": [
+          {
+            "component": "halves",
+            "content": {
+              "title": "Recommened Stories"
+            },
+            "styles" : {
+              "container-style-breath": "container--breath"
+            },
+            "containers": {
+              "column-one": [
+                {
+                  "component": "teaser-card-resolved"
+                },
+                {
+                  "component": "teaser-card-resolved"
+                }
+              ],
+              "column-two": [
+                {
+                  "component": "teaser-card-resolved"
+                },
+                {
+                  "component": "teaser-card-resolved"
+                }
+              ]
+            }
+          }
+        ]
       }
     }
   ]
