@@ -39,6 +39,6 @@ function startResolverTasks (livingdoc, liClient, includesConfig) {
 }
 
 function resolveEmbedTeaserIncludes ({livingdoc, liClient, includes, includeConfig}) {
-  const embedTeaserResolver = require('./embed_Teaser')
+  const embedTeaserResolver = require('./embed_teaser')
   return embedTeaserResolver(livingdoc, liClient, includes, includeConfig)
 }
