@@ -5,7 +5,20 @@
 // Styles for the ad component
 
 .ad {
+  margin-bottom: $base-spacing-unit;
+}
+
+.ad--head {
+  margin-bottom: 0;
   padding-bottom: halve($base-spacing-unit);
   text-align: center;
   border-bottom: 1px solid $divider-color;
+}
+
+.ad--sidebar {
+  margin-bottom: double($base-spacing-unit);
+}
+
+.ad--leaderboard {
+  text-align: center;
 }
