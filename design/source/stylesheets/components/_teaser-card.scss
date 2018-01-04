@@ -6,6 +6,7 @@
 // -> source/components/teaser/teaser-card.html
 // -> source/components/teaser/teaser-card-author.html
 // -> source/components/teaser/teaser-card-numbered.html
+// -> source/components/teaser/teaser-card-sidebar.html
 
 .teaser-card {
   margin-bottom: double($base-spacing-unit);
@@ -86,6 +87,7 @@
 
 .teaser-card__byline {
   margin-left: 0;
+  margin-bottom: 0;
 
   color: rgba(0,0,0,.54);
   @include font-size($mili-size);
@@ -190,4 +192,22 @@
 
 .teaser-card--author .teaser-card__body {
   flex: 1;
+}
+
+// Modifier: Sidebar Teaser Card
+.teaser-card--sidebar {
+  margin-bottom: halve($base-spacing-unit);
+
+  &:last-of-type {
+    margin-bottom: double($base-spacing-unit);
+  }
+}
+
+.teaser-card--sidebar {
+  .teaser-card__title {
+    @include font-size($zeta-size, false); //22px
+  }
+  .teaser-card__byline, .teaser-card__flag {
+    @include font-size(12px, false);
+  }
 }
