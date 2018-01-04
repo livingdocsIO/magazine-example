@@ -27,6 +27,16 @@
       "containers": {
         "main": [
           {
+            "component": "author-card-big",
+            "content": {
+              "image": "/assets/images/author-john.png",
+              "link": "https://twitter.com/@john_cassidy",
+              "text-link": "@john_cassidy",
+              "title": "John Cassidy",
+              "text": "John Cassidy joined Living Times as a staff writer in 2001. He has profiled many subjects, among them Lena Dunham, Christine Quinn, Santiago Calatrava, Nico Muhly, Slavoj Zizek, and Shaquille O'Neal. He has also written more than two hundred Talk of the Town stories."
+            }
+          },
+          {
             "component": "whole",
             "styles" : {
               "container-style-lined": "container--lined"

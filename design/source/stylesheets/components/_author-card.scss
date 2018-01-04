@@ -5,7 +5,7 @@
 // Styles for the following component:
 // -> source/components/teaser/author-card.html
 
-.c-author-card {
+.author-card {
   display: flex;
   align-items: flex-start;
 
@@ -13,12 +13,12 @@
   margin-bottom: double($base-spacing-unit);
 }
 
-.c-author-card__image {
+.author-card__image {
   padding-right: $base-spacing-unit;
   margin-right: halve($base-spacing-unit);
 }
 
-.c-author-card__body {
+.author-card__body {
   flex: 1;
 
   & > p {
@@ -33,5 +33,34 @@
     @include font-size($mili-size);
 
     color: $link-color;
+  }
+}
+
+.author-card__twitter {
+  color: $secondary-color;
+
+  svg {
+    top: 2px;
+    position: relative;
+
+    width: 16px;
+    height: 16px;
+
+    fill: $icon-color;
+  }
+}
+
+.author-card__title {
+  font-family: $serif-font;
+  margin-bottom: halve($base-spacing-unit);
+}
+
+// Modifier: Big Author CARD
+.author-card--big .author-card__body {
+  & > p {
+    margin-bottom: 0;
+
+    font-family: $sans-serif-font;
+    @include font-size($base-font-size); // 16px
   }
 }
