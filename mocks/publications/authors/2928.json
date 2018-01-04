@@ -23,12 +23,88 @@
   },
   "content": [
     {
-      "identifier": "living-times.article-container",
+      "identifier": "living-times.author-container",
       "containers": {
-        "header": [],
-        "main": [],
-        "sidebar": [],
-        "footer": []
+        "main": [
+          {
+            "component": "whole",
+            "styles" : {
+              "container-style-lined": "container--lined"
+            },
+            "content": {
+              "title": "All Work"
+            },
+            "containers": {
+              "column-one": [
+                {
+                  "component": "teaser-card",
+                  "styles" : {
+                    "teaser-image-position": "teaser-card--left-aligned-img"
+                  },
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2904
+                      }
+                    }
+                  }
+                },
+                {
+                  "component": "teaser-card",
+                  "styles" : {
+                    "teaser-image-position": "teaser-card--left-aligned-img"
+                  },
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2905
+                      }
+                    }
+                  }
+                },
+                {
+                  "component": "teaser-card",
+                  "styles" : {
+                    "teaser-image-position": "teaser-card--left-aligned-img"
+                  },
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2906
+                      }
+                    }
+                  }
+                },
+                {
+                  "component": "teaser-card",
+                  "styles" : {
+                    "teaser-image-position": "teaser-card--left-aligned-img"
+                  },
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2907
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "sidebar": [
+          {
+            "component": "ad-halfpage-resolved"
+          }
+        ]
       }
     }
   ]
