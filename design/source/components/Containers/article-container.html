@@ -16,13 +16,15 @@
   }
 </script>
 
-<div class="article-container">
-  <div class="content-header" doc-container="header"></div>
-  <div>
-    <div class="content-body" doc-container="main"></div>
-    <div class="content-sidebar" doc-container="sidebar"></div>
+<article class="article-content">
+  <header class="article-content__header" doc-container="header"></header>
+  <div class="article-content__body">
+    <main class="article-content__main" doc-container="main"></main>
+    <aside class="article-content__sidebar" doc-container="sidebar">
+      <div doc-container="sidebar-ad-01"></div>
+      <div doc-container="sidebar-teasers"></div>
+      <div doc-container="sidebar-ad-02"></div>
+    </aside>
   </div>
-  <div class="container-unge" doc-container="footer">
-    > recommended stories
-  </div>
-</div>
+  <section class="article-content__footer" doc-container="footer"></section>
+</article>

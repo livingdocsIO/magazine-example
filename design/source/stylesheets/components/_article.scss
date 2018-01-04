@@ -1,0 +1,50 @@
+// -----------------------------------------------------------------------------
+// ARTICLE
+// -----------------------------------------------------------------------------
+
+// Styles for the following components:
+// -> source/components/containers/article-container.html
+
+.article-content {
+  padding-left: calc(8.33% + #{$base-spacing-unit});
+  padding-right: calc(8.33% + #{$base-spacing-unit});
+}
+
+.article-content__header {
+  width: 80%;
+}
+
+.article-content__body {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.article-content__main {
+  flex: 0 1 auto;
+  padding-right: $base-spacing-unit;
+}
+
+.article-content__sidebar {
+  flex: 0 0 300px;
+  width: 300px;
+  min-width: 300px;
+  padding-left: $base-spacing-unit;
+}
+
+.article-content__footer {
+  position: relative;
+  padding-top: $base-spacing-unit;
+
+  &::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+
+    height: 1px;
+
+    background-color: $divider-color;
+
+    content: " ";
+  }
+}
