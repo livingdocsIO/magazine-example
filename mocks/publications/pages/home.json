@@ -161,6 +161,20 @@
         "container-style-lined": "container--lined",
         "container-style-breath": "container--breath"
       },
+      "containers": {
+        "column-one": [
+          {
+            "component": "ad-leaderboard-resolved"
+          }
+        ]
+      }
+    },
+    {
+      "component": "whole",
+      "styles" : {
+        "container-style-lined": "container--lined",
+        "container-style-breath": "container--breath"
+      },
       "content": {
         "title": "The latest"
       },
@@ -225,6 +239,20 @@
                 }
               }
             }
+          }
+        ]
+      }
+    },
+    {
+      "component": "whole",
+      "styles" : {
+        "container-style-lined": "container--lined",
+        "container-style-breath": "container--breath"
+      },
+      "containers": {
+        "column-one": [
+          {
+            "component": "ad-leaderboard-resolved"
           }
         ]
       }
@@ -405,6 +433,20 @@
         ]
       }
     },
+    {
+      "component": "whole",
+      "styles" : {
+        "container-style-lined": "container--lined",
+        "container-style-breath": "container--breath"
+      },
+      "containers": {
+        "column-one": [
+          {
+            "component": "ad-leaderboard-resolved"
+          }
+        ]
+      }
+    },    
     {
       "id": "doc-1btbuv1ng0",
       "identifier": "living-times.halves",
