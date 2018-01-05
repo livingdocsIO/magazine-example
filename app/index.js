@@ -3,6 +3,7 @@ const path = require('path')
 const express = require('express')
 const liSDK = require('@livingdocs/sdk')
 const conf = require('../conf')
+const publicationHref = require('./util/publication_href')
 
 const port = process.env.PORT || 3000
 const distPath = path.join(__dirname, '../design/dist')
@@ -41,7 +42,7 @@ require('./setup/rendering')(app)
 
 // routes
 app.get('/', require('./routes/home')({liClient}))
-app.get('/articles/:id', require('./routes/articles')({liClient}))
+app.get(publicationHref.getPathRegex(), require('./routes/publications')({liClient}))
 app.get('*', require('./routes/common')({liClient, conf}))
 
 // setup error handling

@@ -1,3 +1,5 @@
+const publicationHref = require('../../util/publication_href')
+
 module.exports = function getHeaderComponent (tree, {header, headerItem}, {menu, location}) {
   const headerComponent = tree.createComponent(header)
   const headerItemContainer = headerComponent.containers.get('header-item')
@@ -30,7 +32,7 @@ function getHeaderItemContent (node) {
 function isCurrentLocation (node, location) {
   switch (node.type) {
     case 'document':
-      return location === `/articles/${node.documentId}`
+      return location === publicationHref.generate(node.label, node.documentId)
     case 'uri':
       return location === node.uri
     default:
@@ -41,7 +43,7 @@ function isCurrentLocation (node, location) {
 function getHref (node) {
   switch (node.type) {
     case 'document':
-      return `/articles/${node.documentId}`
+      return publicationHref.generate(node.label, node.documentId)
     case 'uri':
       return node.uri
     default:

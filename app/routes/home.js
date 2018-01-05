@@ -1,4 +1,4 @@
-function homeRouteHandlerFactory ({liClient}) {
+module.exports = function homeRouteHandler ({liClient}) {
   return async (req, res, next) => {
     // fetch home page through metadata filter
     let publications = []
@@ -17,5 +17,3 @@ function homeRouteHandlerFactory ({liClient}) {
     next()
   }
 }
-
-module.exports = homeRouteHandlerFactory

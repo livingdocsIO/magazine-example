@@ -1,4 +1,5 @@
 const liSDK = require('@livingdocs/sdk')
+const publicationHref = require('../../util/publication_href')
 const handleVideoTeaser = require('./enrichments/video_teaser')
 const handleAuthorTeaser = require('./enrichments/author_teaser')
 const handleGalleryTeaser = require('./enrichments/gallery_teaser')
@@ -66,15 +67,14 @@ function getEnrichment (liClient, layout, component, content) {
 }
 
 function getIncludeContent (layout, desiredImageCrop, {systemdata, metadata}) {
-  const link = getLink(systemdata)
+  const title = getTitle(metadata)
+  const link = getLink(title, systemdata)
   const image = getImage(metadata, desiredImageCrop)
   const text = getDescription(metadata)
   const flag = getFlag(metadata)
   const author = getAuthor(metadata)
   const date = getPublishDate(metadata)
-  const base = {
-    title: getTitle(metadata)
-  }
+  const base = {title}
   if (['gallery', 'video'].includes(layout)) {
     return {...base, image}
   } else if (['gallery-hero', 'video-hero'].includes(layout)) {
@@ -98,8 +98,8 @@ function getIncludeContent (layout, desiredImageCrop, {systemdata, metadata}) {
   }
 }
 
-function getLink (systemdata = {}) {
-  return `/articles/${systemdata.documentId}` || ''
+function getLink (title, systemdata = {}) {
+  return publicationHref.generate(title, systemdata.documentId)
 }
 
 function getTitle (metadata = {}) {

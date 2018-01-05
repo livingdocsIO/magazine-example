@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "@livingdocs/conf": "^1.0.1",
+    "combined-slugify": "^2.1.0",
     "compression": "^1.7.1",
     "express": "^4.1.1",
     "handlebars": "^4.0.11",

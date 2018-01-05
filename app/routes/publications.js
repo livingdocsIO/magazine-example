@@ -1,4 +1,4 @@
-function articlesRouteHandlerFactory ({liClient}) {
+module.exports = function publicationsRouteHandler ({liClient}) {
   return async (req, res, next) => {
     // get route param that represents the documentId
     const documentId = Number(req.params.id)
@@ -18,5 +18,3 @@ function articlesRouteHandlerFactory ({liClient}) {
     next()
   }
 }
-
-module.exports = articlesRouteHandlerFactory

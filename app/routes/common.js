@@ -2,7 +2,7 @@ const liSDK = require('@livingdocs/sdk')
 const resolveIncludes = require('../includes')
 const renderLayout = require('../rendering/layout')
 
-module.exports = function commonRouteHandlerFactory ({liClient, conf}) {
+module.exports = function commonRouteHandler ({liClient, conf}) {
   const headerMenuHandle = conf.get('navigation:headerMenuHandle')
   const includesConfig = conf.get('includes')
   const defaultDocumentType = conf.get('defaultDocumentType')
