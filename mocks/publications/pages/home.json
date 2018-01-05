@@ -339,7 +339,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "card-author",
-                  "mediaId": 2928
+                  "mediaId": 2916
                 }
               }
             }
@@ -351,7 +351,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "card-author",
-                  "mediaId": 2928
+                  "mediaId": 2916
                 }
               }
             }
@@ -363,7 +363,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "card-author",
-                  "mediaId": 2928
+                  "mediaId": 2916
                 }
               }
             }
@@ -375,7 +375,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "card-author",
-                  "mediaId": 2928
+                  "mediaId": 2916
                 }
               }
             }
@@ -446,7 +446,7 @@
           }
         ]
       }
-    },    
+    },
     {
       "id": "doc-1btbuv1ng0",
       "identifier": "living-times.halves",
@@ -470,28 +470,7 @@
                       }
                     }
                   }
-                }
-              ],
-              "column-two": [
-                {
-                  "identifier": "living-times.teaser-video",
-                  "content": {
-                    "teaser": {
-                      "service": "embed-teaser",
-                      "params": {
-                        "layout": "video",
-                        "mediaId": 2924
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "identifier": "living-times.halves",
-            "containers": {
-              "column-one": [
+                },
                 {
                   "identifier": "living-times.teaser-video",
                   "content": {
@@ -506,6 +485,18 @@
                 }
               ],
               "column-two": [
+                {
+                  "identifier": "living-times.teaser-video",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "video",
+                        "mediaId": 2924
+                      }
+                    }
+                  }
+                },
                 {
                   "identifier": "living-times.teaser-video",
                   "content": {
@@ -561,9 +552,7 @@
                       }
                     }
                   }
-                }
-              ],
-              "column-two": [
+                },
                 {
                   "identifier": "living-times.teaser-gallery",
                   "content": {
@@ -576,13 +565,8 @@
                     }
                   }
                 }
-              ]
-            }
-          },
-          {
-            "identifier": "living-times.halves",
-            "containers": {
-              "column-one": [
+              ],
+              "column-two": [
                 {
                   "identifier": "living-times.teaser-gallery",
                   "content": {
@@ -594,9 +578,7 @@
                       }
                     }
                   }
-                }
-              ],
-              "column-two": [
+                },
                 {
                   "identifier": "living-times.teaser-gallery",
                   "content": {

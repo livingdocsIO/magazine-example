@@ -6,7 +6,13 @@
       "header": {
         "allowedChildren": ["head", "subtitle"]
       },
+      "sidebar-ads-top": {
+        "allowedChildren": []
+      },
       "sidebar": {
+        "allowedChildren": []
+      },
+      "sidebar-ads-bottom": {
         "allowedChildren": []
       },
       "footer": {
@@ -20,10 +26,10 @@
   <header class="article-content__header" doc-container="header"></header>
   <div class="article-content__body">
     <main class="article-content__main" doc-container="main"></main>
-    <aside class="article-content__sidebar" doc-container="sidebar">
-      <div doc-container="sidebar-ad-01"></div>
-      <div doc-container="sidebar-teasers"></div>
-      <div doc-container="sidebar-ad-02"></div>
+    <aside class="article-content__sidebar">
+      <div doc-container="sidebar-ads-top"></div>
+      <div doc-container="sidebar"></div>
+      <div doc-container="sidebar-ads-bottom"></div>
     </aside>
   </div>
   <section class="article-content__footer" doc-container="footer"></section>

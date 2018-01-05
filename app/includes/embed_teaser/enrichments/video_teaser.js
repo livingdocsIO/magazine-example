@@ -1,7 +1,7 @@
 const liSDK = require('@livingdocs/sdk')
 
 module.exports = function handleVideoTeaser (component, content) {
-  const design = require('../../../design/dist/design.json')
+  const design = require('../../../../design/dist/design.json')
   const videoLivingdoc = liSDK.document.create({design, content})
   const tree = videoLivingdoc.componentTree
 

@@ -1,6 +1,7 @@
 const liSDK = require('@livingdocs/sdk')
-const handleVideoTeaser = require('./video_teaser')
-const handleGalleryTeaser = require('./gallery_teaser')
+const handleVideoTeaser = require('./enrichments/video_teaser')
+const handleAuthorTeaser = require('./enrichments/author_teaser')
+const handleGalleryTeaser = require('./enrichments/gallery_teaser')
 
 module.exports = async function resolveEmbedTeaserIncludes (
   livingdoc, liClient, includes, includeConfig
@@ -24,7 +25,8 @@ module.exports = async function resolveEmbedTeaserIncludes (
     const [publication] = await request
     if (!publication) throw new Error(`Article embed with id "${params.mediaId}" not found`)
 
-    const html = renderEmbedTeaserInclude(livingdoc, layout, includeConfig, publication)
+    const renderArgs = [liClient, livingdoc, layout, includeConfig, publication]
+    const html = await renderEmbedTeaserInclude(...renderArgs)
     include.resolve(html)
   }
 }
@@ -37,25 +39,30 @@ function startDataFetchTasks (includes, liClient) {
   })
 }
 
-function renderEmbedTeaserInclude (
-  livingdoc, layout,
+async function renderEmbedTeaserInclude (
+  liClient, livingdoc, layout,
   {templates, defaultTemplate, desiredImageCrop},
   {systemdata, metadata, content}
 ) {
   const templateComponent = templates[layout] || defaultTemplate
   const component = livingdoc.createComponent(templateComponent)
 
-  if (['video', 'video-hero'].includes(layout)) handleVideoTeaser(component, content)
-  if (['gallery', 'gallery-hero'].includes(layout)) handleGalleryTeaser(component, content)
-
   const includeContent = getIncludeContent(layout, desiredImageCrop, {systemdata, metadata})
-  component.setContent(includeContent)
+  const enrichment = await getEnrichment(liClient, layout, component, content) || {}
+
+  component.setContent({...includeContent, ...enrichment})
   return liSDK.document.renderComponent(component)
 }
 
 function hasValidConfig (layout, templates) {
   if (!layout) return true
   return typeof templates[layout] === 'string'
+}
+
+function getEnrichment (liClient, layout, component, content) {
+  if (layout === 'card-author') return handleAuthorTeaser(liClient, component, content)
+  if (['video', 'video-hero'].includes(layout)) return handleVideoTeaser(component, content)
+  if (['gallery', 'gallery-hero'].includes(layout)) return handleGalleryTeaser(component, content)
 }
 
 function getIncludeContent (layout, desiredImageCrop, {systemdata, metadata}) {
@@ -72,6 +79,10 @@ function getIncludeContent (layout, desiredImageCrop, {systemdata, metadata}) {
     return {...base, image}
   } else if (['gallery-hero', 'video-hero'].includes(layout)) {
     return {...base, image, text}
+  } else if (layout === 'author-embed') {
+    return {link, image, text}
+  } else if (layout === 'sidebar-embed') {
+    return {...base, link, flag, author, date}
   } else if (layout === 'card-author') {
     return {...base, link, image, text, link2: link}
   } else if (layout === 'numbered') {

@@ -12,12 +12,12 @@
   },
   "metadata": {
     "title": "John Cassidy",
-    "description": "The best author ever, he writes very interesting articles daily and his best performances are during night hours",
-    "author": "Livingdocs",
+    "description": "John Cassidy has been a film critic for the Living Times since 2006. He can perform a Shoryuken with one single hand.",
+    "author": "John Cassidy",
     "publishDate": "on Thu Sep 14 2017",
     "teaserImage": {
-      "originalUrl": "assets/images/author-john.png",
-      "url": "assets/images/author-john.png"
+      "originalUrl": "/assets/images/author-john.png",
+      "url": "/assets/images/author-john.png"
     },
     "dependencies": {}
   },
@@ -27,13 +27,14 @@
       "containers": {
         "main": [
           {
-            "component": "author-card-big",
+            "component": "author-head",
             "content": {
               "image": "/assets/images/author-john.png",
               "link": "https://twitter.com/@john_cassidy",
               "text-link": "@john_cassidy",
               "title": "John Cassidy",
-              "text": "John Cassidy joined Living Times as a staff writer in 2001. He has profiled many subjects, among them Lena Dunham, Christine Quinn, Santiago Calatrava, Nico Muhly, Slavoj Zizek, and Shaquille O'Neal. He has also written more than two hundred Talk of the Town stories."
+              "introduction": "John Cassidy has been a film critic for the Living Times since 2006. He can perform a Shoryuken with one single hand.",
+              "description": "He joined Living Times as a staff writer in 2001 and has profiled many subjects, among them Lena Dunham, Christine Quinn, Santiago Calatrava, Nico Muhly, Slavoj Zizek, and Shaquille O'Neal. He has also written more than two hundred Talk of the Town stories."
             }
           },
           {

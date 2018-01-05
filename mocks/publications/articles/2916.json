@@ -46,7 +46,8 @@
             "content": {
               "title": "Hayao Miyazaki",
               "text": "The creation of a single world comes from a huge number of fragments and chaos.",
-              "author": "Wikipedia contributors"
+              "author": "Wikipedia contributors",
+              "date": "Thu Sep 14 2017"
             }
           }
         ],
@@ -189,17 +190,24 @@
             }
           },
           {
-            "component": "author-card",
+            "component": "embed-teaser-author",
             "content": {
-              "image": "/assets/images/author-john.png",
-              "text": "John Cassidy has been a film critic for the Living Times since 2006. He can perform a Shoryuken with one single hand."
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "author-embed",
+                  "mediaId": 2928
+                }
+              }
             }
           }
         ],
-        "sidebar": [
+        "sidebar-ads-top": [
           {
             "component": "ad-halfpage-resolved"
-          },
+          }
+        ],
+        "sidebar": [
           {
             "component": "sidebar-title",
             "content": {
@@ -207,17 +215,55 @@
             }
           },
           {
-            "component": "teaser-card-sidebar-resolved"
+            "component": "embed-teaser-sidebar",
+            "content": {
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "sidebar-embed",
+                  "mediaId": 2904
+                }
+              }
+            }
           },
           {
-            "component": "teaser-card-sidebar-resolved"
+            "component": "embed-teaser-sidebar",
+            "content": {
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "sidebar-embed",
+                  "mediaId": 2905
+                }
+              }
+            }
           },
           {
-            "component": "teaser-card-sidebar-resolved"
+            "component": "embed-teaser-sidebar",
+            "content": {
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "sidebar-embed",
+                  "mediaId": 2906
+                }
+              }
+            }
           },
           {
-            "component": "teaser-card-sidebar-resolved"
-          },
+            "component": "embed-teaser-sidebar",
+            "content": {
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "sidebar-embed",
+                  "mediaId": 2907
+                }
+              }
+            }
+          }
+        ],
+        "sidebar-ads-bottom": [
           {
             "component": "ad-halfpage-resolved"
           }
@@ -228,24 +274,57 @@
             "content": {
               "title": "Recommened Stories"
             },
-            "styles" : {
-              "container-style-breath": "container--breath"
-            },
             "containers": {
               "column-one": [
                 {
-                  "component": "teaser-card-resolved"
+                  "identifier": "living-times.teaser-card",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2904
+                      }
+                    }
+                  }
                 },
                 {
-                  "component": "teaser-card-resolved"
+                  "identifier": "living-times.teaser-card",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2905
+                      }
+                    }
+                  }
                 }
               ],
               "column-two": [
                 {
-                  "component": "teaser-card-resolved"
+                  "identifier": "living-times.teaser-card",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2906
+                      }
+                    }
+                  }
                 },
                 {
-                  "component": "teaser-card-resolved"
+                  "identifier": "living-times.teaser-card",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2907
+                      }
+                    }
+                  }
                 }
               ]
             }

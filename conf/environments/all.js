@@ -11,6 +11,8 @@ module.exports = {
       desiredImageCrop: '16:9',
       defaultTemplate: 'embed-teaser-template',
       templates: {
+        'author-embed': 'embed-teaser-author-template',
+        'sidebar-embed': 'embed-teaser-sidebar-template',
         hero: 'teaser-hero-template',
         card: 'teaser-card-template',
         'card-no-image': 'teaser-card-no-image-template',

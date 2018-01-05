@@ -197,7 +197,9 @@
 // Modifier: Sidebar Teaser Card
 .teaser-card--sidebar {
   margin-bottom: halve($base-spacing-unit);
+}
 
+.placeholder--teaser-sidebar-embed {
   &:last-of-type {
     margin-bottom: double($base-spacing-unit);
   }
