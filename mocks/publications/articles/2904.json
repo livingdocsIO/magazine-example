@@ -78,8 +78,134 @@
             }
           }
         ],
-        "sidebar": [],
-        "footer": []
+        "sidebar-ads-top": [
+          {
+            "component": "ad-halfpage-resolved"
+          }
+        ],
+        "sidebar": [
+          {
+            "component": "sidebar-title",
+            "content": {
+              "title": "Most Popular"
+            }
+          },
+          {
+            "component": "embed-teaser-sidebar",
+            "content": {
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "sidebar-embed",
+                  "mediaId": 2904
+                }
+              }
+            }
+          },
+          {
+            "component": "embed-teaser-sidebar",
+            "content": {
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "sidebar-embed",
+                  "mediaId": 2905
+                }
+              }
+            }
+          },
+          {
+            "component": "embed-teaser-sidebar",
+            "content": {
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "sidebar-embed",
+                  "mediaId": 2906
+                }
+              }
+            }
+          },
+          {
+            "component": "embed-teaser-sidebar",
+            "content": {
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "sidebar-embed",
+                  "mediaId": 2907
+                }
+              }
+            }
+          }
+        ],
+        "sidebar-ads-bottom": [
+          {
+            "component": "ad-halfpage-resolved"
+          }
+        ],
+        "footer": [
+          {
+            "component": "halves",
+            "content": {
+              "title": "Recommened Stories"
+            },
+            "containers": {
+              "column-one": [
+                {
+                  "identifier": "living-times.teaser-card",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2904
+                      }
+                    }
+                  }
+                },
+                {
+                  "identifier": "living-times.teaser-card",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2905
+                      }
+                    }
+                  }
+                }
+              ],
+              "column-two": [
+                {
+                  "identifier": "living-times.teaser-card",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2906
+                      }
+                    }
+                  }
+                },
+                {
+                  "identifier": "living-times.teaser-card",
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2907
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
       }
     }
   ]
