@@ -6,9 +6,9 @@ module.exports = {
 }
 
 function getPathRegex () {
-  return '/:title(\\S{0,})-:id(\\d+)'
+  return '/:slug(\\S{0,})-:id(\\d+)'
 }
 
 function generate (title, documentId) {
-  return `${slugify(title, {lower: true})}-${documentId}`
+  return `/${slugify(title, {lower: true})}-${documentId}`
 }

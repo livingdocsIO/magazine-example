@@ -12,7 +12,7 @@
   },
   "metadata": {
     "title": "Joe Hisaishi",
-    "description": "Mamoru Fujisawa (藤澤 守 Fujisawa Mamoru, born December 6, 1950), known professionally as Joe Hisaishi (久石 譲 Hisaishi Jō), is a Japanese composer and musical director known for over 100 film scores and solo albums dating back to 1981.",
+    "description": "Mamoru Fujisawa (藤澤 守 Fujisawa Mamoru, born December 6, 1950), known professionally as Joe Hisaishi (久石 譲 Hisaishi Jō)...",
     "flag": "Ghibli",
     "author": "Wikipedia contributors",
     "publishDate": "on Thu Sep 14 2017",
@@ -152,6 +152,18 @@
             "identifier": "living-times.paragraph",
             "content": {
               "text": "<em>Source: Wikipedia</em>"
+            }
+          },
+          {
+            "component": "embed-teaser-author",
+            "content": {
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "author-embed",
+                  "mediaId": 2931
+                }
+              }
             }
           }
         ],

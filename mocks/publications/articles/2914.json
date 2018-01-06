@@ -12,7 +12,7 @@
   },
   "metadata": {
     "title": "Toshio Suzuki",
-    "description": "Toshio Suzuki (鈴木 敏夫 Suzuki Toshio, born August 19, 1948) is a film producer of anime and a long-time colleague of Hayao Miyazaki, as well as the former president of Studio Ghibli. Suzuki is renowned as one of Japan's most successful producers after the enormous box office success (in Japan) of many Ghibli films.",
+    "description": "Toshio Suzuki (鈴木 敏夫 Suzuki Toshio, born August 19, 1948) is a film producer of anime and a long-time colleague of Hayao Miyazaki...",
     "flag": "Ghibli",
     "author": "Wikipedia contributors",
     "publishDate": "on Thu Sep 14 2017",
@@ -138,6 +138,18 @@
             "identifier": "living-times.paragraph",
             "content": {
               "text": "<em>Source: Wikipedia</em>"
+            }
+          },
+          {
+            "component": "embed-teaser-author",
+            "content": {
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "author-embed",
+                  "mediaId": 2930
+                }
+              }
             }
           }
         ],

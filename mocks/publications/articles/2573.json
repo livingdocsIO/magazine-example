@@ -83,6 +83,18 @@
             "content": {
               "text": "Die Regierung sehe daher \"derzeit keinen weiteren Gesprächsbedarf\", sagte sie auf die Frage, ob etwa die deutsche Kanzlerin Angela Merkel ein direktes Gespräch mit dem türkischen Präsidenten Recep Tayyip Erdogan für notwendig halte."
             }
+          },
+          {
+            "component": "embed-teaser-author",
+            "content": {
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "author-embed",
+                  "mediaId": 2928
+                }
+              }
+            }
           }
         ],
         "sidebar-ads-top": [

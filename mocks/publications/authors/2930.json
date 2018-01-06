@@ -1,0 +1,122 @@
+{
+  "systemdata": {
+    "projectId": 319,
+    "channelId": 334,
+    "documentId": 2930,
+    "documentType": "article",
+    "layout": "author",
+    "design": {
+      "name": "living-times",
+      "version": "0.0.1"
+    }
+  },
+  "metadata": {
+    "title": "Neima Jahromi",
+    "description": "Neima Jahromi has been a film critic for the Living Times since 2006. She can perform a Shoryuken with one single hand.",
+    "author": "Neima Jahromi",
+    "publishDate": "on Thu Sep 14 2017",
+    "teaserImage": {
+      "originalUrl": "/assets/images/author-neima.png",
+      "url": "/assets/images/author-neima.png"
+    },
+    "dependencies": {}
+  },
+  "content": [
+    {
+      "identifier": "living-times.author-container",
+      "containers": {
+        "main": [
+          {
+            "component": "author-head",
+            "content": {
+              "image": "/assets/images/author-neima.png",
+              "link": "https://twitter.com/@neima_jahromi",
+              "text-link": "@neima_jahromi",
+              "title": "Neima Jahromi",
+              "introduction": "Neima Jahromi has been a film critic for the Living Times since 2006. She can perform a Shoryuken with one single hand.",
+              "description": "She joined Living Times as a staff writer in 2001 and has profiled many subjects, among them Lena Dunham, Christine Quinn, Santiago Calatrava, Nico Muhly, Slavoj Zizek, and Shaquille O'Neal. She has also written more than two hundred Talk of the Town stories."
+            }
+          },
+          {
+            "component": "whole",
+            "styles" : {
+              "container-style-lined": "container--lined"
+            },
+            "content": {
+              "title": "All Work"
+            },
+            "containers": {
+              "column-one": [
+                {
+                  "component": "teaser-card",
+                  "styles" : {
+                    "teaser-image-position": "teaser-card--left-aligned-img"
+                  },
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2904
+                      }
+                    }
+                  }
+                },
+                {
+                  "component": "teaser-card",
+                  "styles" : {
+                    "teaser-image-position": "teaser-card--left-aligned-img"
+                  },
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2905
+                      }
+                    }
+                  }
+                },
+                {
+                  "component": "teaser-card",
+                  "styles" : {
+                    "teaser-image-position": "teaser-card--left-aligned-img"
+                  },
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2906
+                      }
+                    }
+                  }
+                },
+                {
+                  "component": "teaser-card",
+                  "styles" : {
+                    "teaser-image-position": "teaser-card--left-aligned-img"
+                  },
+                  "content": {
+                    "teaser": {
+                      "service": "embed-teaser",
+                      "params": {
+                        "layout": "card",
+                        "mediaId": 2907
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "sidebar": [
+          {
+            "component": "ad-halfpage-resolved"
+          }
+        ]
+      }
+    }
+  ]
+}

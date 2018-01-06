@@ -92,6 +92,18 @@
             "content": {
               "text": "<em>Source: Wikipedia</em>"
             }
+          },
+          {
+            "component": "embed-teaser-author",
+            "content": {
+              "embed": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "author-embed",
+                  "mediaId": 2928
+                }
+              }
+            }
           }
         ],
         "sidebar-ads-top": [

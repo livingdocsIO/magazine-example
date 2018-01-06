@@ -21,7 +21,7 @@ function startResolverTasks (livingdoc, liClient, includesConfig) {
       case 'embed-teaser':
         return {
           serviceName: 'embed-teaser',
-          resolver: resolveEmbedTeaserIncludes({
+          resolver: require('./embed_teaser')({
             liClient,
             livingdoc,
             includes: includeMap['embed-teaser'],
@@ -36,9 +36,4 @@ function startResolverTasks (livingdoc, liClient, includesConfig) {
 
     }
   })
-}
-
-function resolveEmbedTeaserIncludes ({livingdoc, liClient, includes, includeConfig}) {
-  const embedTeaserResolver = require('./embed_teaser')
-  return embedTeaserResolver(livingdoc, liClient, includes, includeConfig)
 }
