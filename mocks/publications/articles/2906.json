@@ -14,7 +14,7 @@
     "title": "The Whale Hunt",
     "description": "Kujiratori (くじらとり, lit. \"Whale Hunt\") is a 2001 short animated film written and directed by...",
     "flag": "Ghibli",
-    "author": "Wikipedia contributors",
+    "author": "Patty Patterson",
     "publishDate": "on Thu Sep 14 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/1456273f-b26a-4ca1-9de7-cebd2eb41dd9.jpeg",
@@ -46,7 +46,8 @@
             "content": {
               "title": "The Whale Hunt",
               "text": "Kujiratori (くじらとり, lit. \"Whale Hunt\") is a 2001 short animated film written and directed by...",
-              "author": "Wikipedia contributors"
+              "author": "Patty Patterson",
+              "date": "Thu Sep 14 2017"
             }
           }
         ],
@@ -100,7 +101,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "author-embed",
-                  "mediaId": 2928
+                  "mediaId": 2931
                 }
               }
             }

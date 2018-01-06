@@ -1,4 +1,4 @@
-const includesConfig = require('./includes')
+const includesConfig = require('../includes')
 
 module.exports = {
   client: {

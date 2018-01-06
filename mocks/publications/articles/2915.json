@@ -14,8 +14,8 @@
     "title": "Isao Takahata",
     "description": "<strong>Isao Takahata</strong> (高畑 勲 <em>Takahata Isao</em>, born October 29, 1935) is a Japanese film director, animator, screenwriter and...",
     "flag": "Ghibli",
-    "author": "Wikipedia contributors",
-    "publishDate": "on Thu Sep 14 2017",
+    "author": "Andy Borowitz",
+    "publishDate": "on Thu Sep 16 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/7e12afd2-5677-4ad8-85bf-5fceb259b201.jpeg",
       "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/7e12afd2-5677-4ad8-85bf-5fceb259b201.jpeg",
@@ -47,7 +47,8 @@
             "content": {
               "title": "Isao Takahata",
               "text": "<strong>Isao Takahata</strong> (高畑 勲 <em>Takahata Isao</em>, born October 29, 1935) is a Japanese film director, animator, screenwriter and...",
-              "author": "Wikipedia contributors"
+              "author": "Andy Borowitz",
+              "date": "Thu Sep 16 2017"
             }
           }
         ],

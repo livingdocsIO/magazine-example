@@ -14,8 +14,8 @@
     "title": "Spirited Away",
     "description": "Ten-year-old Chihiro Ogino and her parents are traveling to their new home when her father takes a wrong turn.",
     "flag": "Ghibli",
-    "author": "Wikipedia contributors",
-    "publishDate": "on Thu Sep 14 2017",
+    "author": "Neima Jahromi",
+    "publishDate": "on Thu Sep 16 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/53da8f6a-5d60-469e-8ba1-64ddd57fb7d5.jpeg",
       "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/53da8f6a-5d60-469e-8ba1-64ddd57fb7d5.jpeg",
@@ -46,7 +46,8 @@
             "content": {
               "title": "Spirited Away",
               "text": "Ten-year-old Chihiro Ogino and her parents are traveling to their new home when her father takes a wrong turn.",
-              "author": "Wikipedia contributors"
+              "author": "Neima Jahromi",
+              "date": "Thu Sep 16 2017"
             }
           }
         ],
@@ -278,7 +279,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "author-embed",
-                  "mediaId": 2928
+                  "mediaId": 2930
                 }
               }
             }

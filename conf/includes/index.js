@@ -18,9 +18,11 @@ module.exports = {
           title: contentExtractor.title,
           link: contentExtractor.link,
           flag: contentExtractor.flag,
-          author: contentExtractor.author,
           date: contentExtractor.publishDate
-        }
+        },
+        contentEnrichments: [
+          require('./enrichments/author_ref')
+        ]
       },
       hero: {
         template: 'teaser-hero-template',
@@ -29,10 +31,12 @@ module.exports = {
           link: contentExtractor.link,
           flag: contentExtractor.flag,
           text: contentExtractor.description,
-          author: contentExtractor.author,
           date: contentExtractor.publishDate,
           image: contentExtractor.image({crop: '16:9'})
-        }
+        },
+        contentEnrichments: [
+          require('./enrichments/author_ref')
+        ]
       },
       card: {
         template: 'teaser-card-template',
@@ -42,10 +46,12 @@ module.exports = {
           link2: contentExtractor.link,
           flag: contentExtractor.flag,
           text: contentExtractor.description,
-          author: contentExtractor.author,
           date: contentExtractor.publishDate,
           image: contentExtractor.image({crop: '16:9'})
-        }
+        },
+        contentEnrichments: [
+          require('./enrichments/author_ref')
+        ]
       },
       'card-no-image': {
         template: 'teaser-card-no-image-template',
@@ -54,19 +60,23 @@ module.exports = {
           link: contentExtractor.link,
           flag: contentExtractor.flag,
           text: contentExtractor.description,
-          author: contentExtractor.author,
           date: contentExtractor.publishDate
-        }
+        },
+        contentEnrichments: [
+          require('./enrichments/author_ref')
+        ]
       },
-      numbered: {
+      'card-numbered': {
         template: 'teaser-card-numbered-template',
         contentSpec: {
           title: contentExtractor.title,
           link: contentExtractor.link,
           flag: contentExtractor.flag,
-          author: contentExtractor.author,
           date: contentExtractor.publishDate
-        }
+        },
+        contentEnrichments: [
+          require('./enrichments/author_ref')
+        ]
       },
       'card-author': {
         template: 'teaser-card-author-template',

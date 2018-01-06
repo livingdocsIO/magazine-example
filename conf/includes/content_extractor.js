@@ -1,4 +1,4 @@
-const publicationHref = require('../../../app/util/publication_href')
+const publicationHref = require('../../app/util/publication_href')
 
 module.exports = {
   link,

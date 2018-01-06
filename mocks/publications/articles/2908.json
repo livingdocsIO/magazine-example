@@ -14,8 +14,8 @@
     "title": "Iblard Jikan",
     "description": "Iblard Jikan (イバラード時間 <em>Ibarādo Jikan</em>, literally \"Iblard Time\") is a Japanese anime OVA produced by...",
     "flag": "Ghibli",
-    "author": "Wikipedia contributors",
-    "publishDate": "on Thu Sep 14 2017",
+    "author": "Andy Borowitz",
+    "publishDate": "on Thu Sep 15 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png",
       "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png",
@@ -46,7 +46,8 @@
             "content": {
               "title": "Iblard Jikan",
               "text": "Iblard Jikan (イバラード時間 <em>Ibarādo Jikan</em>, literally \"Iblard Time\") is a Japanese anime OVA produced by...",
-              "author": "Wikipedia contributors"
+              "author": "Andy Borowitz",
+              "date": "Thu Sep 15 2017"
             }
           }
         ],
@@ -119,7 +120,7 @@
                 "service": "embed-teaser",
                 "params": {
                   "layout": "author-embed",
-                  "mediaId": 2928
+                  "mediaId": 2929
                 }
               }
             }

@@ -14,8 +14,8 @@
     "title": "The Tale of the Princess Kaguya",
     "description": "Go round, come round, come round... come round, oh distant time.",
     "flag": "Ghibli",
-    "author": "Wikipedia contributors",
-    "publishDate": "on Thu Sep 14 2017",
+    "author": "John Cassidy",
+    "publishDate": "on Thu Sep 16 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/26303a92-2cf7-425e-b5b3-15d5b54c5564.jpeg",
       "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/26303a92-2cf7-425e-b5b3-15d5b54c5564.jpeg",
@@ -57,7 +57,8 @@
             "content": {
               "title": "The Tale of the Princess Kaguya",
               "text": "Go round, come round, come round... come round, oh distant time.",
-              "author": "Wikipedia contributors"
+              "author": "John Cassidy",
+              "date": "Thu Sep 16 2017"
             }
           }
         ],

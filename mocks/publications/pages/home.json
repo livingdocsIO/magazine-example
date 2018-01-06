@@ -388,7 +388,7 @@
               "teaser": {
                 "service": "embed-teaser",
                 "params": {
-                  "layout": "numbered",
+                  "layout": "card-numbered",
                   "mediaId": 2912
                 }
               }
@@ -400,7 +400,7 @@
               "teaser": {
                 "service": "embed-teaser",
                 "params": {
-                  "layout": "numbered",
+                  "layout": "card-numbered",
                   "mediaId": 2913
                 }
               }
@@ -412,7 +412,7 @@
               "teaser": {
                 "service": "embed-teaser",
                 "params": {
-                  "layout": "numbered",
+                  "layout": "card-numbered",
                   "mediaId": 2914
                 }
               }
@@ -424,7 +424,7 @@
               "teaser": {
                 "service": "embed-teaser",
                 "params": {
-                  "layout": "numbered",
+                  "layout": "card-numbered",
                   "mediaId": 2915
                 }
               }
@@ -436,7 +436,7 @@
               "teaser": {
                 "service": "embed-teaser",
                 "params": {
-                  "layout": "numbered",
+                  "layout": "card-numbered",
                   "mediaId": 2916
                 }
               }

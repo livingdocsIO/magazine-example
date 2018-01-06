@@ -14,8 +14,8 @@
     "title": "The Night of Taneyamagahara",
     "description": "The Night of Taneyamagahara (種山ヶ原の夜 <em>Taneyamagahara no Yoru</em>) is a short anime film directed by...",
     "flag": "Ghibli",
-    "author": "Wikipedia contributors",
-    "publishDate": "on Thu Sep 14 2017",
+    "author": "John Cassidy",
+    "publishDate": "on Thu Sep 15 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/67fbd400-4961-4d2f-8846-221a1351f415.png",
       "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/67fbd400-4961-4d2f-8846-221a1351f415.png",
@@ -46,7 +46,8 @@
             "content": {
               "title": "The Night of Taneyamagahara",
               "text": "The Night of Taneyamagahara (種山ヶ原の夜 <em>Taneyamagahara no Yoru</em>) is a short anime film directed by...",
-              "author": "Wikipedia contributors"
+              "author": "John Cassidy",
+              "date": "Thu Sep 15 2017"
             }
           }
         ],
