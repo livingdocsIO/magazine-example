@@ -11,7 +11,7 @@ module.exports = async function resolveEmbedTeaserIncludes ({
     const layout = params.layout
     validateConfig(layout, includeConfig.layouts)
 
-    const [publication] = await request
+    const publication = await request
     if (!publication) throw new Error(`Article embed with id "${params.mediaId}" not found`)
 
     const renderArgs = [liClient, livingdoc, layout, includeConfig, publication]

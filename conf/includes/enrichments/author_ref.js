@@ -14,8 +14,10 @@ module.exports = async function enrichTeaserContentWithAuthor ({liClient, public
   const embedIncludeDirective = authorEmbed.directives.get('embed')
   const {params} = embedIncludeDirective.getContent()
 
-  const [{systemdata, metadata}] = await liClient.getPublication({documentId: params.mediaId})
+  const authorPublication = await liClient.getPublication({documentId: params.mediaId})
+  if (!authorPublication) return
 
+  const {systemdata, metadata} = authorPublication
   return {
     author: metadata.title,
     authorLink: publicationHref.generate(metadata.title, systemdata.documentId)

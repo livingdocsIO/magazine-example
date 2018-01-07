@@ -6,7 +6,7 @@ module.exports = function publicationsRouteHandler ({liClient}) {
     // fetch the publication using the documentId
     let publication = null
     try {
-      [publication] = await liClient.getPublication({documentId})
+      publication = await liClient.getPublication({documentId})
     } catch (e) {
       return next(e)
     }

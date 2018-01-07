@@ -22,8 +22,8 @@ module.exports = function commonRouteHandler ({liClient, conf}) {
     try {
       const content = publication.content
       livingdoc = liSDK.document.create({design, content})
-    } catch (e) {
-      return next(e)
+    } catch (error) {
+      return next(error)
     }
 
     // get the location & menu for navigation purposes
@@ -31,15 +31,15 @@ module.exports = function commonRouteHandler ({liClient, conf}) {
     let menu = {}
     try {
       [menu] = await liClient.getMenus({handle: headerMenuHandle})
-    } catch (e) {
-      console.error('Couldn\'t get the header menus', e)
+    } catch (error) {
+      console.error('Couldn\'t get the header menu', error)
     }
 
     // resolve includes
     try {
       await resolveIncludes(livingdoc, liClient, includesConfig)
-    } catch (e) {
-      console.error(e)
+    } catch (error) {
+      console.error(error)
     }
 
     // compose layout with the publication livingdoc
@@ -52,12 +52,9 @@ module.exports = function commonRouteHandler ({liClient, conf}) {
       const data = {menu, location}
       const layoutComponents = targetDocumentType.layoutComponents
       const renderedLayout = renderLayout(design, livingdoc, layoutComponents, data)
-      res.render('shell', {
-        ...publication,
-        content: renderedLayout
-      })
-    } catch (e) {
-      next(e)
+      res.render('shell', {...publication, content: renderedLayout})
+    } catch (error) {
+      next(error)
     }
   }
 }
