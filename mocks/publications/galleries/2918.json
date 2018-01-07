@@ -78,7 +78,8 @@
                       "mimeType": "image/jpeg",
                       "imageService": "resrc.it",
                       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg"
-                    }
+                    },
+                    "caption": "A nice ride"
                   }
                 },
                 {
@@ -91,7 +92,8 @@
                       "mimeType": "image/png",
                       "imageService": "resrc.it",
                       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png"
-                    }
+                    },
+                    "caption": "A nice screenshot"
                   }
                 },
                 {

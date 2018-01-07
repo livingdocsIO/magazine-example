@@ -463,6 +463,9 @@
     {
       "id": "doc-1btbuv1ng0",
       "identifier": "living-times.halves",
+      "styles" : {
+        "container-style-lined": "container--lined"
+      },
       "content": {
         "title": "Videos"
       },
@@ -491,7 +494,7 @@
                       "service": "embed-teaser",
                       "params": {
                         "layout": "video",
-                        "mediaId": 2926
+                        "mediaId": 2924
                       }
                     }
                   }
@@ -505,7 +508,7 @@
                       "service": "embed-teaser",
                       "params": {
                         "layout": "video",
-                        "mediaId": 2924
+                        "mediaId": 2926
                       }
                     }
                   }
@@ -545,6 +548,9 @@
     {
       "id": "doc-1btbuv1ng0",
       "identifier": "living-times.halves",
+      "styles" : {
+        "container-style-lined": "container--lined"
+      },
       "content": {
         "title": "Photo galleries"
       },
