@@ -7,7 +7,7 @@
 // -> source/components/containers/quarter.html
 // -> source/components/containers/thirds.html
 
-.container {
+.container-grid {
   @extend %layout;
 }
 
@@ -16,27 +16,26 @@
   @include font-size($delta-size, false);
 }
 
-.container__title,
-.container__item {
+.container-grid__item {
   @extend %layout__item;
 }
 
 
 // Modifiers: column widths
-.container--halves .container__item {
+.container-grid--halves .container-grid__item {
   width: 50%;
 }
 
-.container--thirds .container__item {
+.container-grid--thirds .container-grid__item {
   width: 33.33%;
 }
 
-.container--quarter .container__item {
+.container-grid--quarter .container-grid__item {
   width: 25%;
 }
 
 // Modifier: Add left and right padding
-.container--breath .container__item {
+.container--breath .container-grid__item {
   padding-left: calc(8.33% + #{$base-spacing-unit});
   padding-right: calc(8.33% + #{$base-spacing-unit});
 }
@@ -60,7 +59,7 @@
   }
 }
 
-.container--lined .container__item {
+.container--lined .container-grid > .container-grid__item {
   position: relative;
 
   &::after {
