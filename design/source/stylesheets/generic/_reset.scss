@@ -29,9 +29,18 @@ table {
 }
 
 
-// 1. Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
+// Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
 // on fieldsets.
 fieldset {
   min-width: 0; // [1]
   border: 0;
+}
+
+// Reset some typography styles
+em {
+  font-style: normal;
+}
+
+b {
+  font-weight: normal;
 }
