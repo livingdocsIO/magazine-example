@@ -14,8 +14,13 @@
 }
 
 .author-card__image {
-  padding-right: $base-spacing-unit;
-  margin-right: halve($base-spacing-unit);
+
+  & > a {
+    display: block;
+    border-radius: 100%;
+  }
+
+  margin-right:  calc(#{$base-spacing-unit} + #{halve($base-spacing-unit)});
 }
 
 .author-card__body {
@@ -31,7 +36,6 @@
   & > a {
     font-weight: bold;
     @include font-size($mili-size);
-
     color: $link-color;
   }
 }
