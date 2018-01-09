@@ -2,8 +2,9 @@
 // AUTHOR CARD COMPONENT
 // -----------------------------------------------------------------------------
 
-// Styles for the following component:
-// -> source/components/teaser/author-card.html
+// Styles for the following components:
+// -> source/components/headers/author-head.html
+// -> source/components/embeds/embed-teaser-author-template.html
 
 .author-card {
   display: flex;
@@ -14,7 +15,6 @@
 }
 
 .author-card__image {
-
   & > a {
     display: block;
     border-radius: 100%;
@@ -62,8 +62,6 @@
 // Modifier: Big Author CARD
 .author-card--big .author-card__body {
   & > p {
-    margin-bottom: 0;
-
     font-family: $sans-serif-font;
     @include font-size($base-font-size); // 16px
   }
