@@ -334,6 +334,12 @@
       "containers": {
         "column-one": [
           {
+            "component": "section-title",
+            "content": {
+              "title": "Top Contributors"
+            }
+          },
+          {
             "component": "teaser-card-author",
             "content": {
               "teaser": {
@@ -383,6 +389,12 @@
           }
         ],
         "column-two": [
+          {
+            "component": "section-title",
+            "content": {
+              "title": "Most Popular"
+            }
+          },
           {
             "component": "teaser-card-numbered",
             "content": {
