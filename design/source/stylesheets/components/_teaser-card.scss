@@ -2,7 +2,7 @@
 // TEASER CARD COMPONENT
 // -----------------------------------------------------------------------------
 
-// Styles for the following component:
+// Styles for the following components:
 // -> source/components/teaser/teaser-card.html
 // -> source/components/teaser/teaser-card-author.html
 // -> source/components/teaser/teaser-card-numbered.html
@@ -196,18 +196,17 @@
 
 // Modifier: Sidebar Teaser Card
 .teaser-card--sidebar {
-  margin-bottom: halve($base-spacing-unit);
+  margin-bottom: $base-spacing-unit;
 }
 
-.placeholder--teaser-sidebar-embed {
-  &:last-of-type {
-    margin-bottom: double($base-spacing-unit);
-  }
+.placeholder--teaser-sidebar-embed:last-of-type {
+  margin-bottom: double($base-spacing-unit);
 }
 
 .teaser-card--sidebar {
   .teaser-card__title {
     @include font-size($zeta-size, false); //22px
+    margin-bottom: quarter($base-spacing-unit);
   }
   .teaser-card__byline, .teaser-card__flag {
     @include font-size(12px, false);
