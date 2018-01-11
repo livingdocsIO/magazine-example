@@ -474,7 +474,7 @@
     },
     {
       "id": "doc-1btbuv1ng0",
-      "identifier": "living-times.halves",
+      "identifier": "living-times.halves-uneven",
       "styles" : {
         "container-style-lined": "container--lined"
       },
@@ -484,60 +484,39 @@
       "containers": {
         "column-one": [
           {
-            "identifier": "living-times.halves",
-            "containers": {
-              "column-one": [
-                {
-                  "identifier": "living-times.teaser-video",
-                  "content": {
-                    "teaser": {
-                      "service": "embed-teaser",
-                      "params": {
-                        "layout": "video",
-                        "mediaId": 2923
-                      }
-                    }
-                  }
-                },
-                {
-                  "identifier": "living-times.teaser-video",
-                  "content": {
-                    "teaser": {
-                      "service": "embed-teaser",
-                      "params": {
-                        "layout": "video",
-                        "mediaId": 2924
-                      }
-                    }
-                  }
+            "identifier": "living-times.teaser-video",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "video",
+                  "mediaId": 2923
                 }
-              ],
-              "column-two": [
-                {
-                  "identifier": "living-times.teaser-video",
-                  "content": {
-                    "teaser": {
-                      "service": "embed-teaser",
-                      "params": {
-                        "layout": "video",
-                        "mediaId": 2926
-                      }
-                    }
-                  }
-                },
-                {
-                  "identifier": "living-times.teaser-video",
-                  "content": {
-                    "teaser": {
-                      "service": "embed-teaser",
-                      "params": {
-                        "layout": "video",
-                        "mediaId": 2927
-                      }
-                    }
-                  }
+              }
+            }
+          },
+          {
+            "identifier": "living-times.teaser-video",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "video",
+                  "mediaId": 2924
                 }
-              ]
+              }
+            }
+          },
+          {
+            "identifier": "living-times.teaser-video",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "video",
+                  "mediaId": 2926
+                }
+              }
             }
           }
         ],
@@ -559,7 +538,7 @@
     },
     {
       "id": "doc-1btbuv1ng0",
-      "identifier": "living-times.halves",
+      "identifier": "living-times.halves-uneven",
       "styles" : {
         "container-style-lined": "container--lined"
       },
@@ -569,60 +548,39 @@
       "containers": {
         "column-one": [
           {
-            "identifier": "living-times.halves",
-            "containers": {
-              "column-one": [
-                {
-                  "identifier": "living-times.teaser-gallery",
-                  "content": {
-                    "teaser": {
-                      "service": "embed-teaser",
-                      "params": {
-                        "layout": "gallery",
-                        "mediaId": 2918
-                      }
-                    }
-                  }
-                },
-                {
-                  "identifier": "living-times.teaser-gallery",
-                  "content": {
-                    "teaser": {
-                      "service": "embed-teaser",
-                      "params": {
-                        "layout": "gallery",
-                        "mediaId": 2919
-                      }
-                    }
-                  }
+            "identifier": "living-times.teaser-gallery",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "gallery",
+                  "mediaId": 2918
                 }
-              ],
-              "column-two": [
-                {
-                  "identifier": "living-times.teaser-gallery",
-                  "content": {
-                    "teaser": {
-                      "service": "embed-teaser",
-                      "params": {
-                        "layout": "gallery",
-                        "mediaId": 2921
-                      }
-                    }
-                  }
-                },
-                {
-                  "identifier": "living-times.teaser-gallery",
-                  "content": {
-                    "teaser": {
-                      "service": "embed-teaser",
-                      "params": {
-                        "layout": "gallery",
-                        "mediaId": 2922
-                      }
-                    }
-                  }
+              }
+            }
+          },
+          {
+            "identifier": "living-times.teaser-gallery",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "gallery",
+                  "mediaId": 2919
                 }
-              ]
+              }
+            }
+          },
+          {
+            "identifier": "living-times.teaser-gallery",
+            "content": {
+              "teaser": {
+                "service": "embed-teaser",
+                "params": {
+                  "layout": "gallery",
+                  "mediaId": 2921
+                }
+              }
             }
           }
         ],
