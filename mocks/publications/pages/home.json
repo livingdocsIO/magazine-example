@@ -442,18 +442,6 @@
                 }
               }
             }
-          },
-          {
-            "component": "teaser-card-numbered",
-            "content": {
-              "teaser": {
-                "service": "embed-teaser",
-                "params": {
-                  "layout": "card-numbered",
-                  "mediaId": 2916
-                }
-              }
-            }
           }
         ]
       }

@@ -81,10 +81,9 @@ module.exports = {
       'card-author': {
         template: 'teaser-card-author-template',
         contentSpec: {
-          title: contentExtractor.title,
           link: contentExtractor.link,
           link2: contentExtractor.link,
-          text: contentExtractor.description,
+          text: contentExtractor.title,
           image: contentExtractor.image({crop: '16:9'})
         },
         contentEnrichments: [
