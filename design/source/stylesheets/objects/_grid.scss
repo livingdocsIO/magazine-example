@@ -11,24 +11,12 @@
 .layout,
 %layout {
   display: flex;
-  margin-left: halve(-$base-spacing-unit);
-  margin-right: halve(-$base-spacing-unit);
+  margin-left: -$base-spacing-unit;
+  margin-right: -$base-spacing-unit;
 }
 
 .layout__item,
 %layout__item {
   flex: 1;
-  padding: 0 halve($base-spacing-unit);
+  padding: 0 $base-spacing-unit;
 }
-
-// .layout .layout {
-//   margin-left: halve(-$base-spacing-unit);
-//   margin-right: halve(-$base-spacing-unit);
-// }
-
-// .layout__item,
-// %layout__item {
-//   float: left;
-//   width: 100%;
-//   padding: 0 halve($base-spacing-unit);
-// }
