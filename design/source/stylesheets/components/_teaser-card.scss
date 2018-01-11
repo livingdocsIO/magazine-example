@@ -46,6 +46,8 @@
   margin-right: 2px;
   vertical-align: middle;
 
+  transition: transform 150ms;
+
   path {
     fill: $white;
   }
@@ -57,8 +59,9 @@
 
   font-weight: bold;
   color: $flag-color;
+  letter-spacing: .05em;
+  @include font-size(12px);
   text-transform: uppercase;
-  @include font-size($micro-size); // 13px
 }
 
 .teaser-card__number {
@@ -117,6 +120,12 @@
   }
 }
 
+// Hover behaviour
+.teaser-card:hover, .teaser-hero:hover {
+  .teaser-card__icon {
+    transform: scale(1.15);
+  }
+}
 
 // Modifier: Align image right / left
 .teaser-card--left-aligned-img .teaser-card, .teaser-card--right-aligned-img .teaser-card {
