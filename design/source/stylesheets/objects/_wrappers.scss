@@ -4,7 +4,7 @@
 
 
 // Page-level constraining and wrapping elements.
-$wrapper-width:  1008px;
+$wrapper-width:  1008px + double($base-spacing-unit);
 
 .wrapper {
   @include clearfix();
@@ -18,9 +18,9 @@ $wrapper-width:  1008px;
 
 // Modifier
 .wrapper--wide {
-  max-width: 1440px;
+  max-width: 1220px + double($base-spacing-unit);
 }
 
 .wrapper--narrow {
-  max-width: 676px;
+  max-width: 676px + double($base-spacing-unit);
 }
