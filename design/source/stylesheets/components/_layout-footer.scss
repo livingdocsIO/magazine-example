@@ -8,12 +8,13 @@
 
 .page-foot {
   @extend .wrapper;
-  @extend .wrapper--wide;
 
-  margin-top: double($base-spacing-unit);
+  // margin-top: double($base-spacing-unit);
 }
 
 .page-foot__wrapper {
+  display: flex;
+  justify-content: space-between;
   border-top: 1px solid $divider-color;
   padding-top: halve($base-spacing-unit);
 }
@@ -36,11 +37,14 @@
 
 }
 
-// Modifier
-.footer-links--left-aligned {
-  float: left;
-}
 
-.footer-links--right-aligned {
-  float: right;
+// Media Queries
+@media (max-width: 1080px) {
+  .page-foot__wrapper {
+    flex-direction: column;
+  }
+
+  .footer-links {
+    margin-bottom: halve($base-spacing-unit);
+  }
 }

@@ -33,3 +33,18 @@
   float: right;
   margin-left: $base-spacing-unit;
 }
+
+// Media Queries
+@media (max-width: $mq-small) {
+  .c-image--left, .c-image--right {
+    max-width: 140px;
+  }
+
+  .c-image--left {
+    margin-right: halve($base-spacing-unit);
+  }
+
+  .c-image--right {
+    margin-left: halve($base-spacing-unit);
+  }
+}

@@ -9,6 +9,7 @@
 .page-head {
   position: relative;
 
+  overflow: hidden;
   margin-bottom: $base-spacing-unit;
 }
 
@@ -20,7 +21,7 @@
 
 // Meta navgation styles
 .meta-nav {
-  top: 8px;
+  top: 36px;
   position: absolute;
   right: $base-spacing-unit;
 
@@ -73,5 +74,35 @@
 
   &.is-selected a {
     font-weight: bold;
+  }
+}
+
+
+// Media Queries
+@media (max-width: $mq-small) {
+  .logo {
+    max-width: 250px;
+    margin-right: 0;
+    margin-left: halve($base-spacing-unit);
+  }
+
+  .meta-nav {
+    top: 29px;
+    right: halve($base-spacing-unit);
+  }
+}
+
+@media (max-width: $mq-extra-small) {
+  .logo {
+    max-width: 180px;
+    margin: halve($base-spacing-unit) 0 halve($base-spacing-unit) halve($base-spacing-unit);
+  }
+
+  .meta-nav {
+    top: 11px;
+  }
+
+  .main-nav__item {
+    flex-basis: 25%;
   }
 }

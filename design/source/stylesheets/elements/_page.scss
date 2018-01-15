@@ -24,3 +24,9 @@ html {
   counter-reset: section;
   text-decoration-skip: ink;
 }
+
+@media (max-width: $mq-small) {
+  html {
+    font-size: (15px / 16px) * 1em;
+  }
+}

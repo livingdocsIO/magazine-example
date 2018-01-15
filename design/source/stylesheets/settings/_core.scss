@@ -46,3 +46,9 @@ $micro-size:            13px;
 
 // Define a base spacing unit that’s based on the on the line-height.
 $base-spacing-unit:     $base-line-height;
+
+
+// Set up vars for mediaqueries
+$mq-medium:             1024px;
+$mq-small:              780px;
+$mq-extra-small:        560px;

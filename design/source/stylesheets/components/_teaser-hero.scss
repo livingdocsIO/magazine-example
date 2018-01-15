@@ -6,7 +6,7 @@
 // -> source/components/teaser/teaser-hero.html
 
 .teaser-hero {
-  margin-bottom: double($base-spacing-unit);
+  margin-bottom: $base-spacing-unit;
 }
 
 .teaser-hero > a {
@@ -111,4 +111,27 @@
 .teaser-hero--gallery .teaser-hero__header {
   padding-top: 28.125%;
   padding-bottom: 28.125%;
+}
+
+// Modifier
+@media (max-width: $mq-medium) {
+  .teaser-hero__header-text {
+    max-width: 80%;
+  }
+
+  .teaser-hero__title {
+    @include font-size($epsilon-size, false);
+  }
+}
+
+@media (max-width: $mq-extra-small) {
+  .teaser-hero__title {
+    @include font-size($zeta-size);
+  }
+
+  .teaser-hero__header {
+    padding-top: 28.125%;
+    padding-bottom: 28.125%;
+  }
+
 }

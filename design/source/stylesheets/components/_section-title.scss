@@ -9,3 +9,17 @@
   text-align: center;
   @include font-size($delta-size); // 31px
 }
+
+
+// Media Queries
+@media (max-width: $mq-medium) {
+  .section-title {
+    @include font-size($epsilon-size, false); // 28px
+  }
+}
+
+@media (max-width: $mq-extra-small) {
+  .section-title {
+    @include font-size($zeta-size, false); // 22px
+  }
+}

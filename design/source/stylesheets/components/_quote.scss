@@ -32,3 +32,24 @@
   position: relative;
   margin-left: double($base-spacing-unit);
 }
+
+// Media Queries
+@media (max-width: $mq-small) {
+  .quote {
+    margin-top: $base-spacing-unit;
+    margin-bottom: $base-spacing-unit;
+  }
+
+  .quote__mark {
+    font-size: 60px;
+    left: -39px;
+  }
+  .quote__text {
+    margin-left: 0;
+    @include font-size($zeta-size, false);
+  }
+
+  .quote__source {
+    margin-left: 0;
+  }
+}

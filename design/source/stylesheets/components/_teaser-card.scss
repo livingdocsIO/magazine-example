@@ -136,6 +136,7 @@
 .teaser-card--left-aligned-img .teaser-card__figure,
 .teaser-card--right-aligned-img .teaser-card__figure {
   width: 40%;
+  margin-bottom: 0;
 }
 
 .teaser-card--left-aligned-img .teaser-card__body,
@@ -144,7 +145,7 @@
 }
 
 .teaser-card--left-aligned-img .teaser-card__figure {
-  margin-right: 20px;
+  margin-right: halve($base-spacing-unit);
 }
 
 .teaser-card--right-aligned-img .teaser-card__figure {
@@ -193,7 +194,7 @@
 }
 
 .teaser-card--author .teaser-card__figure {
-  width: 16.66%;
+  width: 128px;
   margin-right: $base-spacing-unit;
 
   text-align: center;
@@ -219,5 +220,17 @@
   }
   .teaser-card__byline, .teaser-card__flag {
     @include font-size(12px, false);
+  }
+}
+
+// Media Queries
+
+@media (max-width: $mq-medium) {
+  .teaser-card__title {
+    @include font-size($epsilon-size, false);
+  }
+
+  .teaser-card--author {
+    flex-direction: column;
   }
 }
