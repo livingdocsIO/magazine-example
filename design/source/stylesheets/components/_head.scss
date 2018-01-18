@@ -49,3 +49,32 @@
 .head__flag, .head__meta {
   display: block;
 }
+
+// Media Queries
+
+@media (max-width: 930px) {
+  .head__title {
+    @include font-size($gamma-size, false); // 45px
+  }
+  .head__lead {
+    @include font-size(20px, false); // 22px
+  }
+}
+
+@media (max-width: $mq-small) {
+  .head__title {
+    @include font-size($delta-size, false); // 45px
+  }
+  .head__lead {
+    @include font-size(18px, false); // 22px
+  }
+}
+
+@media (max-width: $mq-extra-small) {
+  .head__title {
+    @include font-size($epsilon-size, false); // 45px
+  }
+  .head__lead {
+    @include font-size($base-font-size, false); // 22px
+  }
+}
