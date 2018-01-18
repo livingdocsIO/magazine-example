@@ -66,3 +66,15 @@
     @include font-size($base-font-size); // 16px
   }
 }
+
+// Media Queries
+@media (max-width: $mq-extra-small) {
+  .author-card {
+    flex-direction: column;
+  }
+  .author-card__image {
+    margin-right: 0;
+    margin-bottom: halve($base-spacing-unit);
+    align-self: center;
+  }
+}
