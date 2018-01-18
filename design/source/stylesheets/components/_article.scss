@@ -90,7 +90,7 @@
 
 @media (max-width: 560px) {
   .article-content {
-    padding-left: $base-spacing-unit;
-    padding-right: $base-spacing-unit;
+    padding-left: halve($base-spacing-unit);
+    padding-right: halve($base-spacing-unit);
   }
 }
