@@ -2,7 +2,7 @@
   "name": "living-times",
   "label": "Living Times",
   "version": "0.0.1",
-  "license": "Copyright (c) 2017 Livingdocs GmbH, all rights reserved",
+  "license": "Copyright (c) 2018 Livingdocs AG, all rights reserved",
 
   "assets": {
     "css": ["/styles.css"],
@@ -150,23 +150,39 @@
               { "identifier": "living-times.head" }
             ],
             "main": [
-              {
-                "identifier": "living-times.image",
-                "styles": {
-                  "image-position": "c-image--left"
-                }
-              },
-              { "identifier": "living-times.paragraph" }
+              { "identifier": "living-times.image" },
+              { "identifier": "living-times.paragraph" },
+              { "identifier": "living-times.embed-teaser-author"}
             ],
-            "sidebar": [],
-            "footer": []
+            "sidebar-ads-top": [],
+            "sidebar": [
+              {
+                "identifier": "living-times.sidebar-title",
+                "content": {
+                  "title": "Most Popular"
+                }
+              }
+            ],
+            "sidebar-ads-bottom": [],
+            "footer": [
+              {
+                "identifier": "living-times.halves",
+                "content": {
+                  "title": "Recommened Stories"
+                },
+                "containers": {
+                  "column-one": [],
+                  "column-two": []
+                }
+              }
+            ]
           }
         }
       ],
       "groups": [
         {
           "label": "Headers",
-          "components": ["head", "subtitle"]
+          "components": ["head", "subtitle", "section-title"]
         },
         {
           "label": "Text",
@@ -178,19 +194,15 @@
         },
         {
           "label": "Containers",
-          "components": []
-        },
-        {
-          "label": "Teasers",
-          "components": []
+          "components": ["whole", "halves", "halves-uneven", "thirds", "quarter"]
         },
         {
           "label": "Sidebar",
-          "components": []
+          "components": ["sidebar-title", "embed-teaser-sidebar"]
         },
         {
           "label": "Embeds",
-          "components": ["tweet", "iframe", "free-html"]
+          "components": ["embed-teaser-author", "teaser-card", "tweet", "iframe", "free-html"]
         }
       ]
     },
@@ -201,19 +213,31 @@
       "icon": null,
       "defaultContent": [
         {
-          "identifier": "living-times.article-container",
+          "identifier": "living-times.author-container",
           "containers": {
-            "header": [],
-            "main": [],
-            "sidebar": [],
-            "footer": []
+            "main": [
+              { "identifier": "living-times.author-head" },
+              {
+                "identifier": "living-times.whole",
+                "styles": {
+                  "container-style-lined": "container--lined"
+                },
+                "content": {
+                  "title": "All Work"
+                },
+                "containers": {
+                  "column-one": []
+                }
+              }
+            ],
+            "sidebar": []
           }
         }
       ],
       "groups": [
         {
           "label": "Headers",
-          "components": ["head", "subtitle"]
+          "components": ["author-head"]
         },
         {
           "label": "Text",
@@ -225,19 +249,15 @@
         },
         {
           "label": "Containers",
-          "components": []
-        },
-        {
-          "label": "Teasers",
-          "components": []
+          "components": ["whole", "halves", "halves-uneven", "thirds", "quarter"]
         },
         {
           "label": "Sidebar",
-          "components": []
+          "components": ["sidebar-title", "embed-teaser-sidebar"]
         },
         {
           "label": "Embeds",
-          "components": ["tweet", "iframe", "free-html"]
+          "components": ["teaser-card", "tweet", "iframe", "free-html"]
         }
       ]
     },
@@ -253,7 +273,7 @@
             "header": [
               { "identifier": "living-times.head" }
             ],
-            "body": [
+            "main": [
               {
                 "identifier": "living-times.gallery-container",
                 "containers": {
@@ -263,8 +283,7 @@
                   ]
                 }
               }
-            ],
-            "sidebar": []
+            ]
           }
         }
       ],
@@ -303,8 +322,7 @@
                   ]
                 }
               }
-            ],
-            "sidebar": []
+            ]
           }
         }
       ],
@@ -328,19 +346,43 @@
       "caption": "Page",
       "wrapper": "<div class=\"doc-section\"></div>",
       "icon": null,
-      "defaultContent": [],
+      "defaultContent": [
+        {
+          "identifier": "living-times.whole",
+          "styles": {
+            "container-style-breath": "container--breath"
+          },
+          "containers": {
+            "column-one": [
+              { "identifier": "living-times.teaser-hero" }
+            ]
+          }
+        }
+      ],
       "groups": [
         {
-          "label": "Static Components",
-          "components": []
+          "label": "Headers",
+          "components": ["section-title"]
         },
         {
           "label": "Containers",
-          "components": []
+          "components": ["whole", "halves", "halves-uneven", "thirds", "quarter"]
         },
         {
           "label": "Teasers",
-          "components": ["teaser-hero", "embed-teaser"]
+          "components": [
+            "teaser-hero", "teaser-card", "teaser-card-no-image",
+            "teaser-card-no-text-image", "teaser-card-numbered",
+            "teaser-card-author"
+          ]
+        },
+        {
+          "label": "Gallery Teasers",
+          "components": ["teaser-gallery-hero", "teaser-gallery"]
+        },
+        {
+          "label": "Video Teasers",
+          "components": ["teaser-video-hero", "teaser-video"]
         },
         {
           "label": "Embeds",
@@ -390,13 +432,13 @@
     {
       "identifier": "title",
       "type": "text",
-      "matches": ["head.title"],
+      "matches": ["head.title", "author-head.name"],
       "isEditable": true
     },
     {
       "identifier": "description",
       "type": "text",
-      "matches": ["head.text", "paragraph.text"],
+      "matches": ["head.text", "paragraph.text", "author-head.introduction"],
       "isEditable": true
     },
     {
