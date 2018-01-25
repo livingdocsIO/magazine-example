@@ -1,9 +1,7 @@
-const liSDK = require('@livingdocs/sdk')
+const createLivingdoc = require('./helpers/create_livingdoc')
 
 module.exports = function enrichGalleryTeaserContent ({component, publication} = {}) {
-  const design = require('../../../design/dist/design.json')
-  const {content} = publication
-  const galleryLivingdoc = liSDK.document.create({design, content})
+  const galleryLivingdoc = createLivingdoc(publication)
   const tree = galleryLivingdoc.componentTree
 
   const sourceImages = tree.find('image')

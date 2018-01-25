@@ -1,20 +1,19 @@
-const liSDK = require('@livingdocs/sdk')
+const createLivingdoc = require('./helpers/create_livingdoc')
 
 module.exports = function enrichVideoTeaserContent ({component, publication} = {}) {
-  const design = require('../../../design/dist/design.json')
-  const {content} = publication
-  const videoLivingdoc = liSDK.document.create({design, content})
+  const videoLivingdoc = createLivingdoc(publication)
   const tree = videoLivingdoc.componentTree
 
-  const freeHtml = tree.find('free-html')
-  const iframe = tree.find('iframe')
+  const freeHtmlComponents = tree.find('free-html')
+  const iframeComponents = tree.find('iframe')
   component.append('video',
-    getFirstEscaped(freeHtml, 'free-html') || getFirstEscaped(iframe, 'iframe')
+    getFirstEscaped(freeHtmlComponents, 'free-html') ||
+    getFirstEscaped(iframeComponents, 'iframe')
   )
 }
 
 function getFirstEscaped (componentModels, directiveName) {
-  if (!componentModels.length) return null
+  if (!componentModels.length) return
 
   const componentModel = componentModels[0]
   const htmlDirective = componentModel.directives.get(directiveName)
