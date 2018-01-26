@@ -1,7 +1,7 @@
 {
   "name": "living-times",
   "label": "Living Times",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "Copyright (c) 2018 Livingdocs AG, all rights reserved",
 
   "assets": {
@@ -154,7 +154,6 @@
               { "identifier": "living-times.paragraph" },
               { "identifier": "living-times.embed-teaser-author"}
             ],
-            "sidebar-ads-top": [],
             "sidebar": [
               {
                 "identifier": "living-times.sidebar-title",
@@ -163,7 +162,6 @@
                 }
               }
             ],
-            "sidebar-ads-bottom": [],
             "footer": [
               {
                 "identifier": "living-times.halves",
@@ -310,7 +308,7 @@
             "header": [
               { "identifier": "living-times.head" }
             ],
-            "body": [
+            "main": [
               {
                 "identifier": "living-times.video-container",
                 "containers": {
