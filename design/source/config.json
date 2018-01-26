@@ -5,8 +5,9 @@
   "license": "Copyright (c) 2018 Livingdocs AG, all rights reserved",
 
   "assets": {
-    "css": ["/styles.css"],
-    "js": ["/scripts.js"]
+    "basePath": "https://cdn.livingdocs.io/designs/living-times/0.0.3",
+    "css": ["./styles.css"],
+    "js": ["./scripts.js"]
   },
 
   "componentProperties": {
