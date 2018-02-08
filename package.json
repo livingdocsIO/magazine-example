@@ -43,6 +43,7 @@
   },
   "dependencies": {
     "@livingdocs/conf": "^1.0.1",
+    "@livingdocs/sdk": "^0.0.3",
     "combined-slugify": "^2.1.0",
     "compression": "^1.7.1",
     "express": "^4.1.1",
