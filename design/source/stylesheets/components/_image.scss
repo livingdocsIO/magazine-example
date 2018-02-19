@@ -5,46 +5,40 @@
 // Styles for the following component:
 // -> source/components/images/image.html
 
-.c-image {
+.image {
   margin-bottom: halve($base-spacing-unit);
 }
 
-.c-image > img {
+.image > img {
   margin-bottom: quarter($base-spacing-unit);
 }
 
-.c-image__caption {
+.image__caption {
   color: $secondary-color;
   @include font-size($mili-size); // 14px
 }
 
 
 // Modifier
-.c-image--left, .c-image--right {
+.image--left, .image--right {
   max-width: 180px;
 }
 
-.c-image--left {
+.image--left {
   float: left;
   margin-right: $base-spacing-unit;
 }
 
-.c-image--right {
+.image--right {
   float: right;
   margin-left: $base-spacing-unit;
 }
 
 // Media Queries
 @media (max-width: $mq-small) {
-  .c-image--left, .c-image--right {
-    max-width: 140px;
-  }
-
-  .c-image--left {
-    margin-right: halve($base-spacing-unit);
-  }
-
-  .c-image--right {
-    margin-left: halve($base-spacing-unit);
+  .image--left, .image--right {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
