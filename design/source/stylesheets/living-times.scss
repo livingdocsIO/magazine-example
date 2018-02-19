@@ -57,13 +57,10 @@
 
 // Text
 @import "components/quote";
-@import "components/separator"; // WIP
+@import "components/separator";
 
 // Author
 @import "components/author-card";
-
-// Embeds
-@import "components/embeds"; // WIP
 
 // Container
 @import "components/article";
@@ -77,3 +74,6 @@
 @import "components/teaser-hero";
 @import "components/teaser-gallery";
 @import "components/teaser-video";
+
+// Placeholders
+@import "components/placeholder";

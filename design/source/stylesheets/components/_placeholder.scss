@@ -1,75 +1,36 @@
-// Placeholders
-%placeholder-bg {
-  position: absolute;
-  top: 0;
-  left: 0;
+// -----------------------------------------------------------------------------
+// PLACEHOLDERS
+// -----------------------------------------------------------------------------
+
+.placeholder__img {
+  min-height: 200px;
+  margin-bottom: $base-spacing-unit;
+
+  background-size: 64px;
+  background-color: #f7f7f7;
+  background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 100%;
+
+  opacity: .7;
+  box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
 
-.teaser-row__inside--latest {
-  .placeholder-bg {
-    @extend %placeholder-bg;
-    top: 105px;
-    left: 1.5em;
-    right: 1.5em;
-    background-image: url('../assets/images/latest-news.svg');
-    height: 452px;
-    width: 100%;
-  }
+.placeholder--teaser-card .placeholder__img {
+  background-image: url('../assets/images/teaser-placeholder.svg');
 }
 
-.placeholder--top-teasers {
-  @extend %placeholder-bg;
-  left: inherit;
-  right: 0;
-  background-image: url('../assets/images/top-row-articles.svg');
-  background-size: cover;
-  width: 74.6%;
-  height: 600px;
+.placeholder--teaser-video .placeholder__img {
+  background-image: url('../assets/images/teaser-video-placeholder.svg');
 }
 
-.placeholder--teaser-row {
-  position: relative;
-  height: 261px;
-  .placeholder-bg {
-    @extend %placeholder-bg;
-    background-image: url('../assets/images/teaser-row.svg');
-    height: 239px;
-    width: 100vw;
-  }
+.placeholder--teaser-gallery .placeholder__img {
+  background-image: url('../assets/images/teaser-gallery-placeholder.svg');
 }
 
-.placeholder--teaser-row-text {
-  position: relative;
-  height: 261px;
-  .placeholder-bg {
-    @extend %placeholder-bg;
-    top: 40px;
-    background-image: url('../assets/images/teaser-row-text.svg');
-    height: 221px;
-  }
+.placeholder--free-html .placeholder__img {
+  background-image: url('../assets/images/html-placeholder.svg');
 }
 
-.placeholder--teaser-full-width {
-  position: relative;
-  height: 501px;
-  .placeholder-bg {
-    @extend %placeholder-bg;
-    background-image: url('../assets/images/teaser-full-width.svg');
-    background-position: center;
-    height: 501px;
-  }
-}
-
-.placeholder--teaser-row-high {
-  position: relative;
-  height: 600px;
-  .placeholder-bg {
-    @extend %placeholder-bg;
-    background-image: url('../assets/images/teaser-row-high.svg');
-    height: 600px;
-    width: 100vw;
-  }
+.placeholder--twitter .placeholder__img {
+  background-image: url('../assets/images/twitter-placeholder.svg');
 }
