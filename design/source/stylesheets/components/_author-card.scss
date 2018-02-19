@@ -19,7 +19,8 @@
     display: block;
     border-radius: 100%;
   }
-
+  
+  max-width: 192px;
   margin-right:  calc(#{$base-spacing-unit} + #{halve($base-spacing-unit)});
 }
 
