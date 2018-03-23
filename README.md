@@ -15,7 +15,7 @@ npm install
 Start the server:
 
 ```
-npm start
+ENVIRONMENT=local npm start
 ```
 
 ### Creating a design build
