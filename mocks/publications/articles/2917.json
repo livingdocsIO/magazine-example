@@ -19,14 +19,14 @@
     "publishDate": "on Thu Sep 17 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
-      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+      "url": "https://livingdocs.imgix.net/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
       "width": 2560,
       "height": 1600,
-      "imageService": "resrc.it",
+      "imageService": "imgix",
       "crops": [
         {
           "name": "16:9",
-          "url": "https://app.resrc.it/C=W1638,H922,X728,Y132/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+          "url": "https://livingdocs.imgix.net/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg?rect=728,132,1638,922",
           "x": 728,
           "y": 132,
           "width": 1638,
@@ -77,7 +77,7 @@
                 "width": 2560,
                 "height": 1600,
                 "mimeType": "image/jpeg",
-                "imageService": "resrc.it"
+                "imageService": "imgix"
               },
               "caption": "A world of magical imagination in service of realism"
             }

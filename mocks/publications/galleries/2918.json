@@ -21,11 +21,11 @@
       "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
       "width": 2560,
       "height": 1600,
-      "imageService": "resrc.it",
+      "imageService": "imgix",
       "crops": [
         {
           "name": "16:9",
-          "url": "https://app.resrc.it/C=W1638,H922,X728,Y132/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+          "url": "https://livingdocs.imgix.net/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg?rect=728,132,1638,922",
           "x": 728,
           "y": 132,
           "width": 1638,
@@ -52,11 +52,11 @@
                   "content": {
                     "image": {
                       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
-                      "url": "https://app.resrc.it/C=W1638,H922,X728,Y132/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg",
+                      "url": "https://livingdocs.imgix.net/2016/10/28/f29a0498-620e-43a6-90d5-e0e8f7bd5e35.jpeg?rect=728,132,1638,922",
                       "width": 1638,
                       "height": 922,
                       "mimeType": "image/jpeg",
-                      "imageService": "resrc.it",
+                      "imageService": "imgix",
                       "crop": {
                         "name": "16:9",
                         "x": 728,
@@ -72,11 +72,11 @@
                   "identifier": "living-times.image",
                   "content": {
                     "image": {
-                      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg",
+                      "url": "https://livingdocs.imgix.net/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg",
                       "width": 3264,
                       "height": 2448,
                       "mimeType": "image/jpeg",
-                      "imageService": "resrc.it",
+                      "imageService": "imgix",
                       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg"
                     },
                     "caption": "A nice ride"
@@ -86,11 +86,11 @@
                   "identifier": "living-times.image",
                   "content": {
                     "image": {
-                      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png",
+                      "url": "https://livingdocs.imgix.net/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png",
                       "width": 1500,
                       "height": 938,
                       "mimeType": "image/png",
-                      "imageService": "resrc.it",
+                      "imageService": "imgix",
                       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png"
                     },
                     "caption": "A nice screenshot"
@@ -100,11 +100,11 @@
                   "identifier": "living-times.image",
                   "content": {
                     "image": {
-                      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/dcf5ebaf-1123-4004-859e-f959ffe963d8.jpeg",
+                      "url": "https://livingdocs.imgix.net/2016/10/28/dcf5ebaf-1123-4004-859e-f959ffe963d8.jpeg",
                       "width": 293,
                       "height": 300,
                       "mimeType": "image/jpeg",
-                      "imageService": "resrc.it",
+                      "imageService": "imgix",
                       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/dcf5ebaf-1123-4004-859e-f959ffe963d8.jpeg"
                     },
                     "caption": "Hayao Miyazaki, the co-founder of Studio Ghibli and director of many of its films."

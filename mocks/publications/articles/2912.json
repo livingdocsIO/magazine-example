@@ -22,11 +22,11 @@
       "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/26303a92-2cf7-425e-b5b3-15d5b54c5564.jpeg",
       "width": 1344,
       "height": 756,
-      "imageService": "resrc.it",
+      "imageService": "imgix",
       "crops": [
         {
           "name": "16:9",
-          "url": "https://app.resrc.it/C=W1075,H605,X256,Y66/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/26303a92-2cf7-425e-b5b3-15d5b54c5564.jpeg",
+          "url": "https://livingdocs.imgix.net/2016/10/28/26303a92-2cf7-425e-b5b3-15d5b54c5564.jpeg?rect=256,66,1075,605",
           "x": 256,
           "y": 66,
           "width": 1075,
@@ -73,7 +73,7 @@
                 "width": 1344,
                 "height": 756,
                 "mimeType": "image/jpeg",
-                "imageService": "resrc.it"
+                "imageService": "imgix"
               }
             }
           },
@@ -166,11 +166,11 @@
             "identifier": "living-times.image",
             "content": {
               "image": {
-                "url": "https://app.resrc.it/C=W926,H520,X49,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/56272c55-6496-483a-b943-cbb2b1a7e29d.jpeg",
+                "url": "https://livingdocs.imgix.net/2016/10/28/56272c55-6496-483a-b943-cbb2b1a7e29d.jpeg?rect=49,0,926,520",
                 "width": 1024,
                 "height": 520,
                 "mimeType": "image/jpeg",
-                "imageService": "resrc.it",
+                "imageService": "imgix",
                 "crop": {
                   "x": 49,
                   "y": 0,
@@ -187,11 +187,11 @@
             "identifier": "living-times.image",
             "content": {
               "image": {
-                "url": "https://app.resrc.it/C=W1040,H584,X0,Y122/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/814baab1-e751-4752-b9de-2f3c2cdeaa40.jpeg",
+                "url": "https://livingdocs.imgix.net/2016/10/28/814baab1-e751-4752-b9de-2f3c2cdeaa40.jpeg?rect=0,122,1040,584",
                 "width": 1040,
                 "height": 724,
                 "mimeType": "image/jpeg",
-                "imageService": "resrc.it",
+                "imageService": "imgix",
                 "crop": {
                   "x": 0,
                   "y": 122,
@@ -208,11 +208,11 @@
             "identifier": "living-times.image",
             "content": {
               "image": {
-                "url": "https://app.resrc.it/C=W1711,H961,X33,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/f4752678-6a59-4907-99d8-d87e4f350767.jpeg",
+                "url": "https://livingdocs.imgix.net/2016/10/28/f4752678-6a59-4907-99d8-d87e4f350767.jpeg?rect=33,0,1711,961",
                 "width": 1777,
                 "height": 961,
                 "mimeType": "image/jpeg",
-                "imageService": "resrc.it",
+                "imageService": "imgix",
                 "crop": {
                   "x": 33,
                   "y": 0,
@@ -229,11 +229,11 @@
             "identifier": "living-times.image",
             "content": {
               "image": {
-                "url": "https://app.resrc.it/C=W1711,H961,X33,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/6f2ac737-f219-4591-bc71-7ecfa7dcf59d.jpeg",
+                "url": "https://livingdocs.imgix.net/2016/10/28/6f2ac737-f219-4591-bc71-7ecfa7dcf59d.jpeg?rect=33,0,1711,961",
                 "width": 1777,
                 "height": 961,
                 "mimeType": "image/jpeg",
-                "imageService": "resrc.it",
+                "imageService": "imgix",
                 "crop": {
                   "x": 33,
                   "y": 0,
@@ -250,11 +250,11 @@
             "identifier": "living-times.image",
             "content": {
               "image": {
-                "url": "https://app.resrc.it/C=W1711,H961,X33,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/deb78800-0cb7-4ed8-9855-2afb03eafa51.jpeg",
+                "url": "https://livingdocs.imgix.net/2016/10/28/deb78800-0cb7-4ed8-9855-2afb03eafa51.jpeg?rect=33,0,1711,961",
                 "width": 1777,
                 "height": 961,
                 "mimeType": "image/jpeg",
-                "imageService": "resrc.it",
+                "imageService": "imgix",
                 "crop": {
                   "x": 33,
                   "y": 0,

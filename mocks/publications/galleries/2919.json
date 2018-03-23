@@ -18,14 +18,14 @@
     "publishDate": "on Thu Sep 14 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png",
-      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png",
+      "url": "https://livingdocs.imgix.net/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png",
       "width": 1500,
       "height": 781,
-      "imageService": "resrc.it",
+      "imageService": "imgix",
       "crops": [
         {
           "name": "16:9",
-          "url": "https://app.resrc.it/C=W1388.4444444444443,H781,X55.77777777777783,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png",
+          "url": "https://livingdocs.imgix.net/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png?rect=55.77777777777783,0,1388.4444444444443,781",
           "x": 55.77777777777783,
           "y": 0,
           "width": 1388.4444444444443,
@@ -52,11 +52,11 @@
                   "content": {
                     "image": {
                       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png",
-                      "url": "https://app.resrc.it/C=W1388.4444444444443,H781,X55.77777777777783,Y0/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png",
+                      "url": "https://livingdocs.imgix.net/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png?rect=55.77777777777783,0,1388.4444444444443,781",
                       "width": 1388.4444444444443,
                       "height": 781,
                       "mimeType": "image/png",
-                      "imageService": "resrc.it",
+                      "imageService": "imgix",
                       "crop": {
                         "name": "16:9",
                         "x": 55.77777777777783,
@@ -72,11 +72,11 @@
                   "identifier": "living-times.image",
                   "content": {
                     "image": {
-                      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg",
+                      "url": "https://livingdocs.imgix.net/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg",
                       "width": 3264,
                       "height": 2448,
                       "mimeType": "image/jpeg",
-                      "imageService": "resrc.it",
+                      "imageService": "imgix",
                       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/3/8/9af1542a-d3cb-4cdc-929f-d73777ca9439.jpeg"
                     }
                   }
@@ -85,11 +85,11 @@
                   "identifier": "living-times.image",
                   "content": {
                     "image": {
-                      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png",
+                      "url": "https://livingdocs.imgix.net/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png",
                       "width": 1500,
                       "height": 938,
                       "mimeType": "image/png",
-                      "imageService": "resrc.it",
+                      "imageService": "imgix",
                       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2017/2/20/a9bb251e-5679-46f3-be4b-e20cd9c12f79.png"
                     }
                   }

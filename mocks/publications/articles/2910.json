@@ -22,11 +22,11 @@
       "url": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/53da8f6a-5d60-469e-8ba1-64ddd57fb7d5.jpeg",
       "width": 1500,
       "height": 1052,
-      "imageService": "resrc.it",
+      "imageService": "imgix",
       "crops": [
         {
           "name": "16:9",
-          "url": "https://app.resrc.it/C=W960,H540,X0,Y119/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/53da8f6a-5d60-469e-8ba1-64ddd57fb7d5.jpeg",
+          "url": "https://livingdocs.imgix.net/2016/10/28/53da8f6a-5d60-469e-8ba1-64ddd57fb7d5.jpeg?rect=0,119,960,540",
           "x": 0,
           "y": 119,
           "width": 960,
@@ -62,7 +62,7 @@
                 "width": 1500,
                 "height": 1052,
                 "mimeType": "image/jpeg",
-                "imageService": "resrc.it"
+                "imageService": "imgix"
               }
             }
           },
@@ -75,7 +75,7 @@
                 "width": 2010,
                 "height": 1086,
                 "mimeType": "image/jpeg",
-                "imageService": "resrc.it"
+                "imageService": "imgix"
               }
             }
           },
@@ -88,7 +88,7 @@
                 "width": 2048,
                 "height": 1106,
                 "mimeType": "image/jpeg",
-                "imageService": "resrc.it"
+                "imageService": "imgix"
               }
             }
           },

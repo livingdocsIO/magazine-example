@@ -19,14 +19,14 @@
     "publishDate": "on Thu Sep 18 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/a7d654c1-cd2b-4b94-a07d-6011f61f677c.jpeg",
-      "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/a7d654c1-cd2b-4b94-a07d-6011f61f677c.jpeg",
+      "url": "https://livingdocs.imgix.net/2016/10/28/a7d654c1-cd2b-4b94-a07d-6011f61f677c.jpeg",
       "width": 1115,
       "height": 747,
-      "imageService": "resrc.it",
+      "imageService": "imgix",
       "crops": [
         {
           "name": "16:9",
-          "url": "https://app.resrc.it/C=W1115,H627.1875,X0,Y59.90625/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/a7d654c1-cd2b-4b94-a07d-6011f61f677c.jpeg",
+          "url": "https://livingdocs.imgix.net/2016/10/28/a7d654c1-cd2b-4b94-a07d-6011f61f677c.jpeg?rect=0,59.90625,1115,627.1875",
           "x": 0,
           "y": 59.90625,
           "width": 1115,
@@ -62,7 +62,7 @@
                 "width": 1115,
                 "height": 747,
                 "mimeType": "image/jpeg",
-                "imageService": "resrc.it"
+                "imageService": "imgix"
               }
             }
           },
@@ -81,11 +81,11 @@
             },
             "content": {
               "image": {
-                "url": "https://app.resrc.it/O=75/https://livingdocs-images.s3.amazonaws.com/2016/10/28/b0d6fff9-ffa7-4e0c-b282-a6fe2628f9f6.jpeg",
+                "url": "https://livingdocs.imgix.net/2016/10/28/b0d6fff9-ffa7-4e0c-b282-a6fe2628f9f6.jpeg",
                 "width": 293,
                 "height": 300,
                 "mimeType": "image/jpeg",
-                "imageService": "resrc.it",
+                "imageService": "imgix",
                 "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/b0d6fff9-ffa7-4e0c-b282-a6fe2628f9f6.jpeg"
               },
               "caption": "Hayao Miyazaki at the film directors convention 2013"
