@@ -1,27 +1,26 @@
 /* eslint no-console: 0 */
 const path = require('path')
 const express = require('express')
-const liSDK = require('@livingdocs/sdk')
-const conf = require('../conf')
-const publicationHref = require('./util/publication_href')
+
+// route handlers
+const homeHandler = require('./routes/home')
+const publicationHandler = require('./routes/publications')
 
 const port = process.env.PORT || 3000
 const distPath = path.join(__dirname, '../design/dist')
-
-// get a livingdocs api client instance
-const liClientConfig = conf.get('client')
-const liClient = new liSDK.Client(liClientConfig)
 
 const app = express()
 app.use(express.static(distPath))
 
 // setup app configurations
-require('./setup/configuration')(app)
+app.disable('x-powered-by')
 
-// favicon handler
-app.use((req, res, next) => {
-  if (req.url === '/favicon.ico') return res.end()
-  return next()
+const hostName = require('os').hostname()
+const compression = require('compression')()
+app.use(function (req, res, next) {
+  res.setHeader('X-Served-By', hostName)
+  res.setHeader('X-DNS-Prefetch-Control', 'on')
+  compression(req, res, next)
 })
 
 // setup dev middlewares and watchers
@@ -37,19 +36,16 @@ if (process.env.NODE_ENV === 'development') {
   })
 }
 
-// setup rendering
-require('./setup/rendering')(app)
-
 // routes
-app.get('/', require('./routes/home')({liClient}))
-app.get(publicationHref.getPathRegex(), require('./routes/publications')({liClient}))
-app.get('*', require('./routes/common')({liClient, conf}))
-
-// setup error handling
-require('./setup/error_handling')(app)
+app.get('/favicon', (req, res) => res.end())
+app.get('/', homeHandler)
+app.get('/:slug(\\S{0,})-:id(\\d+)', publicationHandler)
 
 // go
 app.listen(port, '0.0.0.0', (err) => {
-  if (err) console.error(err)
-  console.info('==> magazine started at http://0.0.0.0:%s/', port)
+  if (err) {
+    console.error(err)
+    process.exit(1)
+  }
+  console.info(`==> magazine started at http://0.0.0.0:${port}/`)
 })

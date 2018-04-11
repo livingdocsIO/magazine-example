@@ -1,4 +1,4 @@
-const publicationHref = require('../../app/util/publication_href')
+const slugify = require('../../app/helpers/li-slugify')
 
 module.exports = {
   link,
@@ -11,7 +11,7 @@ module.exports = {
 }
 
 function link ({metadata = {}, systemdata = {}} = {}) {
-  return publicationHref.generate(metadata.title, systemdata.documentId)
+  return slugify(metadata.title, systemdata.documentId)
 }
 
 function title ({metadata = {}} = {}) {
