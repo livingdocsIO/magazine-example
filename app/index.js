@@ -39,7 +39,7 @@ if (process.env.NODE_ENV === 'development') {
 // routes
 app.get('/favicon', (req, res) => res.end())
 app.get('/', homeHandler)
-app.get('/:slug(\\S{0,})-:id(\\d+)', publicationHandler)
+app.get('/article/:slug/:id', publicationHandler)
 
 // go
 app.listen(port, '0.0.0.0', (err) => {
