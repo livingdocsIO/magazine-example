@@ -55,7 +55,7 @@
                   },
                   "content": {
                     "teaser": {
-                      "service": "embed-teaser",
+                      "service": "teaser",
                       "params": {
                         "layout": "card",
                         "mediaId": 2904
@@ -70,7 +70,7 @@
                   },
                   "content": {
                     "teaser": {
-                      "service": "embed-teaser",
+                      "service": "teaser",
                       "params": {
                         "layout": "card",
                         "mediaId": 2905
@@ -85,7 +85,7 @@
                   },
                   "content": {
                     "teaser": {
-                      "service": "embed-teaser",
+                      "service": "teaser",
                       "params": {
                         "layout": "card",
                         "mediaId": 2906
@@ -100,7 +100,7 @@
                   },
                   "content": {
                     "teaser": {
-                      "service": "embed-teaser",
+                      "service": "teaser",
                       "params": {
                         "layout": "card",
                         "mediaId": 2907

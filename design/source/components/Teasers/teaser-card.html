@@ -5,9 +5,17 @@
     "properties": ["teaser-image-position"],
     "directives": {
       "teaser": {
-        "service": "embed-teaser",
+        "service": "teaser",
         "defaultParams": {
           "layout": "card"
+        },
+        "config": {
+          "search": {
+            "defaultQueries": [
+              {"type": "documentType", "value": "article"},
+              {"type": "metadata", "key": "layout", "value": "regular"}
+            ]
+          }
         }
       }
     }

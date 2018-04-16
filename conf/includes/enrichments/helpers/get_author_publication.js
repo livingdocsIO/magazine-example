@@ -4,7 +4,7 @@ module.exports = function getAuthorPublication ({publication, liClient} = {}) {
   const articleLivingdoc = createLivingdoc(publication)
   const tree = articleLivingdoc.componentTree
 
-  const authorEmbeds = tree.find('embed-teaser-author')
+  const authorEmbeds = tree.find('teaser-author')
   if (!authorEmbeds.length) return
 
   const authorEmbed = authorEmbeds[0]

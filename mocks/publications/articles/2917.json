@@ -90,10 +90,10 @@
             }
           },
           {
-            "component": "embed-teaser-author",
+            "component": "teaser-author",
             "content": {
               "embed": {
-                "service": "embed-teaser",
+                "service": "teaser",
                 "params": {
                   "layout": "author-embed",
                   "mediaId": 2928
@@ -115,10 +115,10 @@
             }
           },
           {
-            "component": "embed-teaser-sidebar",
+            "component": "teaser-sidebar",
             "content": {
               "embed": {
-                "service": "embed-teaser",
+                "service": "teaser",
                 "params": {
                   "layout": "sidebar-embed",
                   "mediaId": 2904
@@ -127,10 +127,10 @@
             }
           },
           {
-            "component": "embed-teaser-sidebar",
+            "component": "teaser-sidebar",
             "content": {
               "embed": {
-                "service": "embed-teaser",
+                "service": "teaser",
                 "params": {
                   "layout": "sidebar-embed",
                   "mediaId": 2905
@@ -139,10 +139,10 @@
             }
           },
           {
-            "component": "embed-teaser-sidebar",
+            "component": "teaser-sidebar",
             "content": {
               "embed": {
-                "service": "embed-teaser",
+                "service": "teaser",
                 "params": {
                   "layout": "sidebar-embed",
                   "mediaId": 2906
@@ -151,10 +151,10 @@
             }
           },
           {
-            "component": "embed-teaser-sidebar",
+            "component": "teaser-sidebar",
             "content": {
               "embed": {
-                "service": "embed-teaser",
+                "service": "teaser",
                 "params": {
                   "layout": "sidebar-embed",
                   "mediaId": 2907
@@ -180,7 +180,7 @@
                   "identifier": "living-times.teaser-card",
                   "content": {
                     "teaser": {
-                      "service": "embed-teaser",
+                      "service": "teaser",
                       "params": {
                         "layout": "card",
                         "mediaId": 2904
@@ -192,7 +192,7 @@
                   "identifier": "living-times.teaser-card",
                   "content": {
                     "teaser": {
-                      "service": "embed-teaser",
+                      "service": "teaser",
                       "params": {
                         "layout": "card",
                         "mediaId": 2905
@@ -206,7 +206,7 @@
                   "identifier": "living-times.teaser-card",
                   "content": {
                     "teaser": {
-                      "service": "embed-teaser",
+                      "service": "teaser",
                       "params": {
                         "layout": "card",
                         "mediaId": 2906
@@ -218,7 +218,7 @@
                   "identifier": "living-times.teaser-card",
                   "content": {
                     "teaser": {
-                      "service": "embed-teaser",
+                      "service": "teaser",
                       "params": {
                         "layout": "card",
                         "mediaId": 2907

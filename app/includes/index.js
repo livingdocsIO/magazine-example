@@ -18,14 +18,14 @@ function startResolverTasks (livingdoc, liClient, includesConfig) {
   return Object.keys(includeMap).map(serviceName => {
     switch (serviceName) {
 
-      case 'embed-teaser':
+      case 'teaser':
         return {
-          serviceName: 'embed-teaser',
-          resolver: require('./embed_teaser')({
+          serviceName: 'teaser',
+          resolver: require('./teaser')({
             liClient,
             livingdoc,
-            includes: includeMap['embed-teaser'],
-            includeConfig: includesConfig['embed-teaser']
+            includes: includeMap['teaser'],
+            includeConfig: includesConfig['teaser']
           })
         }
 

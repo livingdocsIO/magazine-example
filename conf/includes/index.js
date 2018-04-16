@@ -1,10 +1,10 @@
 const contentExtractor = require('./content_extractor')
 
 module.exports = {
-  'embed-teaser': {
+  'teaser': {
     layouts: {
       'author-embed': {
-        template: 'embed-teaser-author-template',
+        template: 'teaser-author-template',
         contentSpec: {
           link: contentExtractor.link,
           link2: contentExtractor.link,
@@ -13,7 +13,7 @@ module.exports = {
         }
       },
       'sidebar-embed': {
-        template: 'embed-teaser-sidebar-template',
+        template: 'teaser-sidebar-template',
         contentSpec: {
           title: contentExtractor.title,
           link: contentExtractor.link,
