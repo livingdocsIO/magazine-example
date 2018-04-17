@@ -452,6 +452,12 @@
       "matches": ["image.image"],
       "isEditable": true,
       "imageRatios": ["16:9"]
+    },
+    {
+      "identifier": "flag",
+      "type": "text",
+      "matches": ["head.flag"],
+      "isEditable": true
     }
   ]
 }
