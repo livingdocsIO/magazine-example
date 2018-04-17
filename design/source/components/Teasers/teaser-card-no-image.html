@@ -12,14 +12,12 @@
           "search": {
             "displayFilters": ["documentState", "timeRange"],
             "defaultQueries": [
-              {"type": "documentType", "value": "article"},
               {"type": "sortBy", "value": "relevance"},
-              {"type": "metadata", "key": "layout", "value": "regular"}
+              {"type": "contentType", "value": "regular"}
             ],
             "emptySearchQueries": [
-              {"type": "documentType", "value": "article"},
               {"type": "sortBy", "value": "-updated_at"},
-              {"type": "metadata", "key": "layout", "value": "regular"}
+              {"type": "contentType", "value": "regular"}
             ]
           }
         }
