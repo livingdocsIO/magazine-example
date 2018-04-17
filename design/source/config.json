@@ -152,8 +152,7 @@
             ],
             "main": [
               { "identifier": "living-times.image" },
-              { "identifier": "living-times.paragraph" },
-              { "identifier": "living-times.teaser-author"}
+              { "identifier": "living-times.paragraph" }
             ],
             "sidebar": [
               {
@@ -201,7 +200,7 @@
         },
         {
           "label": "Embeds",
-          "components": ["teaser-author", "teaser-card", "tweet", "iframe", "free-html"]
+          "components": ["teaser-card", "tweet", "iframe", "free-html"]
         }
       ]
     },
@@ -369,11 +368,7 @@
         },
         {
           "label": "Teasers",
-          "components": [
-            "teaser-hero", "teaser-card", "teaser-card-no-image",
-            "teaser-card-no-text-image", "teaser-card-numbered",
-            "teaser-card-author"
-          ]
+          "components": ["teaser-hero", "teaser-card", "teaser-card-no-image", "teaser-card-numbered"]
         },
         {
           "label": "Gallery Teasers",
