@@ -1,5 +1,6 @@
 const slugify = require('../../app/helpers/li-slugify')
 const moment = require('moment')
+const _ = require('lodash')
 
 module.exports = {
   link,
