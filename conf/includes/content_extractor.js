@@ -1,4 +1,5 @@
 const slugify = require('../../app/helpers/li-slugify')
+const moment = require('moment')
 
 module.exports = {
   link,
@@ -49,6 +50,8 @@ function author ({metadata = {}} = {}) {
   return metadata.author || ''
 }
 
-function publishDate ({metadata = {}} = {}) {
-  return metadata.publishDate || ''
+function publishDate ({metadata = {}, first_publication: firstPublication = {}} = {}) {
+  if (_.isDate(metadata.publishDate)) return moment(metadata.publishDate).calendar()
+  if (_.isDate(firstPublication.created_at)) return moment(firstPublication.created_at).calendar()
+  return ''
 }
