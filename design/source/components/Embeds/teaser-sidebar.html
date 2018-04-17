@@ -7,6 +7,19 @@
         "service": "teaser",
         "defaultParams": {
           "layout": "sidebar-embed"
+        },
+        "config": {
+          "search": {
+            "displayFilters": ["documentState", "timeRange"],
+            "defaultQueries": [
+              {"type": "sortBy", "value": "relevance"},
+              {"type": "contentType", "value": "regular"}
+            ],
+            "emptySearchQueries": [
+              {"type": "sortBy", "value": "-updated_at"},
+              {"type": "contentType", "value": "regular"}
+            ]
+          }
         }
       }
     }

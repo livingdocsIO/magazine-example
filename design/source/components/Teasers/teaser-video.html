@@ -7,6 +7,19 @@
         "service": "teaser",
         "defaultParams": {
           "layout": "video"
+        },
+        "config": {
+          "search": {
+            "displayFilters": ["documentState", "timeRange"],
+            "defaultQueries": [
+              {"type": "sortBy", "value": "relevance"},
+              {"type": "contentType", "value": "video"}
+            ],
+            "emptySearchQueries": [
+              {"type": "sortBy", "value": "-updated_at"},
+              {"type": "contentType", "value": "video"}
+            ]
+          }
         }
       }
     }

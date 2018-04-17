@@ -11,9 +11,14 @@
         },
         "config": {
           "search": {
+            "displayFilters": ["documentState", "timeRange"],
             "defaultQueries": [
-              {"type": "documentType", "value": "article"},
-              {"type": "metadata", "key": "layout", "value": "regular"}
+              {"type": "sortBy", "value": "relevance"},
+              {"type": "contentType", "value": "regular"}
+            ],
+            "emptySearchQueries": [
+              {"type": "sortBy", "value": "-updated_at"},
+              {"type": "contentType", "value": "regular"}
             ]
           }
         }
