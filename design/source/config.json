@@ -166,7 +166,7 @@
               {
                 "identifier": "living-times.halves",
                 "content": {
-                  "title": "Recommened Stories"
+                  "title": "Recommended Stories"
                 },
                 "containers": {
                   "column-one": [],
@@ -349,11 +349,55 @@
           "identifier": "living-times.whole",
           "styles": {
             "container-style-breath": "container--breath"
+          }
+        },
+        {
+          "identifier": "living-times.thirds",
+          "styles":  {
+            "container-style-lined": "container--lined"
+          }
+        },
+        {
+          "identifier": "living-times.quarter",
+          "styles":  {
+            "container-style-lined": "container--lined"
+          }
+        },
+        {
+          "identifier": "living-times.whole",
+          "styles" : {
+            "container-style-lined": "container--lined",
+            "container-style-breath": "container--breath"
           },
-          "containers": {
-            "column-one": [
-              { "identifier": "living-times.teaser-hero" }
-            ]
+          "content": {
+            "title": "The latest"
+          }
+        },
+        {
+          "identifier": "living-times.quarter",
+          "styles":  {
+            "container-style-lined": "container--lined"
+          },
+          "content": {
+            "title": "Spotlight"
+          }
+        },
+        {
+          "identifier": "living-times.halves-uneven",
+          "styles":  {
+            "container-style-lined": "container--lined"
+          },
+          "content": {
+            "title": "Videos"
+          }
+        },
+        {
+          "identifier": "living-times.halves-uneven",
+          "styles":  {
+            "container-style-lined": "container--lined"
+          },
+          "content": {
+            "title": "Photo galleries"
           }
         }
       ],
