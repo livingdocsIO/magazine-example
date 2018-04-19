@@ -45,11 +45,11 @@
         },
         {
           "caption": "Left",
-          "value": "c-image--left"
+          "value": "image--left"
         },
         {
           "caption": "Right",
-          "value": "c-image--right"
+          "value": "image--right"
         }
       ]
     },
