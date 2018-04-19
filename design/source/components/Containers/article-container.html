@@ -4,19 +4,37 @@
     "label": "Article Container",
     "directives": {
       "header": {
-        "allowedChildren": ["head", "subtitle"]
+        "allowedChildren": ["head"]
+      },
+      "main": {
+        "allowedChildren": [
+          "free-html",
+          "iframe",
+          "tweet",
+          "subtitle",
+          "image",
+          "bullet-list",
+          "paragraph",
+          "separator",
+          "quote",
+          "teaser-author",
+          "video-container",
+          "gallery-container"
+        ]
       },
       "sidebar-ads-top": {
-        "allowedChildren": []
+        "allowedChildren": ["ad-halfpage-resolved"]
       },
       "sidebar": {
-        "allowedChildren": []
+        "allowedChildren": [
+          "teaser-sidebar", "sidebar-title"
+        ]
       },
       "sidebar-ads-bottom": {
-        "allowedChildren": []
+        "allowedChildren": ["ad-halfpage-resolved"]
       },
       "footer": {
-        "allowedChildren": []
+        "allowedChildren": ["halves"]
       }
     }
   }
