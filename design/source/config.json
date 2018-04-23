@@ -1,7 +1,7 @@
 {
   "name": "living-times",
   "label": "Living Times",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "Copyright (c) 2018 Livingdocs AG, all rights reserved",
 
   "assets": {
@@ -349,18 +349,50 @@
           "identifier": "living-times.whole",
           "styles": {
             "container-style-breath": "container--breath"
+          },
+          "containers": {
+            "column-one": [
+              {
+                "identifier": "living-times.teaser-hero"
+              }
+            ]
           }
         },
         {
           "identifier": "living-times.thirds",
           "styles":  {
             "container-style-lined": "container--lined"
+          },
+          "containers": {
+            "column-one": [
+              { "identifier": "living-times.teaser-card" }
+            ],
+            "column-two": [
+              { "identifier": "living-times.teaser-card" }
+            ],
+            "column-three": [
+              { "identifier": "living-times.teaser-card" }
+            ]
           }
         },
         {
           "identifier": "living-times.quarter",
           "styles":  {
             "container-style-lined": "container--lined"
+          },
+          "containers": {
+            "column-one": [
+              { "identifier": "living-times.teaser-card-no-image" }
+            ],
+            "column-two": [
+              { "identifier": "living-times.teaser-card-no-image" }
+            ],
+            "column-three": [
+              { "identifier": "living-times.teaser-card-no-image" }
+            ],
+            "column-four": [
+              { "identifier": "living-times.teaser-card-no-image" }
+            ]
           }
         },
         {
@@ -371,6 +403,40 @@
           },
           "content": {
             "title": "The latest"
+          },
+          "containers": {
+            "column-one": [
+              {
+                "identifier": "living-times.teaser-card",
+                "styles": {
+                  "teaser-image-position": "teaser-card--left-aligned-img"
+                }
+              },
+              {
+                "identifier": "living-times.teaser-card",
+                "styles": {
+                  "teaser-image-position": "teaser-card--left-aligned-img"
+                }
+              },
+              {
+                "identifier": "living-times.teaser-card",
+                "styles": {
+                  "teaser-image-position": "teaser-card--left-aligned-img"
+                }
+              },
+              {
+                "identifier": "living-times.teaser-card",
+                "styles": {
+                  "teaser-image-position": "teaser-card--left-aligned-img"
+                }
+              },
+              {
+                "identifier": "living-times.teaser-card",
+                "styles": {
+                  "teaser-image-position": "teaser-card--left-aligned-img"
+                }
+              }
+            ]
           }
         },
         {
@@ -380,6 +446,20 @@
           },
           "content": {
             "title": "Spotlight"
+          },
+          "containers": {
+            "column-one": [
+              { "identifier": "living-times.teaser-card" }
+            ],
+            "column-two": [
+              { "identifier": "living-times.teaser-card" }
+            ],
+            "column-three": [
+              { "identifier": "living-times.teaser-card" }
+            ],
+            "column-four": [
+              { "identifier": "living-times.teaser-card" }
+            ]
           }
         },
         {
@@ -389,6 +469,16 @@
           },
           "content": {
             "title": "Videos"
+          },
+          "containers": {
+            "column-one": [
+              { "identifier": "living-times.teaser-video" },
+              { "identifier": "living-times.teaser-video" },
+              { "identifier": "living-times.teaser-video" }
+            ],
+            "column-two": [
+              { "identifier": "living-times.teaser-video-hero" }
+            ]
           }
         },
         {
@@ -398,6 +488,16 @@
           },
           "content": {
             "title": "Photo galleries"
+          },
+          "containers": {
+            "column-one": [
+              { "identifier": "living-times.teaser-gallery" },
+              { "identifier": "living-times.teaser-gallery" },
+              { "identifier": "living-times.teaser-gallery" }
+            ],
+            "column-two": [
+              { "identifier": "living-times.teaser-gallery-hero" }
+            ]
           }
         }
       ],
