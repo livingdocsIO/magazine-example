@@ -160,6 +160,18 @@
                 "content": {
                   "title": "Most Popular"
                 }
+              },
+              {
+                "identifier": "living-times.teaser-sidebar"
+              },
+              {
+                "identifier": "living-times.teaser-sidebar"
+              },
+              {
+                "identifier": "living-times.teaser-sidebar"
+              },
+              {
+                "identifier": "living-times.teaser-sidebar"
               }
             ],
             "footer": [
@@ -169,8 +181,14 @@
                   "title": "Recommended Stories"
                 },
                 "containers": {
-                  "column-one": [],
-                  "column-two": []
+                  "column-one": [
+                    { "identifier": "living-times.teaser-card" },
+                    { "identifier": "living-times.teaser-card" }
+                  ],
+                  "column-two": [
+                    { "identifier": "living-times.teaser-card" },
+                    { "identifier": "living-times.teaser-card" }
+                  ]
                 }
               }
             ]
@@ -192,7 +210,7 @@
         },
         {
           "label": "Containers",
-          "components": ["whole", "halves", "halves-uneven", "thirds", "quarter"]
+          "components": ["halves-article-footer"]
         },
         {
           "label": "Sidebar",
@@ -207,7 +225,7 @@
     {
       "name": "author",
       "caption": "Author",
-      "wrapper": "<div class=\"doc-section wrapper wrapper--default\"></div>",
+      "wrapper": "<div class=\"doc-section wrapper wrapper--article\"></div>",
       "icon": null,
       "defaultContent": [
         {
@@ -262,7 +280,7 @@
     {
       "name": "gallery",
       "caption": "Gallery",
-      "wrapper": "<div class=\"doc-section\"></div>",
+      "wrapper": "<div class=\"doc-section wrapper wrapper--article\"></div>",
       "icon": null,
       "defaultContent": [
         {
@@ -299,7 +317,7 @@
     {
       "name": "video",
       "caption": "Video",
-      "wrapper": "<div class=\"doc-section\"></div>",
+      "wrapper": "<div class=\"doc-section wrapper wrapper--article\"></div>",
       "icon": null,
       "defaultContent": [
         {
@@ -342,7 +360,7 @@
     {
       "name": "page",
       "caption": "Page",
-      "wrapper": "<div class=\"doc-section\"></div>",
+      "wrapper": "<div class=\"doc-section wrapper wrapper--default\"></div>",
       "icon": null,
       "defaultContent": [
         {
