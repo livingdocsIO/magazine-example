@@ -141,7 +141,7 @@
     {
       "name": "regular",
       "caption": "Article",
-      "wrapper": "<div class=\"doc-section\"></div>",
+      "wrapper": "<div class=\"doc-section wrapper wrapper--article\"></div>",
       "icon": null,
       "defaultContent": [
         {
@@ -207,7 +207,7 @@
     {
       "name": "author",
       "caption": "Author",
-      "wrapper": "<div class=\"doc-section\"></div>",
+      "wrapper": "<div class=\"doc-section wrapper wrapper--default\"></div>",
       "icon": null,
       "defaultContent": [
         {

@@ -58,11 +58,3 @@ $wrapper-width:  1120px + double($base-spacing-unit);
     padding-right: halve($base-spacing-unit);
   }
 }
-
-
-// hack(editor only): constrain width and center content horizontally
-.doc-section {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
