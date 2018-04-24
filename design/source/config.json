@@ -154,6 +154,9 @@
               { "identifier": "living-times.image" },
               { "identifier": "living-times.paragraph" }
             ],
+            "sidebar-ads-top": [
+              { "identifier": "living-times.free-html" }
+            ],
             "sidebar": [
               {
                 "identifier": "living-times.sidebar-title",
@@ -173,6 +176,9 @@
               {
                 "identifier": "living-times.teaser-sidebar"
               }
+            ],
+            "sidebar-ads-bottom": [
+              { "identifier": "living-times.free-html" }
             ],
             "footer": [
               {
