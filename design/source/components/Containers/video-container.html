@@ -4,10 +4,25 @@
     "label": "Video Container",
     "directives": {
       "image": {
-        "allowedChildren": ["image"]
+        "allowedChildren": [
+          "image"
+        ],
+        "defaultComponents": {
+          "paragraph": "paragraph",
+          "image": "image",
+          "html": "free-html"
+        }
       },
       "video": {
-        "allowedChildren": ["free-html", "iframe"]
+        "allowedChildren": [
+          "free-html",
+          "iframe"
+        ],
+        "defaultComponents": {
+          "paragraph": "paragraph",
+          "image": "image",
+          "html": "free-html"
+        }
       }
     }
   }
