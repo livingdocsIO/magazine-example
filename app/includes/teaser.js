@@ -21,11 +21,17 @@ module.exports = async function resolveEmbedTeaserIncludes ({
 }
 
 function startDataFetchTasks (includes, liClient) {
-  return includes.map(include => {
-    const {params} = include.getContent()
-    const request = liClient.getPublication({documentId: params.mediaId})
-    return {include, request}
-  })
+  return includes
+    .filter(include => {
+      const {params} = include.getContent()
+      return !!params.mediaId
+    })
+    .map(include => {
+      const {params} = include.getContent()
+
+      const request = liClient.getPublication({documentId: params.mediaId})
+      return {include, request}
+    })
 }
 
 function validateConfig (layout, layoutsConfig) {
