@@ -6,6 +6,25 @@ module.exports = {
     url: 'http://localhost:3001',
     accessToken: 'your access token'
   },
+  imageServices: {
+    imgix: {
+      host: 'https://livingdocs.imgix.net',
+      preferWebp: true,
+      backgroundImage: {
+        maxWidth: 2048
+      },
+      srcSet: {
+        defaultWidth: 1024,
+        widths: [
+          2048,
+          1024,
+          620,
+          320
+        ],
+        sizes: ['100vw']
+      }
+    }
+  },
   navigation: {
     headerMenuHandle: 'main'
   },

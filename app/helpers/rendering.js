@@ -22,6 +22,7 @@ function generateHTML ({title, description, bodyContent}) {
       <meta http-equiv="Content-Language" content="en">
       <meta content="width=device-width, initial-scale=1.0" name="viewport" />
       <meta name="Description" content="${description}" />
+      <title>Living Times - ${title}</title>
       ${isDev ? '' : cssLink}
     </head>
     <body lang="en">
@@ -39,9 +40,13 @@ function generateHTML ({title, description, bodyContent}) {
 }
 
 async function renderPage ({menu, location, publication, liClient}) {
+  const imageServicesConfig = conf.get('imageServices', {})
+  const config = {}
+  if (Object.keys(imageServicesConfig).length) config.imageServices = imageServicesConfig
   const livingdoc = liSDK.document.create({
     design,
-    content: publication.content
+    content: publication.content,
+    config
   })
   // what does this do? Fetch the extra data? related content / embeds?
   await resolveIncludes(livingdoc, liClient, includesConfig)

@@ -1,10 +1,15 @@
 const liSDK = require('@livingdocs/sdk')
+const conf = require('../../../conf')
 const getHeaderComponent = require('./header')
 
 module.exports = function renderLayout (design, livingdoc,
   {layout, header, headerItem, footer}, {menu, location}
 ) {
-  const wrapperLivingdoc = liSDK.document.create({design, content: {}})
+  const imageServicesConfig = conf.get('imageServices', {})
+  const config = {}
+  if (Object.keys(imageServicesConfig).length) config.imageServices = imageServicesConfig
+
+  const wrapperLivingdoc = liSDK.document.create({design, content: {}, config})
   const tree = wrapperLivingdoc.componentTree
 
   const layoutComponent = tree.createComponent(layout)
