@@ -621,6 +621,13 @@
       "type": "text",
       "matches": ["head.flag"],
       "isEditable": true
+    },
+    {
+      "identifier": "authorImage",
+      "type": "image",
+      "matches": [],
+      "isEditable": true,
+      "imageRatios": ["16:9"]
     }
   ]
 }
