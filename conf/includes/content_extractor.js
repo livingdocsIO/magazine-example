@@ -9,7 +9,8 @@ module.exports = {
   image,
   flag,
   author,
-  publishDate
+  publishDate,
+  profile
 }
 
 function link ({metadata = {}, systemdata = {}} = {}) {
@@ -24,11 +25,16 @@ function description ({metadata = {}} = {}) {
   return metadata.description || ''
 }
 
+function profile ({metadata = {}} = {}) {
+  return metadata.profile || ''
+}
+
 function image (imageExtractionConfig = {}) {
   const desiredImageCrop = imageExtractionConfig.crop
+  const metadataTarget = imageExtractionConfig.target || 'teaserImage'
 
   return function ({metadata = {}} = {}) {
-    const teaserImage = metadata.teaserImage
+    const teaserImage = metadata[metadataTarget]
     const crops = teaserImage.crops
 
     if (!desiredImageCrop) return teaserImage

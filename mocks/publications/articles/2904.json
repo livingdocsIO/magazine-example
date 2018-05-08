@@ -8,14 +8,17 @@
     "layout": "default",
     "design": {
       "name": "living-times",
-      "version": "0.0.1"
+      "version": "0.0.7"
     }
   },
   "metadata": {
     "title": "Ghiblies Episode 2",
     "description": "A 25-minute sequel, titled <em><strong>Ghiblies Episode 2</strong></em>, was released in theaters with...",
     "flag": "Ghibli",
-    "author": "Andy Borowitz",
+    "authors": [{
+      "id": 2929,
+      "name": "Andy Borowitz"
+    }],
     "publishDate": "on Thu Sep 14 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/aa1ee9ce-ff6c-4c47-a283-199fec8ba159.png",

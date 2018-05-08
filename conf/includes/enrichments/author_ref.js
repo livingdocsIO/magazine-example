@@ -7,7 +7,7 @@ module.exports = async function enrichTeaserContentWithAuthor ({liClient, public
 
   const {systemdata, metadata} = authorPublication
   return {
-    author: metadata.title,
+    author: `${metadata.prename} ${metadata.surname}`,
     authorLink: slugify(metadata.title, systemdata.documentId)
   }
 }

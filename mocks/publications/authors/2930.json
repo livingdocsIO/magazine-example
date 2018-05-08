@@ -8,116 +8,79 @@
     "layout": "author",
     "design": {
       "name": "living-times",
-      "version": "0.0.1"
+      "version": "0.0.7"
     }
   },
   "metadata": {
     "title": "Neima Jahromi",
-    "description": "Neima Jahromi has been a film critic for the Living Times since 2006. She can perform a Shoryuken with one single hand.",
-    "author": "Neima Jahromi",
-    "publishDate": "on Thu Sep 14 2017",
-    "teaserImage": {
-      "originalUrl": "/assets/images/author-neima.png",
-      "url": "/assets/images/author-neima.png"
+    "prename": "Neima",
+    "surname": "Jahromi",
+    "shortname": "nj",
+    "profile": "Neima Jahromi has been a film critic for the Living Times since 2006. She can perform a Shoryuken with one single hand.",
+    "authorImage": {
+        "originalUrl": "/assets/images/author-neima.png",
+        "url": "/assets/images/author-neima.png",
+        "width": 128,
+        "height": 128,
+        "imageService": "imgix",
+        "crops": [
+            {
+                "url": "/assets/images/author-neima.png",
+                "name": "1:1",
+                "x": 0,
+                "y": 0,
+                "width": 128,
+                "height": 128,
+                "srcSet": [
+                    {
+                        "width": 2048,
+                        "url": "/assets/images/author-neima.png"
+                    },
+                    {
+                        "width": 1024,
+                        "url": "/assets/images/author-neima.png"
+                    },
+                    {
+                        "width": 620,
+                        "url": "/assets/images/author-neima.png"
+                    },
+                    {
+                        "width": 320,
+                        "url": "/assets/images/author-neima.png"
+                    }
+                ]
+            }
+        ]
     },
     "dependencies": {}
   },
+
   "content": [
     {
-      "identifier": "living-times.author-container",
-      "containers": {
-        "main": [
-          {
-            "component": "author-head",
-            "content": {
-              "image": "/assets/images/author-neima.png",
-              "link": "https://twitter.com/@neima_jahromi",
-              "text-link": "@neima_jahromi",
-              "name": "Neima Jahromi",
-              "introduction": "Neima Jahromi has been a film critic for the Living Times since 2006. She can perform a Shoryuken with one single hand.",
-              "description": "She joined Living Times as a staff writer in 2001 and has profiled many subjects, among them Lena Dunham, Christine Quinn, Santiago Calatrava, Nico Muhly, Slavoj Zizek, and Shaquille O'Neal. She has also written more than two hundred Talk of the Town stories."
-            }
-          },
-          {
-            "component": "whole",
-            "styles" : {
-              "container-style-lined": "container--lined"
-            },
-            "content": {
-              "title": "All Work"
-            },
-            "containers": {
-              "column-one": [
+        "id": "doc-1ccv81ee20",
+        "identifier": "living-times.author-container",
+        "containers": {
+            "main": [
                 {
-                  "component": "teaser-card",
-                  "styles" : {
-                    "teaser-image-position": "teaser-card--left-aligned-img"
-                  },
-                  "content": {
-                    "teaser": {
-                      "service": "teaser",
-                      "params": {
-                        "layout": "card",
-                        "mediaId": 2904
-                      }
-                    }
-                  }
+                    "id": "doc-1ccv81ee21",
+                    "identifier": "living-times.author-head"
                 },
                 {
-                  "component": "teaser-card",
-                  "styles" : {
-                    "teaser-image-position": "teaser-card--left-aligned-img"
-                  },
-                  "content": {
-                    "teaser": {
-                      "service": "teaser",
-                      "params": {
-                        "layout": "card",
-                        "mediaId": 2905
-                      }
+                    "id": "doc-1ccv81ee30",
+                    "identifier": "living-times.whole",
+                    "content": {
+                        "title": "All Work"
+                    },
+                    "styles": {
+                        "container-style-lined": "container--lined"
+                    },
+                    "containers": {
+                        "column-one": []
                     }
-                  }
-                },
-                {
-                  "component": "teaser-card",
-                  "styles" : {
-                    "teaser-image-position": "teaser-card--left-aligned-img"
-                  },
-                  "content": {
-                    "teaser": {
-                      "service": "teaser",
-                      "params": {
-                        "layout": "card",
-                        "mediaId": 2906
-                      }
-                    }
-                  }
-                },
-                {
-                  "component": "teaser-card",
-                  "styles" : {
-                    "teaser-image-position": "teaser-card--left-aligned-img"
-                  },
-                  "content": {
-                    "teaser": {
-                      "service": "teaser",
-                      "params": {
-                        "layout": "card",
-                        "mediaId": 2907
-                      }
-                    }
-                  }
                 }
-              ]
-            }
-          }
-        ],
-        "sidebar": [
-          {
-            "component": "ad-halfpage-resolved"
-          }
-        ]
-      }
+            ],
+            "sidebar": []
+        }
     }
   ]
 }

@@ -8,14 +8,17 @@
     "layout": "default",
     "design": {
       "name": "living-times",
-      "version": "1.0.0"
+      "version": "0.0.7"
     }
   },
   "metadata": {
     "title": "Joe Hisaishi",
     "description": "Mamoru Fujisawa (藤澤 守 Fujisawa Mamoru, born December 6, 1950), known professionally as Joe Hisaishi (久石 譲 Hisaishi Jō)...",
     "flag": "Ghibli",
-    "author": "Patty Patterson",
+    "authors": [{
+      "id": 2931,
+      "name": "Patty Patterson"
+    }],
     "publishDate": "on Thu Sep 16 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/a9ed99b7-7183-4c65-8432-a3d8ec10884e.jpeg",

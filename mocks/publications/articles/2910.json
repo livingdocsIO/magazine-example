@@ -8,14 +8,17 @@
     "layout": "default",
     "design": {
       "name": "living-times",
-      "version": "0.0.1"
+      "version": "0.0.7"
     }
   },
   "metadata": {
     "title": "Spirited Away",
     "description": "Ten-year-old Chihiro Ogino and her parents are traveling to their new home when her father takes a wrong turn.",
     "flag": "Ghibli",
-    "author": "Neima Jahromi",
+    "authors": [{
+      "id": 2930,
+      "name": "Neima Jahromi"
+    }],
     "publishDate": "on Thu Sep 16 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/53da8f6a-5d60-469e-8ba1-64ddd57fb7d5.jpeg",

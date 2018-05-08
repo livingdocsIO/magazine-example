@@ -8,14 +8,17 @@
     "layout": "default",
     "design": {
       "name": "living-times",
-      "version": "1.0.0"
+      "version": "0.0.7"
     }
   },
   "metadata": {
     "title": "The Red Turtle",
     "description": "The Red Turtle&nbsp;is a 2016 French-Belgian-Japanese animated film directed by...",
     "flag": "Ghibli",
-    "author": "Patty Patterson",
+    "authors": [{
+      "id": 2931,
+      "name": "Patty Patterson"
+    }],
     "publishDate": "on Thu Sep 15 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/e9201979-3a59-489e-8a2e-487806e107b6.jpeg",

@@ -8,116 +8,78 @@
     "layout": "author",
     "design": {
       "name": "living-times",
-      "version": "0.0.1"
+      "version": "0.0.7"
     }
   },
   "metadata": {
     "title": "Andy Borowitz",
-    "description": "Andy Borowitz has been a film critic for the Living Times since 2006. He can perform a Shoryuken with one single hand.",
-    "author": "Andy Borowitz",
-    "publishDate": "on Thu Sep 14 2017",
-    "teaserImage": {
-      "originalUrl": "/assets/images/author-andy.png",
-      "url": "/assets/images/author-andy.png"
+    "prename": "Andy",
+    "surname": "Borowitz",
+    "shortname": "ab",
+    "profile": "Andy Borowitz has been a film critic for the Living Times since 2006. He can perform a Shoryuken with one single hand.",
+    "authorImage": {
+        "originalUrl": "/assets/images/author-andy.png",
+        "url": "/assets/images/author-andy.png",
+        "width": 128,
+        "height": 128,
+        "imageService": "imgix",
+        "crops": [
+            {
+                "url": "/assets/images/author-andy.png",
+                "name": "1:1",
+                "x": 0,
+                "y": 0,
+                "width": 128,
+                "height": 128,
+                "srcSet": [
+                    {
+                        "width": 2048,
+                        "url": "/assets/images/author-andy.png"
+                    },
+                    {
+                        "width": 1024,
+                        "url": "/assets/images/author-andy.png"
+                    },
+                    {
+                        "width": 620,
+                        "url": "/assets/images/author-andy.png"
+                    },
+                    {
+                        "width": 320,
+                        "url": "/assets/images/author-andy.png"
+                    }
+                ]
+            }
+        ]
     },
     "dependencies": {}
   },
   "content": [
     {
-      "identifier": "living-times.author-container",
-      "containers": {
-        "main": [
-          {
-            "component": "author-head",
-            "content": {
-              "image": "/assets/images/author-andy.png",
-              "link": "https://twitter.com/@andy_borowitz",
-              "text-link": "@andy_borowitz",
-              "name": "Andy Borowitz",
-              "introduction": "Andy Borowitz has been a film critic for the Living Times since 2006. He can perform a Shoryuken with one single hand.",
-              "description": "He joined Living Times as a staff writer in 2001 and has profiled many subjects, among them Lena Dunham, Christine Quinn, Santiago Calatrava, Nico Muhly, Slavoj Zizek, and Shaquille O'Neal. He has also written more than two hundred Talk of the Town stories."
-            }
-          },
-          {
-            "component": "whole",
-            "styles" : {
-              "container-style-lined": "container--lined"
-            },
-            "content": {
-              "title": "All Work"
-            },
-            "containers": {
-              "column-one": [
+        "id": "doc-1ccv81ee20",
+        "identifier": "living-times.author-container",
+        "containers": {
+            "main": [
                 {
-                  "component": "teaser-card",
-                  "styles" : {
-                    "teaser-image-position": "teaser-card--left-aligned-img"
-                  },
-                  "content": {
-                    "teaser": {
-                      "service": "teaser",
-                      "params": {
-                        "layout": "card",
-                        "mediaId": 2904
-                      }
-                    }
-                  }
+                    "id": "doc-1ccv81ee21",
+                    "identifier": "living-times.author-head"
                 },
                 {
-                  "component": "teaser-card",
-                  "styles" : {
-                    "teaser-image-position": "teaser-card--left-aligned-img"
-                  },
-                  "content": {
-                    "teaser": {
-                      "service": "teaser",
-                      "params": {
-                        "layout": "card",
-                        "mediaId": 2905
-                      }
+                    "id": "doc-1ccv81ee30",
+                    "identifier": "living-times.whole",
+                    "content": {
+                        "title": "All Work"
+                    },
+                    "styles": {
+                        "container-style-lined": "container--lined"
+                    },
+                    "containers": {
+                        "column-one": []
                     }
-                  }
-                },
-                {
-                  "component": "teaser-card",
-                  "styles" : {
-                    "teaser-image-position": "teaser-card--left-aligned-img"
-                  },
-                  "content": {
-                    "teaser": {
-                      "service": "teaser",
-                      "params": {
-                        "layout": "card",
-                        "mediaId": 2906
-                      }
-                    }
-                  }
-                },
-                {
-                  "component": "teaser-card",
-                  "styles" : {
-                    "teaser-image-position": "teaser-card--left-aligned-img"
-                  },
-                  "content": {
-                    "teaser": {
-                      "service": "teaser",
-                      "params": {
-                        "layout": "card",
-                        "mediaId": 2907
-                      }
-                    }
-                  }
                 }
-              ]
-            }
-          }
-        ],
-        "sidebar": [
-          {
-            "component": "ad-halfpage-resolved"
-          }
-        ]
-      }
+            ],
+            "sidebar": []
+        }
     }
   ]
 }

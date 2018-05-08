@@ -1,15 +1,7 @@
-const createLivingdoc = require('./create_livingdoc')
+const _ = require('lodash')
 
 module.exports = function getAuthorPublication ({publication, liClient} = {}) {
-  const articleLivingdoc = createLivingdoc(publication)
-  const tree = articleLivingdoc.componentTree
-
-  const authorEmbeds = tree.find('teaser-author')
-  if (!authorEmbeds.length) return
-
-  const authorEmbed = authorEmbeds[0]
-  const embedIncludeDirective = authorEmbed.directives.get('embed')
-  const {params} = embedIncludeDirective.getContent()
-
-  return liClient.getPublication({documentId: params.mediaId})
+  const firstAuthor = _.get(publication, 'metadata.authors[0]')
+  if (!firstAuthor) return null
+  return liClient.getPublication({documentId: firstAuthor.id})
 }

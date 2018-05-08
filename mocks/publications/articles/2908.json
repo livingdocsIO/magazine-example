@@ -8,14 +8,17 @@
     "layout": "default",
     "design": {
       "name": "living-times",
-      "version": "1.0.0"
+      "version": "0.0.7"
     }
   },
   "metadata": {
     "title": "Iblard Jikan",
     "description": "Iblard Jikan (イバラード時間 <em>Ibarādo Jikan</em>, literally \"Iblard Time\") is a Japanese anime OVA produced by...",
     "flag": "Ghibli",
-    "author": "Andy Borowitz",
+    "authors": [{
+      "id": 2929,
+      "name": "Andy Borowitz"
+    }],
     "publishDate": "on Thu Sep 15 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/2a1009fd-2739-451e-a020-9d6d0a65cd18.png",

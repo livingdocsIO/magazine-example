@@ -8,7 +8,7 @@
     "layout": "default",
     "design": {
       "name": "living-times",
-      "version": "0.0.1"
+      "version": "0.0.7"
     }
   },
   "metadata": {
@@ -16,6 +16,10 @@
     "description": "Koro no Daisanpo (コロの大さんぽ <em>Koro no Daisanpo</em>), <em>Koro's Big Day Out</em> (lit. <em>Koro's big walk</em>), is a...",
     "flag": "Ghibli",
     "author": "Neima Jahromi",
+    "authors": [{
+      "id": 2930,
+      "name": "Neima Jahromi"
+    }],
     "publishDate": "on Thu Sep 14 2017",
     "teaserImage": {
       "originalUrl": "https://livingdocs-images.s3.amazonaws.com/2016/10/28/2f412477-3046-4241-8567-7f6167c67041.jpeg",

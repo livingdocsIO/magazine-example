@@ -7,9 +7,9 @@ module.exports = {
         template: 'teaser-author-template',
         contentSpec: {
           link: contentExtractor.link,
-          link2: contentExtractor.link,
-          text: contentExtractor.description,
-          image: contentExtractor.image({crop: '16:9'})
+          authorLink: contentExtractor.link,
+          text: contentExtractor.profile,
+          image: contentExtractor.image({crop: '1:1', target: 'authorImage'})
         }
       },
       'sidebar-embed': {
@@ -82,7 +82,6 @@ module.exports = {
         template: 'teaser-card-author-template',
         contentSpec: {
           link: contentExtractor.link,
-          link2: contentExtractor.link,
           text: contentExtractor.title,
           image: contentExtractor.image({crop: '16:9'})
         },
