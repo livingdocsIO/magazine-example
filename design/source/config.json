@@ -1,11 +1,11 @@
 {
   "name": "living-times",
   "label": "Living Times",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "Copyright (c) 2018 Livingdocs AG, all rights reserved",
 
   "assets": {
-    "basePath": "https://cdn.livingdocs.io/designs/living-times/0.0.5",
+    "basePath": "https://cdn.livingdocs.io/designs/living-times/0.0.6",
     "css": ["./styles.css"],
     "js": ["./scripts.js"]
   },
