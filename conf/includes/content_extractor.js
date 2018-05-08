@@ -10,7 +10,8 @@ module.exports = {
   flag,
   author,
   publishDate,
-  profile
+  profile,
+  authorName
 }
 
 function link ({metadata = {}, systemdata = {}} = {}) {
@@ -27,6 +28,13 @@ function description ({metadata = {}} = {}) {
 
 function profile ({metadata = {}} = {}) {
   return metadata.profile || ''
+}
+
+function authorName ({metadata = {}} = {}) {
+  if (metadata.prename && metadata.surname) return `${metadata.prename} ${metadata.surname}`
+  if (metadata.prename) return metadata.prename
+  if (metadata.surname) return metadata.surname
+  return 'No Name'
 }
 
 function image (imageExtractionConfig = {}) {

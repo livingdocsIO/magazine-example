@@ -6,6 +6,7 @@ module.exports = {
       'author-embed': {
         template: 'teaser-author-template',
         contentSpec: {
+          title: contentExtractor.authorName,
           link: contentExtractor.link,
           authorLink: contentExtractor.link,
           text: contentExtractor.profile,
