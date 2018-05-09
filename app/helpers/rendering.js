@@ -1,6 +1,8 @@
 const liSDK = require('@livingdocs/sdk')
+const _ = require('lodash')
 
 const resolveIncludes = require('../includes')
+const createAuthorPage = require('../authors')
 const conf = require('../../conf')
 const design = require('../../design/dist/design.json')
 const renderLayout = require('../rendering/layout')
@@ -42,12 +44,15 @@ function generateHTML ({title, description, bodyContent}) {
 async function renderPage ({menu, location, publication, liClient}) {
   const imageServicesConfig = conf.get('imageServices', {})
   const config = {}
+  const layout = _.get(publication, 'systemdata.layout')
   if (Object.keys(imageServicesConfig).length) config.imageServices = imageServicesConfig
   const livingdoc = liSDK.document.create({
     design,
-    content: publication.content,
+    content: layout === 'author' ? [] : publication.content,
     config
   })
+  if (layout === 'author') await createAuthorPage(livingdoc, publication, liClient)
+
   // what does this do? Fetch the extra data? related content / embeds?
   await resolveIncludes(livingdoc, liClient, includesConfig)
 
