@@ -1,0 +1,378 @@
+{
+    "id": 42,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 42,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Service Provider Boots Hate Site Off the Internet",
+        "description": "The web services company Cloudflare appears to have ended its relationship with the neo-Nazi website The Daily Stormer.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?w=1024&auto=format",
+            "width": 1024,
+            "height": 683,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?rect=0%2C54%2C1024%2C576&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 54,
+                    "width": 1024,
+                    "height": 576,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?rect=0%2C54%2C1024%2C576&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?rect=0%2C54%2C1024%2C576&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?rect=0%2C54%2C1024%2C576&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?rect=0%2C54%2C1024%2C576&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Technology",
+        "authors": [
+            {
+                "id": 43,
+                "name": "Ken Schwenke"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd5a3t330",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd5a3t331",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "flag": "<a href=\"https://www.propublica.org/series/documenting-hate\">DOCUMENTING HATE</a>",
+                            "title": "Service Provider Boots Hate Site Off the Internet",
+                            "text": "The web services company Cloudflare appears to have ended its relationship with the neo-Nazi website The Daily Stormer.",
+                            "author": "by Ken Schwencke, <a href=\"https://www.propublica.org/article/service-provider-boots-hate-site-off-the-internet\">ProPublica</a>",
+                            "date": "Aug. 16, 2017, 5:05 p.m. EDT"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd5a3t340",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?auto=format",
+                                "width": 1024,
+                                "height": 683,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a3t341",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "This story has been <a href=\"https://www.propublica.org/article/service-provider-boots-hate-site-off-the-internet#update\">updated</a>."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a67kn0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In a surprise move, the web services company Cloudflare has ended its relationship with The Daily Stormer, taking the leading neo-Nazi site off the internet for the second time this week."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a67ko0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Cloudflare protects websites against common forms of attack, including denial of service, which is known as DDOS."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a67kp0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“I have effectively been banned by ICANN and the monopolistic anti-ddosing service Cloudflare,” wrote Andrew Anglin, who runs the site. ICANN is the acronym for Internet Corporation for Assigned Names and Numbers, an international technical body that runs the Domain Name System, a critical piece of the internet’s traffic flow that links domain names with server addresses."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a6ijp0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Cloudflare just folded on us. Into new territory,” wrote Andrew Auernheimer, the architect of the site. According to both Auernheimer and a former Cloudflare employee, The Daily Stormer relied on the company’s services to stay online."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a6j560",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Cloudflare’s decision to drop the neo-Nazi site comes at a time when tech companies are under intense pressure to curtail white supremacist activity. ProPublica has <a href=\"https://www.propublica.org/article/how-cloudflare-helps-serve-up-hate-on-the-web\">previously written</a> about the company’s willingness to provide services to the white supremacist site."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a6j590",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Anglin and Auernheimer’s comments were made on an obscure social media service called Gab. The Daily Stormer’s Twitter accounts have been suspended."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a6j5b0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "ProPublica has reached out to The Daily Stormer. We’ve also attempted to reach Cloudflare representatives using multiple email addresses and phone numbers. So far, we have received no response."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a6j5c0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Queries to Cloudflare’s domain system, which routes domain names like “dailystormer.com” to their locations on the web, returned a “REFUSED” response, which indicates the service no longer claims responsibility for the domain."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a6j5d0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Cloudflare joins a long list of services from which the site has been banned. PayPal, GoDaddy, Google and Twitter have all previously suspended The Daily Stormer in one way or another. Many did so after the site posted a story mocking the appearance of Heather Heyer, the young woman killed after a white supremacist in Charlottesville drove a car into a crowd of counter-protesters."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a722t0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "It is unusual for Cloudflare to ban a controversial customer. In the past, the service has defended providing services to websites that espouse racist ideologies."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a72cf0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“A website is speech. It is not a bomb,” Cloudflare’s CEO Matthew Prince wrote in a 2013 blog post defending his company’s stance. “There is no imminent danger it creates and no provider has an affirmative obligation to monitor and make determinations about the theoretically harmful nature of speech a site may contain.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a72ch0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In an interview in May, Prince told ProPublica that his company wouldn’t bar customers without a court order, or unless they proved to be a technical threat."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a72ch1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Whenever you have a private organization which is making what are essentially law enforcement decisions, that is a risk to due process. And I think due process is important,” Prince said in the interview."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a72ci0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "It is unclear why Cloudflare chose now to cut off service to the site. Stormfront, one of the oldest white supremacist sites, is still online and using Cloudflare services. The same is true for The Right Stuff, a newer site that hosts an anti-Semitic podcast."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a72ck0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The reaction from those on the far right was swift."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a72ck1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“This is fucking serious. 8/12 changed everything,” tweeted Pax Dickinson, a lead technical voice for the far right, referencing the Charlottesville rally."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a72cl0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<strong>Update, Aug. 16, 2017:</strong> Gizmodo has published <a href=\"http://gizmodo.com/cloudflare-ceo-on-terminating-service-to-neo-nazi-site-1797915295\">an internal email</a> in which Cloudflare CEO Matthew Prince explains why the company terminated service: “the people behind the Daily Stormer are assholes and I’d had enough.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a3t342",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 43
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd5a3t343",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd5a3t344",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a3t345",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 39
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a3t346",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 13
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a3t347",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 46
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5a3t348",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 15
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd5a3t349",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd5a3t3410",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd5a3t3411",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 22
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd5a3t3412",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 20
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd5a3t3413",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 15
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd5a3t3414",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 44
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

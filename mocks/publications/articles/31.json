@@ -1,0 +1,454 @@
+{
+    "id": 31,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 31,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "How to Protect Your Digital Privacy in the Era of Public Shaming",
+        "description": "Americans face unprecedented threats to the digital safety of their personal information. We offer nine tips to foil hackers, ransomware, online trackers, data brokers and other menaces.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/bc32524b-f79c-46f2-84cd-3a68943c526c.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/bc32524b-f79c-46f2-84cd-3a68943c526c.jpeg?w=1024&auto=format",
+            "width": 3264,
+            "height": 2448,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/bc32524b-f79c-46f2-84cd-3a68943c526c.jpeg?rect=0%2C306%2C3264%2C1836&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 306,
+                    "width": 3264,
+                    "height": 1836,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/bc32524b-f79c-46f2-84cd-3a68943c526c.jpeg?rect=0%2C306%2C3264%2C1836&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/bc32524b-f79c-46f2-84cd-3a68943c526c.jpeg?rect=0%2C306%2C3264%2C1836&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/bc32524b-f79c-46f2-84cd-3a68943c526c.jpeg?rect=0%2C306%2C3264%2C1836&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/bc32524b-f79c-46f2-84cd-3a68943c526c.jpeg?rect=0%2C306%2C3264%2C1836&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Technology",
+        "authors": [
+            {
+                "id": 32,
+                "name": "Julia Angwin"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd56on0a0",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd56on0b0",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "title": "How to Protect Your Digital Privacy in the Era of Public Shaming",
+                            "text": "Americans face unprecedented threats to the digital safety of their personal information. We offer nine tips to foil hackers, ransomware, online trackers, data brokers and other menaces.",
+                            "author": "by Julia Angwin, <a href=\"https://www.propublica.org/article/how-to-protect-your-digital-privacy-in-the-era-of-public-shaming\">ProPublica</a>",
+                            "date": "Jan. 26, 2017, 9 a.m. EST"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd56on0b1",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/bc32524b-f79c-46f2-84cd-3a68943c526c.jpeg?auto=format",
+                                "width": 3264,
+                                "height": 2448,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/bc32524b-f79c-46f2-84cd-3a68943c526c.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56on0b2",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Every January, I do a digital tune-up, cleaning up my privacy settings, updating my software and generally trying to upgrade my security. This year, the task feels particularly urgent as we face a world with unprecedented threats to our digital safety."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r42k0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "We are living in an era of widespread hacking and public shaming. Don’t like your political rivals? Beg Russia to hack them, and their emails mysteriously show up on Wikileaks. Don’t like your ex-spouse? Post a revenge porn video. Don’t like your video game opponents? Find their address online and send a SWAT team to their door."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r42l0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "And, of course, the U.S. government has the capability to do even more. It can spy on much of the globe’s Internet traffic and has in the past kept tabs on nearly every American’s phone calls. Like it or not, we are all combatants in an information war, with our data under constant siege."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r42n0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "So how can ordinary people defend themselves? The truth is you can’t defend everything. But you can mitigate threats by reducing how much data you leave exposed for an intruder to grab. Hackers call this minimizing your “attack surface.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r42o0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The good news is that there are some easy steps you can take to reduce the threat. Here is what I am doing this year:"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56ratl0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Updating Software"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r42q0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Every year, I <a href=\"https://www.propublica.org/article/i-ramped-up-my-internet-security-and-you-should-too\">ditch old buggy software</a> that I don’t use and update all the software that I do use to its most current version. Exploiting software with known holes is one of the ways that criminals install ransomware — which holds your data hostage until you pay for it to be released. (Read the <a href=\"https://www.fbi.gov/news/stories/ransomware-on-the-rise\">FBI’s tips</a> on avoiding and mitigating ransomware attacks.)"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56rp3m0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Making Passwords Longer"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r42s0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "This year, I’m working to lengthen my passwords to at least 10 characters for accounts that I don’t care about and to 30 characters for accounts I do care about (email and banking). After all, in 2017, automated software can guess an eight-digit password in less than a day."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r42t0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Most importantly, don’t re-use passwords. You don’t have to think of unique passwords yourself — password management software such as <a href=\"https://1password.com/\">1Password</a>, <a href=\"https://www.lastpass.com/\">LastPass</a> will do it for you. EFF technologist Jacob Hoffman-Andrews makes a very good case for password management software being <a href=\"https://jacob.hoffman-andrews.com/README/2017/01/15/how-not-to-get-phished.html\">the best defense against a phishing attack</a>. (<a href=\"https://en.wikipedia.org/wiki/Phishing\">Phishing</a> is how the email of John Podesta, Hillary Clinton’s campaign chairman, got hacked)."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56s3ei0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Securing Communications"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r42v0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The good news is that it’s never been easier to send encrypted text messages and make encrypted phone calls on the phone apps <a href=\"https://whispersystems.org/\">Signal</a> and <a href=\"https://www.whatsapp.com/\">WhatsApp</a>. However, please note that WhatsApp has said it will share users’ address books with its parent company, Facebook, unless they <a href=\"https://www.whatsapp.com/faq/general/26000016\">opted out</a> of the latest privacy update."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r4310",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Of course, people who receive your messages can still screenshot and share them without your permission. On Signal you can make it slightly harder for them by setting your messages to disappear after a certain amount of time. In WhatsApp, you can turn off cloud backups of your chats, but you can’t be sure if others have done the same."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56sb1a0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Protecting Mobile Web Browsing"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r4320",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The websites that you browse are among the most revealing details about you. Until recently, it was hard to protect mobile web surfing, but this year there are a lot of good options for iPhones. You can use privacy protecting standalone web browsers such as <a href=\"https://www.brave.com/\">Brave</a> or <a href=\"https://blog.mozilla.org/blog/2016/11/17/introducing-firefox-focus-a-free-fast-and-easy-to-use-private-browser-for-ios/\">Firefox Focus</a>, or install an add-on such as <a href=\"https://www.purify-app.com/\">Purify</a> that will let you browse safely on Safari. In an excess of excitement, I’m currently using all three!"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r4330",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Of course, blocking online tracking also means blocking ads. I hate to deny worthy websites their advertising dollars, but I also think it’s unfair for them to sell my data to hundreds of ad tracking companies. Brave is building a controversial system that <a href=\"https://www.wired.com/2016/09/ad-blocking-browser-pays-sites-visit/\">pays publishers for users’ visits</a>, but it remains to be seen if it will work. In the meantime, I try to subscribe or donate to news outlets whose work I admire."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56sno60",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Dropping Dropbox"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r4361",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "You wouldn’t leave your most sensitive documents in an unlocked filing cabinet, so why do you keep them in cloud services such as Google Drive and DropBox? Those companies have the keys to unlock your files. One option is to <a href=\"https://support.office.com/en-US/article/Password-protect-documents-workbooks-and-presentations-EF163677-3195-40BA-885A-D50FA2BB6B68\">password protect your files</a> before uploading them. But I prefer a cloud service that encrypts for me. In my usual overkill approach, I’m using <a href=\"https://www.sync.com/\">Sync.com</a> to synchronize files and <a href=\"https://spideroak.com/solutions\">SpiderOak</a> for backup."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56t0go0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Deleting Some Data"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r4390",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Consider whether you really need to store all your old emails and documents. I recently deleted a ton of emails dating back to 2008. I had been hanging onto them thinking that I might want them in the future. But I realized that if I hadn’t looked at them until now, I probably wasn’t going to. And they were just sitting there waiting to be hacked."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56t3ot0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Reconsidering Installing Cameras and Microphones at Home"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r43b0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "As Internet-enabled devices — ranging from <a href=\"http://fortune.com/2017/01/03/loreal-smart-hairbrush-ces/\">smart hairbrushes</a>to <a href=\"https://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-WiFi-Alexa/dp/B00X4WHP5E\">voice-activated</a> <a href=\"https://madeby.google.com/home/\">speakers</a> — invade the home, criminals are finding new ways to penetrate their defenses."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r43d0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Hackers have <a href=\"http://arstechnica.com/tech-policy/2013/03/rat-breeders-meet-the-men-who-spy-on-women-through-their-webcams/\">spied on women</a> through the womens’ webcams and used networks of online cameras and other devices to <a href=\"https://www.theguardian.com/technology/2016/nov/03/cyberattack-internet-liberia-ddos-hack-botnet\">bring down the Internet</a> in Liberia. Like many people including <a href=\"https://twitter.com/CDA/status/816504372024799233/photo/1\">the Pope</a> and Facebook CEO <a href=\"https://www.nytimes.com/2016/06/23/technology/personaltech/mark-zuckerberg-covers-his-laptop-camera-you-should-consider-it-too.html\">Mark Zuckerberg</a>, I have covered the cameras on my computers with stickers and magnetic screens to avoid peeping Toms. But until device makers heed the Federal Trade Commission’s <a href=\"https://www.ftc.gov/system/files/documents/reports/federal-trade-commission-staff-report-november-2013-workshop-entitled-internet-things-privacy/150127iotrpt.pdf\">security recommendations</a> for internet-enabled devices, I won’t introduce new cameras and microphones into my home."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56t6kp0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Opting Out of Data Brokers"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r43f0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Fears that President Donald Trump might build a Muslim registry prompted thousands of Silicon Valley tech workers to <a href=\"http://neveragain.tech/\">sign a pledge</a> stating that they wouldn’t participate in building any databases that profile people by race, religion or national origin. But <a href=\"http://money.cnn.com/2016/12/20/technology/data-brokers-muslim-registry/index.htmlhttp://money.cnn.com/2016/12/20/technology/data-brokers-muslim-registry/index.html\">only three of the hundreds</a> of data brokers that sell lists of people have affirmed that they would not participate in a registry. Two other data brokers <a href=\"https://www.revealnews.org/article/trump-could-build-registry-of-1-4-million-muslims-for-under-20000/\">told a reporter that the price for such a list</a> would range from about $14,000 to $17,000."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r43g0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "It’s not easy to remove personal data from the hundreds of data brokers that are out there. Many of them require you to submit a picture of your photo ID, or write a letter. But if you do it — as I did two years ago — it is worth it. Most of the time when a new data broker emerges, I find that my data is already removed because I opted out from the broker’s supplier. I compiled <a href=\"http://juliaangwin.com/privacy-tools-opting-out-from-data-brokers/\">a list of data broker opt-outs</a> that you can use as a starting point."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56t9qd0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Taking a Deep Breath"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r43i0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The size of the problem and the difficulty of the solutions can be overwhelming. Just remember that whatever you do — even if it’s just upgrading one password or opting out of one data broker — will improve your situation. And if you are the subject of a hateful, vitriolic internet attack, read Anita Sarkeesian’s <a href=\"https://onlinesafety.feministfrequency.com/en/\">guide to surviving online harassment</a>."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56r43k0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<strong>Correction, Jan. 31, 2017:</strong> This article incorrectly said that Google and DropBox files are unencrypted. The post has been updated to clarify that those services are encrypted, but that those companies have the ability to unlock users’ files."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56on0b3",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 32
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd56on0b4",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd56on0b5",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56on0b6",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 46
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56on0b7",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 24
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56on0b8",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 15
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56on0b9",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 17
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd56on0b10",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd56on0b11",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd56on0b12",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 31
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd56on0b13",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 13
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd56on0b14",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 42
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd56on0b15",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 15
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

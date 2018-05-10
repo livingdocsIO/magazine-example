@@ -1,0 +1,76 @@
+{
+    "id": 6,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 6,
+        "contentType": "page",
+        "documentType": "page",
+        "layout": "page",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Environment",
+        "dependencies": {}
+    },
+    "content": [
+        {
+            "id": "doc-1cd4tsd360",
+            "identifier": "living-times.whole",
+            "styles": {
+                "container-style-breath": "container--breath"
+            },
+            "containers": {
+                "column-one": [
+                    {
+                        "id": "doc-1cd4tsd361",
+                        "identifier": "living-times.teaser-hero",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "hero",
+                                    "mediaId": 27
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "doc-1cd4tsd3611",
+            "identifier": "living-times.whole",
+            "content": {
+                "title": "More on Environment"
+            },
+            "styles": {
+                "container-style-lined": "container--lined",
+                "container-style-breath": "container--breath"
+            },
+            "containers": {
+                "column-one": [
+                    {
+                        "id": "doc-1cd4tsd3612",
+                        "identifier": "living-times.teaser-card",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "card",
+                                    "mediaId": 33
+                                }
+                            }
+                        },
+                        "styles": {
+                            "teaser-image-position": "teaser-card--left-aligned-img"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,671 @@
+{
+    "id": 39,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 39,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Failing Charter Schools Have a Reincarnation Plan",
+        "description": "Converting into private schools — and using voucher programs to thrive on the public dime.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?w=1024&auto=format",
+            "width": 1024,
+            "height": 768,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?rect=0%2C96%2C1024%2C576&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 96,
+                    "width": 1024,
+                    "height": 576,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?rect=0%2C96%2C1024%2C576&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?rect=0%2C96%2C1024%2C576&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?rect=0%2C96%2C1024%2C576&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?rect=0%2C96%2C1024%2C576&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Education",
+        "authors": [
+            {
+                "id": 14,
+                "name": "Annie Waldmann"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd598hh40",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd598hh41",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "title": "Failing Charter Schools Have a Reincarnation Plan",
+                            "text": "Converting into private schools — and using voucher programs to thrive on the public dime.",
+                            "author": "by Annie Waldman, <a href=\"https://www.propublica.org/article/failing-charter-schools-have-a-reincarnation-plan\">ProPublica</a>",
+                            "date": "Sept. 19, 2017, 6 a.m. EDT"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd598hh50",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?auto=format",
+                                "width": 1024,
+                                "height": 768,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd598hh60",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "This story was co-published with Slate."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59bjif0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "This past June, Florida’s top education agency delivered a failing grade to the Orange Park Performing Arts Academy in suburban Jacksonville for the second year in a row. It designated the charter school for kindergarten through fifth grade as the worst public school in Clay County, and one of the lowest performing in the state."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59bjih0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Two-thirds of the academy’s students failed the state exams last year, and only a third of them were making any academic progress at all. The school had had four principals in three years, and teacher turnover was high, too."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59bjii0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“My fourth grader was learning stuff that my second grader was learning — it shouldn't be that way,” said Tanya Bullard, who moved her three daughters from the arts academy this past summer to a traditional public school. “The school has completely failed me and my children.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59bjij0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The district terminated the academy’s charter contract. Surprisingly, Orange Park didn’t shut down — and even found a way to stay on the public dime. It reopened last month as a private school charging $5,000 a year, below the $5,886 <a href=\"http://www.fldoe.org/schools/school-choice/k-12-scholarship-programs/ftc/ftc-faqs.stml\">maximum</a>that low-income students receive to attend the school of their choice under a state voucher program. Academy officials expect all of its students to pay tuition with the publicly backed coupons."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59bjij1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Reverend Alesia Ford-Burse, an African Methodist Episcopal pastor who founded the academy, told ProPublica that the school deserves a second chance, because families love its dance and art lessons, which they otherwise couldn’t afford. “Kids are saying, ‘F or not, we’re staying,’” she said."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59bjik0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "While it’s widely known that private schools <a href=\"https://www.mackinac.org/3745\">convert</a> to charter status to take advantage of public dollars, more schools are now heading in the opposite direction. As voucher programs across the country proliferate, shuttered charter schools, like the Orange Park Performing Arts Academy, have begun to privatize in order to stay open with state assistance."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59bjil0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "A ProPublica nationwide review found that at least 16 failing or struggling charter schools in five states — Florida, Wisconsin, Indiana, Ohio and Georgia — have gone private with the help of publicly funded voucher programs, including 13 since 2010. Four of them specialize in the arts, including Orange Park, and five serve students with special needs."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59bjim0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“The voucher just is a pass through in order to provide additional funding for private schools to thrive and to continue to work,” said Addison Davis, superintendent of schools in Clay County. Changing a school’s status “isn’t going to stop the process where we continue to see kids who are declining academically and not being able to demonstrate mastery and proficiency.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59bkni0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Two key factors underlie these conversions. The number of voucher and voucher-like programs across the country has more than <a href=\"https://www.edchoice.org/school-choice/school-choice-in-america/#map-overlay\">tripled</a> over the past decade from 16 to 53. And charter schools, which became popular as a way to spur educational innovation with reduced regulation, have increasingly faced more stringent oversight. Jeanne Allen, founder and CEO of the Center for Education Reform and a longtime supporter of charter schools, lamented <a href=\"http://www.edweek.org/ew/articles/2017/02/08/regulations-are-strangling-charter-schools.html\">in a recent op-ed</a> that increased government regulation is turning them into “bureaucratic, risk-averse organizations fixated on process over experimentation.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c38k0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Why not just be a private school if the kids qualify for the scholarships?” said Christopher Norwood, a consultant for the Orange Park school, in an interview. “With 90 percent fewer regulations, schools can be independent and free, and just deal with the students.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c38k1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "As private schools, the ex-charters are less accountable both to the government and the public. It can be nearly impossible to find out how well some of them are performing. About half of the <a href=\"http://www.federationforchildren.org/wp-content/uploads/2016/02/2015-16-Yearbook-Accountability-check.pdf\">voucher and voucher-like programs</a> in the country require academic assessments of their students, but few states publish the complete test results, or use that data to hold schools accountable."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c38n0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "While most states have provisions for <a href=\"http://credo.stanford.edu/pdfs/Closure_FINAL_Executive_Summary.pdf\">closing low-quality charter</a> schools, few, if any, have the power to shut down low-performing voucher schools."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c38o0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Public money is being handed out without oversight,” said Diane Ravitch, a New York University education historian and public schools advocate, who served as assistant secretary of education under President George H.W. Bush. “The fundamental voucher idea is that parents are choosing the schools and they know better than the state. If they want to send their kids to a snake-charming school, then that’s their choice.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c38q0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The type of voucher program that rescues failed charter schools like Orange Park in Florida may soon be replicated nationwide. Visiting a religious school in Miami last April, Secretary of Education Betsy DeVos <a href=\"http://www.kansascity.com/news/politics-government/article143676449.html\">praised</a> the state’s approach as a possible model for a federal initiative."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c38s0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Typically, voucher programs are directly funded with taxpayer dollars. Florida’s largest program pursues a different strategy. Its “tax-credit scholarships” are <a href=\"https://www.stepupforstudents.org/for-donors/\">backed</a>by donations from corporations. They contribute to nonprofit organizations, which, in turn, <a href=\"http://www.fldoe.org/schools/school-choice/k-12-scholarship-programs/ftc/ftc-faqs.stml\">distribute</a> the money to the private schools. In exchange, the donors receive generous <a href=\"http://www.latimes.com/local/education/la-na-trump-florida-vouchers-20170302-story.html\">dollar-for-dollar</a> tax credits from the state. This subsidy indirectly <a href=\"https://itep.org/state-tax-subsidies-for-private-k-12-education/\">shifts</a>hundreds of millions of dollars annually from the state’s coffers to private schools. More than 100,000 students whose families meet the income eligibility requirements have <a href=\"https://www.usnews.com/news/best-states/florida/articles/2017-08-04/more-than-100-000-florida-students-receiving-school-vouchers\">received</a> the tax-credit coupons this year."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c38u0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Of the <a href=\"http://www.floridaschoolchoice.org/Information/PrivateSchoolDirectory/\">nearly 2,900</a> private schools in Florida, over 1,730 participated in the tax-credit voucher program during 2016-17, according to the most recent state Department of Education data. On average, each school received about $300,000 last year."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c38v0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "While more than two-thirds of these schools are <a href=\"http://www.orlandosentinel.com/features/education/os-vouchers-florida-schools-tax-credits-20170118-story.html\">religious</a>, the roundabout funding approach <a href=\"http://www.ajc.com/news/state--regional-education/georgia-supreme-court-rules-for-tax-credit-scholarships/UXK0nj7BwjBjfOhXQVWZGL/\">protects</a> the vouchers against legal challenges that they violate the separation of church and state. Earlier this year, the state Supreme Court <a href=\"http://www.orlandosentinel.com/features/education/os-vouchers-florida-schools-tax-credits-20170118-story.html\">dismissed a lawsuit</a> by the Florida Education Association, a teacher’s union, challenging the constitutionality of the voucher program."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c3900",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In an education budget proposal from May, DeVos <a href=\"https://www.washingtonpost.com/local/education/trumps-first-full-education-budget-deep-cuts-to-public-school-programs-in-pursuit-of-school-choice/2017/05/17/2a25a2cc-3a41-11e7-8854-21f359183e8c_story.html\">detailed</a> her voucher plans, pitching a $250 million plan to study and expand individual state initiatives. She has since suggested that the administration may also <a href=\"https://www.usnews.com/news/politics/articles/2017-08-11/school-choice-program-raises-questions-about-accountability\">create a federal tax-credit voucher</a> scheme through an impending tax overhaul."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c3910",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "School choice advocates like DeVos have long <a href=\"https://www.federationforchildren.org/school-choice-america/\">contended</a> that vouchers improve educational opportunities for low-income families. They reason that competition raises school quality, and that parents, given more options, will select the best school for their children."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c3920",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "A growing body of <a href=\"https://www.nytimes.com/2017/02/23/upshot/dismal-results-from-vouchers-surprise-researchers-as-devos-era-begins.html?mcubz=3&_r=0\">research</a>, though, casts doubt on this argument. It shows voucher-backed students may not be performing better than their public school counterparts, and may do worse."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c3930",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "A recent Department of Education study compared students who attended private schools with vouchers in Washington, D.C., from 2012 through 2014 with those who qualified for the program but were turned down due to a lack of available slots. The private schoolers <a href=\"https://www.usnews.com/news/politics/articles/2017-04-27/study-dc-voucher-program-shows-poorer-math-results\">performed significantly worse than their public school peers in math, and no better in reading.</a>"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c3931",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "According to a February 2017 analysis by Martin Carnoy, a Stanford University education professor, most studies of voucher programs over the past quarter-century <a href=\"http://news.stanford.edu/2017/02/28/vouchers-not-improve-student-achievement-stanford-researcher-finds/\">found little evidence</a> that students who receive the coupons perform better than their public school peers."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c3950",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<a href=\"http://www.epi.org/publication/school-vouchers-are-not-a-proven-strategy-for-improving-student-achievement/\">The lack of evidence</a> on the benefits of vouchers, Carnoy wrote, “suggests that an ideological preference for education markets over equity and public accountability is what is driving the push to expand voucher programs.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c3960",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Across the Florida panhandle from Orange Park, another troubled charter school for the arts has reinvented itself as a voucher-funded private school."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c3961",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Founded in 2010, the A.A. Dixon Charter School of Excellence had the worst <a href=\"http://schoolgrades.fldoe.org/reports/index.asp\">academic</a> record in Escambia County, and the school board raised <a href=\"http://jeffbergoshblog.blogspot.com/2011/09/aa-dixon-corrective-action-plan.html\">questions</a> about its financial accounting."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c3980",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Every month they came before the board and there was a problem,” said Jeff Bergosh, a school board <a href=\"http://jeffbergoshblog.blogspot.com/2012/03/aa-dixon-charter-school-update.html\">member</a> at the time, adding that he supports school choice. “They tried to make it work, but they didn’t. There were serious issues that jeopardized student safety, like sanitation issues and not having supervision [for the students].”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c3990",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "After Dixon received two failing grades from the state — which triggers termination of a school’s charter under Florida rules — Reverend Lutimothy May, a Baptist pastor who chaired its board, <a href=\"http://www.fldoe.org/policy/state-board-of-edu/meetings/2012/november-6-2012-agenda.stml\">appealed</a> to state education authorities. They <a href=\"http://www1.escambia.k12.fl.us/board/PDF%2012/December/minutes_11_16_12_wrkshp.pdf\">allowed</a>the school to operate for at least one more year, but he began to seek other options."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c39a0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Around the same time, a local beverage distributor, David Bear of the Lewis Bear Company, told May that he was considering contributing to the state tax-credit program. If the Dixon school privatized, Bear told May, donations could help save it. In 2013, May turned the <a href=\"http://www.fldoe.org/core/fileparse.php/7695/urlt/closed_charter_schools.pdf\">charter</a>, which had <a href=\"http://www.escambia.k12.fl.us/board/PDF%2012/September/minutes_08_15_12_wrkshp.pdf\">recently</a> been renamed the Dixon School of the Arts, into a <a href=\"http://studeri.org/2013/06/dixon-school-of-the-arts-to-become-private/\">private</a> Christian arts academy located inside his church. Nearly all current students at Dixon receive the tax-credit vouchers, bringing the school more than $500,000 a year, according to the most recent data from the state’s department of education."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c39c0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Our goal is still the same,” but the conversion has “untied some of the strings on education,” May said."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c39c1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Some of the untied “strings” to which May referred were state educational requirements. By converting from a charter to private status, Dixon and other schools largely shield themselves from accountability."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cg970",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "For instance, while Florida requires all private schools to <a href=\"http://www.fldoe.org/schools/school-choice/k-12-scholarship-programs/ftc/annual-assessment-requirement.stml\">test</a>students who receive vouchers, the schools face no consequences for weak academic performance. The University of Florida publishes an annual report analyzing the test scores of students that receive vouchers, but data from only a small fraction of the schools is made public. The report excludes many schools that don’t have test results for enough students in consecutive years."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cg980",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The latest report released the academic performance of only <a href=\"https://www.documentcloud.org/documents/3963290-FTC-FinalReport-14-15.html#document/p23/a371733\">198 schools</a> in 2014-15, out of the more than 1,500 schools that enrolled voucher-funded students that year. Most Florida families that receive vouchers do not have access to test data on their schools. The Dixon data was not published. Dixon’s principal, Donna Curry, maintained that the school has improved since its conversion from charter status, but declined to provide exam results to ProPublica, saying they were “for internal use.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cg9b0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Curry added that state test results are not necessarily reflective of student success. “I will not accept the fact that our children are not learning because they are not normalized on the state test,” she said. Her staff “knows more than what the test evaluates.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cg9b1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The state also has little control over how private, voucher-funded schools foster learning. There are no <a href=\"http://www.fldoe.org/schools/school-choice/private-schools/requirements-for-participating-in-state-scholarship-programs.stml\">requirements</a> on curriculum or teacher certification, other than the criminal background checks that are required for personnel at all private schools."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cg9d0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Because Dixon receives more than $250,000 in voucher money, it does have to file a financial <a href=\"https://www.stepupforstudents.org/wp-content/uploads/2015/09/agreed-upon-procedures2015-update.pdf\">accountability report</a>. Only about 40 percent of all voucher-funded schools met this threshold to undergo such an audit in 2016. The reports, including Dixon’s, aren’t publicly posted."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cg9g0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Even an official at Step Up For Students, the largest nonprofit distributor of voucher money to Florida’s private schools, acknowledges the need for closer supervision of educational quality. “As the program matures and more students are enrolled and as inevitably we see some schools continue to have what most people would consider to be poor performance year-in and year-out, we will be having more and more discussions about whether there should be some kind of regulatory accountability mechanisms to respond to that,” said Ron Matus, the organization’s director of policy and public affairs."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cg9h0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Indiana’s largest voucher program, unlike Florida’s, is directly backed by taxpayer dollars and has <a href=\"https://www.theatlantic.com/education/archive/2017/05/how-indiana-holds-private-schools-accountable/526461/\">stricter</a> accountability requirements. A private school that accepts vouchers can be sanctioned if its performance dips low <a href=\"https://www.theatlantic.com/education/archive/2017/05/how-indiana-holds-private-schools-accountable/526461/\">enough</a>. Last year, 10 schools lost their <a href=\"https://www.theatlantic.com/education/archive/2017/05/how-indiana-holds-private-schools-accountable/526461/\">access</a> to new vouchers, according to Adam Baker, the spokesman for the Indiana Department of Education."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cg9j0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The tighter supervision, though, didn’t deter Padua Academy in Indianapolis. Originally a private Catholic school, Padua had become a “<a href=\"http://oei.indy.gov/padua-academy/\">purely secular</a>” charter in 2010, under an unusual arrangement between the local archdiocese and the mayor’s office. The school initially performed well, but soon sank from a solid A-rating to <a href=\"https://www.doe.in.gov/accountability/find-school-and-corporation-data-reports\">two consecutive F-ratings</a>."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cg9k0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“These performance issues sounded alarm bells at the mayor's office,” said Brandon Brown, who led the mayor’s charter office at the time. Leadership issues with the school’s board and at the archdiocese, he added, caused the school to falter. After receiving $702,000 from a federal program that provided <a href=\"http://www.journalgazette.net/News/Local/Indiana/Study--Charter-funds-wasted-9469006\">seed money</a> for new charter schools, the school’s board <a href=\"http://fox59.com/2014/08/25/parents-move-kids-as-charter-latest-closure-in-checkered-few-years/\">relinquished its charter</a>."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cg9m0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In the meantime, Indiana had established a voucher program. So, instead of shutting down, the school rebranded itself as St. Anthony Catholic School, nailing its crucifixes back onto the walls and bringing the Bible back into the curriculum. Last year, more than 80 percent of its students were on vouchers, from which the school <a href=\"https://www.doe.in.gov/sites/default/files/choice/2016-2017-choice-scholarship-program-report-spring-revision-final-0811.pdf\">garnered</a> at least $1.2 million."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cg9n0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Its academic performance has improved, but still lags behind the state average. Only 25 percent of St. Anthony students passed both math and reading assessments this year, versus about <a href=\"http://www.doe.in.gov/accountability/find-school-and-corporation-data-reports\">half</a> of all publicly funded students on average at both private and public schools, according to the state’s education data from 2017. Last year, the state gave St. Anthony a C grade."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cg9p0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Gina Fleming, superintendent of schools for the Archdiocese of Indianapolis, said through a spokesman that “significant staff turnover” at St. Anthony’s “made for a difficult start these past two years.” As a result, the archdiocese “has been studying ways in which we can recruit, retain and reward high-quality teachers and leaders.” It has also “made shifts in scheduling, resources, diagnostic analyses and personnel to better accommodate the learning needs of our students.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59c3tm0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In Fort Wayne, Indiana, two other charter schools went private. Both Imagine MASTer Academy and Imagine Schools on Broadway were associated with a national for-profit charter chain, Imagine Schools, which has been under scrutiny elsewhere. In 2012, the Missouri Board of Education <a href=\"http://www.stltoday.com/news/local/education/missouri-calls-it-quits-on-imagine-charter-schools-in-st/article_e721e842-1a93-5e15-a673-f9766d19ee37.html\">shut down</a> all six Imagine charter schools in St. Louis for financial and academic woes. In response to such setbacks, Imagine Schools has moved toward “an even deeper commitment to increasing the consistency of our network-wide performance,” said Rhonda Cagle, a spokeswoman for the chain."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cqmi0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The two Fort Wayne schools performed well initially, but by the time their charters were up for renewal, they had some of the worst test results in the area, said Robert Marra, executive director of the charter office at Ball State University, which was responsible for the schools’ oversight. Imagine MASTer received a D grade from the state in 2013 and Imagine Schools on Broadway, an F."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cqml0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The data for the two schools “showed clear room for improvement but indicated consistent growth,” Cagle told ProPublica."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cqmn0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In 2013, Imagine <a href=\"http://www.frostillustrated.com/2013/fort-waynes-imagine-master-academy-and-imagine-broadway-academy-to-re-open-as-horizon-christian-academy-campuses/\">merged</a> its two failing charters with a local parochial school, Horizon Christian Academy. Since then, the Christian academy’s <a href=\"https://compass.doe.in.gov/dashboard/enrollment.aspx?type=school&id=A307\">enrollment</a> has soared from 23 students to 492. About <a href=\"http://www.doe.in.gov/sites/default/files/choice/2016-2017-choice-scholarship-program-report-spring-revision-final-0811.pdf\">430 students paid their tuition with the help of state vouchers</a> last year, totaling about $2.4 million in public funds."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cqmo0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "While some of Imagine’s students and staff have stayed on, Cagle said that Imagine has no involvement in the merged academy, other than owning the building."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cqmp0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“We could have allowed the buildings to just be empty, but we felt like if there was an interest by another entity for the purposes of education, that would be doing the right thing,” she said. Imagine “does not utilize vouchers for any of our schools,” she added."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cqmr0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Academically, Horizon Christian is far below average. Only 7 percent of its students passed both state exams this year, according to state data. One of its campuses received a D grade last year, and its other two failed. The academy did not respond to questions."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59cqms0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Low-performing operators in Indiana and elsewhere have skirted accountability by converting their charter schools to private schools either right before or right after a charter revocation or nonrenewal,” said Brown, the former Indianapolis official. “I can say unequivocally that any attempt to keep a low-performing school open by evading rigorous accountability is not good for students, families, or the broader school choice movement.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59d7sl0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "As it awaits its first infusion of voucher funds later this month, the Orange Park Performing Arts Academy is strapped. The district has repossessed most of the former charter school’s instructional supplies, including 200 Chromebooks, 34 laptops, 27 iPads and hundreds of textbooks. The arts — the school’s core mission — have been cleaned out: ten easels, nine digital pianos, eight heartwood djembes and four conga drums, all gone. Once lined with silver bleachers, the walls of the cavernous gym are now bare."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59d87e0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Many children have left, too. While the school had about 170 students last year, only 94 enrolled this fall. At least one quarter are kindergarteners, who didn’t attend the charter school. Tanya Bullard, who pulled her three daughters out of Orange Park, predicted it would slide further as a private school, because there will be “no one to keep an eye on it and issues will be swept under the rug.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59d87g0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The school’s new principal, Kelly Kenney, isn’t deterred. She said that she has already made significant strides to separate the school from its failed days as a charter. Most of the teachers and administrators are new hires, although half of the teachers are uncertified. Kenney plans to get the school accredited, and strengthen the board of directors. “It can’t be a board of friends,” she said. She has been working with each teacher individually to raise standards and improve curriculum."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59d87i0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Most people would have been defeated,” Kenney said. “Sometimes when you're knocked down the hardest, you come back the hardest. And so for parents that have been skeptical, I'm like ‘This will be the best year of education your child will ever have. We're going to be looking at every detail of their progress, every detail of their learning gap to make sure that we're closing it.’”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59d87j0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Even though it’s not required, Kenney intends to publish her students’ performance data on the school’s website. “It’s important for us to show how we did compared to last year,” she said."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59d87l0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "To recruit students this past summer, Kenney went door to door in nearby apartment complexes, hosting information sessions in laundry rooms. Believing that they couldn’t afford a private school, many families were reluctant to send their children to Orange Park — until Kenney told them about vouchers. For weeks, she and her staff have worked around the clock to sign up all the students in the voucher program, even helping them organize, fill out and fax in the necessary paperwork."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59d87m0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Bria Joyce is a loyalist. When her son started kindergarten at the local public school, she says he was “bumping heads” with classmates and she worried that he wasn’t receiving enough attention from teachers. She transferred him to the Orange Park charter school, where he took piano lessons and played Grandpa Joe in a production of “Charlie and the Chocolate Factory.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59d87n0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "When Joyce heard that the school was converting to a private school, she was nervous that she wouldn’t be able to afford the tuition. But the school reached out to her immediately and walked Joyce through the voucher process. Now Joyce’s son is starting fourth grade there."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd59d87p0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“They were prepared and made it as easy as they could, considering everything,” she said. “I believe in what they’re trying to get done.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd598hh61",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 14
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd598hh70",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd598hh71",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd598hh72",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 44
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd598hh73",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 33
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd598hh74",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 17
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd598hh75",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 31
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd598hh76",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd598hh77",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd598hh78",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 42
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd598hh79",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 11
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd598hh710",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 13
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd598hh711",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 31
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

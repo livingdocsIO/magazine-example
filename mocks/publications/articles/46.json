@@ -1,0 +1,581 @@
+{
+    "id": 46,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 46,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Cook County Assessor Joe Berrios’ Defeat Opens the Door to Reform",
+        "description": "Democratic primary winner Fritz Kaegi pledged change, but delivering it won’t be easy.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/655de547-6d69-4315-86cb-5d1e0072331a.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/655de547-6d69-4315-86cb-5d1e0072331a.jpeg?w=1024&auto=format",
+            "width": 1024,
+            "height": 623,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/655de547-6d69-4315-86cb-5d1e0072331a.jpeg?rect=0%2C24%2C1024%2C576&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 24,
+                    "width": 1024,
+                    "height": 576,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/655de547-6d69-4315-86cb-5d1e0072331a.jpeg?rect=0%2C24%2C1024%2C576&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/655de547-6d69-4315-86cb-5d1e0072331a.jpeg?rect=0%2C24%2C1024%2C576&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/655de547-6d69-4315-86cb-5d1e0072331a.jpeg?rect=0%2C24%2C1024%2C576&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/655de547-6d69-4315-86cb-5d1e0072331a.jpeg?rect=0%2C24%2C1024%2C576&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Politics",
+        "authors": [
+            {
+                "id": 47,
+                "name": "Jason Grotto"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd5ainum0",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd5ainum1",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "flag": "<a href=\"https://www.propublica.org/series/the-tax-divide\">THE TAX DIVIDE</a>",
+                            "title": "Cook County Assessor Joe Berrios’ Defeat Opens the Door to Reform",
+                            "text": "Democratic primary winner Fritz Kaegi pledged change, but delivering it won’t be easy.",
+                            "author": "by Jason Grotto, <a href=\"https://www.propublica.org/article/cook-county-assessor-reform-challenges-fritz-kaegi\">ProPublica</a>",
+                            "date": "March 22, 4 a.m. CDT"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd5ainum2",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/655de547-6d69-4315-86cb-5d1e0072331a.jpeg?auto=format",
+                                "width": 1024,
+                                "height": 623,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/655de547-6d69-4315-86cb-5d1e0072331a.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5ainum3",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The ouster of Cook County Assessor Joseph Berrios in the Democratic primary Tuesday paves the way for reform at a government agency that has operated for decades with little oversight or transparency, even though it has significant influence over the pocketbooks of millions of people."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5akqql0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "It also upends — for now, at least — an arrangement that one insider referred to as a political ecosystem. There, faulty assessments led to a high volume of appeals that benefited a cottage industry of tax attorneys and appraisers. They, in turn, poured contributions into the campaign coffers of the assessor and members of the Cook County Board of Review, which handles property tax appeals."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5akqqo0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "But like any entrenched bureaucracy, the forces at work in Cook County’s convoluted and opaque property tax system won’t easily give way to change. As the recent <a href=\"https://www.ccachicago.org/wp-content/uploads/2018/02/2018-Residential-Property-Analysis-Final.pdf\">independent study from the nonprofit Civic Consulting Alliance, or CCA, stated</a>: “Bringing the system into compliance with industry standards will require fundamental changes.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5akqqo1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Cook County Board President Toni Preckwinkle commissioned the CCA study in July following publication of the <a href=\"http://www.chicagotribune.com/news/watchdog/taxdivide/\">“The Tax Divide,”</a> which found deep inequities in the county’s residential assessment system."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5akqqp0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Assuming a court challenge by a third candidate, Andrea Raila, doesn’t void the election, the presumptive winner of Tuesday’s vote, Fritz Kaegi — who will not face any Republican opposition in November — has vowed to bring transparency and professionalism to an office that many concluded has lacked both."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5akqqq0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Kaegi, an asset manager who put up more than $1.5 million to fund his campaign, also pledged that, if he was elected, he would not take campaign contributions from the property tax appeal industry."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5akqqq1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Berrios, who has collected millions of dollars from the industry since taking office in December 2010, had vowed to reform the residential assessment system but remained mum on other problems plaguing the assessor’s office."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5akqqr0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "If lasting change at the assessor’s office does take hold, the real winners will be those who have paid the price for an error-ridden system: <a href=\"https://www.propublica.org/article/cook-county-property-tax-shift-regressive-assessments\">owners of lower-valued homes and businesses</a>."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5akqqs0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Even with a new assessor, some remain cautious about prospects for a truly equitable system."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5akqqt0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“I’m just taking a wait-and-see approach,” said Rozalyn Shelton, who owns a small stone house in the North Lawndale neighborhood that the assessor’s office overvalued for years. “I don’t know what the new person will do. But you try to remain hopeful that something will change.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5akqqt1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Benchmarks will help gauge the progress of reform. Here are some of the most important ones:"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5al02g0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Residential Valuation Models"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5akqqu1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Fixing assessments for the county’s roughly 1.4 million residential parcels will require creating, testing and deploying new valuation models before assessment notices go out. Thomas Jaconetty, deputy assessor for valuations and appeals, told county commissioners earlier this month the office would develop and implement new models for the city of Chicago’s reassessment, which is slated for this year."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5alo680",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Because Kaegi, if elected, would not take office until December, he will inherit whatever system Berrios puts in place."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloi00",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "This isn’t the first time the assessor’s office has pledged to improve its residential valuations. In July 2015, the office said it had adopted a new model funded by the MacArthur Foundation. The new model, the office said, was supposed to increase accuracy by 50 percent and fairness by 25 percent."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloi20",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "But reporting showed Berrios never actually implemented the new model."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloi30",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Unfortunately, we have been here before,” said Robert Weissbourd, an economic development expert who led the project to build a new model. “We know from past behavior that the current assessor’s office cannot be relied upon to fix these problems by itself.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloi40",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "A civil rights and fair housing lawsuit filed by three public interest law firms could help ensure residential assessments receive independent oversight and monitoring."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloi50",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Even with Kaegi’s election, the lawsuit will continue until reforms are done properly and with independent oversight.” said Aneel Chablani, advocacy director for the Chicago Lawyers’ Committee for Civil Rights. “The entire system needs to change, and we don’t think it can reform itself. If the election results in an opportunity to work together on that reform, we welcome that.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5alt0f0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Commercial and Industrial Assessments"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloi80",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The county’s assessment system, experts say, will not be truly reformed until major changes are made to how commercial and industrial properties are valued. But there’s no plan to study or improve commercial assessments."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloi90",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<a href=\"https://features.propublica.org/the-tax-divide/cook-county-commercial-and-industrial-property-tax-assessments/\">A joint ProPublica Illinois-Chicago Tribune investigation</a> in December found commercial and industrial assessments were even more inaccurate than those for residential properties, with small business owners paying for overvalued properties while downtown skyscrapers were consistently undervalued."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloib0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "One reason for the bad assessments: Crucial information used to value the county’s commercial and industrial properties are still kept on paper or stored on individual spreadsheets, so the information is not easily analyzed and updated."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloib1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In July, for instance, the <a href=\"https://www.bettergov.org/news/chris-kennedy-slams-same-property-tax-system-he-used-to-get-big-break\">Better Government Association</a> found that the assessor’s office didn’t realize a parking garage five blocks from the County Building had been torn down and converted into a surface lot."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloid0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "So the office will need to completely revamp the way it collects and manages data, a potentially lengthy process. Meanwhile, experts say the office should also make public the methods and underlying data used to value commercial and industrial properties to ensure they are in line with best practices."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloid1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“It’s common for assessment offices to divide the work for residential and commercial, but it needs to be considered as a whole system,” said Richard Almy, a former executive director of the International Association of Assessing Officers, a professional organization that develops guidelines used around the world."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5am9p70",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Appeals"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloif0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "While every property tax assessment system involves appeals, experts say a well-functioning one has fewer of them. In Cook County, that will happen when the assessor’s office can defend its assessments and taxpayers start to lose appeals."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloig0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“One striking feature of the Cook County system is its unusually high number of appeals when compared to other jurisdictions in the United States and abroad,” the CCA study found."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloii0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "It’s no wonder, considering reporting shows the assessor’s office has done a poor job assessing properties accurately the first time. As a result, the vast majority of people win reductions on appeal, so they have an incentive to keep appealing."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5aloii1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "For months, Berrios and his staff claimed appeals make residential assessments fairer. But the Tribune and the University of Chicago’s Harris School for Public Policy partnered on <a href=\"http://apps.chicagotribune.com/news/watchdog/cook-county-property-tax-divide/data/harris-study.pdf\">a study that found appeals actually make the system less fair</a>because wealthier homeowners appeal at higher rates."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an17m0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The assessor’s office dismissed those findings, until the <a href=\"https://www.ccachicago.org/wp-content/uploads/2018/02/2018-Residential-Property-Analysis-Final.pdf\">CCA report confirmed that the county’s reliance on appeals is a problem</a> for the same reason."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1h40",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "For decades now, the office has been geared more toward handling appeals than correctly valuing property. That trend became even more pronounced under Berrios. The number and amount of reductions on appeal skyrocketed during his tenure."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1h60",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "What’s more, <a href=\"https://projects.propublica.org/graphics/the-tax-divide-analysis\">thousands of commercial and industrial values didn’t change between reassessment periods</a>, which are three years apart. Experts said this indicated the office wasn’t doing its job."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1h70",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“For values to stay exactly the same, that indicates they aren’t doing anything,” said Peter Davis, an expert on assessments who helped write standards for the International Association of Assessing Officers."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1h90",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Changing the focus from using appeals to arrive at assessments to making accurate initial estimates could be the office’s most fundamental reform."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an8h30",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Cook County Board of Review"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1hb0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The assessor’s office isn’t the only place where taxpayers can lower their assessments. They can also go to the Cook County Board of Review, an elected three-member panel that hears appeals."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1hd0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Even if Kaegi makes strides in improving the accuracy and fairness of the system, many of those improvements would be undermined if the BOR doesn’t undertake similar reforms. The CCA study found that errors increased and fairness got worse after the BOR adjusted assessments, which suggest it, too, must be scrutinized."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1hd1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“The Board of Review in Cook County is unique compared to other jurisdictions,” said Almy. “It is behind even more of a curtain. My concern is that the same lack of transparency will take place, where you have this back room where decisions are being made about the distribution of the tax burden.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5angg20",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Transparency"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1hg0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Experts say none of the potential reforms will work if the assessor’s office fails to become more transparent. Even before Berrios succeeded James Houlihan as assessor, the office operated like a black box, with many taxpayers unable to get basic information about how officials valued their properties."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1hh0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "This, according to experts, undermines the credibility of the assessment system."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1hi0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The Tribune, for instance, sought detailed data and records showing how the assessor’s office values residential, commercial and industrial properties, but Berrios denied the newspaper’s request. So the news organization sued the assessor’s office and, in December 2016, won in Cook County CIrcuit Court."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1hl0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Berrios then appealed to the Illinois Appellate Court — at taxpayer expense. A ruling is pending."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1hm0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "A change in leadership presents an opportunity for change in how the office does business. Those who work in the assessment system and those who study it are cautiously optimistic Kaegi can deliver on his pledges of reform."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5an1hn0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“There’s an exciting opportunity now to go well beyond just fixing what’s broken,” Weissbourd said. “We could lead the way in developing 21st century governance — and revenue streams to support public works — which are more accurate and fair because they better engage and are more accountable to citizens and businesses.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5ainum4",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 47
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd5ainum5",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd5ainum6",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5ainum7",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 11
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5ainum8",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 24
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5ainum9",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 39
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5ainum10",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 33
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd5ainum11",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd5ainum12",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd5ainun0",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 11
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd5ainun1",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 39
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd5ainun2",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 44
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd5ainun3",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 24
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

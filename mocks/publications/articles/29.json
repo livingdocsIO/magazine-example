@@ -1,0 +1,404 @@
+{
+    "id": 29,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 29,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Unnecessary Medical Care Is More Common Than You Think",
+        "description": "A study in Washington state found that in a single year more than 600,000 patients underwent treatment they didn’t need, at an estimated cost of $282 million. “Do no harm” should include the cost of care, too, the report author says.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/3cf1ff83-7499-46a2-a0db-77a9b3728da5.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/3cf1ff83-7499-46a2-a0db-77a9b3728da5.jpeg?w=1024&auto=format",
+            "width": 1000,
+            "height": 667,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/3cf1ff83-7499-46a2-a0db-77a9b3728da5.jpeg?rect=0%2C52%2C1000%2C563&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 52,
+                    "width": 1000,
+                    "height": 563,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/3cf1ff83-7499-46a2-a0db-77a9b3728da5.jpeg?rect=0%2C52%2C1000%2C563&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/3cf1ff83-7499-46a2-a0db-77a9b3728da5.jpeg?rect=0%2C52%2C1000%2C563&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/3cf1ff83-7499-46a2-a0db-77a9b3728da5.jpeg?rect=0%2C52%2C1000%2C563&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/3cf1ff83-7499-46a2-a0db-77a9b3728da5.jpeg?rect=0%2C52%2C1000%2C563&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Health Care",
+        "authors": [
+            {
+                "id": 30,
+                "name": "Marshall Allen"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd56dog10",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd56dog11",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "flag": "<a href=\"https://www.propublica.org/series/wasted-medicine\">WASTED MEDICINE</a>",
+                            "title": "Unnecessary Medical Care Is More Common Than You Think",
+                            "text": "A study in Washington state found that in a single year more than 600,000 patients underwent treatment they didn’t need, at an estimated cost of $282 million. “Do no harm” should include the cost of care, too, the report author says.",
+                            "author": "by Marshall Allen, <a href=\"https://www.propublica.org/article/unnecessary-medical-care-is-more-common-than-you-think\">ProPublica</a>",
+                            "date": "Feb. 1, 5 a.m. EST"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd56dog12",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/3cf1ff83-7499-46a2-a0db-77a9b3728da5.jpeg?auto=format",
+                                "width": 1000,
+                                "height": 667,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/3cf1ff83-7499-46a2-a0db-77a9b3728da5.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56dog13",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "This story was co-published with NPR’s Shots blog."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56h5800",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "It’s one of the intractable financial boondoggles of the U.S. health care system: Lots and lots of patients get lots and lots of tests and procedures that they don’t need."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56h5820",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Women still get annual cervical cancer testing even when it’s <a href=\"https://www.npr.org/sections/health-shots/2017/09/12/550228352/for-many-women-cervical-cancer-screening-may-get-a-lot-simpler\">recommended every three to five years</a> for most women. Healthy patients are subjected to slates of unnecessary lab work before elective procedures. Doctors routinely order annual electrocardiograms and other heart tests for people who don’t need them."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56h5830",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "That all adds up to a substantial expense that helps drive up the cost of care for all of us. Just how much, though, is seldom tallied. So, the Washington Health Alliance, a nonprofit dedicated to making care safer and more affordable, decided to find out."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56h5840",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The group scoured the insurance claims from 1.3 million patients in Washington state who received one of 47 tests or services that medical experts have flagged as overused or unnecessary. What they found should cause both doctors and their patients to rethink that next referral. In a single year:"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56h9kt0",
+                        "identifier": "living-times.bullet-list",
+                        "containers": {
+                            "list": [
+                                {
+                                    "id": "doc-1cd56hajk0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "More than 600,000 patients underwent a treatment they didn’t need, treatments that collectively cost an estimated $282 million."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd56hi3i0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "More than a third of the money spent on the 47 tests or services went to unnecessary care."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd56hi3k0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "Three of four annual cervical cancer screenings were performed on women who had adequate prior screenings — at a cost of $19 million."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd56hi3k1",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "About 85 percent of the lab tests to prep healthy patients for low-risk surgery were unnecessary — squandering about $86 million."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd56hi3l0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "Needless annual heart tests on low-risk patients consumed $40 million."
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56h6o10",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Susie Dade, deputy director of the alliance and primary author of <a href=\"https://www.wacommunitycheckup.org/media/47156/2018-first-do-no-harm.pdf\">the report</a>&nbsp;released Thursday, said almost half the care examined was wasteful. Much of it comprised the sort of low-cost, ubiquitous tests and treatments that don’t garner a second look. But “little things add up,” she said. “It’s easy for a single doctor and patient to say, ‘Why not do this test? What difference does it make?’”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56hsn10",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "ProPublica has spent the past year examining <a href=\"https://www.propublica.org/series/wasted-medicine\">how the American health care system squanders money</a> — often in ways that are overlooked by providers and patients alike. The waste is widespread — estimated at $765 billion a year by the National Academy of Medicine, about a fourth of all the money spent each year on health care."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56ijto0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The waste contributes to health care costs that have outpaced inflation for decades, making patients and employers desperate for relief. This week Amazon, Berkshire Hathaway and JPMorgan rattled the industry by pledging to create their own venture to lower their health care costs."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56ijtp0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Wasted spending isn’t hard to find once researchers — and reporters — look for it. <a href=\"https://www.healthaffairs.org/doi/abs/10.1377/hlthaff.2017.0385\">An analysis in Virginia</a> identified $586 million in wasted spending in a single year. <a href=\"http://www.health.state.mn.us/healthreform/allpayer/lvsissuebrief.pdf\">Minnesota looked at fewer treatments</a> and found about $55 million in unnecessary spending."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56ijtr0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Dr. H. Gilbert Welch, a professor at The Dartmouth Institute who writes books about overuse, said the findings come back to “Economics 101.” The medical system is still dominated by a payment system that pays providers for doing tests and procedures. “Incentives matter,” Welch said. “As long as people are paid more to do more they will tend to do too much.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56ijts0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Dade said the medical community’s pledge to “Do no harm” should also cover saddling patients with medical bills they can’t pay. “Doing things that are unnecessary and then sending patients big bills is financial harm,” she said."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56ijts1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Officials from Washington’s hospital and medical associations didn’t quibble with the alliance’s findings, calling them an important step in reducing the money wasted by the medical system. But they said patients bear some responsibility for wasteful treatment. Patients often insist that a medical provider “do something,” like write a prescription or perform a test. That mindset has contributed to problems like the overuse of antibiotics — one of the items examined in the study."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56imht0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "And, the report may help change assumptions made by providers and patients that lead to unnecessary care, said Jennifer Graves, vice president for patient safety at the Washington State Hospital Association. Often a prescription or technology isn’t going to provide a simple cure, Graves said. “Watching and waiting” might be a better approach, she said."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56iv5h0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "To identify waste, the alliance study ran commercial insurance claims through a software tool called the Milliman MedInsight Health Waste Calculator. The services were provided during a one-year period starting in mid-2015. The claims were for tests and treatments identified as frequently overused by the U.S. Preventive Services Task Force and the American Board of Internal Medicine Foundation’s Choosing Wisely campaign. The tool categorized the services one of three ways: necessary, likely wasteful or wasteful."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56iv5j0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The report’s “call to action” said overuse must become a focus of “honest discussions” about the value of health care. It also said the system needs to transition from paying for the volume of services to paying for the value of what’s provided."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56iv5j1",
+                        "identifier": "living-times.paragraph"
+                    },
+                    {
+                        "id": "doc-1cd56dog14",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 30
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd56dog15",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd56dog16",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56dog17",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 39
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56dog18",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 33
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56dog19",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 42
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd56dog110",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 15
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd56dog111",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd56dog112",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd56dog113",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 31
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd56dog114",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 17
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd56dog116",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 33
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd56dog115",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 42
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

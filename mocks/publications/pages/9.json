@@ -1,0 +1,86 @@
+{
+    "id": 9,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 9,
+        "contentType": "page",
+        "documentType": "page",
+        "layout": "page",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Videos",
+        "dependencies": {}
+    },
+    "content": [
+        {
+            "id": "doc-1cd4ttdcp0",
+            "identifier": "living-times.whole",
+            "styles": {
+                "container-style-breath": "container--breath"
+            },
+            "containers": {
+                "column-one": [
+                    {
+                        "id": "doc-1cd5p48uh0",
+                        "identifier": "living-times.teaser-video-hero",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "video-hero",
+                                    "mediaId": 37
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "doc-1cd4ttdcp11",
+            "identifier": "living-times.whole",
+            "content": {
+                "title": "More Videos"
+            },
+            "styles": {
+                "container-style-lined": "container--lined",
+                "container-style-breath": "container--breath"
+            },
+            "containers": {
+                "column-one": [
+                    {
+                        "id": "doc-1cd5p5g510",
+                        "identifier": "living-times.teaser-video",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "video",
+                                    "mediaId": 35
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5p5olk0",
+                        "identifier": "living-times.teaser-video",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "video",
+                                    "mediaId": 36
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

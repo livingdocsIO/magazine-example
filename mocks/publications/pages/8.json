@@ -1,0 +1,92 @@
+{
+    "id": 8,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 8,
+        "contentType": "page",
+        "documentType": "page",
+        "layout": "page",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Immigration",
+        "dependencies": {}
+    },
+    "content": [
+        {
+            "id": "doc-1cd4tt0qd0",
+            "identifier": "living-times.whole",
+            "styles": {
+                "container-style-breath": "container--breath"
+            },
+            "containers": {
+                "column-one": [
+                    {
+                        "id": "doc-1cd4tt0qd1",
+                        "identifier": "living-times.teaser-hero",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "hero",
+                                    "mediaId": 15
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "doc-1cd4tt0qe4",
+            "identifier": "living-times.whole",
+            "content": {
+                "title": "More on immigration"
+            },
+            "styles": {
+                "container-style-lined": "container--lined",
+                "container-style-breath": "container--breath"
+            },
+            "containers": {
+                "column-one": [
+                    {
+                        "id": "doc-1cd4tt0qe5",
+                        "identifier": "living-times.teaser-card",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "card",
+                                    "mediaId": 17
+                                }
+                            }
+                        },
+                        "styles": {
+                            "teaser-image-position": "teaser-card--left-aligned-img"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4tt0qe6",
+                        "identifier": "living-times.teaser-card",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "card",
+                                    "mediaId": 44
+                                }
+                            }
+                        },
+                        "styles": {
+                            "teaser-image-position": "teaser-card--left-aligned-img"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

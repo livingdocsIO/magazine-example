@@ -1,0 +1,419 @@
+{
+    "id": 44,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 44,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Will Trump Kill the Dream for These Immigrants?",
+        "description": "With the president reportedly at the point of canceling DACA, some of its 800,000 beneficiaries describe what they gained — and now fear losing — from the program.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?w=1024&auto=format",
+            "width": 2048,
+            "height": 1435,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?rect=0%2C142%2C2048%2C1152&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 142,
+                    "width": 2048,
+                    "height": 1152,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?rect=0%2C142%2C2048%2C1152&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?rect=0%2C142%2C2048%2C1152&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?rect=0%2C142%2C2048%2C1152&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?rect=0%2C142%2C2048%2C1152&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Immigration",
+        "authors": [
+            {
+                "id": 45,
+                "name": "Marcelo Rochabrun"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd5abohf0",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd5abohf1",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "title": "Will Trump Kill the Dream for These Immigrants?",
+                            "text": "With the president reportedly at the point of canceling DACA, some of its 800,000 beneficiaries describe what they gained — and now fear losing — from the program.",
+                            "author": "by Marcelo Rochabrun, <a href=\"https://www.propublica.org/article/will-trump-kill-the-dream-for-these-immigrants\">ProPublica</a>",
+                            "date": "Sept. 1, 2017, 11:52 a.m. EDT"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd5abohf2",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?auto=format",
+                                "width": 2048,
+                                "height": 1435,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5abohf3",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Marco Guajardo starts a new job today that, he said, will provide him with health insurance for the first time. Matias Zubko is set to close on a new house on Wednesday. Roberto Angulo is hoping for a promotion at the electrical company that employs him as he nears his first anniversary there."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeoh0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "All three of them, immigrants in their 20s, now fear those prospects could vaporize in a matter of days. Guajardo, Angulo and Zubko were all brought to the U.S. illegally as children, yet since 2012 they’ve been able to work legally, get access to credit, obtain drivers’ licenses, buy houses and travel around the country. In short, they could achieve a semblance of a normal life."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeoj0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Now, they may lose their jobs and face deportation."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeoj1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The Trump administration seems poised to eliminate the immigration program on which the three men have depended. Called Deferred Action for Childhood Arrivals (DACA), the program has allowed almost 800,000 young immigrants to receive renewable work permits. But as an executive order from President Barack Obama — announced after his administration’s failure to pass the DREAM Act, which would’ve enshrined the protections in law — it can be reversed with the swipe of a presidential pen."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeok0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Trump has shown some hesitation to undo the order, expressing sympathy for those protected by it. But a group of state attorneys general, who view the program as an example of illegal executive overreach, have given him an ultimatum: End DACA by Tuesday or defend it before a judge who blocked a similar program in 2014 that would have protected undocumented parents."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeom0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "An announcement could come as soon as today. Trump could cancel all of DACA’s provisions on the spot, though a February draft order that circulated in the administration suggests he may phase out the program in stages. Under that plan, 1,000 immigrants a day would lose their work authorizations and deportation protections until none are left."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeon0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "ProPublica spoke on Thursday with more than a dozen people helped by DACA whose work permits expire as soon as a month from today and as far out as August 2019. They expressed a combination of dread and uncertainty, describing plans aborted, a terror of deportation they hadn’t felt in years, and anxiety that their lives are about to be upended."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeoo0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The potential change is forcing them to make decisions they didn’t expect to have to make. “Should we buy this house?” asked Zubko, a 28-year-old Argentinian whose wife is also protected by DACA, of the purchase he was about to make. “We got a loan,” he said. “We both have good paying jobs. And last year we had a baby and she’s an American citizen. But if DACA gets taken away, we’re not sure we’d be able to close on the house and that’s scary.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeoq0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Such concerns are widespread. Two immigrants said they’re frightened that losing their jobs means their homes will be taken away in foreclosures. One said she didn’t know whether to renew her lease. Another said she would drop out of school: Why study to be a teacher if no one will be able to employ you?"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeoq1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“I don’t know what would happen to my 401(k) or my taxes or my lease,” said Nathali Bertran, an engineer in Honda’s research and development division. A native of Peru, Bertran helped create DACA Time, a website that allows immigrants to prepare their applications digitally."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeor0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "As for Angulo, the man nearing his one-year anniversary at the electrical company, his work permit expires on October 6. Angulo renewed his Mexican passport last week — just in case. On Wednesday, he emailed his company’s human resources department wondering if they could sponsor him for an employment visa. He hasn’t heard back yet."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeot0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“It feels like I just went from being able to look at the stars and shoot for them to all of a sudden getting dragged down,” he said, “like if someone put cement blocks on your feet.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeot1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "For Guajardo’s part, his new job — and his health insurance — may turn out to be temporary. Before DACA was implemented, he lived near the Mexican border and had never left his town, scared of what would happen if he encountered one of the dozens of immigration checkpoints that the Border Patrol operates along the border."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adeou0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Now I’ve traveled all around the country,” he said. “DACA changed my life completely, from being stuck in a little town, to going to my favorite university, to getting a great job and exploring new places.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adfap0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "When DACA was created in 2012, only four states allowed undocumented immigrants to obtain driver’s licenses, and that list didn’t include Texas or California, where the majority of DACA recipients live."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adtsb0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“To have a driver’s license is a tremendous thing,” said Ken Schmitt, an immigration lawyer who has helped file hundreds of DACA applications. “In the past, one way ICE got people into removal proceedings was after they were pulled over by police,” he said, referring to U.S. Immigration and Customs Enforcement. “They would arrest them for driving without a license and then turn them over to ICE.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adtsd0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Barclay’s livelihood depends on his commercial driver’s license. A 25-year-old immigrant from Guyana, he drives a truck in New York, where, should he lose his legal status, he would no longer be eligible for a license."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adtsf0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“The only thing that I can do now is honestly to work as much as I can, basically get no sleep until that day,” Barclay said. “Once my work permit expires, I still have to pay rent, eat and live and that money won’t be building anymore, just depleting every single day. I can’t even fathom this right now.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adtsf1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Applying for DACA costs $485 every two years, excluding attorney fees. At any given moment, there are around 100,000 applications and renewals pending, according to statistics from the U.S. Citizenship and Immigration Services, which administers the program. Steve Blando, a USCIS spokesman said on Thursday evening the agency was still accepting and processing DACA applications."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adtsg0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Carlos Garcia is worried not only about losing his job but also that the government will try to deport him and his wife, who is not shielded by DACA. His work permit expires on Dec. 3 and his renewal is pending. After obtaining DACA privileges, he had started a job as an IT help desk technician and moved up to become a server administrator."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adtsh0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“No matter what the administration says, it’s open season on immigrants now,” Garcia said. “It’s easy to find us.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adtsi0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "DACA applicants feel particularly nervous because applying for the program meant they voluntarily revealed information to the government, including where they live. They also submit new portrait photographs of themselves every two years and provide details such as their height, weight, and eye and hair colors. A large number have also provided copies of their birth certificates, which identify their parents by name."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adtsj0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Alan Torres, a 31-year-old Mexican immigrant, experienced firsthand what happens when DACA protections lapse. A few years ago, his new work permit did not arrive before his old one expired. His company told him he’d have to take a leave of absence."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5adtsj1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Indeed, Torres’s career wouldn’t have been possible without the program. He has a degree in information systems but when he started college he thought he might never be able to work in his field. Said Torres: “If I had graduated without DACA I would still be working in the restaurant industry.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5abohf4",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 45
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd5abohf5",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd5abohf6",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5abohg0",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 39
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5abohg1",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 27
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5abohg2",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 13
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd5abohg3",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 11
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd5abohg4",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd5abohg5",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd5abohg6",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 46
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd5abohg7",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 31
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd5abohg8",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 33
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd5abohg9",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 29
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

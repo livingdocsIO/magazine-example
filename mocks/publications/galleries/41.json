@@ -1,0 +1,141 @@
+{
+    "id": 41,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 41,
+        "contentType": "gallery",
+        "documentType": "article",
+        "layout": "gallery",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Festival of colors 2012",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?w=1024&auto=format",
+            "width": 2048,
+            "height": 1152,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?rect=0%2C0%2C2048%2C1152&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 0,
+                    "width": 2048,
+                    "height": 1152,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?rect=0%2C0%2C2048%2C1152&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?rect=0%2C0%2C2048%2C1152&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?rect=0%2C0%2C2048%2C1152&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?rect=0%2C0%2C2048%2C1152&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {}
+    },
+    "content": [
+        {
+            "id": "doc-1cd59vs8t0",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd59vs8t1",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "title": "Festival of colors 2012"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd59vs8t2",
+                        "identifier": "living-times.gallery-container",
+                        "containers": {
+                            "gallery": [
+                                {
+                                    "id": "doc-1cd5a02um0",
+                                    "identifier": "living-times.image",
+                                    "content": {
+                                        "image": {
+                                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?auto=format",
+                                            "width": 2048,
+                                            "height": 1152,
+                                            "mimeType": "image/jpeg",
+                                            "imageService": "imgix",
+                                            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg"
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd5a02ua0",
+                                    "identifier": "living-times.image",
+                                    "content": {
+                                        "image": {
+                                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/1f5319d6-0569-421b-be26-c6db0782713b.jpeg?auto=format",
+                                            "width": 2048,
+                                            "height": 2048,
+                                            "mimeType": "image/jpeg",
+                                            "imageService": "imgix",
+                                            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/1f5319d6-0569-421b-be26-c6db0782713b.jpeg"
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd5a02ug0",
+                                    "identifier": "living-times.image",
+                                    "content": {
+                                        "image": {
+                                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f44257f8-8dbb-4bfe-809a-377d3047ea38.jpeg?auto=format",
+                                            "width": 2048,
+                                            "height": 1365,
+                                            "mimeType": "image/jpeg",
+                                            "imageService": "imgix",
+                                            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/f44257f8-8dbb-4bfe-809a-377d3047ea38.jpeg"
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd59vs8t3",
+                                    "identifier": "living-times.image",
+                                    "content": {
+                                        "image": {
+                                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/899976c3-c3d4-44ea-ab64-133d17f358c1.jpeg?auto=format",
+                                            "width": 2048,
+                                            "height": 1366,
+                                            "mimeType": "image/jpeg",
+                                            "imageService": "imgix",
+                                            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/899976c3-c3d4-44ea-ab64-133d17f358c1.jpeg"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [],
+                "sidebar": [],
+                "sidebar-ads-bottom": [],
+                "footer": []
+            }
+        }
+    ]
+}

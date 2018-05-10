@@ -1,0 +1,456 @@
+{
+    "id": 22,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 22,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "A Political Boss Goes Down",
+        "description": "Cook County Assessor Joe Berrios, one of the last leaders of the old Democratic machine, loses the Democratic primary to a wealthy political newcomer.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?w=1024&auto=format",
+            "width": 610,
+            "height": 749,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?rect=0%2C203%2C610%2C343&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 203,
+                    "width": 610,
+                    "height": 343,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?rect=0%2C203%2C610%2C343&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?rect=0%2C203%2C610%2C343&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?rect=0%2C203%2C610%2C343&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?rect=0%2C203%2C610%2C343&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Politics",
+        "authors": [
+            {
+                "id": 23,
+                "name": "Mick Dumke"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd52cdto0",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd52cdto1",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "flag": "<a href=\"https://www.propublica.org/series/politic-il-insider-mick-dumke-propublica-illinois-politics\">POLITIC-IL INSIDER</a>",
+                            "title": "A Political Boss Goes Down",
+                            "text": "Cook County Assessor Joe Berrios, one of the last leaders of the old Democratic machine, loses the Democratic primary to a wealthy political newcomer.",
+                            "author": "by Mick Dumke, <a href=\"https://www.propublica.org/article/politic-il-column-cook-county-assessor-race-berrios-kaegi-raila\">ProPublica</a>",
+                            "date": "March 21, 4 a.m. CDT"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd52cdtp0",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?auto=format",
+                                "width": 610,
+                                "height": 749,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52cdtp1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<em>When it comes to politics, there’s nowhere like Illinois. Throughout the election season, ProPublica Illinois reporter and political junkie Mick Dumke will analyze the state’s political issues and personalities in this occasional column.</em>"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52fcvr0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "If video killed the radio star, big money is sealing the fate of the old Democratic machine."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52fcvt0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Cook County Assessor Joe Berrios, one of the last remaining machine bosses, conceded early Tuesday night to a political newcomer, a nobody, as the old pols used to say. Fritz Kaegi’s apparent victory — pending a possible court challenge by a third candidate to void the election — came after he vowed to fix what has been exposed as a faulty assessment process, one that burdens lower-income property owners while helping the wealthy."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52fcvt1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "But Kaegi wasn’t just any reformer promising to clean up this town. He delivered his message by pouring more than $1.5 million of his own money into his campaign."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52fcvu0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "As the assessor’s race unfolded over the last several months — and especially as the results began to come in last night — I kept thinking about how Berrios got his start in politics nearly 50 years ago: His alderman used clout to get rid of a speeding ticket for him."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52fcvv0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "It wasn’t his first ticket, and Berrios, then 17, was worried about losing his driver’s license. That would have been a serious financial blow to him and his working-class family, he said in a 2016 interview with me and Ben Joravsky of the Chicago Reader. Berrios’ parents were from Puerto Rico, and during his early years, his family lived at the Cabrini-Green public housing development before moving to the Humboldt Park neighborhood."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52fd000",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "At a neighbor’s urging, Berrios mentioned the ticket to his precinct captain, one of those guys who’d been given a government job in return for keeping residents happy and getting them to vote for the machine. The precinct captain took Berrios to meet the boss of the 31st Ward, Alderman Tom Keane."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52ffin0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Berrios said he had no idea Keane was one of the most powerful men in the city, controlling not just his Northwest Side ward but the entire City Council as the right-hand man to Mayor Richard J. Daley. As Berrios stood before Keane’s desk, the alderman noted that the neighborhood was changing. He suggested Berrios volunteer for him."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52hval0",
+                        "identifier": "living-times.iframe",
+                        "content": {
+                            "iframe": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://www.youtube.com/embed/6i3GIF1lZ-Q\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></div>"
+                        },
+                        "styles": {
+                            "position": "right"
+                        },
+                        "data": {
+                            "_iframeDirective": {
+                                "_embedHandler": "iframe"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52fqj60",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“He said, ‘You know, we’re looking for some Hispanic kids to join the organization,’” Berrios recalled. Berrios understood that Keane was offering him a deal: You help me connect with Hispanic voters and I’ll help you take care of your speeding ticket. Berrios agreed."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52fqj80",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Sure enough, when Berrios showed up for his court hearing, the judge immediately found him not guilty. “I was amazed,” Berrios said. “And that’s how, really, I got started in the game.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52fqj90",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Berrios, worried about finding work when he finished school, was happy for the chance to join the machine. He said his first patronage job was cleaning bathrooms in Humboldt Park."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52fqjb0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“You’d be surprised, under the old system, how many people we were able to help on a day-to-day basis,” Berrios said. “Most Hispanics didn’t finish high school back then. It created opportunities for people who would not have had an opportunity.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52fqjc0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "But the system also enabled corruption. In 1974, Keane was convicted in federal court of mail fraud for a scheme involving the purchase of tax-delinquent land in city auctions. He then installed his wife as alderman while the ward organization was run by a former aide — who ended up going to federal prison, too."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52fsfr0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Meanwhile, Berrios rose through the ranks. In 1983, he became the first Hispanic to serve in the Illinois General Assembly. By 2007, he was chairman of the Cook County Democratic Party, and three years later, he was elected assessor. He also is an owner of a firm that lobbies government officials."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52g8e10",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Following in Keane’s tradition, Berrios used his positions to put family members on the public payroll."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52g8e50",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Yet his grip on power began slipping. Federal court decrees prohibit political hiring and firing for most local government positions, and the ward organizations don’t have as many jobs to hand out. Many voters are sick of insiders profiting off the system."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52g8e51",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Few people thought rookie candidate Will Guzzardi had even a faint chance when he challenged incumbent state Rep. Toni Berrios, Joe’s daughter, in 2012. But Guzzardi came within 125 votes. Two years later, Guzzardi beat her handily after going door to door for months to talk with voters."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52g8e60",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“I think we were able to show that the Berrios machine was really a paper tiger, and that they really didn’t have the strength everyone assumed,” Guzzardi told me in an interview last week. “People were really fed up with that brand of politics and wanted something different.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52g8e70",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Through it all, Berrios continued to brush off his critics. In speaking about the operations of the assessor’s office, he sounded a little like Mussolini boasting about the trains: “After one year in that office, I got the tax bills out in time,” he said, estimating this saved local governments millions of dollars in borrowing costs."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52g8e80",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "But Berrios appears to have gotten the bills out on time because thousands of commercial and industrial properties weren’t being assessed, as my colleagues Jason Grotto and Sandhya Kambhampati <a href=\"https://www.propublica.org/series/the-tax-divide\">found in months of reporting</a>. In short, the assessor’s office wasn’t doing its job."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52g8ea0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Kaegi, a financial asset manager, ran for the right office against the right guy at the right time. He depicted his quest as a social cause as much as a political campaign — even as he engaged in the old-school power play of trying to knock a third candidate, Andrea Raila, off the ballot. A state appellate court ruling kept her in the race, but some voters were told their ballots for her wouldn't count, prompting Raila to call for a new election."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52g8eb0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "This wouldn’t have happened when the machine was humming."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52gn250",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "For now, Kaegi is the winner — and Berrios is the clear loser. It remains to be seen if Kaegi will follow through on his vows to clean up and restore confidence in the assessment system. Voters are hopeful, and quite frankly, the bar is low."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52gnba0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Only a couple of the old-school bosses are left. As the machine dies off, the void is often filled by people with the finances and friends to purchase a pathway to office — as we’ve seen with Mayor Rahm Emanuel, Gov. Bruce Rauner and J.B. Pritzker, the Democratic nominee for governor."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52gnbb0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Berrios noted the trend when asked about his practice of accepting campaign contributions from lawyers with appeals before his office."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52gnbc0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“I am not the governor,” he said. “He can just flip the money out any way he wants to. I need to go out and solicit contributions.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52gnbe0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "It was a weak excuse for engaging in pay-to-play politics. But it doesn’t mean Berrios was wrong about some of the new bosses getting rid of the old ones."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52cdtp2",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 23
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd52cdtq0",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd52cdtq1",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52cdtq2",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 31
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52cdtq3",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 39
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52cdtq4",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 15
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd52cdtq5",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 13
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd52cdtq6",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd52cdtr0",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd52cdtr1",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 27
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd52cdtr2",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 17
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd52cdtr3",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 33
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd52cdtr4",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 11
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

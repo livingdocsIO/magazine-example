@@ -1,0 +1,86 @@
+{
+    "id": 18,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 18,
+        "contentType": "author",
+        "documentType": "data-record",
+        "layout": "author",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Michael Grabell",
+        "prename": "Michael",
+        "surname": "Grabell",
+        "shortname": "mg",
+        "profile": "Michael Grabell covers economic and labor issues for ProPublica and has previously reported on temp agencies, the stimulus, and the TSA.",
+        "authorImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/8ec21535-3bdc-4b40-ba97-76d479b1b46c.png",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/8ec21535-3bdc-4b40-ba97-76d479b1b46c.png?w=1024&auto=format",
+            "width": 476,
+            "height": 468,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/8ec21535-3bdc-4b40-ba97-76d479b1b46c.png?rect=4%2C0%2C468%2C468&w=1024&auto=format",
+                    "name": "1:1",
+                    "x": 4,
+                    "y": 0,
+                    "width": 468,
+                    "height": 468,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/8ec21535-3bdc-4b40-ba97-76d479b1b46c.png?rect=4%2C0%2C468%2C468&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/8ec21535-3bdc-4b40-ba97-76d479b1b46c.png?rect=4%2C0%2C468%2C468&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/8ec21535-3bdc-4b40-ba97-76d479b1b46c.png?rect=4%2C0%2C468%2C468&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/8ec21535-3bdc-4b40-ba97-76d479b1b46c.png?rect=4%2C0%2C468%2C468&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {}
+    },
+    "content": [
+        {
+            "id": "doc-1cd513tj40",
+            "identifier": "living-times.author-container",
+            "containers": {
+                "main": [
+                    {
+                        "id": "doc-1cd513tj41",
+                        "identifier": "living-times.author-head"
+                    },
+                    {
+                        "id": "doc-1cd513tj50",
+                        "identifier": "living-times.whole",
+                        "content": {
+                            "title": "All Work"
+                        },
+                        "styles": {
+                            "container-style-lined": "container--lined"
+                        },
+                        "containers": {
+                            "column-one": []
+                        }
+                    }
+                ],
+                "sidebar": []
+            }
+        }
+    ]
+}

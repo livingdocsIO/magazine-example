@@ -1,0 +1,86 @@
+{
+    "id": 34,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 34,
+        "contentType": "author",
+        "documentType": "data-record",
+        "layout": "author",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Andrew Revkin",
+        "prename": "Andrew",
+        "surname": "Revkin",
+        "shortname": "ar",
+        "profile": "Andrew Revkin is a senior reporter at ProPublica covering climate and related issues.",
+        "authorImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/1b56ec9c-a35e-464f-b19f-0d7db6c33740.png",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/1b56ec9c-a35e-464f-b19f-0d7db6c33740.png?w=1024&auto=format",
+            "width": 478,
+            "height": 474,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/1b56ec9c-a35e-464f-b19f-0d7db6c33740.png?rect=2%2C0%2C474%2C474&w=1024&auto=format",
+                    "name": "1:1",
+                    "x": 2,
+                    "y": 0,
+                    "width": 474,
+                    "height": 474,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/1b56ec9c-a35e-464f-b19f-0d7db6c33740.png?rect=2%2C0%2C474%2C474&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/1b56ec9c-a35e-464f-b19f-0d7db6c33740.png?rect=2%2C0%2C474%2C474&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/1b56ec9c-a35e-464f-b19f-0d7db6c33740.png?rect=2%2C0%2C474%2C474&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/1b56ec9c-a35e-464f-b19f-0d7db6c33740.png?rect=2%2C0%2C474%2C474&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {}
+    },
+    "content": [
+        {
+            "id": "doc-1cd57b4500",
+            "identifier": "living-times.author-container",
+            "containers": {
+                "main": [
+                    {
+                        "id": "doc-1cd57b4501",
+                        "identifier": "living-times.author-head"
+                    },
+                    {
+                        "id": "doc-1cd57b4502",
+                        "identifier": "living-times.whole",
+                        "content": {
+                            "title": "All Work"
+                        },
+                        "styles": {
+                            "container-style-lined": "container--lined"
+                        },
+                        "containers": {
+                            "column-one": []
+                        }
+                    }
+                ],
+                "sidebar": []
+            }
+        }
+    ]
+}

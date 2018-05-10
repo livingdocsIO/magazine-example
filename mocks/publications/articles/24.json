@@ -1,0 +1,563 @@
+{
+    "id": 24,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 24,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "How We Compiled Trump Town",
+        "description": "We assembled an authoritative database of the people appointed to government positions by the Trump administration. Here’s how we did it.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/5060da9c-5598-4389-b9be-bd1900398b07.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/5060da9c-5598-4389-b9be-bd1900398b07.jpeg?w=1024&auto=format",
+            "width": 2856,
+            "height": 2142,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/5060da9c-5598-4389-b9be-bd1900398b07.jpeg?rect=0%2C268%2C2856%2C1607&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 268,
+                    "width": 2856,
+                    "height": 1607,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/5060da9c-5598-4389-b9be-bd1900398b07.jpeg?rect=0%2C268%2C2856%2C1607&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/5060da9c-5598-4389-b9be-bd1900398b07.jpeg?rect=0%2C268%2C2856%2C1607&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/5060da9c-5598-4389-b9be-bd1900398b07.jpeg?rect=0%2C268%2C2856%2C1607&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/5060da9c-5598-4389-b9be-bd1900398b07.jpeg?rect=0%2C268%2C2856%2C1607&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Politics",
+        "authors": [
+            {
+                "id": 25,
+                "name": "Derek Kravitz"
+            },
+            {
+                "id": 26,
+                "name": "Al Shaw"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd538qkk0",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd538qkk1",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "title": "How We Compiled Trump Town",
+                            "text": "We assembled an authoritative database of the people appointed to government positions by the Trump administration. Here’s how we did it.",
+                            "author": "by Derek Kravitz, Al Shaw and Claire Perlman, <a href=\"https://www.propublica.org/article/how-we-compiled-trump-town\">ProPublica</a>",
+                            "date": "March 7, 12 p.m. EST"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd538qkk2",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/5060da9c-5598-4389-b9be-bd1900398b07.jpeg?auto=format",
+                                "width": 2856,
+                                "height": 2142,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/5060da9c-5598-4389-b9be-bd1900398b07.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd538qkk3",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Much like previous administrations, President Donald Trump’s team has filled hundreds of appointed positions with allies who can be trusted to carry out their agenda. These appointees include campaign staff, old policy hands at conservative think tanks and former lobbyists who worked on the issues their new agencies cover."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53bert0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "A series of required public disclosures filled out by these new appointees tell us who they are. Finding more about these people, including examining their employment histories and probing for any conflicts of interest they may have, is key to ensuring that the people the president has put in positions of enormous influence and power have the best interests of the public in mind."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53berv0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "As we did at the beginning of <a href=\"https://www.propublica.org/article/the-obama-teams-disclosure-documents-407\">the Obama administration</a>, ProPublica has published a database of who Trump has appointed to run the federal government. Here’s how we assembled it, as well as the caveats to keep in mind if you want to use the data."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53bes00",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "First, we <a href=\"https://projects.propublica.org/graphics/beachhead\">requested staffing lists of Trump administration political appointees</a> from federal agencies and the Office of Personnel Management, the government’s human resources department, through the Freedom of Information Act."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53bes10",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "To be more specific, we requested lists of Trump administration political appointees at federal agencies made since Jan. 20, 2017, on a rolling basis. Eighteen agencies and the OPM, which maintains information on all political appointees, have provided employee names at different times over the past year, while three other agencies said they had no new employees to report. Several of the officials on this list have since moved to other agencies or left the federal government."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53bfe90",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "We obtained additional employee information, including job start and end dates, via several rounds of public-records requests to the 24 federal agencies that hired the appointees. So far, 20 agencies have provided this information, while two other agencies said they had no employees to report."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53bpgr0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "We also requested information on the identities and job details of <a href=\"https://projects.propublica.org/trump-town/staffers/category/sge\">special-government employees</a>, or SGEs, who are paid consultants or experts for federal agencies while keeping their day jobs in the private sector. We have received lists of these employees from seven agencies and are awaiting responses from more than a dozen others."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53bpgs0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Assembling a list of staffers who work directly in and for the White House has been more difficult, as the White House is exempt from FOIA. We compiled lists of these staffers by <a href=\"https://www.propublica.org/article/white-house-wouldnt-post-trump-staffers-financial-disclosures\">partnering with other news organizations</a> and <a href=\"https://www.propublica.org/article/you-helped-us-find-hires-the-white-house-never-announced\">asking the public to help</a>."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53bpgt0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In April, in partnership with The Associated Press and The New York Times, we created a shareable spreadsheet of the White House office staffers we were able to find out about. The White House <a href=\"https://www.whitehouse.gov/sites/whitehouse.gov/files/docs/disclosures/07012017-report-final.pdf\">released a staff list and salaries in July</a> but has not updated that list."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53bpgv0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Once we found the names of White House staffers, we requested their financial disclosures from the White House counsel’s office. Some White House disclosure forms have yet to be processed by government attorneys and others have yet to be filed by the new employees. Vice President Mike Pence’s office has refused our requests for copies of the financial disclosures its staffers are required to file."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53bpgv1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "We collected other financial disclosures from Senate-confirmed officials through the <a href=\"https://www.oge.gov/\">U.S. Office of Government Ethics website</a>."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53bpgv2",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "We also cross-referenced the data on the OGE’s website with the <a href=\"https://www.washingtonpost.com/graphics/politics/trump-administration-appointee-tracker/database/?utm_term=.175fdb924222\">political appointee tracker</a> maintained by The Washington Post and the Partnership for Public Service, a Washington nonprofit group that advises on presidential transitions."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53bph00",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "For non-Senate-confirmed political appointees at federal agencies, we requested financial disclosures using government forms and ethics offices staffed by attorneys."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53bph10",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "ProPublica made individual requests to agency ethics offices through an administrative process required by the Ethics in Government Act of 1978. These requests were for financial disclosure forms, which include:"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53buml0",
+                        "identifier": "living-times.bullet-list",
+                        "containers": {
+                            "list": [
+                                {
+                                    "id": "doc-1cd53bv9r0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "recent positions held outside the U.S. government;"
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd53c6al0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "employment assets and income, along with retirement accounts;"
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd53c6an0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "employment agreements and arrangements;"
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd53c6ao0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "sources of compensation greater than $5,000 a year;"
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd53c6ao1",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "any spouse’s employment assets and income, along with retirement accounts"
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd53c6ap0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "other assets and income, transactions and liabilities;"
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd53c6ap1",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "gifts and travel reimbursements."
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53brs20",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In many cases, we contacted Designated Agency Ethics Officials, or DAEOs, at federal agencies to determine which financial disclosures were available and which were deemed non-compliant or not releasable due to government rules. Our database includes the stated justifications from federal agencies when they have declined to release select financial disclosure records."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnl50",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "When available, we compiled biographical information for political appointees through agency and former employer pages, LinkedIn profiles, personal websites and financial disclosure documents. We also wrote descriptions for some agencies and organizations, and wrote biographies for some staffers based on the information we collected."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnl70",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "We identified political appointees’ former employers through their federal financial disclosure forms, and reconciled variations of company and nonprofit names for our analysis. In associating appointees with employers, we used the “Filer's Positions Held Outside the United States Government” and “Filer’s Sources of Compensation Exceeding $5,000 in a Year” sections of the financial disclosure form. We then manually merged those non-governmental organization entities in our database."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnl80",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "So, for example, if one appointee listed an outside government position with “Donald J. Trump for President,” and another appointee listed “Trump for President,” we combined those into a single organization record in our database. In cases where employers or organizations are unique to the individual filer (for example, “confidential client”), we did not create grouped pages in the database. In cases where appointees added endnotes to their financial disclosures (for example, to note that an asset has been divested), we moved those references so they appear in the tables they reference. They appear in parentheses in a smaller font next to the asset description."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnl81",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "On organization pages, we list self-reported descriptions of appointees’ compensation and positions at those organizations, and which agencies they joined. These descriptions also appear next to organization names in the lists of positions outside government and former compensation sources on appointee pages."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnla0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "We did not combine entities related to appointees’ assets and liabilities."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnlb0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The online database maintains aggregate counts of three categories of former employers. Here’s how we came up with them:"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnlc0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<strong>Trump campaign groups:</strong> We grouped former staffers of President Trump’s <a href=\"https://projects.propublica.org/trump-town/organizations/donald-j-trump-for-president-inc\">2016 campaign</a>, which <a href=\"https://www.opensecrets.org/pres16/candidate?id=n00023864\">raised roughly $500 million from donors</a>, with other campaign-related groups. The <a href=\"https://projects.propublica.org/trump-town/organizations/trump-victory\">Trump Victory Committee</a> oversaw joint fundraising with the Republican National Committee and state parties. We also included <a href=\"https://projects.propublica.org/trump-town/organizations/trump-for-america-inc\">Trump’s transition team</a>."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnle0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<strong>Conservative think tanks:</strong> Using academic research and media reports, we compiled a list of <a href=\"https://projects.propublica.org/trump-town/organization_categories/think-tanks\">think tanks</a> and other nonprofits that engage in policy and/or political work and matched those organizations to past employer information from employee disclosure forms."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnlf0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<strong>Former lobbyists:</strong> To find employees with <a href=\"https://www.senate.gov/pagelayout/legislative/g_three_sections_with_teasers/lobbyingdisc.htm\">federal lobbying records filed through the Lobbying Disclosure Act</a>, we matched those by name using <a href=\"https://projects.propublica.org/represent/lobbying\">ProPublica’s Represent database</a>, and then confirmed lobbying connections by cross-referencing public resumes and work histories."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnlh0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The database also breaks out distinct aspects of political appointees under the Trump administration. Here’s how we came up with those:"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnli0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<strong>Deregulatory task force members:</strong> As part of an <a href=\"https://www.propublica.org/article/trump-has-secretive-teams-to-roll-back-regulations-led-by-hires-with-deep-industry-ties\">earlier project</a> with The New York Times, ProPublica journalists identified <a href=\"https://projects.propublica.org/trump-town/staffers/category/taskforce\">members of so-called deregulatory task forces</a> within federal agencies through FOIA requests and reporting."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnlj0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<strong>Staffers with ethics waivers:</strong> The Office of Government Ethics has released two sets of federal ethics waivers to the Trump executive order, in August and October. We also requested subsequent waivers from ethics attorneys at dozens of federal agencies. We grouped all of the appointees who received these waivers <a href=\"https://projects.propublica.org/trump-town/staffers/category/waiver\">on one page</a>."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnll0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<strong>Special-government employees:</strong> We filed separate FOIA requests with federal agencies for their lists of special-government employees. Seven agencies have responded so far. We also grouped all of the special-government employees we have found on one page."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53d1va0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Technical Details"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnlm0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Much of this data was provided as PDFs or in another difficult-to-use format. In order to analyze it and make it searchable, we used open source software, we developed our own software and we relied on traditional data entry. We used Chris Zubak-Skees’ <a href=\"https://github.com/PublicI/pfd-parser\">pfd-parser</a> to scrape information from thousands of federal financial disclosure forms. The ones that were not parseable, we transcribed by hand."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnlo0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "There are limitations to this data: For one, most federal staffing data is updated through November 2017, meaning hires, departures or transfers made later could be missing. We plan to update Trump Town on a regular basis."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnlp0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "We also have not corrected financial disclosure or staffing data from the Office of Personnel Management and federal agencies, meaning that some self-disclosed information may be inaccurate or omitted."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnlq0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<em>The following organizations and journalists helped provide context, support and analysis for Trump Town: Max Stier and Erika Walter of the Partnership for Public Service; Jeff Hauser of the Center for Responsive Politics’ Revolving Door Project; Alan Zibel of Public Citizen; Gary Price of Library Journal’s infoDOCKET; Marc DaCosta of Enigma; Austin Evers and Clark Pettig of American Oversight; Operation 45’s Property of the People; Citizens for Ethics and Responsibility in Washington; Jeremy Bowers, Eric Lipton and Danielle Ivory of The New York Times and Sarah Cohen, formerly of The New York Times; The Associated Press; and Chris Zubak-Skees of the Center for Public Integrity.</em>"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53cnlt0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<em>Jeremy Merrill and Derek Willis contributed data analysis from <a href=\"https://projects.propublica.org/represent/\">ProPublica’s Represent project</a>. Alex Mierjeski and David Jeans compiled biographical information on political appointees, fact-checked our data analyses and worked on obtaining White House financial disclosures. Marina Affo, Alison Gregor, Nikhil Kuchibhotla and Leora Smith filed and catalogued Freedom of Information Act requests to federal agencies. Dozens of ProPublica journalists supplied tips and guidance for Trump Town.</em>"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd538qkk4",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 25
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd53rkpb0",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 26
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd538qkk5",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd538qkk6",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd538qkk7",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 27
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd538qkk8",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 44
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd538qkk9",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 20
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd538qkk10",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 46
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd538qkk11",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd538qkk12",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd538qkk13",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 15
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd538qkk14",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 22
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd538qkk15",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 13
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd538qkk16",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 31
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

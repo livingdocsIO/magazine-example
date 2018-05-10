@@ -1,0 +1,384 @@
+{
+    "id": 17,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 17,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Florida Bill Seeks to Stop Arrests of Injured Immigrant Workers",
+        "description": "The bill follows an investigation by ProPublica and NPR, which found that insurance companies were turning in unauthorized immigrants who were injured on the job.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?w=1024&auto=format",
+            "width": 2556,
+            "height": 1350,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?rect=78%2C0%2C2400%2C1350&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 78,
+                    "y": 0,
+                    "width": 2400,
+                    "height": 1350,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?rect=78%2C0%2C2400%2C1350&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?rect=78%2C0%2C2400%2C1350&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?rect=78%2C0%2C2400%2C1350&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?rect=78%2C0%2C2400%2C1350&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Immigration",
+        "authors": [
+            {
+                "id": 18,
+                "name": "Michael Grabell"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd50t9df0",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd50t9df1",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "title": "Florida Bill Seeks to Stop Arrests of Injured Immigrant Workers",
+                            "text": "The bill follows an investigation by ProPublica and NPR, which found that insurance companies were turning in unauthorized immigrants who were injured on the job.",
+                            "author": "by Michael Grabell, <a href=\"https://www.propublica.org/article/florida-bill-seeks-to-stop-arrests-of-injured-immigrant-workers\">ProPublica</a>, and Howard Berkes, NPR News",
+                            "date": "Feb. 6, 3:45 p.m. EST"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd50t9df2",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?auto=format",
+                                "width": 2556,
+                                "height": 1350,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd50t9df3",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "A <a href=\"http://www.flsenate.gov/Session/Bill/2018/01568\">new bill</a> under consideration by Florida lawmakers would stop insurance companies from dodging payouts by aiding in the arrest and deportation of unauthorized immigrants who are injured on the job."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd510ei00",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Legislators and advocates have been <a href=\"https://www.propublica.org/article/florida-lawmakers-to-review-law-targeting-injured-undocumented-workers\">pushing</a> for the measure since last summer when <a href=\"https://www.propublica.org/article/they-got-hurt-at-work-then-they-got-deported\">ProPublica</a> and <a href=\"https://www.npr.org/2017/08/16/543650270/they-got-hurt-at-work-then-they-got-deported\">NPR</a> documented more than 130 cases in which immigrants who had suffered legitimate workplace injuries were flagged to law enforcement agencies by their employers’ insurers. The workers faced felony fraud charges for using a fake ID when they sought medical care. Meanwhile, the insurers often avoided paying the workers’ compensation benefits legally due to all employees injured at work."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd510ei10",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Some workers were detained by federal immigration agents and deported without getting proper medical treatment for serious injuries."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd510v340",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The practice stems from a provision in a 2003 workers’ comp law that made it a crime to file a claim using false identification. Many injured immigrants never pursued compensation themselves, ProPublica and NPR found. Instead, insurers turned them in after they sought treatment, and their employers transmitted paperwork containing the Social Security number they’d used to get hired."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd510vcr0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Because the law also made it a crime to apply for a job with a fake ID, hundreds of immigrant workers were charged with workers’ comp fraud even though they had never been injured or filed a claim."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd510vct0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "State insurance fraud investigators insist the law has nothing to do with immigration. But ProPublica and NPR found that more than 99 percent of the workers arrested under the statute were Hispanic immigrants working with false papers."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd510vct1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Critics of the 2003 law — and how it is being used — say that it not only harms workers, but it allows unscrupulous construction companies and other employers in dangerous industries to hire unauthorized immigrants, take safety shortcuts and know they won’t be financially responsible for any injuries that occur. And they say it shifts medical costs to taxpayers."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd510vcu0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“This has sent a signal throughout the workforce that if you’re injured, don’t report it, don’t tell your boss because you know that in order to keep from paying benefits, they’re going to call immigration on you,” said Rich Templin of the Florida AFL-CIO. “You will wind up in the public health care system. That is essentially the taxpayer subsidizing the health care cost that should be paid by the employer and insurance carrier.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd510vd00",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The new bill, introduced by state Sen. Gary Farmer, a Fort Lauderdale Democrat, would eliminate the false identity provision and clarify the statute so that it applies only to people who commit traditional workers’ comp fraud, such as lying about injuries or eligibility for benefits."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd510vd01",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "As is the case in nearly every state, all Florida workers — including unauthorized immigrants — are entitled to medical care and lost wages through their employers’ workers’ comp insurance."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd510vd10",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“We have a whole separate system to deal with immigration status,” Farmer said. “All of that is neither here nor there. It comes down to the fact that these folks were doing their job, got hurt while they were doing their job, and the separate issue of immigration status shouldn’t be used to take away the benefits that they’re entitled to.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd510vd30",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "It’s unclear what effect the bill would have. Unauthorized immigrants could still face charges under federal and state identity theft laws, and there’s no ban on employers calling federal immigration officials about their own workers. But Farmer’s bill also eliminates a provision that insurers said required them to inform the state whenever they discovered someone might be working with false papers."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd510vd40",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The bill hasn’t received a lot of attention in the legislature yet and doesn’t have a companion bill in the state House of Representatives. But it has gained the support of Democrats and Republicans, worker advocates, and insurance groups, and could be attached as an amendment to other workers’ comp legislation making its way through both chambers."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd511ief0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "After the ProPublica and NPR stories ran, Republican Sen. Anitere Flores, the president pro tempore of the state Senate and chair of the Banking and Insurance Committee, called the issue “<a href=\"https://www.propublica.org/article/florida-lawmakers-to-review-law-targeting-injured-undocumented-workers\">borderline unconscionable</a>.” And a national insurance group, the <a href=\"https://www.insurancefraud.org/blog/aug-2017/florida-loophole-lets-insurers-deny\">Coalition Against Insurance Fraud</a>, urged lawmakers to “correct this loophole.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd511ina0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In addition to the ProPublica and NPR investigation, the issue was also the subject of a <a href=\"https://www.naplesnews.com/story/news/special-reports/2017/12/14/floridas-disposable-workers-companies-profit-immigrants-reported-after-work-injuries-workers-comp/863286001/\">Naples Daily News series</a> in December."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd511ind0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Despite its supporters, passing the bill might not be easy, said Templin of the AFL-CIO. It’s unclear how much sway the national insurance group will have on Florida insurers, many of which are independent and tied to state business associations. In addition, he said, many lawmakers in Florida’s conservative House oppose legislation seen as helping unauthorized immigrants."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd511ind1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "ProPublica has reached out to lawmakers, insurance attorneys and industry representatives who might oppose the bill, but have not yet heard back. But attorneys working for insurers have supported the current law in the past saying that anyone who lies should not have access to benefits."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd511ine0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Still, Templin remained hopeful."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd511inf0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“When you have something brought to light that is as egregious as this, that Republicans have said is wrong, that representatives from the insurance industry have said is wrong,” he said, “this seems like a no-brainer as something that has to be done right away.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd50t9df4",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 18
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd50t9df5",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd50t9df6",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd50t9df7",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 13
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd50t9df8",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 15
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd50t9df9",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 11
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd50t9df10",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 29
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd50t9df11",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd50t9df12",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd50t9df13",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 11
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd50t9df14",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 13
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd50t9df15",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 15
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd50t9df16",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 22
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

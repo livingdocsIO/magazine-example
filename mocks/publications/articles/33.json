@@ -1,0 +1,518 @@
+{
+    "id": 33,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 33,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Development and Disasters — A Deadly Combination Well Beyond Houston",
+        "description": "Scientists warn of more and expanding “bull’s-eyes” as Americans build in parts of the country at ever greater risk because of climate change and severe weather.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/f1374a2a-9105-45da-8502-c9bf5562ba92.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f1374a2a-9105-45da-8502-c9bf5562ba92.jpeg?w=1024&auto=format",
+            "width": 2062,
+            "height": 1547,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/f1374a2a-9105-45da-8502-c9bf5562ba92.jpeg?rect=0%2C194%2C2062%2C1160&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 194,
+                    "width": 2062,
+                    "height": 1160,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f1374a2a-9105-45da-8502-c9bf5562ba92.jpeg?rect=0%2C194%2C2062%2C1160&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f1374a2a-9105-45da-8502-c9bf5562ba92.jpeg?rect=0%2C194%2C2062%2C1160&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f1374a2a-9105-45da-8502-c9bf5562ba92.jpeg?rect=0%2C194%2C2062%2C1160&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f1374a2a-9105-45da-8502-c9bf5562ba92.jpeg?rect=0%2C194%2C2062%2C1160&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Environment",
+        "authors": [
+            {
+                "id": 34,
+                "name": "Andrew Revkin"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd575dd50",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd575dd51",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "flag": "<a href=\"https://www.propublica.org/series/after-hurricane-harvey\">AFTER HURRICANE HARVEY</a>",
+                            "title": "Development and Disasters — A Deadly Combination Well Beyond Houston",
+                            "text": "Scientists warn of more and expanding “bull’s-eyes” as Americans build in parts of the country at ever greater risk because of climate change and severe weather.",
+                            "author": "by Andrew Revkin",
+                            "date": "Aug. 30, 2017, 10:30 p.m. EDT"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd575dd52",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/f1374a2a-9105-45da-8502-c9bf5562ba92.jpeg?auto=format",
+                                "width": 2062,
+                                "height": 1547,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/f1374a2a-9105-45da-8502-c9bf5562ba92.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd575dd53",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The consequences of Houston’s historic inundation, in deaths and dollars, are nowhere near fully tallied."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dhn0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Indeed, the economic costs — which will include everything from thousands of ruined and uninsured homes to higher national gasoline prices to lost business activity in the country’s fourth-largest city — will take months to calculate, and years to overcome, said Kevin Simmons, an economist at Austin College focused on storm impacts."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dho0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“In the Houston metro area alone, there is more than $325 billion in residential value at risk,” Simmons said in an interview. “Most damage to residential property will be flooding and if people don't have flood insurance they are on their own.” (Most don’t, in part because the floodwaters reached so far beyond established danger zones.)"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dhp0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Add in damaged cars, commercial property, lost business and the damage outside of Houston, “The bottom line will likely exceed Katrina,” he said. Other economists surveyed by The New York Times <a href=\"https://www.nytimes.com/2017/08/28/business/economy/texas-hurricane-harvey-economic-impact.html?mcubz=0&_r=0\">earlier this week</a> projected somewhat lower losses, but it is still early days."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dhp1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "While some aspects of Houston’s agony are likely anomalous, a similar set of risk factors threatens hundreds of communities from coast to coast and in between. The natural hazards and geography vary, but the dominant dynamic leading to unnatural disasters is the same everywhere: growth and development continue to put people and property at risk, from overdeveloped inland floodplains to fire-prone Western woodlands to crowding coastlines to homes and businesses built in America’s Tornado Alley."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dhr0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Some of the meteorological threats, like extreme downpours and heat waves, are sure to worsen in a human-heated climate, with warming from elevated levels of heat-trapping carbon dioxide and other greenhouse gases seen by many climate scientists as already <a href=\"https://www.climate.gov/news-features/understanding-climate/extreme-event-attribution-climate-versus-weather-blame-game\">contributing to the severity of rains</a> like those over Texas in recent days and <a href=\"https://www.gfdl.noaa.gov/wp-content/uploads/2016/03/FAQs_Louisiana2016_ExtremePrecip.pdf\">Louisiana last year</a>."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dhs0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "But some scientists worry that squabbles over the evolving field of <a href=\"https://www.nap.edu/catalog/21852/attribution-of-extreme-weather-events-in-the-context-of-climate-change\">“attribution” science</a>, parsing what portion of some storm is due to global warming, distract attention from the utter clarity around the role of on-the-ground decisions, or indecision, in worsening damage when bad weather strikes."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dhu0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“What gets lost in climate change debates is that society is changing, too,” said <a href=\"https://www.stephenmstrader.org/\">Stephen M. Strader</a>, an assistant professor of geography and environment at Villanova University. Strader has done a series of analyses and visualizations with Walker S. Ashley, a geographer and atmospheric scientist at Northern Illinois University, showing vividly how development, over time, creates an “<a href=\"http://chubasco.niu.edu/ebe.htm\">expanding bull’s-eye effect</a>” that exacerbates losses even if a storm’s parameters are not changed."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578di00",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "They have done such assessments for floods, fires, and tornadoes, and each holds the same lesson: hazards are natural, but disasters are unnatural."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578di01",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "One of their studies, <a href=\"http://www.weatherwise.org/Archives/Back%20Issues/2015/September-October%202015/bulls-eye-effect.html\">published in 2015</a>, examined how population growth and development amplify exposure to tornadoes, using as their template the devastating tornado that struck Moore, Oklahoma, in 2013. That tornado was <a href=\"http://kfor.com/2013/05/20/interactive-map-1999-2003-2013-moore-tornadoes/\">the third deadly twister</a> to strike that unlucky community since 1999."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578di20",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "It took <a href=\"https://www.nytimes.com/2015/05/14/opinion/an-oklahoma-suburb-tornado-ready.html?mcubz=0\">that third blow</a> to prompt the municipality in 2014 to <a href=\"https://www.cityofmoore.com/node/2111\">bolster its building codes</a>, said Simmons, the Austin College professor, who has extensively studied tornado damage. With Paul Kovacs of the Institute for Catastrophic Loss Reduction, Simmons studied whether the tougher code hurt Moore’s competitiveness with the neighboring community of Norman, Oklahoma. <a href=\"http://risk.ou.edu/downloads/news/Simmons-MooreAndNormanD-I-DPaper.pdf\">Their paper</a> found that the slight added costs and complexities of having the tougher standard “had no effect on either home sales or price per square foot for new homes in Moore.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578di30",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Norman still has no such building code, even though it is home to the federal <a href=\"http://www.nssl.noaa.gov/\">National Severe Storms Laboratory</a> — the leading center for tornado research."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578di31",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Tornadoes, to be sure, remain an enigma. One 2016 study found signs of a relationship between clusters of tornadoes in <a href=\"http://blogs.ei.columbia.edu/2016/12/01/increasing-tornado-outbreaks-is-climate-change-responsible\">violent outbreaks and climate change</a>. But broader reviews have shown no clear relationship to global warming, with the frequency of the destructive categories of twisters in the U.S. <a href=\"https://www.ncdc.noaa.gov/climate-information/extreme-events/us-tornado-climatology/trends\">unchanged or slightly declining</a> since the 1950s, according to federal climate scientists."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578di40",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In regions prone to wildfire, the same dynamics and tensions are in play. A <a href=\"https://www.nrs.fs.fed.us/pubs/48642\">comprehensive 2015 federal report</a> found that, as of 2010, the vulnerable “wildland-urban interface” of the lower 48 states includes about 44 million houses — one in every three houses in the country, with the highest concentrations of houses in California, Texas and Florida."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578di60",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The <a href=\"https://dotearth.blogs.nytimes.com/2016/08/01/burning-economic-issues-behind-americas-wildfire-problem/?mcubz=0&_r=0\">growth rate in these combustible zones</a> is similar to that in Gulf Coast floodplains, even as climate change, invasive species and other factors boost fire risk. As the land management group Headwaters Economics has shown <a href=\"http://headwaterseconomics.org/dataviz/wui-development-and-wildfire-costs/\">in detailed maps</a>, there is a vast amount of developable land that, without new policies, will greatly expand a disaster’s bull’s-eye."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578di61",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "But only <a href=\"https://planningforwildfire.org/where-we-work/\">18 communities</a> — out of thousands in fire-prone regions — have signed up with a planning assistance program for living with wildfire developed in 2015 by the group with several partners."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578di70",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "As for the dangers posed by rare, but inevitable, floods of the sort swamping Texas, they have been more discounted than other storm threats like wind, said <a href=\"http://www.drmarshallshepherd.com/bio.html\">J. Marshall Shepherd</a>, director of the atmospheric sciences program at the University of Georgia and a past president of the American Meteorological Society. This is the case even though flooding causes far more deaths and damage, Shepherd said."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578di90",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The discounting of flood risk in favor of development continues even after disasters, said <a href=\"http://ga.lsu.edu/faculty/craig-e-colten/\">Craig E. Colten</a>, the Carl O. Sauer Professor of Geography at Louisiana State University. People have a discouragingly predictable tendency to forget a disaster’s lessons — sometimes within months of a cleanup."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578di91",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Colten has been studying the impact of heavy rain events across states abutting the Gulf of Mexico, but particularly the August 2016 deluge that damaged or wrecked some 60,000 homes in or around Baton Rouge and killed 13 people."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dib0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "He said that Houston’s flood is a chart-busting anomaly that will be studied for many years, but noted that rains approaching that scope — 48 inches accumulating over a few days — were within the realm of what is possible almost anywhere along the central Gulf Coast. More such disasters are inevitable."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dib1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "For any big urban areas in regions prone to such rains, whether Houston with 4 million people or Baton Rouge with 300,000, he said: “If you have one of these exceptional rainfalls that become a new record, you really have to take that into account in development plans.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dic0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In practice, even around Baton Rouge, which was so devastated just a year ago, that’s not the case, he said."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578did0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Across the Gulf Coast in areas of low topography, we have completely built beyond what’s reasonable in terms of rain events of this scale,” Colten said. “We’re still seeing municipalities resisting safe planning in the interest of economic development and a more robust tax base.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578did1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "While several organizations around Baton Rouge are pursuing a “<a href=\"http://www.theadvocate.com/baton_rouge/article_f08c3108-bd9e-11e6-a714-3bb95b573598.html\">Rebuilding with Resilience</a>” initiative, some local governments appear to be headed in the opposite direction, Colten said."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578die0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“The remarkable thing here since the floods,” he said, “is that three parishes in the Baton Rouge area hit hardest have all backed off” on policies related to flood resilience. “Baton Rouge has already approved a couple of subdivisions in the footprint of flood from last year,” he said, adding that city officials also rejected making the most recent, and most severe, flooding event the threshold from which minimum elevations for various classes of buildings are calculated."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dif0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Frank Duke, the Baton Rouge planning director, disputed whether explosive suburban growth everywhere amplified the flood damage, according to <a href=\"http://www.nola.com/news/baton-rouge/index.ssf/2016/09/louisiana_flood_of_2016_develo.html\">an article on Nola.com last fall</a>. In that article, one local mayor said if everyone had to build new homes and businesses to new standards of elevation the community would become a ghost town."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dii0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Colten said he could sympathize, to a point."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dii1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“The compulsion was to rebuild on site,” he said. “They want to rebuild their schools at the size they were. They didn’t want people to leave. But safety needs to at least be on a par with economic development.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dij0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "At the national scale, the tensions over balancing development, safety and environmental quality were on display earlier this month when President Donald Trump, in the name of <a href=\"https://www.whitehouse.gov/the-press-office/2017/08/15/remarks-president-trump-infrastructure\">accelerating infrastructure improvements</a>, revoked a 2015 executive order from President Barack Obama <a href=\"https://obamawhitehouse.archives.gov/the-press-office/2015/01/30/executive-order-establishing-federal-flood-risk-management-standard-and-\">establishing reviews of flood risks</a>before the approval of federal funding for housing or other construction projects."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dil0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The move was <a href=\"http://www.newsweek.com/trump-revoked-obama-flood-protections-hurricane-harvey-texas-656050\">widely criticized</a> as threatening the very infrastructure the president claimed to be trying to revive, including by the <a href=\"https://www.reuters.com/article/us-usa-healthcare-cbo-idUSKCN1AV24D\">R Street Institute</a>, an organization pursuing Reagan-era approaches to cutting disaster risk and preserving the environment."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dim0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The most vocal group cheering Trump’s decision was <a href=\"http://nahbnow.com/2017/08/nahb-applauds-president-trumps-order-rescinding-overreaching-flood-standard/\">the National Association of Home Builders</a>, which had fought the Obama plan."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578din0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "R.J. Lehmann, a senior fellow at R Street Institute, noted that when Harvey came ashore northeast of Corpus Christi, Texas, on Aug. 25, as a Category 4 hurricane, it first <a href=\"https://goo.gl/maps/oVK5FdBSQgJ2\">struck barrier islands</a> that are part of a 273-million-acre zone established under the Coastal Barrier Resources Act, signed by President Ronald Reagan in 1982. That law, later expanded in 1990, <a href=\"https://www.fws.gov/cbra/Act.html\">forbade federal subsidies</a> for new development in relatively undeveloped coastal regions along the Atlantic and Gulf coasts and Great Lakes, including for roads, housing and discounted flood insurance. He said private interests could still build there but at their own risk. His organization has estimated the law has saved taxpayers more than $1 billion and is trying to expand it, as well as reform state laws in similar ways."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dio0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Where this storm made landfall, that area was protected and didn’t have federal subsidies,” he said. “That is a conservative approach to conservation.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578diq0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The challenges vary from region to region, with New York City facing risks from both coastal and rainfall-driven flooding, and having a much older and denser layout, said Daniel A. Zarrilli, who is the city's chief resilience officer and, no surprise, has been closely tracking Houston’s plight."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578diq1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "New York City has been pursuing targeted purchases and acquisitions in some of the city’s most flood-prone spots, building on similar buyouts undertaken by the state. The purchases include the entire community of <a href=\"https://goo.gl/maps/SRWAQLXZcNE2\">Oakwood Beach</a>, a Staten Island coastal neighborhood submerged by Hurricane Sandy’s surge in October, 2012."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dir0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "For the city, impacts go beyond flooding. Other risks could be compounded by climate change, with projections of more heavy downpours in a warming climate increasing the odds of the city’s vital Catskills reservoirs <a href=\"http://www.nytimes.com/2006/07/20/nyregion/20water.html?mcubz=0\">being muddied more frequently</a> — a condition that could require the construction of billions of dollars in filtration equipment that the city had avoided through environmental cleanups around the watersheds feeding into the system."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578dit0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Zarrilli was on an advisory committee set up by the United States Global Change Research Program under Obama to improve the usefulness of <a href=\"https://www.propublica.org/article/trump-has-broad-power-to-block-climate-change-report\">federal climate change risks assessments</a> as communities around the country confront emerging perils. The committee <a href=\"https://www.washingtonpost.com/news/energy-environment/wp/2017/08/20/the-trump-administration-just-disbanded-a-federal-advisory-committee-on-climate-change/?utm_term=.78c31664be93\">was disbanded on August 18</a> by the Trump administration."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd578diu0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“The point was to help convert climate science into more actionable sustained policy support,” he said. “This wildly changing climate is making mincemeat of what we thought of as normal.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd575dd54",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 34
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd575dd55",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd575dd56",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd575dd57",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 44
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd575dd58",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 31
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd575dd59",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 13
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd575dd510",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 39
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd575dd511",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd575dd512",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd575dd513",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 42
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd575dd514",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 13
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd575dd515",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 29
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd575dd516",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 11
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

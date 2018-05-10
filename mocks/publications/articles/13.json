@@ -1,0 +1,663 @@
+{
+    "id": 13,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 13,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Health and Education Journalists Can Turn Privacy Laws",
+        "description": "Government records officers frequently cite privacy restrictions to deny data requests. Here are some tips on how to overcome or sidestep these barriers.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?w=1024&auto=format",
+            "width": 1600,
+            "height": 1074,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?rect=0%2C87%2C1600%2C900&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 87,
+                    "width": 1600,
+                    "height": 900,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?rect=0%2C87%2C1600%2C900&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?rect=0%2C87%2C1600%2C900&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?rect=0%2C87%2C1600%2C900&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?rect=0%2C87%2C1600%2C900&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Education",
+        "authors": [
+            {
+                "id": 14,
+                "name": "Annie Waldmann"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd4vffr90",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd4vffr91",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "title": "How Health and Education Journalists Can Turn Privacy Laws to Their Advantage",
+                            "text": "Government records officers frequently cite privacy restrictions to deny data requests. Here are some tips on how to overcome or sidestep these barriers.",
+                            "author": "Annie Waldman, <a href=\"https://www.propublica.org/article/how-health-and-education-journalists-can-turn-privacy-laws-to-their-advantage\">ProPublica</a>",
+                            "date": "March 19, 5 a.m. EDT"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd4vffr92",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?auto=format",
+                                "width": 1600,
+                                "height": 1074,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vffr93",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "This story was co-published with the <a href=\"https://www.propublica.org/article/healthjournalism.org\">Association of Health Care Journalists</a>."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd1u0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "For decades, the Judge Rotenberg Center, a school for children with developmental and behavior disorders in Canton, Mass., employed brutal methods to discipline students, including <a href=\"https://www.propublica.org/article/nyc-sends-30-million-a-year-to-school-with-history-of-giving-kids-shocks\">electric shock therapy</a>. My colleague, Heather Vogell, and I anticipated that government data on student complaints would shed light on the school’s practices, but realized that student privacy laws protected those records from disclosure. By requesting the records with certain personally identifiable information removed, we were able to abide by the law and still document incidents of harsh punishment at the school."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd200",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Most journalists who cover health or education struggle to obtain government records and data that are vital to our stories and have compelling public interest. While some agencies are reasonably accommodating, others exploit every loophole or gray area in the law to deny public records requests—or delay in the hope that the journalist will move on to another story and stop bothering them. Health and education records are especially elusive because of federal laws that protect the privacy of patients and students."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd210",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "ProPublica has often negotiated with or contested rulings by government institutions to pry data out of them. Our persistence has led to groundbreaking findings, such as <a href=\"https://www.propublica.org/article/how-hospitals-are-failing-black-mothers\">our analysis of birth complications</a> for our “Lost Mothers” series. Over the years, I have amassed a variety of tips and tricks on how to overcome or circumvent these restrictions. I shared the following strategies last week with more than 1,200 reporters at the <a href=\"https://ire.org/conferences/nicar18/\">National Institute for Computer-Assisted Reporting</a>(NICAR) conference."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vk0ir0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Know the Laws"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd230",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The federal Freedom of Information Act (FOIA) allows records officers to deny your request under nine restrictions, or <a href=\"https://www.foia.gov/faq.html#exemptions\">exemptions</a>. They protect records related to national security, internal agency rules, trade secrets, internal agency memos, personal privacy (also known as (b)(6) or <a href=\"https://www.rcfp.org/federal-open-government-guide/exemptions-disclosure-under-foia/6-personal-privacy\">exemption 6</a>), law enforcement, banks, oil and gas wells, and any records that are exempt under other laws. States also have <a href=\"https://www.rcfp.org/open-government-guide\">open records laws</a>, and their exemptions frequently echo federal restrictions."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd231",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Two key federal laws protect the private information of patients and students: the Health Insurance Portability and Accountability Act (<a href=\"https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html\">HIPAA</a>), and the Family Educational Rights and Privacy Act (<a href=\"https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html\">FERPA</a>). Along with exemption 6, these laws are commonly cited in denials of health and education data requests."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd240",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<a href=\"https://www.ncbi.nlm.nih.gov/books/NBK9576/\">HIPAA</a>, a 1996 law, aims to make it easier for health care organizations and companies to use electronic records so that medical data can quickly be transferred. It <a href=\"https://www.hhs.gov/hipaa/for-professionals/covered-entities/index.html\">applies</a> to health care offices and institutions (for example: doctors, clinics, nursing homes, pharmacies, universities, insurance companies and more), as well as any organization that electronically transmits health care data, including schools, prisons, and detention facilities."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd280",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "HIPAA’s privacy protections last <a href=\"https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/health-information-of-deceased-individuals/index.html\">50 years after a patient dies</a>. After death, an executor or surviving family member may decide whether to disclose personal health information."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd290",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Enacted in 1974, FERPA protects the privacy of student’s “education records” and limits disclosure. Federal funds may be withheld if schools violate FERPA. Because nearly all public K-12 schools, colleges and universities receive public funds, nearly every educational institution in the country is covered by FERPA. The protected <a href=\"https://www2.ed.gov/about/overview/focus/daca-education-records.pdf\">data</a> includes information such as student or parent names, addresses, Social Security numbers, fingerprints, place and date of birth, as well as educational records."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vkklg0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Be Prepared Before Filing a Data Request"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vku4j0",
+                        "identifier": "living-times.bullet-list",
+                        "containers": {
+                            "list": [
+                                {
+                                    "id": "doc-1cd4vkv2r0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>First, find out if the data exists.</strong> Look online or phone the government entity and ask for data schemas, dictionaries and repositories (specifically discussing with a records officer which “limited use” data sets may be available). If you plan to file a request with a particular state, familiarize yourself with the state’s data reporting requirements. Ask a public affairs officer for the data before filing a formal request. Explain to the records officers that you don’t want to waste their time or yours."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vl9tk0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Track down the internal data wizard.</strong> Try to speak with data custodians, or the people responsible for maintaining the databases, instead of, or in addition to, a public affairs or records officer. They know the data best and can help you tailor your request."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vmb0s0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Always request an itemized cost estimate. </strong>Government agencies sometimes calculate exorbitant cost estimates for fulfilling your request. Make sure you seek an itemized estimate to see if they are over-charging you."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vmb8q0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Negotiations are crucial.</strong> Explain to the records officer that you are willing to negotiate the scope of your request to avoid privacy restrictions by redacting or removing certain fields."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vp4mb0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>If you plan to request data from a state government, familiarize yourself with its open records memoranda and legal decisions.</strong> State attorneys general frequently rule on thorny records requests. If your request seems legally dicey, look up recent attorney general decisions related to privacy restrictions."
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vrc510",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Even with HIPAA, You Can Still Get ‘De-Identified’ Data"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd2c1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "If a data set has been “de-identified,” HIPAA’s privacy rules <a href=\"https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html\">do not apply</a>. There are two methods for de-identification: “<a href=\"https://privacyruleandresearch.nih.gov/research_repositories.asp\">safe harbor</a>,” which suppresses fields that reveal personally identifiable information, and “expert determination,” which relies on experts to verify that there is a limited risk of identifying patients."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vs81u0",
+                        "identifier": "living-times.bullet-list",
+                        "containers": {
+                            "list": [
+                                {
+                                    "id": "doc-1cd4vs8is0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Check if de-identified data is available for download online.</strong> Local and state health agencies sometimes put de-identified data sets online. These data sets have minimal, if any, restrictions on their use."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vsu670",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Ask a records officer to remove personally identifiable fields.</strong> If the health data you want includes any personal identifiers, consider requesting the data with these variables removed or redacted. If there are account or Social Security numbers to identify each patient, ask for dummy IDs (but make sure to find out which variables have been replaced by dummy numbers)."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vt8q70",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Request aggregate data.</strong> Some records officers may deny your request on the grounds that aggregating data is the same as “creating” data, which they may not be legally obligated to do. So ask nicely, and negotiate! If you are able to get aggregated data (or data you can only publish in an aggregate form), you may be prohibited from publishing data on small groups of people in order to protect the privacy of patients."
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vtikh0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "If the Government Won’t Help, Try These Sources"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vufgk0",
+                        "identifier": "living-times.bullet-list",
+                        "containers": {
+                            "list": [
+                                {
+                                    "id": "doc-1cd4vug350",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "Depending on the hospital, you may be able to request information from the “<a href=\"https://healthjournalism.org/resources-tips-details.php?id=12#.WqgTbZPwZ24\">hospital directory</a>,” which has basic <a href=\"http://www.open-oregon.com/wp-content/uploads/2010/09/HIPAAGuide.pdf\">facts</a> about current and recent patients, including patient names and conditions, and where they are being treated within the hospital."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vuo7o0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "Hospitals, state agencies and the federal government can release <a href=\"https://www.cdc.gov/mmwr/preview/mmwrhtml/m2e411a1.htm\">statistical data</a> on hospital billing."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vut5r0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "Medical examiners are <a href=\"https://www.rcfp.org/browse-media-law-resources/news-media-law/news-media-and-law-spring-2003/hipaa-hinders-access-medica\">not covered by HIPAA</a>, although they may be covered by state privacy laws."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vv3eg0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "In some states, you may be able to get information from public ambulance or <a href=\"http://www.open-oregon.com/wp-content/uploads/2010/09/HIPAAGuide.pdf\">emergency</a> medical services."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vvbfc0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "People are <a href=\"https://www.hhs.gov/hipaa/for-professionals/privacy/guidance/access/index.html\">entitled</a> to their own records, and can share them with journalists if they so choose."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vvhh10",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "At ProPublica, we’ve had success obtaining patient-level data through an institutional review board (IRB) process. We found a non-university-affiliated board that was willing to review and approve our protocol, satisfying a government agency that had initially rejected a FOIA request. You can read more about our IRB process <a href=\"https://www.propublica.org/article/children-of-agent-orange-editors-note\">here</a>."
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vvrvg0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "When De-Identified Data Isn’t Enough, Try a Restricted-Use Data Set"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd2s0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Organizations covered by HIPAA are allowed to create data sets containing protected health information that may be disclosed for research purposes, with the understanding that the researcher signs a <a href=\"https://www.hhs.gov/hipaa/for-professionals/special-topics/emergency-preparedness/data-use-agreement/index.html\">data use agreement</a>. Some agencies give <a href=\"https://www.hhs.gov/idealab/2015/10/14/journalists-used-public-data-publish-complication-rates-16000-surgeons/\">journalists</a> access to limited- or restricted-use data sets, as long as they abide by the same rules as researchers."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd500fc00",
+                        "identifier": "living-times.bullet-list",
+                        "containers": {
+                            "list": [
+                                {
+                                    "id": "doc-1cd500fuv0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Make sure the data exists.</strong> Call the institution and ask what data sets are available in the limited and restricted form."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd500htr0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Inquire if the data would be available if you sign a data use agreement.</strong> Ask about what process researchers generally undergo to obtain data and whether it’s available to journalists as well."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd500n1d0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Review data use agreements with an attorney or your newsroom’s counsel.</strong> Make sure you understand the fine print."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd500tb90",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Understand the publishing restrictions.</strong> Many agreements limit how the data can be published (for example, an agreement might not allow you to publish raw data). Make sure you are aware of the restrictions before you sign a document, and negotiate the terms if you need to."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd5013sk0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Keep track of termination dates.</strong> Some agreements only last a few years. Make sure you update the contract when necessary."
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "doc-1cd501f4n0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "What to Include in the Data Use Agreement:"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd501rs80",
+                        "identifier": "living-times.bullet-list",
+                        "containers": {
+                            "list": [
+                                {
+                                    "id": "doc-1cd501sgr0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Statement of intent:</strong> This statement should include information about your news organization, what you plan to study, and the goals of your research."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd50271j0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Description of the data:</strong> The agreement should identify the specific data files that the organization is providing, including the time periods of the data sets. Always double check that you’re being given the time frame you want."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd502c0c0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Payment:</strong> You should negotiate the fee for the data before seeing the data use agreement. Prices may be pre-set and listed on a health agency’s website."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd502gqk0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Data uses:</strong> Most data use agreements explain clearly how the data can be used and what text should be included in your story related to source of data."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd502ld10",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>List of all reporters:</strong> With every agreement, include a list of all reporters who are or may be interested in working with the data."
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "doc-1cd50337c0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Even with FERPA, You Can Obtain Student Data"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd340",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Depending on the school or school system, you may still receive “<a href=\"https://www2.ed.gov/policy/gen/guid/fpco/ferpa/mndirectoryinfo.html\">directory information</a>,” which describes aspects of a student’s educational record that would not “be <a href=\"https://www2.ed.gov/policy/gen/guid/fpco/pdf/ferpafaq.pdf\">considered</a> harmful or an invasion of privacy if disclosed.” It typically includes: name, address, phone numbers, emails, photo, participation in activities or sports, dates of attendance, major field of study, grade level, enrollment status, weight and height of athletes, degrees, honors or awards and most recent educational institution attended. Under the law, parents may request to remove their child’s information from a directory."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd503jb30",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Aside From Directory Information, FERPA Allows You to Request:"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd50499k0",
+                        "identifier": "living-times.bullet-list",
+                        "containers": {
+                            "list": [
+                                {
+                                    "id": "doc-1cd5049op0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Instructional data</strong>: Data related to teaching and administrative roles is not considered “education records,” and is not covered by FERPA."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd504b8p0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Law enforcement or campus security data:</strong> School police units are generally not covered by FERPA. If their records are created for a non-law-enforcement purpose (for example, student suspensions), the data may be subject to FERPA restrictions. Additionally, states have varying privacy laws related to juvenile crime."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd504ftt0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Health or emergency records:</strong> Institutions may release records without a student’s or parent’s permission if necessary to safeguard student health or safety."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd504r340",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>School employment data:</strong> Data related to staff members at the school is not covered by FERPA, unless the employee is also a student."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd504s2j0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Scholarship and award data:</strong> Because it can be considered directory data, this information may not be subject to FERPA restrictions. Still, colleges and universities have tried to use <a href=\"http://www.splc.org/article/2010/09/seeking-sunlight-for-scholarships?id=1565&amp;edition=53\">FERPA</a> to deny requests for this information, prompting some reporters to file lawsuits seeking its release, with mixed success."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd5053040",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "<strong>Spending or contracting data</strong>: As this data does not relate to “education records,” it is, for the most part, not covered by FERPA."
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd380",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "To sidestep FERPA restrictions, you may be able to request aggregated data or for the personally identifiable fields to be redacted or removed. Sometimes, as with HIPAA, an entity will require a journalist to sign a data use agreement. Many of the same tips related to HIPAA apply."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vjd390",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Have any additional questions? Feel free to email Annie at <a href=\"mailto:annie.waldman@propublica.org\">annie.waldman@propublica.org</a>."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vffr94",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 14
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd5onsid0",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd4vffr96",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vffr97",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 11
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vffr98",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 24
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vffr99",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 44
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4vffr910",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 46
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd4vffr911",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd4vffr912",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd4vffr913",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 11
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vffr914",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 44
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd4vffr915",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 17
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd4vffr916",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 20
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

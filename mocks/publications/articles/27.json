@@ -1,0 +1,413 @@
+{
+    "id": 27,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 27,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Book Review: The Ordeal of Appalachia",
+        "description": "A new account challenges our notion of how the people of Appalachia “acquired civilization and then lost it.”",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/ce3f551c-5b72-4d9b-9193-c989182f46a9.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/ce3f551c-5b72-4d9b-9193-c989182f46a9.jpeg?w=1024&auto=format",
+            "width": 3000,
+            "height": 2026,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/ce3f551c-5b72-4d9b-9193-c989182f46a9.jpeg?rect=0%2C169%2C3000%2C1688&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 169,
+                    "width": 3000,
+                    "height": 1688,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/ce3f551c-5b72-4d9b-9193-c989182f46a9.jpeg?rect=0%2C169%2C3000%2C1688&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/ce3f551c-5b72-4d9b-9193-c989182f46a9.jpeg?rect=0%2C169%2C3000%2C1688&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/ce3f551c-5b72-4d9b-9193-c989182f46a9.jpeg?rect=0%2C169%2C3000%2C1688&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/ce3f551c-5b72-4d9b-9193-c989182f46a9.jpeg?rect=0%2C169%2C3000%2C1688&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Environment",
+        "authors": [
+            {
+                "id": 28,
+                "name": "Alec MacGillis"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd548odl0",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd548odl1",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "title": "Book Review: The Ordeal of Appalachia",
+                            "text": "A new account challenges our notion of how the people of Appalachia “acquired civilization and then lost it.”",
+                            "author": "by Alec MacGillis, <a href=\"https://www.propublica.org/article/book-review-the-ordeal-of-appalachia\">ProPublica</a>",
+                            "date": "Oct. 30, 2017, 3:30 p.m. EDT"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd548odl2",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/ce3f551c-5b72-4d9b-9193-c989182f46a9.jpeg?rect=125%2C98%2C2727%2C1842&auto=format",
+                                "width": 3000,
+                                "height": 2026,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/ce3f551c-5b72-4d9b-9193-c989182f46a9.jpeg",
+                                "crop": {
+                                    "x": 125,
+                                    "y": 98,
+                                    "width": 2727,
+                                    "height": 1842,
+                                    "name": ""
+                                }
+                            },
+                            "caption": "Slag heap above housing on Buffalo Creek near Logan, West Virginia"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd548odl3",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "This story was co-published with Washington Monthly."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54d3f20",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "We are, one hears, spending too much time on Appalachia. There are too many dispatches from woebegone towns, coastal reporters parachuting in to ascertain that, yes, the hard-bitten locals are still with their man Donald Trump. There are too many odes to the beleaguered coal miner, even though that entire industry now employs fewer people than Arby’s. Enough already, says the exasperated urban liberal. Frank Rich captured this sentiment in March in a New York magazine piece entitled “No Sympathy for the Hillbilly.” “Maybe,” he mused, “they’ll keep voting against their own interests until the industrial poisons left unregulated by their favored politicians finish them off altogether. Either way, the best course for Democrats may be to respect their right to choose.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54d3f30",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The superficial “downtrodden Trump voter” story has indeed become an unproductive cliché. And upheavals in industries with larger, more diverse workforces than coal, such as retail, deserve close attention as well. But our decadeslong fixation with Appalachia is still justified. For starters, the political transformation of the region is genuinely stunning. West Virginia was one of just six states that voted for Jimmy Carter in 1980; last year, it gave Trump his second-largest margin of victory, 42 points."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54d3f31",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "More importantly, the region’s afflictions cannot simply be cordoned off and left to burn out. The opioid epidemic that now grips whole swaths of the Northeast and Midwest got its start around the turn of the century in central Appalachia, with the shameless targeting of a vulnerable customer base by pharmaceutical companies hawking their potent painkillers. The epidemic spread outward from there, sure as an inkblot on a map. People like Frank Rich may be callous enough to want to consign Appalachians to their “poisons,” but the quarantine is not that easy."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54d3f40",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "We should be thankful, then, for what Steven Stoll, a historian at Fordham University, has delivered in his new book “Ramp Hollow: The Ordeal of Appalachia” (Hill and Wang) — not just another account of Appalachia’s current plight, but a journey deeper in time to help us understand how the region came to be the way it is. For while much has been written about the region of late, the historical roots of its troubles have received relatively little recent scrutiny. “Hillbilly Elegy,” J. D. Vance’s best-selling memoir of growing up in an Appalachian family transplanted from eastern Kentucky to the flatlands of southwestern Ohio, cast his people’s afflictions largely as a matter of a culture gone awry, of ornery self-reliance turned to resentful self-destruction. In “White Trash,” the historian Nancy Isenberg traced the history of the country’s white underclass to the nation’s earliest days, but she focused more on how that underclass was depicted and scorned than on the material particulars of its existence."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54d3f50",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Stoll offers the ideal complement. He has set out to tell the story of how the people of a sprawling region of our country — one of its most physically captivating and ecologically bountiful — went from enjoying a modest but self-sufficient existence as small-scale agrarians for much of the 18th and 19th centuries to a dreary dependency on the indulgence of coal barons or the alms of the government."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54d3f70",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Stoll refuses to accept that there is something intrinsically lacking in Appalachians — people who, after all, managed to carve out a life on such challenging, mountainous terrain. Something was done to them, and he is going to figure out who did it. He links their fate to other threatened agrarian communities, from rice growers in the Philippines to English peasants at the time of the Enclosure Acts. “Whenever we see hunger and deprivation among rural people, we need to ask a simple question: What went on just before the crisis that might have caused it?” he writes. “Seeing the world without the past would be like visiting a city after a devastating hurricane and declaring that the people there have always lived in ruins.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54f3750",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The missing history is above all a story about land and dispossession. For roughly a century, starting before the country’s founding, the settlers of central Appalachia — defined by Stoll as the southwestern corner of Pennsylvania and most of West Virginia — managed a makeshift life as smallholders. The terms of that “holding” were murky, to say the least: Property claims in the region were a tangled patchwork of grants awarded to French and Indian or Revolutionary War generals and other notables, which were commonly diced and sliced among speculators, and the de facto claims made by those actually inhabiting the land. In some cases, those settlers managed to get official deeds by the legal doctrine of “adverse possession”; in many others, they were simply allowed to keep working the land by distant landlords who had never laid eyes on it."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54f3fm0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Regardless of the legal letter, the settlers carved out their “homeplace,” as Stoll calls it. He is evocative in describing their existence, but stops short of romanticizing it, and takes pains to note that their presence was itself founded on the dispossession of the natives. They practiced “swidden” agriculture — burning out one clearing for cultivation, then letting it regenerate while rotating to another area — likely introduced by Scandinavians mixed in with the predominant Scots-Irish. Survival depended on shared use of the boundless forest beyond one’s own hollow or ridge — the “commons” — for hunting game, raising livestock, small-scale logging and foraging bounties such as uganost (wild greens), toothworth, corn salad and ramps. “People with control over a robust landscape work hard, but they don’t go hungry,” remarks Stoll."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54f3fo0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Yet it was the area’s very natural bounty that would ultimately spell the end of this self-sufficiency. The Civil War’s incursions into the Shenandoah Valley and westward exposed the region’s riches in exactly the minerals demanded by a growing industrial economy. (By 1880, there were 56,500 steam engines in the country, all voracious for coal.) “Her hills and valleys are full of wealth which only needs development to attract capitalists like a magnet,” declared one joint-stock company. In swarmed said capitalists, often in cahoots with local power brokers from Charleston and Wheeling."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54f3fr0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The confused legal property claims offered the aspiring coal barons a window: They could approach longtime inhabitants and say, essentially, “Look, we all know you don’t have full title to this land, but if you sell us the mineral rights, we’ll let you stay.” With population growth starting to crimp the wide-ranging agrarian existence, some extra cash in hand was hard to reject. Not that it was very much: One farmer turned over his 740 acres for a mere $3.58 per acre — around $80 today. By 1889, a single company, Flat Top Land Trust, had amassed rights to 200,000 acres in McDowell County in southern West Virginia; just 13 years later, McDowell was producing more than five million tons of coal per year."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54f3fr1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The coal industry had a positively soft touch in the early going, though, compared to timber. Stoll describes the arrival of the “steam skidder,” which “looks like a locomotive with a ship’s mast.” It “clanks and spits, chugs steam, and sweats grease from its wheels and pistons” as workers use cables extending from the mast to grab fallen trees, “pulling or skidding the logs hundreds of feet to a railroad flatbed.” The steam skidder crews would cut everything they could, “leaving the slopes barren but for the stumps, branches, and bark that burned whenever a spark from a railroad wheel or glowing ash from a tinderbox fell on the detritus.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54f3fs0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The harvest was staggering: “Of the 10 million acres that had never been cut in 1870, only 1.5 million stood in 1910.” Stoll quotes one witness from the time: “One sees these beautiful hills and valleys stripped of nature’s adornment; the hills denuded of their forests, the valleys lighted by the flames of coke-ovens and smelting furnaces; their vegetation seared and blackened ... and one could wish that such an Arcadia might have been spared such ravishment. But the needs of the race are insatiable and unceasing.” Indeed, they were. As one northern lumberman put it: “All we want here is to get the most we can out of this country, as quick as we can, and then get out.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54fvrq0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Such rapaciousness did not leave much of the commons that had sustained the makeshift agrarian existence. Of course, there was a new life to replace it: mining coal or logging trees. By 1929, 100,000 men, out of a total state population of only 1.7 million, worked in 830 mines across West Virginia alone. But it is in that very shift that Stoll identifies the region’s turn toward immiseration. With the land spoiled and few non-coal jobs available, workers were at the mercy of whichever coal company dominated their corner of the region. They lived in camps and were paid in scrip usable only at the company store; even the small gardens they were allowed in the camps were geared less toward self-reliance than toward cutting the company’s costs to feed them."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54g05q0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Stoll quotes a professor at Berea College in eastern Kentucky who captured the new reality in a 1924 book: The miner “had not realized that he would have to buy all his food. ... He has to pay even for water to drink.” Having moved their families to a shanty in the camp, miners owed rent even when the mine closed in the industry’s cyclical downturns, which served to “bind them as tenants by compulsion ... under leases by which they can be turned out with their wives and children on the mountainside in midwinter if they strike.” As Stoll sums it up, “Their dependency on company housing and company money spent for food in company-owned stores amounted to a constant threat of eviction and starvation.” Of course, Merle Travis had this dynamic nailed way back in his 1947 classic, “Sixteen Tons”: “You load sixteen tons, what do you get? / Another day older and deeper in debt. / Saint Peter, don’t you call me, ’cause I can’t go, / I owe my soul to the company store.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54g05s0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Nor did the industries bring even a modicum of mass prosperity to compensate for this dependency. By 1960, more than half the homes in central Appalachia still lacked central plumbing, helping give rise to all manner of cruel stereotypes and harsh commentary, such as this, from the British historian Arnold Toynbee: “The Appalachians present the melancholy spectacle of a people who have acquired civilization and then lost it.” An extensive 1981 study of 80 Appalachian counties by the Highlander Research and Educational Center in Tennessee confirmed that, in Stoll’s summary, coal company capital had brought “stagnation, not human betterment,” and a “correlation between corporate control and inadequate housing.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54g05u0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "“Banks in coal counties couldn’t invest in home construction or other local improvements because the greater share of their deposits belonged to the companies,” Stoll writes. “No sooner did that capital flow in than it flowed out, depriving banks of funds stable enough for community lending.” Not only had the coal industry, along with timber, supplanted an earlier existence, but it was actively stifling other forms of growth and development."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54g05v0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Stoll recounts a scene from 1988, when a man named Julian Martin got up at a public hearing to oppose a proposed strip-mining project in West Virginia. Martin described the disappearance of Bull Creek along the Coal River, which he had explored as a kid decades earlier. He pointed out that places that had seen the most strip mining had also become the very poorest in the state. “My daddy was a coal miner, and I understand being out of work, okay?” Martin said. “I’ve been down that road myself. And I know you’ve got to provide for your family. But I’m saying they’re only giving us two options. They’re saying, ‘Either starve — or destroy West Virginia.’ And surely to God there must be another option.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54g2570",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "It’s a powerful moment, and it captures the tragic political irony that is one of the most lasting fruits of the region’s dependency: Despite all the depredations of resource extraction — all the mine collapses and explosions (29 killed at Upper Big Branch in 2010) and slurry floods (125 killed in the Buffalo Creek disaster of 1972) and chemical spills (thousands without drinking water after the contamination of the Elk River in 2014) — many inhabitants, and their elected representatives, remain fiercely protective of the responsible industries. Even the empathetic Stoll can’t help let his frustration show, as he urges the “white working class of the southern mountains to stop identifying their interests with those of the rich and powerful, a position that leaves them poorer and more powerless than they have ever been.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54gbug0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Well, yes, but many a book has been written to explain why exactly the opposite trend has been happening, as Appalachia turns ever redder. It shouldn’t be <em>that</em>hard to make sense of the coal-related part of this political turn, and voters’ rightful assessment that coastal Democrats are hostile to the industry. The region has been dominated by mining for so long that coal has become deeply interwoven with its whole sense of self. Just last month, I was speaking with a couple of retired union miners in Fairmont, West Virginia, who are highly critical of both coal companies and Trump, and suffer the typical physical ailments from decades spent underground. Yet both said without hesitation that they missed the work for the camaraderie and sense of purpose it provided. Their ancestors identified as agrarians; they identified as miners."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54gbuj0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Stoll is on more original and compelling ground as he tries to determine what that “other option” might be for the region. He imagines a “Commons Communities Act,” under which land would be set aside for shared use, not unlike the great forests of old — farming, timber harvesting, hunting and gathering, vegetable gardening, cattle grazing — by a specified number of families. Residents would own their own homes and could pursue whatever sort of work they cared to beyond their use of the commons. Social services and education in the communities would be paid for by a surcharge on the top 1 percent of U.S. households and an “industrial abandonment tax” on any corporation that “closed its operations in any city or region of the United States within the last twenty years ... and moved elsewhere, leaving behind toxic waste and poverty.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd54gbuj1",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "It is an admittedly fantastical vision that will fare better with Wendell Berry than with Congress or the West Virginia Legislature. But in one sense, it is not so far-fetched after all. Coal <em>is</em> on the wane in central Appalachia, however much uptick it enjoys in the Trump era. Not only is it being undercut by natural gas, but the easily obtainable reserves are gradually tapping out, at long last. Coal’s decline is having wrenching effects on its dependents, not least the depletion of local government and school coffers. Something will have to replace it, and the odds of Amazon picking Morgantown or Charleston for its second headquarters are slim. West Virginia’s population has fallen by nearly 10 percent from its peak in 1950, a reversal of the crowding that helped bring the agrarian existence to an end more than a century ago. So perhaps it is not so crazy after all to suppose that a region so proud of its heritage could reach back to an earlier, almost-forgotten part of it, before the steam skidder showed up, and lay new claim to its land."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd548odl4",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 28
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd548odl5",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd548odl6",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd548odl7",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 33
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd548odl8",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 29
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd548odl9",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 39
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd548odl10",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 24
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd548odl11",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd548odl12",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd548odl13",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 29
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd548odl14",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 44
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd548odl15",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 33
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd548odl16",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 13
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,56 +1,56 @@
 {
-  "version": 8,
-  "handle": "main",
-  "label": "Main",
-  "maxDepth": 0,
-  "nodes": [
-    {
-      "label": "News",
-      "uri": "/",
-      "type": "uri",
-      "nodes": []
-    },
-    {
-      "label": "Culture",
-      "type": "uri",
-      "uri": "#",
-      "nodes": []
-    },
-    {
-      "label": "Books",
-      "type": "uri",
-      "uri": "#",
-      "nodes": []
-    },
-    {
-      "label": "Business",
-      "type": "uri",
-      "uri": "#",
-      "nodes": []
-    },
-    {
-      "label": "Humor",
-      "type": "uri",
-      "uri": "#",
-      "nodes": []
-    },
-    {
-      "label": "Video",
-      "type": "uri",
-      "uri": "#",
-      "nodes": []
-    },
-    {
-      "label": "Archive",
-      "type": "uri",
-      "uri": "#",
-      "nodes": []
-    },
-    {
-      "label": "Docs",
-      "type": "uri",
-      "uri": "https://docs.livingdocs.io",
-      "nodes": []
-    }
-  ]
+    "handle": "main",
+    "version": 11,
+    "label": "Main",
+    "maxDepth": 0,
+    "nodes": [
+        {
+            "label": "Politics",
+            "nodes": [],
+            "documentId": "3",
+            "type": "document"
+        },
+        {
+            "label": "Technology",
+            "nodes": [],
+            "documentId": "4",
+            "type": "document"
+        },
+        {
+            "label": "Education",
+            "nodes": [],
+            "documentId": "5",
+            "type": "document"
+        },
+        {
+            "label": "Environment",
+            "nodes": [],
+            "documentId": "6",
+            "type": "document"
+        },
+        {
+            "label": "Health Care",
+            "nodes": [],
+            "documentId": "7",
+            "type": "document"
+        },
+        {
+            "label": "Immigration",
+            "nodes": [],
+            "documentId": "8",
+            "type": "document"
+        },
+        {
+            "label": "Videos",
+            "nodes": [],
+            "documentId": "9",
+            "type": "document"
+        },
+        {
+            "label": "Photos",
+            "nodes": [],
+            "documentId": "10",
+            "type": "document"
+        }
+    ]
 }

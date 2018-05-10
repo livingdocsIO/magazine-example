@@ -1,0 +1,75 @@
+{
+    "id": 7,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 7,
+        "contentType": "page",
+        "documentType": "page",
+        "layout": "page",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Health Care",
+        "dependencies": {}
+    },
+    "content": [
+        {
+            "id": "doc-1cd4tsnqb0",
+            "identifier": "living-times.whole",
+            "styles": {
+                "container-style-breath": "container--breath"
+            },
+            "containers": {
+                "column-one": [
+                    {
+                        "id": "doc-1cd4tsnqb1",
+                        "identifier": "living-times.teaser-hero",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "hero",
+                                    "mediaId": 29
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "doc-1cd4tsnqc5",
+            "identifier": "living-times.whole",
+            "content": {
+                "title": "More on Health Care"
+            },
+            "styles": {
+                "container-style-lined": "container--lined",
+                "container-style-breath": "container--breath"
+            },
+            "containers": {
+                "column-one": [
+                    {
+                        "id": "doc-1cd4tsnqc10",
+                        "identifier": "living-times.teaser-card",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "card"
+                                }
+                            }
+                        },
+                        "styles": {
+                            "teaser-image-position": "teaser-card--left-aligned-img"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

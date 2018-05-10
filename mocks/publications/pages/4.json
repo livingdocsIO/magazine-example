@@ -1,0 +1,92 @@
+{
+    "id": 4,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 4,
+        "contentType": "page",
+        "documentType": "page",
+        "layout": "page",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Technology",
+        "dependencies": {}
+    },
+    "content": [
+        {
+            "id": "doc-1cd4trpes0",
+            "identifier": "living-times.whole",
+            "styles": {
+                "container-style-breath": "container--breath"
+            },
+            "containers": {
+                "column-one": [
+                    {
+                        "id": "doc-1cd4trpet0",
+                        "identifier": "living-times.teaser-hero",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "hero",
+                                    "mediaId": 20
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "doc-1cd4trpet10",
+            "identifier": "living-times.whole",
+            "content": {
+                "title": "More on Technology"
+            },
+            "styles": {
+                "container-style-lined": "container--lined",
+                "container-style-breath": "container--breath"
+            },
+            "containers": {
+                "column-one": [
+                    {
+                        "id": "doc-1cd4trpeu0",
+                        "identifier": "living-times.teaser-card",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "card",
+                                    "mediaId": 31
+                                }
+                            }
+                        },
+                        "styles": {
+                            "teaser-image-position": "teaser-card--left-aligned-img"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd4trpeu1",
+                        "identifier": "living-times.teaser-card",
+                        "content": {
+                            "teaser": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "card",
+                                    "mediaId": 42
+                                }
+                            }
+                        },
+                        "styles": {
+                            "teaser-image-position": "teaser-card--left-aligned-img"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "id": 16,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 16,
+        "contentType": "author",
+        "documentType": "data-record",
+        "layout": "author",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Adriana Gallardo",
+        "prename": "Adriana",
+        "surname": "Gallardo",
+        "shortname": "ag",
+        "profile": "Adriana Gallardo is a engagement reporter at ProPublica.",
+        "authorImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/d53fe0dc-18f9-4e37-9e44-f6ac4b966ca9.png",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/d53fe0dc-18f9-4e37-9e44-f6ac4b966ca9.png?w=1024&auto=format",
+            "width": 526,
+            "height": 504,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/d53fe0dc-18f9-4e37-9e44-f6ac4b966ca9.png?rect=11%2C0%2C504%2C504&w=1024&auto=format",
+                    "name": "1:1",
+                    "x": 11,
+                    "y": 0,
+                    "width": 504,
+                    "height": 504,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/d53fe0dc-18f9-4e37-9e44-f6ac4b966ca9.png?rect=11%2C0%2C504%2C504&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/d53fe0dc-18f9-4e37-9e44-f6ac4b966ca9.png?rect=11%2C0%2C504%2C504&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/d53fe0dc-18f9-4e37-9e44-f6ac4b966ca9.png?rect=11%2C0%2C504%2C504&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/d53fe0dc-18f9-4e37-9e44-f6ac4b966ca9.png?rect=11%2C0%2C504%2C504&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {}
+    },
+    "content": [
+        {
+            "id": "doc-1cd50n2um0",
+            "identifier": "living-times.author-container",
+            "containers": {
+                "main": [
+                    {
+                        "id": "doc-1cd50n2um1",
+                        "identifier": "living-times.author-head"
+                    },
+                    {
+                        "id": "doc-1cd50n2un0",
+                        "identifier": "living-times.whole",
+                        "content": {
+                            "title": "All Work"
+                        },
+                        "styles": {
+                            "container-style-lined": "container--lined"
+                        },
+                        "containers": {
+                            "column-one": []
+                        }
+                    }
+                ],
+                "sidebar": []
+            }
+        }
+    ]
+}

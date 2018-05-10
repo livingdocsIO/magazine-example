@@ -1,0 +1,350 @@
+{
+    "id": 20,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 20,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Monitor Political Ads on Facebook",
+        "description": "From Australia to Scandinavia, our Political Ad Collector is holding advertisers accountable by revealing pitches that only a targeted slice of Facebook users would otherwise see.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/3816225a-cffb-4a54-affc-200129677756.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/3816225a-cffb-4a54-affc-200129677756.jpeg?w=1024&auto=format",
+            "width": 3000,
+            "height": 1885,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/3816225a-cffb-4a54-affc-200129677756.jpeg?rect=0%2C99%2C3000%2C1688&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 99,
+                    "width": 3000,
+                    "height": 1688,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/3816225a-cffb-4a54-affc-200129677756.jpeg?rect=0%2C99%2C3000%2C1688&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/3816225a-cffb-4a54-affc-200129677756.jpeg?rect=0%2C99%2C3000%2C1688&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/3816225a-cffb-4a54-affc-200129677756.jpeg?rect=0%2C99%2C3000%2C1688&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/3816225a-cffb-4a54-affc-200129677756.jpeg?rect=0%2C99%2C3000%2C1688&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Technology",
+        "authors": [
+            {
+                "id": 21,
+                "name": "Jennifer Valentino-DeVries"
+            }
+        ]
+    },
+    "content": [
+        {
+            "id": "doc-1cd51p4f00",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cd51p4f01",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "flag": "<a href=\"https://www.propublica.org/series/machine-bias\">MACHINE BIAS</a>",
+                            "title": "Outlets in Eight Countries Are Using Our Tool to Monitor Political Ads on Facebook",
+                            "text": "From Australia to Scandinavia, our Political Ad Collector is holding advertisers accountable by revealing pitches that only a targeted slice of Facebook users would otherwise see.",
+                            "author": "by Jennifer Valentino-DeVries, <a href=\"https://www.propublica.org/article/outlets-in-eight-countries-are-using-our-tool-to-monitor-political-ads-on-facebook\">ProPublica</a>",
+                            "date": "Feb. 8, 5 a.m. EST"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cd51p4f02",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/3816225a-cffb-4a54-affc-200129677756.jpeg?auto=format",
+                                "width": 3000,
+                                "height": 1885,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/3816225a-cffb-4a54-affc-200129677756.jpeg"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51p4f03",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "As the Australian government was conducting a national mail-in survey to gauge support for legislation legalizing same-sex marriage this fall, ads appeared on Facebook trying to sway specific groups of voters."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51r8qd0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Opponents of gay marriage targeted people who, based on pages they liked and posts they had clicked on, were interested in “prayer” and “Christianity.” It is “a child’s right to be raised and loved by their married mother and father,” one video ad said. An advertiser who favors same-sex marriage pitched other users for whom “family” was a priority, contending that the legislation would help children “grow more securely, in less fear of the possibility that they could be different from others.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51r8qf0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Ordinarily, nobody would see these ads outside the groups they were aimed at. Though online ads are growing in influence, they’re typically short-lived and directed at a particular audience, making them hard for media outlets and other election observers to find, fact-check and investigate."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51r8qg0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "But <a href=\"https://www.theguardian.com/technology/ng-interactive/2017/oct/25/revealed-how-australians-are-targeted-with-political-advertising-on-facebook\">The Guardian Australia</a>, an arm of the United Kingdom-based newspaper, uncovered the ads, using <a href=\"https://www.propublica.org/article/help-us-monitor-political-ads-online\">a tool</a> created by ProPublica to monitor politically themed advertising on Facebook. The tool, dubbed the Political Ad Collector, gathers ads from the Facebook feeds of any users who install it in their web browser, and identifies which ones are political. It has been installed by more than 3,000 people and is being used by journalists at 10 outlets in the U.S. and seven other countries. Organizations in two other countries plan to start using the PAC soon."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51r8qi0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Concerns about political advertising on Facebook have soared in the wake of covert Russian efforts to influence U.S. voters on social media in the 2016 election. Facebook has acknowledged that a group with ties to the Russian government placed more than 3,000 ads, and 126 million Americans saw ads and Facebook posts from the group. The Russia campaign highlighted how ads on Facebook can be a powerful tool while remaining largely hidden from public scrutiny."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51r8qj0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In response to the Russian interference, Facebook has announced plans to roll out a new initiative to make political advertising on its site more transparent. It is conducting <a href=\"https://www.propublica.org/article/facebook-experiment-ad-transparency-toronto-canada\">a test in Canada</a> that allows Facebook users outside an advertiser’s targeted audience to see ads, and it plans to expand the test worldwide this summer. However, once a marketing campaign is over in Canada, the ads disappear. In the U.S., Facebook says, it will maintain a searchable archive of federal election ads, as long as they mention a political figure, and will include information on spending and types of people that the ads reached."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51r8qk0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "ProPublica’s Political Ad Collector already incorporates some of those features, providing a searchable archive of ads anywhere it is used, and including information on the advertisers’ intended audience. The PAC, which we’ll use to track ads ahead of the U.S. midterm elections this fall, goes beyond Facebook’s plan by recording ads from state and local contests and those related to political issues, not just candidates. However, since the PAC relies on users to download it, it is likely to miss some ads that Facebook’s archive displays."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51r8ql0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "In Germany, <a href=\"http://www.spiegel.de/netzwelt/games/facebook-political-ad-collector-plugin-sammelt-wahlwerbung-auf-facebook-ein-a-1166566.html\">Spiegel Online</a>, <a href=\"http://www.sueddeutsche.de/digital/werbung-auf-facebook-und-google-warum-zuckerberg-den-deutschen-wahlkampf-durchleuchten-liess-1.3679603\">Süddeutsche Zeitung</a> and <a href=\"http://faktenfinder.tagesschau.de/wahlkampf-facebook-dark-ads-101.html\">Tagesschau</a> all asked their users to install the tool before elections in September. <a href=\"https://www.propublica.org/article/facebook-allowed-questionable-ads-in-german-election-despite-warnings\">Ads collected there</a>included anti-Green Party posts from a mysterious group called Greenwatch, which provided an address that didn’t correspond to the postal code given, and the name of a contact person who isn’t actually listed as residing there. The Green Party told Facebook and German authorities that the page provided false contact information, which would violate German regulations. Facebook said it could not confirm the accuracy of the contact information and that it expected the government to do so. The government said it lacked legal authority to force Facebook to divulge the advertiser’s identity. The posts remained on Facebook until the group itself deleted its Facebook page. Another misleading German ad, from far-right party AFD, attempted to inflame anti-immigrant sentiment.<br>"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51rn480",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<a href=\"https://www.theglobeandmail.com/news/national/facebooks-experiment-in-ad-transparency-can-still-mislead-users-on-advertisers-identity-review-finds/article37801018/\">Ads in Canada</a> have included messages from Airbnb Citizen, a marketing and policy arm of home-sharing company Airbnb, trying to influence a City Council vote in Toronto on short-term rental regulations. The Airbnb Citizen ads didn’t appear on Airbnb’s Facebook page, showing the limits of the Facebook ad-transparency test in Canada. A user trying to find out whether Airbnb was using Facebook to influence the vote would have had to know that Airbnb Citizen, not Airbnb, was running the ads. Toronto’s <a href=\"https://www.theglobeandmail.com/news/national/help-the-globe-monitor-political-ads-on-facebook/article37801040/\">Globe and Mail</a> is also using the Political Ad Collector to track ads ahead of provincial elections in 2018 and a national vote the following year."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51rn4a0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Not all the noteworthy ads found using the Political Ad Collector have been about elections. In one ad campaign <a href=\"https://www.theguardian.com/business/2017/oct/21/adani-posts-weird-video-ad-on-facebook-to-fend-off-carmichael-criticism\">covered by The Guardian Australia</a>, Indian conglomerate Adani attacked a media report about the financial risks of its operations in Australia, where it has proposed a controversial coal mining project. The Adani ad said the “baseless accusation” was simply “based on just one screenshot of random text with no mention of its origins,” although the research underlying the report actually included a long list of references and documentation, according to The Guardian."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51rn4b0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Outlets in several other countries are using the Political Ad Collector to investigate ads related to current political issues and upcoming elections. The Finnish newspaper <a href=\"https://www.aamulehti.fi/uutiset/miten-suomen-presidentinvaaleihin-yritetaan-vaikuttaa-facebook-mainosten-avulla-tule-mukaan-selvittamaan-200672696\">Aamulehti</a> and owner Alma Media began collecting ads just before the presidential vote last month. <a href=\"https://www.republik.ch/updates/polit-werbung-enttarnen\">Republik</a>, in Switzerland, is encouraging users to install the tool in that country, where referenda about taxes and about licensing fees for radio and television stations are scheduled for March. In Denmark, the newspaper <a href=\"https://www.information.dk/indland/2017/11/hjaelp-kortlaegge-politiske-reklamer-paa-facebook\">Information</a> began collecting ads in November. And in Italy, <a href=\"https://www.openpolis.it/political-ad-collector-monitoriamo-le-pubblicita-politiche-su-facebook/\">OpenPolis</a>, an organization dedicated to promoting government transparency, began collecting ads this week. Dutch Public Broadcasting is also preparing to collect ads in the coming weeks, as is the National Library of Sweden."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51rppf0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The Guardian Australia <a href=\"https://www.theguardian.com/technology/2017/oct/25/how-malcolm-turnbull-getup-and-adani-are-using-facebook-ads-to-push-their-agenda\">reported</a> that several ads about same-sex marriage appeared not to meet the legal standard for identifying the advertisers. A group calling itself “Over the Rainbow” paid for an ad directed specifically at Christians, but it didn’t provide contact information. Australia passed a law last year requiring ads pertaining to the survey to include such information."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51s1k60",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Facebook told ProPublica that ads are required to conform to the law of the jurisdiction where they are posted, including the Australian statute governing the same-sex marriage survey. “During the marriage law survey, when we became aware of ads that may not have had the relevant authorizations, we notified the Page owners running those ads,” Facebook spokeswoman Elisabeth Diana said in an email. “In the event that Page owners did not comply with the local laws within a reasonable time, we restricted their advertising access in Australia.”"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51s1k90",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Ultimately, more than 60 percent of respondents to the non-binding survey said they approved of same-sex marriage. Parliament passed same-sex marriage legislation on Dec. 7, and it went into effect two days later."
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51p4f04",
+                        "identifier": "living-times.teaser-author",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "author-embed",
+                                    "mediaId": 21
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cd51p4f05",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cd51p4f06",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51p4f07",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 11
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51p4f08",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 17
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51p4f10",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 15
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cd51p4f11",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed",
+                                    "mediaId": 13
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cd51p4f12",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cd51p4f13",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cd51p4f14",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 11
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd51p4f15",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 15
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cd51p4f16",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 13
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cd51p4f17",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card",
+                                                "mediaId": 17
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

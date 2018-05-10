@@ -1,0 +1,51 @@
+{
+    "id": 21,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 21,
+        "contentType": "author",
+        "documentType": "data-record",
+        "layout": "author",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Jennifer Valentino-DeVries",
+        "prename": "Jennifer",
+        "surname": "Valentino-DeVries",
+        "shortname": "jvd",
+        "profile": "Jennifer Valentino-DeVries is a reporter covering technology and public policy.",
+        "dependencies": {}
+    },
+    "content": [
+        {
+            "id": "doc-1cd5266td0",
+            "identifier": "living-times.author-container",
+            "containers": {
+                "main": [
+                    {
+                        "id": "doc-1cd5266td1",
+                        "identifier": "living-times.author-head"
+                    },
+                    {
+                        "id": "doc-1cd5266td2",
+                        "identifier": "living-times.whole",
+                        "content": {
+                            "title": "All Work"
+                        },
+                        "styles": {
+                            "container-style-lined": "container--lined"
+                        },
+                        "containers": {
+                            "column-one": []
+                        }
+                    }
+                ],
+                "sidebar": []
+            }
+        }
+    ]
+}
