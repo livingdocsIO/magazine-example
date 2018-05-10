@@ -65,6 +65,13 @@
     },
     "content": [
         {
+            "id": "doc-ZynWarVuTw",
+            "identifier": "living-times.free-html",
+            "content": {
+              "free-html": "<script type=\"text/javascript\" src=\"https://pixel.propublica.org/pixel.js\" async=\"true\"></script>"
+            }
+        },
+        {
             "id": "doc-1cd538qkk0",
             "identifier": "living-times.article-container",
             "containers": {
