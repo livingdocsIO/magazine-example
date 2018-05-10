@@ -43,9 +43,9 @@ function image (imageExtractionConfig = {}) {
 
   return function ({metadata = {}} = {}) {
     const teaserImage = metadata[metadataTarget]
-    const crops = teaserImage.crops
-
+    if (!teaserImage) return null
     if (!desiredImageCrop) return teaserImage
+    const crops = teaserImage.crops
     const imageCrop = crops && crops.find(crop => crop.name === desiredImageCrop)
     if (!imageCrop) return teaserImage
     return {

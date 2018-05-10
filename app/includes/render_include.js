@@ -19,7 +19,8 @@ function getIncludeContent (contentSpec, publication) {
     .reduce((accumulator, prop) => {
       const contentPropExtractor = contentSpec[prop]
       const accumulatedContent = {}
-      accumulatedContent[prop] = contentPropExtractor(publication)
+      const value = contentPropExtractor(publication)
+      if (value) accumulatedContent[prop] = value
       return {...accumulator, ...accumulatedContent}
     }, {})
 }
