@@ -14,7 +14,7 @@
     "start:magazine": "node app/index.js",
     "start:magazine:watch": "nodemon --watch conf --watch lib --watch app app/index.js",
     "start:magazine:mocked": "run-p start:json-server start:magazine",
-    "start": "npm run design:dev:mocked"
+    "start": "npm-run-all design:build design:dev:mocked"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
