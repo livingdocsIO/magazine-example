@@ -46,6 +46,25 @@
   margin-bottom: $base-spacing-unit;
 }
 
+@media (min-width: $mq-extra-small + 1) {
+  .placeholder--free-html,
+  .placeholder--twitter {
+    &.left, &.right {
+      width: 50%;
+    }
+
+    &.left {
+      float: left;
+      margin-right: $base-spacing-unit;
+    }
+
+    &.right {
+      float: right;
+      margin-left: $base-spacing-unit;
+    }
+  }
+}
+
 .placeholder--teaser-card .placeholder__img {
   background-image: url('../assets/images/teaser-placeholder.svg');
 }
