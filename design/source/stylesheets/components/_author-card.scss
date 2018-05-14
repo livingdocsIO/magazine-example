@@ -20,12 +20,17 @@
     border-radius: 100%;
   }
 
-  max-width: 192px;
-  margin-right:  calc(#{$base-spacing-unit} + #{halve($base-spacing-unit)});
+  max-width: 128px;
+  margin-right: $base-spacing-unit;
 }
 
 .author-card__body {
   flex: 1;
+
+  & > h5 {
+    margin-top: $base-spacing-unit / 2;
+    margin-bottom: $base-spacing-unit / 2;
+  }
 
   & > p {
     margin-bottom: halve($base-spacing-unit);
