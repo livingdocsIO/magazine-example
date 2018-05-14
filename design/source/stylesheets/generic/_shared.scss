@@ -23,3 +23,8 @@ fieldset {
 dd, ol, ul {
   margin-left: $base-spacing-unit;
 }
+
+// Definitions for italics.
+em, i {
+  font-style: italic;
+}
