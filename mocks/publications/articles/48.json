@@ -1,0 +1,516 @@
+{
+    "id": 48,
+    "systemdata": {
+        "projectId": 1,
+        "channelId": 1,
+        "documentId": 48,
+        "contentType": "regular",
+        "documentType": "article",
+        "layout": "regular",
+        "design": {
+            "name": "living-times",
+            "version": "0.0.7"
+        }
+    },
+    "metadata": {
+        "title": "Learn Livingdocs",
+        "description": "This document explains to you the basics of editing with Livingdocs. Scroll down and follow the hands-on tasks.",
+        "teaserImage": {
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?w=1024&auto=format",
+            "width": 1500,
+            "height": 1000,
+            "imageService": "imgix",
+            "crops": [
+                {
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?rect=0%2C78%2C1500%2C844&w=1024&auto=format",
+                    "name": "16:9",
+                    "x": 0,
+                    "y": 78,
+                    "width": 1500,
+                    "height": 844,
+                    "srcSet": [
+                        {
+                            "width": 2048,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?rect=0%2C78%2C1500%2C844&w=2048&auto=format"
+                        },
+                        {
+                            "width": 1024,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?rect=0%2C78%2C1500%2C844&w=1024&auto=format"
+                        },
+                        {
+                            "width": 620,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?rect=0%2C78%2C1500%2C844&w=620&auto=format"
+                        },
+                        {
+                            "width": 320,
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?rect=0%2C78%2C1500%2C844&w=320&auto=format"
+                        }
+                    ]
+                }
+            ]
+        },
+        "dependencies": {},
+        "flag": "Your first steps with the last editor you ever want to use"
+    },
+    "content": [
+        {
+            "id": "doc-1cdmu2hll0",
+            "identifier": "living-times.article-container",
+            "containers": {
+                "header": [
+                    {
+                        "id": "doc-1cdmu2hll1",
+                        "identifier": "living-times.head",
+                        "content": {
+                            "flag": "Your first steps with the last editor you ever want to use",
+                            "title": "Learn Livingdocs",
+                            "text": "This document explains to you the basics of editing with Livingdocs. Scroll down and follow the hands-on tasks.",
+                            "author": "Gabriel Hase",
+                            "date": "May 17th 2018"
+                        }
+                    }
+                ],
+                "main": [
+                    {
+                        "id": "doc-1cdmu2hll2",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?auto=format",
+                                "width": 1500,
+                                "height": 1000,
+                                "mimeType": "image/png",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png"
+                            },
+                            "caption": "Editing with Livingdocs is as easy as working with building blocks."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmu8spf0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "The Gist"
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmu971b0",
+                        "identifier": "living-times.bullet-list",
+                        "containers": {
+                            "list": [
+                                {
+                                    "id": "doc-1cdmu980m0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "Write your text inline and press enter to get more paragraphs."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cdmu9ot40",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "Long-press on any element on the page to drag it around."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cdmuabl00",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "Press the \"+Insert\" icon in the top-bar to see all components and add them by dragging and dropping them onto the page."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cdmud5tq0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "Select a component to see options in the right-hand sidebar."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cdmvfb260",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "Drag images directly onto the page and crop them."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cdnlpckf0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "Add Iframes or Tweets and paste the embed codes in the sidebar."
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cdnmfsmt0",
+                                    "identifier": "living-times.bullet-list-item",
+                                    "content": {
+                                        "text": "Add teasers and link articles through the sidebar."
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmuen7i0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Task 1: Text editing"
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmuevar0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Click this paragraph and start typing. You will note that you can directly type in all text fields. The document is saved automatically and you can see the current save status at the top left-hand of this page."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmuhj4s0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "By pressing \"Enter\" you can automatically insert new paragraphs. If you press \"Enter\" from within a bullet-list, for example the one in \"The Gist\", then you add new bullet points. Try this now, by clicking here and pressing \"Enter\"."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmupdpr0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "You can also format text by selecting it and choosing in the popup menu one of the available format options: bold, italic or link. If you select a text portion that already has some formatting assigned to it then the respective format button is already highlighted. Upon selecting it again you can remove the formatting. Try this by selecting some text in this paragraph and make it bold. Then remove the bold style again and make the selection a link."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmurle70",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The format popover also allows you to insert a couple of special characters. For now the selection is fixed, but this will be configurable in a future version."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmussc60",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "If you made a mistake somewhere you can always press \"CTRL+Z\" to undo an action or \"CTRL+Y\" to redo it. This works for all actions in Livingdocs whether typing text or re-arranging components."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmuv24k0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Last but not least, you can drag and drop every element on the page to another place. Try it out by clicking this paragraph and holding down the left mouse button (don’t release). A text will indicate your selected text paragraph. With the left mouse button still pressed drag the paragraph around on the page. A blue line will indicate the places where you can drop the paragraph. Try moving this paragraph to the top of the Task 1 section. "
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmvcql30",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Task 2: Images"
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmvg4og0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "To upload an image, you can simply drag and drop it from your desktop onto this page. Once the upload is complete, the sidebar will give you options to change or crop the image."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdnplr480",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The cropping mask can be opened via the link in the sidebar. Cropping works a bit like Google Maps: you have a centered part of the image that is cropped and can move the image around by dragging and zoom in by double-clicking."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdncpmqm0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "When you select the image, you have placement options in the sidebar. Choose \"middle\" for a full-size image, \"left\" for a 50% left-aligned image and \"right\" for a 50% right-aligned image. You can also add a caption to the image. The caption is optional, when you select the image the input becomes visible and if you don't enter any text it just disappears again."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdnctnin0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "If you don't have an image at hand, you can play around with our ad image below. And as you can see, animated gifs are fully supported."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdnct2gh0",
+                        "identifier": "living-times.image",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/17/645bad42-ea0e-40e1-b0c1-bda2687cbdd1.gif?auto=format",
+                                "width": 1940,
+                                "height": 500,
+                                "mimeType": "image/gif",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/17/645bad42-ea0e-40e1-b0c1-bda2687cbdd1.gif"
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cdnd1dqb0",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Task 3: Interactive content"
+                        }
+                    },
+                    {
+                        "id": "doc-1cdnd1t8f0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Livingdocs allows you to place Iframes, Tweets and free-html components and treat them like any other Livingdocs component. With this, you can add any interactive content you want."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdnd6i1h0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Let's start with a video. Below is an Iframe component. Navigate over to Youtube, Vimeo or a video platform of your choice to copy and paste a video embed code. If you don't have one, you can copy ours:&nbsp;"
+                        }
+                    },
+                    {
+                        "id": "doc-1cdndnuvu0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "&lt;iframe src=\"https://player.vimeo.com/video/157125359?color=3a2f3c&amp;title=0&amp;byline=0&amp;portrait=0\" width=\"640\" height=\"360\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;"
+                        }
+                    },
+                    {
+                        "id": "doc-1cdndbdd90",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Paste this into the Iframe component below by clicking the Iframe component and pasting in the sidebar. Note, how the content is displayed. You can not play the video in this view since we still want to support drag and drop of the component on the page. But you can click the \"Split View\" icon in the top bar and play the video in the split view to the left."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdnda8v60",
+                        "identifier": "living-times.iframe"
+                    },
+                    {
+                        "id": "doc-1cdnda0aj0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Next, lets try a Tweet. Below is a Twitter Embed. Go over to Twitter and copy an embed code or use ours:&nbsp;"
+                        }
+                    },
+                    {
+                        "id": "doc-1cdndnphh0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "&lt;blockquote class=\"twitter-tweet\" data-partner=\"tweetdeck\"&gt;&lt;p lang=\"en\" dir=\"ltr\"&gt;I love the simplicity of Q and the integration into Livingdocs. It takes away a burden from journalists who want to focus on writing content. &lt;a href=\"https://t.co/1HvuSE28h1\"&gt;pic.twitter.com/1HvuSE28h1&lt;/a&gt;&lt;/p&gt;&amp;mdash; Marc Bachmann (@mrbrookman) &lt;a href=\"https://twitter.com/mrbrookman/status/944159120432738304?ref_src=twsrc%5Etfw\"&gt;December 22, 2017&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"&gt;&lt;/script&gt; <br>"
+                        }
+                    },
+                    {
+                        "id": "doc-1cdndo7rr0",
+                        "identifier": "living-times.tweet"
+                    },
+                    {
+                        "id": "doc-1cdndogfp0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "If Tweets and Iframes are not enough, you can always add free-html components. The free-html component below can be clicked and allows you to enter HTML directly into the sidebar that is then presented in Livingdocs. Careful: we monitor use of free-html and any intended harmful use of free-html components such as illegal code injection will lead to the immediate closing of your account."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdndscj00",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Click the free-html component below and copy/paste the following code:"
+                        }
+                    },
+                    {
+                        "id": "doc-1cdndsrgl0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "&lt;h4&gt;I am great at using Livingdocs&lt;/h4&gt;"
+                        }
+                    },
+                    {
+                        "id": "doc-1cdndtvnu0",
+                        "identifier": "living-times.free-html"
+                    },
+                    {
+                        "id": "doc-1cdnd2ji80",
+                        "identifier": "living-times.subtitle",
+                        "content": {
+                            "title": "Task 4: cross-linking content"
+                        }
+                    },
+                    {
+                        "id": "doc-1cdnljekn0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Get more readers for your most important articles by cross-linking engaging content. Livingdocs allows you to add Teaser components and link to any other article."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdnm35ff0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "The \"Recommended Stories\" section at the bottom of this article as well as the sidebar to the right of this article contain a collection of teasers. Click any of them now. The sidebar has a button \"Link Article\". Click it and a modal will be opened that allows you to search for an article to link. Simply click the article in the search modal and its content will be filled into the cross-linking placeholder."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdnm816l0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "Teasers are rendered from the metadata of the linked article. You can not edit it inline like other components. When selecting a teaser you can follow the link \"Go to article\" in the sidebar and then on the linked article navigate to \"Prepare Publication\" to edit the metadata. By changing the metadata of a linked article you automatically update all referenced teasers."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdnmco2m0",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "If you link a teaser to an article that is not published yet, it will have a red outline with a message hinting you at the fact that the linked article is not published yet."
+                        }
+                    },
+                    {
+                        "id": "doc-1cdnotvs50",
+                        "identifier": "living-times.separator"
+                    },
+                    {
+                        "id": "doc-1cdnou9t40",
+                        "identifier": "living-times.paragraph",
+                        "content": {
+                            "text": "<strong>Congratulations!</strong> You mastered the basics of editing with Livingdocs. Now, you're ready to move on. Press \"Prepare Publication\" at the top right to publish your first article."
+                        }
+                    }
+                ],
+                "sidebar-ads-top": [
+                    {
+                        "id": "doc-1cdmu2hln0",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "sidebar": [
+                    {
+                        "id": "doc-1cdmu2hln1",
+                        "identifier": "living-times.sidebar-title",
+                        "content": {
+                            "title": "Most Popular"
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmu2hln2",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmu2hln3",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmu2hln4",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "id": "doc-1cdmu2hln5",
+                        "identifier": "living-times.teaser-sidebar",
+                        "content": {
+                            "embed": {
+                                "service": "teaser",
+                                "params": {
+                                    "layout": "sidebar-embed"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "sidebar-ads-bottom": [
+                    {
+                        "id": "doc-1cdmu2hln6",
+                        "identifier": "living-times.free-html"
+                    }
+                ],
+                "footer": [
+                    {
+                        "id": "doc-1cdmu2hln7",
+                        "identifier": "living-times.halves",
+                        "content": {
+                            "title": "Recommended Stories"
+                        },
+                        "containers": {
+                            "column-one": [
+                                {
+                                    "id": "doc-1cdnm9ptp0",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cdmu2hln9",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card"
+                                            }
+                                        }
+                                    }
+                                }
+                            ],
+                            "column-two": [
+                                {
+                                    "id": "doc-1cdmu2hln10",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": "doc-1cdmu2hln11",
+                                    "identifier": "living-times.teaser-card",
+                                    "content": {
+                                        "teaser": {
+                                            "service": "teaser",
+                                            "params": {
+                                                "layout": "card"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
