@@ -245,12 +245,7 @@
                         }
                     }
                 ],
-                "sidebar-ads-top": [
-                    {
-                        "id": "doc-1cd50t9df5",
-                        "identifier": "living-times.free-html"
-                    }
-                ],
+                "sidebar-ads-top": [],
                 "sidebar": [
                     {
                         "id": "doc-1cd50t9df6",
@@ -312,12 +307,7 @@
                         }
                     }
                 ],
-                "sidebar-ads-bottom": [
-                    {
-                        "id": "doc-1cd50t9df11",
-                        "identifier": "living-times.free-html"
-                    }
-                ],
+                "sidebar-ads-bottom": [],
                 "footer": [
                     {
                         "id": "doc-1cd50t9df12",

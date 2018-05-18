@@ -268,7 +268,10 @@
                 "sidebar-ads-top": [
                     {
                         "id": "doc-1cd56dog15",
-                        "identifier": "living-times.free-html"
+                        "identifier": "living-times.free-html",
+                        "content": {
+                          "free-html": "<a target='_blank' href='https://www.livingdocs.io'><img src='/assets/images/ads/rectangles/ad-secret.gif'></a>"
+                        }
                     }
                 ],
                 "sidebar": [
@@ -335,7 +338,10 @@
                 "sidebar-ads-bottom": [
                     {
                         "id": "doc-1cd56dog111",
-                        "identifier": "living-times.free-html"
+                        "identifier": "living-times.free-html",
+                        "content": {
+                          "free-html": "<a target='_blank' href='https://www.livingdocs.io'><img src='/assets/images/ads/rectangles/ad-exclusive.gif'></a>"
+                        }
                     }
                 ],
                 "footer": [

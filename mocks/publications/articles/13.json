@@ -524,12 +524,7 @@
                         }
                     }
                 ],
-                "sidebar-ads-top": [
-                    {
-                        "id": "doc-1cd5onsid0",
-                        "identifier": "living-times.free-html"
-                    }
-                ],
+                "sidebar-ads-top": [],
                 "sidebar": [
                     {
                         "id": "doc-1cd4vffr96",
@@ -594,7 +589,10 @@
                 "sidebar-ads-bottom": [
                     {
                         "id": "doc-1cd4vffr911",
-                        "identifier": "living-times.free-html"
+                        "identifier": "living-times.free-html",
+                        "content": {
+                          "free-html": "<a target='_blank' href='https://www.livingdocs.io'><img src='/assets/images/ads/rectangles/ad-standard.gif'></a>"
+                        }
                     }
                 ],
                 "footer": [
