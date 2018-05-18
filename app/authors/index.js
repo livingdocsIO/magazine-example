@@ -53,7 +53,7 @@ module.exports = async function createAuthorPage (livingdoc, publication, liClie
     }
   }
 
-  const ad = tree.createComponent('ad-halfpage-resolved')
+  const ad = tree.createComponent('ad-rectangle-resolved')
   container.append('sidebar', ad)
 
   return livingdoc
