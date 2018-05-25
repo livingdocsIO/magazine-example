@@ -1,11 +1,11 @@
 {
   "name": "living-times",
   "label": "Living Times",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "license": "Copyright (c) 2018 Livingdocs AG, all rights reserved",
 
   "assets": {
-    "basePath": "https://cdn.livingdocs.io/designs/living-times/0.0.7",
+    "basePath": "https://cdn.livingdocs.io/designs/living-times/0.0.9",
     "css": ["./styles.css"],
     "js": ["./scripts.js"]
   },
@@ -616,12 +616,6 @@
       "matches": ["image.image"],
       "isEditable": true,
       "imageRatios": ["16:9"]
-    },
-    {
-      "identifier": "flag",
-      "type": "text",
-      "matches": ["head.flag"],
-      "isEditable": true
     },
     {
       "identifier": "authorImage",
