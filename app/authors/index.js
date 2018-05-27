@@ -23,9 +23,8 @@ module.exports = async function createAuthorPage (livingdoc, publication, liClie
   if (metadata.prename || metadata.surname) {
     head.setContent('name', `${metadata.prename} ${metadata.surname}`)
   }
-  if (metadata.profile) head.setContent('introduction', metadata.profile)
+  if (metadata.biography) head.setContent('biography', metadata.biography)
   container.append('main', head)
-
 
   const teaserContainer = tree.createComponent('whole')
   teaserContainer.setContent('title', 'Recent Work')
