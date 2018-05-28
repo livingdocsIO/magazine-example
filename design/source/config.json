@@ -595,7 +595,7 @@
     {
       "identifier": "title",
       "type": "text",
-      "matches": ["head.title", "author-head.name"],
+      "matches": ["head.title"],
       "isEditable": true
     },
     {
