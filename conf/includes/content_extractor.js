@@ -66,7 +66,13 @@ function author ({metadata = {}} = {}) {
 }
 
 function publishDate ({metadata = {}, first_publication: firstPublication = {}} = {}) {
-  if (_.isDate(metadata.publishDate)) return moment(metadata.publishDate).calendar()
-  if (_.isDate(firstPublication.created_at)) return moment(firstPublication.created_at).calendar()
-  return ''
+  try {
+    const metadataDate = moment(metadata.publishDate)
+    if (metadataDate.isValid()) return metadataDate.calendar()
+    const recordDate = moment(firstPublication.created_at)
+    if (recordDate.isValid()) return recordDate.calendar()
+    return ''
+  } catch (e) {
+    return ''
+  }
 }
