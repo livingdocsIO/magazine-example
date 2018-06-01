@@ -129,6 +129,18 @@
                         }
                     },
                     {
+                      "id": "doc-1cet0ta610",
+                      "identifier": "living-times.tweet",
+                      "content": {
+                        "tweet": "<blockquote class=\"twitter-tweet\" data-lang=\"false\" data-cards=\"hidden\" data-conversation=\"none\"><p lang=\"en\" dir=\"ltr\">1/ Chicago police officer John Catanzara posted this photo of himself on Facebook. Today it went viral—and now he’s being reprimanded. <a href=\"https://t.co/xbMSR01AMz\">pic.twitter.com/xbMSR01AMz</a></p>— ProPublica Illinois (@ProPublicaIL) <a href=\"https://twitter.com/ProPublicaIL/status/913202169423253504?ref_src=twsrc%5Etfw\">28. September 2017</a></blockquote>"
+                      },
+                      "data": {
+                        "_tweetDirective": {
+                          "_embedHandler": "twitter"
+                        }
+                      }
+                    },
+                    {
                         "id": "doc-1cd4uk6ro0",
                         "identifier": "living-times.paragraph",
                         "content": {
@@ -225,6 +237,18 @@
                         "content": {
                             "text": "Mayor Rahm Emanuel's police accountability task force concluded in 2016 that \"CPD is not doing enough to combat racial bias,\" and encouraged more training and adopting a \"policing philosophy grounded in core values such as respect, protecting the sanctity of all life and protecting civil and human rights.\""
                         }
+                    },
+                    {
+                      "id": "doc-1cet1aq670",
+                      "identifier": "living-times.iframe",
+                      "content": {
+                        "iframe": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://www.youtube.com/embed/xz6VYs8-KQU\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></div>"
+                      },
+                      "data": {
+                        "_iframeDirective": {
+                          "_embedHandler": "iframe"
+                        }
+                      }
                     },
                     {
                         "id": "doc-1cd4ulff90",
