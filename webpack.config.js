@@ -4,28 +4,27 @@ const autoprefixer = require('autoprefixer')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const OpenBrowserPlugin = require('open-browser-webpack-plugin')
 const BuildDesignPlugin = require('./lib/build_design_plugin')
-const OpenPackPlugin = require('openpack')
 
 const isDev = process.env.NODE_ENV !== 'production'
 const distPath = path.resolve('./design/dist')
-
 const HMRClient =
   'webpack-hot-middleware/client?reload=true'
 
+const scriptPath = (folder, filename) => ([
+  isDev && HMRClient,
+  `./design/source/${folder}/${filename}`
+].filter(Boolean))
+
 module.exports = {
   context: __dirname,
+  mode: isDev ? 'development' : 'production',
   devtool: isDev ? 'source-map' : 'nosources-source-map',
   entry: Object.assign({}, {
-    scripts: [
-      isDev && HMRClient,
-      './design/source/scripts/index.js'
-    ].filter(Boolean)
+    scripts: scriptPath('scripts', 'index.js')
   }, isDev ? {
-    helpers: [
-      HMRClient,
-      './design/source/helpers/index.js'
-    ]
+    helpers: scriptPath('helpers', 'index.js')
   } : {}),
   output: {
     path: distPath,
@@ -38,11 +37,15 @@ module.exports = {
       use: [{
         loader: 'babel-loader',
         options: {
-          presets: ['es2015']
+          presets: [[require.resolve('babel-preset-env'), {
+            targets: {
+              browsers: ['chrome>=40', 'safari>=6', 'firefox>=24', 'ie>=11', 'opera>=19']
+            }
+          }]]
         }
       }]
     }, {
-      test: /\.(png|jpe?g|svg|gif)$/,
+      test: /\.(png|jpe?g|svg|gif|eot|svg|ttf|woff|woff2)$/,
       loader: 'url-loader'
     }, {
       test: /\.html$/,
@@ -53,9 +56,19 @@ module.exports = {
         use: [isDev && {
           loader: 'style-loader'
         }, {
-          loader: 'css-loader'
+          loader: 'css-loader',
+          options: {
+            minimize: true
+          }
         }, {
           loader: 'resolve-url-loader'
+        }, {
+          loader: 'postcss-loader',
+          options: {
+            plugins: function () {
+              return [autoprefixer]
+            }
+          }
         }].filter(Boolean)
       })
     }, {
@@ -64,7 +77,10 @@ module.exports = {
         use: [isDev && {
           loader: 'style-loader'
         }, {
-          loader: 'css-loader'
+          loader: 'css-loader',
+          options: {
+            minimize: true
+          }
         }, {
           loader: 'resolve-url-loader',
           options: {
@@ -73,9 +89,9 @@ module.exports = {
         }, {
           loader: 'postcss-loader',
           options: {
-            plugins: [
-              autoprefixer()
-            ]
+            plugins: function () {
+              return [autoprefixer]
+            }
           }
         }, {
           loader: 'sass-loader'
@@ -109,17 +125,10 @@ module.exports = {
   ].concat(
     isDev ? [
       new webpack.HotModuleReplacementPlugin(),
-      new OpenPackPlugin({
-        host: '0.0.0.0',
-        port: '3000',
-        path: '/'
+      new OpenBrowserPlugin({
+        url: `http://0.0.0.0:${process.env.PORT || 3000}`,
+        ignoreErrors: true
       })
-    ] : [
-      new webpack.optimize.UglifyJsPlugin({
-        sourceMap: true,
-        warnings: true,
-        minimize: true
-      })
-    ]
+    ] : []
   )
 }
