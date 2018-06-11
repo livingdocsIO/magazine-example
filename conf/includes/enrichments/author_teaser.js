@@ -1,5 +1,5 @@
-const getAuthorPublication = require('./helpers/get_author_publication')
 const slugify = require('../../../app/helpers/li-slugify')
+const getAuthorPublication = require('./helpers/get_author_publication')
 
 module.exports = async function enrichAuthorTeaserContent ({liClient, publication} = {}) {
   const authorPublication = await getAuthorPublication({liClient, publication})
