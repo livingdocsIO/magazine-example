@@ -28,7 +28,7 @@ module.exports = async function createAuthorPage (livingdoc, publication, liClie
 
   const teaserContainer = tree.createComponent('whole')
   teaserContainer.setContent('title', 'Recent Work')
-  teaserContainer.style('container-style-lined', 'container--lined')
+  teaserContainer.setStyle('container-style-lined', 'container--lined')
   container.append('main', teaserContainer)
 
   /*
@@ -46,7 +46,7 @@ module.exports = async function createAuthorPage (livingdoc, publication, liClie
     if (authors && _.find(authors, (a) => a.id === authorId)) {
       const teaser = tree.createComponent('teaser-card')
       const includeDirective = teaser.directives.get('teaser')
-      teaser.style('teaser-image-position', 'teaser-card--left-aligned-img')
+      teaser.setStyle('teaser-image-position', 'teaser-card--left-aligned-img')
       includeDirective.setParams({layout: 'card', mediaId: recentPublication.systemdata.documentId})
       teaserContainer.append('column-one', teaser)
     }
