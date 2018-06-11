@@ -1,6 +1,6 @@
 const conf = require('../../conf')
 const liClient = require('../helpers/li-client')
-const {renderPage, renderError} = require('../helpers/rendering')
+const {renderPage, renderError} = require('../rendering')
 
 module.exports = async (req, res) => {
   // get route param that represents the documentId

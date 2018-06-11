@@ -4,7 +4,6 @@ const _ = require('lodash')
 const resolveIncludes = require('../includes')
 const createAuthorPage = require('../authors')
 const conf = require('../../conf')
-const design = require('../../design/dist/design.json')
 const renderLayout = require('../rendering/layout')
 
 const defaultDocumentType = conf.get('defaultDocumentType')
@@ -57,16 +56,21 @@ function generateHTML ({title, description, bodyContent}) {
 async function renderPage ({menu, location, publication, liClient}) {
   const imageServicesConfig = conf.get('imageServices', {})
   const config = {}
-  const layout = _.get(publication, 'systemdata.layout')
+
+  const contentType = _.get(publication, 'systemdata.contentType')
   if (Object.keys(imageServicesConfig).length) config.imageServices = imageServicesConfig
+
+  // NOTE: It is important to require the design every time we use it for rendering
+  // to always deliver the latest build when e.g. in dev mode
+  const design = require('../../design/dist/design.json')
   const livingdoc = liSDK.document.create({
     design,
-    content: layout === 'author' ? [] : publication.content,
+    content: contentType === 'author' ? [] : publication.content,
     config
   })
-  if (layout === 'author') await createAuthorPage(livingdoc, publication, liClient)
+  if (contentType === 'author') await createAuthorPage(livingdoc, publication, liClient)
 
-  // what does this do? Fetch the extra data? related content / embeds?
+  // resolve referenced teasers (doc-includes html)
   await resolveIncludes(livingdoc, liClient, includesConfig)
 
   const documentType = publication.systemdata.documentType
@@ -87,7 +91,6 @@ async function renderPage ({menu, location, publication, liClient}) {
 }
 
 function renderError (error) {
-  // TODO should use error.statusCode for identification
   const is404 = error.statusCode === 404
 
   const title = is404
