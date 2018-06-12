@@ -84,3 +84,15 @@
 .placeholder--twitter .placeholder__img {
   background-image: url('../assets/images/twitter-placeholder.svg');
 }
+
+
+// Fake header and footer
+// The fake header and footer are only visible in the editor
+.wrapper--in-editor {
+  padding-top: 220px;
+  padding-bottom: 100px;
+
+  background-repeat: no-repeat;
+  background-position: top center, bottom center;
+  background-image: url('../assets/images/abstract-header.svg'), url('../assets/images/abstract-footer.svg');
+}

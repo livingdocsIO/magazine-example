@@ -1,11 +1,11 @@
 {
   "name": "living-times",
   "label": "Living Times",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "license": "Copyright (c) 2018 Livingdocs AG, all rights reserved",
 
   "assets": {
-    "basePath": "https://cdn.livingdocs.io/designs/living-times/0.0.10",
+    "basePath": "https://cdn.livingdocs.io/designs/living-times/0.0.11",
     "css": ["./styles.css"],
     "js": ["./scripts.js"]
   },
@@ -141,7 +141,7 @@
     {
       "name": "regular",
       "caption": "Article",
-      "wrapper": "<div class=\"doc-section wrapper wrapper--article\"></div>",
+      "wrapper": "<div class=\"doc-section wrapper wrapper--in-editor wrapper--article\"></div>",
       "icon": null,
       "defaultContent": [
         {
@@ -232,7 +232,7 @@
     {
       "name": "author",
       "caption": "Author",
-      "wrapper": "<div class=\"doc-section wrapper wrapper--article\"></div>",
+      "wrapper": "<div class=\"doc-section wrapper wrapper--in-editor wrapper--article\"></div>",
       "icon": null,
       "defaultContent": [
         {
@@ -287,7 +287,7 @@
     {
       "name": "gallery",
       "caption": "Gallery",
-      "wrapper": "<div class=\"doc-section wrapper wrapper--article\"></div>",
+      "wrapper": "<div class=\"doc-section wrapper wrapper--in-editor wrapper--article\"></div>",
       "icon": null,
       "defaultContent": [
         {
@@ -324,7 +324,7 @@
     {
       "name": "video",
       "caption": "Video",
-      "wrapper": "<div class=\"doc-section wrapper wrapper--article\"></div>",
+      "wrapper": "<div class=\"doc-section wrapper wrapper--in-editor wrapper--article\"></div>",
       "icon": null,
       "defaultContent": [
         {
@@ -367,7 +367,7 @@
     {
       "name": "page",
       "caption": "Page",
-      "wrapper": "<div class=\"doc-section wrapper wrapper--default\"></div>",
+      "wrapper": "<div class=\"doc-section wrapper wrapper--in-editor wrapper--default\"></div>",
       "icon": null,
       "defaultContent": [
         {
