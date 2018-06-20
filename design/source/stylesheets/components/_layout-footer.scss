@@ -48,3 +48,10 @@
     margin-bottom: halve($base-spacing-unit);
   }
 }
+
+@media (max-width: $mq-small) {
+  .page-foot {
+    padding-left: halve($base-spacing-unit);
+    padding-right: halve($base-spacing-unit);
+  }
+}

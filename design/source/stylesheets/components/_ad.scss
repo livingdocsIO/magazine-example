@@ -10,9 +10,17 @@
 
 .ad--head {
   margin-bottom: 0;
+  margin-left: $base-spacing-unit;
+  margin-right: $base-spacing-unit;
   padding-bottom: halve($base-spacing-unit);
+
   text-align: center;
   border-bottom: 1px solid $divider-color;
+
+  @media (max-width: $mq-small) {
+    margin-left: halve($base-spacing-unit);
+    margin-right: halve($base-spacing-unit);
+  }
 }
 
 .ad--sidebar {

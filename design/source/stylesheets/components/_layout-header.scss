@@ -47,12 +47,26 @@
 
 
 // Main navigation styles
-.main-nav {
-  display: flex;
-  flex-wrap: wrap;
+.nav-container {
+  margin-left: $base-spacing-unit;
+  margin-right: $base-spacing-unit;
   margin-bottom: halve($base-spacing-unit);
+
   border-top: 1px solid $divider-color;
   border-bottom: 1px solid $divider-color;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: nowrap;
+
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
 .main-nav__item {
@@ -62,10 +76,12 @@
 
   > a {
     display: block;
-    padding: quarter($base-spacing-unit);
+    padding: quarter($base-spacing-unit) halve($base-spacing-unit);
 
     text-decoration: none;
     @include font-size($mili-size); // 14px
+
+    white-space: nowrap;
   }
 
   &:hover {
@@ -89,6 +105,11 @@
   .meta-nav {
     top: 29px;
     right: halve($base-spacing-unit);
+  }
+
+  .nav-container {
+    margin-left: halve($base-spacing-unit);
+    margin-right: halve($base-spacing-unit);
   }
 }
 
