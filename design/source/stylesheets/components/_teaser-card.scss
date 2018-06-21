@@ -233,4 +233,7 @@
   .teaser-card--author {
     flex-direction: column;
   }
+  .teaser-card--author .teaser-card__body {
+    min-width: 100%;
+  }
 }
