@@ -128,7 +128,8 @@
 }
 
 // Modifier: Align image right / left
-.teaser-card--left-aligned-img .teaser-card, .teaser-card--right-aligned-img .teaser-card {
+.teaser-card--left-aligned-img .teaser-card,
+.teaser-card--right-aligned-img .teaser-card {
   display: flex;
   align-items: center;
 }
@@ -236,4 +237,22 @@
   .teaser-card--author .teaser-card__body {
     min-width: 100%;
   }
+}
+
+@media (max-width: $mq-extra-small) {
+
+  .teaser-card--left-aligned-img,
+  .teaser-card--right-aligned-img {
+    .teaser-card {
+      display: block;
+    }
+
+    .teaser-card__figure {
+      float: right;
+      margin: 38px 0 0 halve($base-spacing-unit);
+
+      max-width: 120px;
+    }
+  }
+
 }

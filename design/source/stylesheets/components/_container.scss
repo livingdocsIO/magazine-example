@@ -204,24 +204,15 @@
   }
 
   .container--thirds, .container--quarter {
+    .teaser-card {
+      display: block;
+    }
+
     .teaser-card__figure {
-      order: 1;
-      margin-right: 0;
-      margin-left: quarter($base-spacing-unit);
+      float: right;
+      margin: 38px 0 0 halve($base-spacing-unit);
 
       max-width: 120px;
     }
   }
-
-  .teaser-card--left-aligned-img,
-  .teaser-card--right-aligned-img {
-    .teaser-card__figure {
-      order: 1;
-      margin-right: 0;
-      margin-left: quarter($base-spacing-unit);
-
-      max-width: 120px;
-    }
-  }
-
 }
