@@ -7,7 +7,9 @@
 // -> source/components/layout/article-layout-footer.html
 
 .page-foot {
-  @extend .wrapper;
+  margin-left: $base-spacing-unit;
+  margin-right: $base-spacing-unit;
+  border-top: 1px solid $divider-color;
 
   // margin-top: double($base-spacing-unit);
 }
@@ -15,7 +17,10 @@
 .page-foot__wrapper {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid $divider-color;
+
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: halve($base-spacing-unit);
 }
 
@@ -51,7 +56,7 @@
 
 @media (max-width: $mq-small) {
   .page-foot {
-    padding-left: halve($base-spacing-unit);
-    padding-right: halve($base-spacing-unit);
+    margin-left: halve($base-spacing-unit);
+    margin-right: halve($base-spacing-unit);
   }
 }
