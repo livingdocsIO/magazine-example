@@ -11,14 +11,15 @@
   @extend %layout;
 }
 
+.container-grid__item {
+  @extend %layout__item;
+}
+
 .container__title {
   text-align: center;
   @include font-size($delta-size, false);
 }
 
-.container-grid__item {
-  @extend %layout__item;
-}
 
 
 // Modifiers: column widths
@@ -175,17 +176,14 @@
     @include font-size($zeta-size, false);
   }
 
-  .container--halves-uneven .container-grid__item:first-child {
-    order: 1;
-  }
-
   .container--lined.container--halves-uneven .container-grid__item::after {
     background-color: transparent;
   }
 
   .container--quarter, .container--halves, .container--halves-uneven {
     .container-grid {
-      flex-direction: column;
+      flex-wrap: nowrap;
+      flex-direction: column-reverse;
     }
   }
 
