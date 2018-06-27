@@ -1,4 +1,4 @@
-const liSDK = require('@livingdocs/sdk')
+const liSDK = require('@livingdocs/node-sdk')
 
 module.exports = async function resolveIncludes (livingdoc, liClient, includesConfig) {
   const resolverTasks = startResolverTasks(livingdoc, liClient, includesConfig)

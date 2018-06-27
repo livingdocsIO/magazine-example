@@ -1,6 +1,6 @@
 {
   "name": "livingdocs-magazine-boilerplate",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/upfrontIO/livingdocs-magazine-boilerplate"
@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "@livingdocs/conf": "^1.0.1",
-    "@livingdocs/sdk": "^0.0.4",
+    "@livingdocs/node-sdk": "^0.1.0",
     "combined-slugify": "^2.1.0",
     "compression": "^1.7.2",
     "express": "^4.16.3",

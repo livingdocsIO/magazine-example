@@ -1,4 +1,4 @@
-const liSDK = require('@livingdocs/sdk')
+const liSDK = require('@livingdocs/node-sdk')
 const conf = require('../../../conf')
 const getHeaderComponent = require('./header')
 

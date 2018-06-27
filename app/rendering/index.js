@@ -1,4 +1,4 @@
-const liSDK = require('@livingdocs/sdk')
+const liSDK = require('@livingdocs/node-sdk')
 const _ = require('lodash')
 
 const resolveIncludes = require('../includes')
