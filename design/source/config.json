@@ -317,7 +317,7 @@
         },
         {
           "label": "Image",
-          "components": ["gallery-container", "image"]
+          "components": ["image"]
         }
       ]
     },
@@ -360,7 +360,7 @@
         },
         {
           "label": "Video",
-          "components": ["video-container", "free-html", "iframe"]
+          "components": ["free-html", "iframe"]
         }
       ]
     },
