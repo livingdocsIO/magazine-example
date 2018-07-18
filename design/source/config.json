@@ -222,7 +222,7 @@
         {
           "label": "Footer",
           "components": ["halves-article-footer", "teaser-card"]
-        }
+        },
         {
           "label": "Embeds",
           "components": ["teaser-author", "tweet", "iframe", "free-html"]
