@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/upfrontIO/livingdocs-magazine-boilerplate"
+    "url": "https://github.com/livingdocsIO/livingdocs-magazine-boilerplate"
   },
   "scripts": {
     "design:dev": "NODE_ENV=development npm run start:magazine",
