@@ -62,13 +62,6 @@
     },
     "content": [
         {
-            "id": "doc-HWnWmBszSY",
-            "identifier": "living-times.free-html",
-            "content": {
-              "free-html": "<script type=\"text/javascript\" src=\"https://pixel.propublica.org/pixel.js\" async=\"true\"></script>"
-            }
-        },
-        {
             "id": "doc-1cd56dog10",
             "identifier": "living-times.article-container",
             "containers": {
@@ -263,6 +256,13 @@
                                     "mediaId": 30
                                 }
                             }
+                        }
+                    },
+                    {
+                        "id": "doc-HWnWmBszSY",
+                        "identifier": "living-times.free-html",
+                        "content": {
+                          "free-html": "<script type=\"text/javascript\" src=\"https://pixel.propublica.org/pixel.js\" async=\"true\"></script>"
                         }
                     }
                 ],
