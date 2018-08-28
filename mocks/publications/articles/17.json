@@ -17,14 +17,14 @@
         "description": "The bill follows an investigation by ProPublica and NPR, which found that insurance companies were turning in unauthorized immigrants who were injured on the job.",
         "publishDate": "2018-02-06T15:45:00.000Z",
         "teaserImage": {
-            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg",
-            "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?w=1024&auto=format",
+            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/72ef1081-9ed5-4114-9d07-5b248acab9e2.jpeg",
+            "url": "https://livingdocs-images.imgix.net/2018/8/22/72ef1081-9ed5-4114-9d07-5b248acab9e2.jpeg?w=1024&auto=format",
             "width": 2556,
             "height": 1350,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?rect=78%2C0%2C2400%2C1350&w=1024&auto=format",
+                    "url": "https://livingdocs-images.imgix.net/2018/8/22/72ef1081-9ed5-4114-9d07-5b248acab9e2.jpeg?rect=78%2C0%2C2400%2C1350&w=1024&auto=format",
                     "name": "16:9",
                     "x": 78,
                     "y": 0,
@@ -33,19 +33,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?rect=78%2C0%2C2400%2C1350&w=2048&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/72ef1081-9ed5-4114-9d07-5b248acab9e2.jpeg?rect=78%2C0%2C2400%2C1350&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?rect=78%2C0%2C2400%2C1350&w=1024&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/72ef1081-9ed5-4114-9d07-5b248acab9e2.jpeg?rect=78%2C0%2C2400%2C1350&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?rect=78%2C0%2C2400%2C1350&w=620&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/72ef1081-9ed5-4114-9d07-5b248acab9e2.jpeg?rect=78%2C0%2C2400%2C1350&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?rect=78%2C0%2C2400%2C1350&w=320&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/72ef1081-9ed5-4114-9d07-5b248acab9e2.jpeg?rect=78%2C0%2C2400%2C1350&w=320&auto=format"
                         }
                     ]
                 }
@@ -83,12 +83,12 @@
                         "identifier": "living-times.image",
                         "content": {
                             "image": {
-                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg?auto=format",
+                                "url": "https://livingdocs-images.imgix.net/2018/8/22/72ef1081-9ed5-4114-9d07-5b248acab9e2.jpeg?auto=format",
                                 "width": 2556,
                                 "height": 1350,
                                 "mimeType": "image/jpeg",
                                 "imageService": "imgix",
-                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/89696e59-e8ed-4073-a7d7-86b2fa297c90.jpeg"
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/8/22/72ef1081-9ed5-4114-9d07-5b248acab9e2.jpeg"
                             }
                         }
                     },

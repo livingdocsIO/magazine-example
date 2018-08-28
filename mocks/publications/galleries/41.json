@@ -15,14 +15,14 @@
     "metadata": {
         "title": "Festival of colors 2012",
         "teaserImage": {
-            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg",
-            "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?w=1024&auto=format",
+            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/735d6df7-c7de-43ca-93ab-58dbff7cec2b.jpeg",
+            "url": "https://livingdocs-images.imgix.net/2018/8/22/735d6df7-c7de-43ca-93ab-58dbff7cec2b.jpeg?w=1024&auto=format",
             "width": 2048,
             "height": 1152,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?rect=0%2C0%2C2048%2C1152&w=1024&auto=format",
+                    "url": "https://livingdocs-images.imgix.net/2018/8/22/735d6df7-c7de-43ca-93ab-58dbff7cec2b.jpeg?rect=0%2C0%2C2048%2C1152&w=1024&auto=format",
                     "name": "16:9",
                     "x": 0,
                     "y": 0,
@@ -31,19 +31,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?rect=0%2C0%2C2048%2C1152&w=2048&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/735d6df7-c7de-43ca-93ab-58dbff7cec2b.jpeg?rect=0%2C0%2C2048%2C1152&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?rect=0%2C0%2C2048%2C1152&w=1024&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/735d6df7-c7de-43ca-93ab-58dbff7cec2b.jpeg?rect=0%2C0%2C2048%2C1152&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?rect=0%2C0%2C2048%2C1152&w=620&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/735d6df7-c7de-43ca-93ab-58dbff7cec2b.jpeg?rect=0%2C0%2C2048%2C1152&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?rect=0%2C0%2C2048%2C1152&w=320&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/735d6df7-c7de-43ca-93ab-58dbff7cec2b.jpeg?rect=0%2C0%2C2048%2C1152&w=320&auto=format"
                         }
                     ]
                 }
@@ -76,12 +76,12 @@
                                     "identifier": "living-times.image",
                                     "content": {
                                         "image": {
-                                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg?auto=format",
+                                            "url": "https://livingdocs-images.imgix.net/2018/8/22/735d6df7-c7de-43ca-93ab-58dbff7cec2b.jpeg?auto=format",
                                             "width": 2048,
                                             "height": 1152,
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
-                                            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/4fa62459-316d-499d-8b25-fdc142881bb9.jpeg"
+                                            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/735d6df7-c7de-43ca-93ab-58dbff7cec2b.jpeg"
                                         }
                                     }
                                 },
@@ -90,12 +90,12 @@
                                     "identifier": "living-times.image",
                                     "content": {
                                         "image": {
-                                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/1f5319d6-0569-421b-be26-c6db0782713b.jpeg?auto=format",
+                                            "url": "https://livingdocs-images.imgix.net/2018/8/22/7cfde540-5aab-47fa-8654-fd2861555755.jpeg?auto=format",
                                             "width": 2048,
                                             "height": 2048,
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
-                                            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/1f5319d6-0569-421b-be26-c6db0782713b.jpeg"
+                                            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/7cfde540-5aab-47fa-8654-fd2861555755.jpeg"
                                         }
                                     }
                                 },
@@ -104,12 +104,12 @@
                                     "identifier": "living-times.image",
                                     "content": {
                                         "image": {
-                                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f44257f8-8dbb-4bfe-809a-377d3047ea38.jpeg?auto=format",
+                                            "url": "https://livingdocs-images.imgix.net/2018/8/22/99d465fd-7c91-4aca-8e3d-96560ff7a7ef.jpeg?auto=format",
                                             "width": 2048,
                                             "height": 1365,
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
-                                            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/f44257f8-8dbb-4bfe-809a-377d3047ea38.jpeg"
+                                            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/99d465fd-7c91-4aca-8e3d-96560ff7a7ef.jpeg"
                                         }
                                     }
                                 },
@@ -118,12 +118,12 @@
                                     "identifier": "living-times.image",
                                     "content": {
                                         "image": {
-                                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/899976c3-c3d4-44ea-ab64-133d17f358c1.jpeg?auto=format",
+                                            "url": "https://livingdocs-images.imgix.net/2018/8/22/8a56a25d-4c4e-42e6-8574-6ecd0faa975b.jpeg?auto=format",
                                             "width": 2048,
                                             "height": 1366,
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
-                                            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/899976c3-c3d4-44ea-ab64-133d17f358c1.jpeg"
+                                            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/8a56a25d-4c4e-42e6-8574-6ecd0faa975b.jpeg"
                                         }
                                     }
                                 }

@@ -17,14 +17,14 @@
         "description": "With the president reportedly at the point of canceling DACA, some of its 800,000 beneficiaries describe what they gained — and now fear losing — from the program.",
         "publishDate": "2017-09-01T11:52:00.000Z",
         "teaserImage": {
-            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg",
-            "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?w=1024&auto=format",
+            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/99f52692-34e4-4e82-bc1d-aff43f939dd1.jpeg",
+            "url": "https://livingdocs-images.imgix.net/2018/8/22/99f52692-34e4-4e82-bc1d-aff43f939dd1.jpeg?w=1024&auto=format",
             "width": 2048,
             "height": 1435,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?rect=0%2C142%2C2048%2C1152&w=1024&auto=format",
+                    "url": "https://livingdocs-images.imgix.net/2018/8/22/99f52692-34e4-4e82-bc1d-aff43f939dd1.jpeg?rect=0%2C142%2C2048%2C1152&w=1024&auto=format",
                     "name": "16:9",
                     "x": 0,
                     "y": 142,
@@ -33,19 +33,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?rect=0%2C142%2C2048%2C1152&w=2048&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/99f52692-34e4-4e82-bc1d-aff43f939dd1.jpeg?rect=0%2C142%2C2048%2C1152&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?rect=0%2C142%2C2048%2C1152&w=1024&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/99f52692-34e4-4e82-bc1d-aff43f939dd1.jpeg?rect=0%2C142%2C2048%2C1152&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?rect=0%2C142%2C2048%2C1152&w=620&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/99f52692-34e4-4e82-bc1d-aff43f939dd1.jpeg?rect=0%2C142%2C2048%2C1152&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?rect=0%2C142%2C2048%2C1152&w=320&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/99f52692-34e4-4e82-bc1d-aff43f939dd1.jpeg?rect=0%2C142%2C2048%2C1152&w=320&auto=format"
                         }
                     ]
                 }
@@ -83,12 +83,12 @@
                         "identifier": "living-times.image",
                         "content": {
                             "image": {
-                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg?auto=format",
+                                "url": "https://livingdocs-images.imgix.net/2018/8/22/99f52692-34e4-4e82-bc1d-aff43f939dd1.jpeg?auto=format",
                                 "width": 2048,
                                 "height": 1435,
                                 "mimeType": "image/jpeg",
                                 "imageService": "imgix",
-                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/c3dd1d09-da92-4039-b8bb-ac70bb8be75a.jpeg"
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/8/22/99f52692-34e4-4e82-bc1d-aff43f939dd1.jpeg"
                             }
                         }
                     },
