@@ -16,14 +16,14 @@
         "title": "Learn Livingdocs",
         "description": "This document explains to you the basics of editing with Livingdocs. Scroll down and follow the hands-on tasks.",
         "teaserImage": {
-            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png",
-            "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?w=1024&auto=format",
+            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/4610b8f0-c81e-481f-88a8-b5bd97b0dd98.png",
+            "url": "https://livingdocs-images.imgix.net/2018/8/22/4610b8f0-c81e-481f-88a8-b5bd97b0dd98.png?w=1024&auto=format",
             "width": 1500,
             "height": 1000,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?rect=0%2C78%2C1500%2C844&w=1024&auto=format",
+                    "url": "https://livingdocs-images.imgix.net/2018/8/22/4610b8f0-c81e-481f-88a8-b5bd97b0dd98.png?rect=0%2C78%2C1500%2C844&w=1024&auto=format",
                     "name": "16:9",
                     "x": 0,
                     "y": 78,
@@ -32,19 +32,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?rect=0%2C78%2C1500%2C844&w=2048&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/4610b8f0-c81e-481f-88a8-b5bd97b0dd98.png?rect=0%2C78%2C1500%2C844&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?rect=0%2C78%2C1500%2C844&w=1024&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/4610b8f0-c81e-481f-88a8-b5bd97b0dd98.png?rect=0%2C78%2C1500%2C844&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?rect=0%2C78%2C1500%2C844&w=620&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/4610b8f0-c81e-481f-88a8-b5bd97b0dd98.png?rect=0%2C78%2C1500%2C844&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?rect=0%2C78%2C1500%2C844&w=320&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/4610b8f0-c81e-481f-88a8-b5bd97b0dd98.png?rect=0%2C78%2C1500%2C844&w=320&auto=format"
                         }
                     ]
                 }
@@ -77,12 +77,12 @@
                         "identifier": "living-times.image",
                         "content": {
                             "image": {
-                                "url": "https://livingdocs-dev.imgix.net/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png?auto=format",
+                                "url": "https://livingdocs-images.imgix.net/2018/8/22/4610b8f0-c81e-481f-88a8-b5bd97b0dd98.png?auto=format",
                                 "width": 1500,
                                 "height": 1000,
                                 "mimeType": "image/png",
                                 "imageService": "imgix",
-                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/17/16254db4-50d3-449f-b863-3b64300d383e.png"
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/8/22/4610b8f0-c81e-481f-88a8-b5bd97b0dd98.png"
                             },
                             "caption": "Editing with Livingdocs is as easy as working with building blocks."
                         }
@@ -240,7 +240,7 @@
                         "identifier": "living-times.image",
                         "content": {
                             "image": {
-                                "url": "https://livingdocs-dev.imgix.net/2018/5/17/645bad42-ea0e-40e1-b0c1-bda2687cbdd1.gif?auto=format",
+                                "url": "https://livingdocs-images.imgix.net/2018/5/17/645bad42-ea0e-40e1-b0c1-bda2687cbdd1.gif?auto=format",
                                 "width": 1940,
                                 "height": 500,
                                 "mimeType": "image/gif",

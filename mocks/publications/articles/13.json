@@ -17,14 +17,14 @@
         "description": "Government records officers frequently cite privacy restrictions to deny data requests. Here are some tips on how to overcome or sidestep these barriers.",
         "publishDate": "2018-03-19T05:00:00.000Z",
         "teaserImage": {
-            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg",
-            "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?w=1024&auto=format",
+            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/8344256b-df2d-492c-a937-d2ec379e1c6d.jpeg",
+            "url": "https://livingdocs-images.imgix.net/2018/8/22/8344256b-df2d-492c-a937-d2ec379e1c6d.jpeg?w=1024&auto=format",
             "width": 1600,
             "height": 1074,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?rect=0%2C87%2C1600%2C900&w=1024&auto=format",
+                    "url": "https://livingdocs-images.imgix.net/2018/8/22/8344256b-df2d-492c-a937-d2ec379e1c6d.jpeg?rect=0%2C87%2C1600%2C900&w=1024&auto=format",
                     "name": "16:9",
                     "x": 0,
                     "y": 87,
@@ -33,19 +33,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?rect=0%2C87%2C1600%2C900&w=2048&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/8344256b-df2d-492c-a937-d2ec379e1c6d.jpeg?rect=0%2C87%2C1600%2C900&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?rect=0%2C87%2C1600%2C900&w=1024&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/8344256b-df2d-492c-a937-d2ec379e1c6d.jpeg?rect=0%2C87%2C1600%2C900&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?rect=0%2C87%2C1600%2C900&w=620&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/8344256b-df2d-492c-a937-d2ec379e1c6d.jpeg?rect=0%2C87%2C1600%2C900&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?rect=0%2C87%2C1600%2C900&w=320&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/8344256b-df2d-492c-a937-d2ec379e1c6d.jpeg?rect=0%2C87%2C1600%2C900&w=320&auto=format"
                         }
                     ]
                 }
@@ -83,12 +83,12 @@
                         "identifier": "living-times.image",
                         "content": {
                             "image": {
-                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg?auto=format",
+                                "url": "https://livingdocs-images.imgix.net/2018/8/22/8344256b-df2d-492c-a937-d2ec379e1c6d.jpeg?auto=format",
                                 "width": 1600,
                                 "height": 1074,
                                 "mimeType": "image/jpeg",
                                 "imageService": "imgix",
-                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/846bee96-506b-4f9d-9a35-6ef769b5fb4d.jpeg"
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/8/22/8344256b-df2d-492c-a937-d2ec379e1c6d.jpeg"
                             }
                         }
                     },

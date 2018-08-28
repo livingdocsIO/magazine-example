@@ -8,7 +8,7 @@ module.exports = {
   },
   imageServices: {
     imgix: {
-      host: 'https://livingdocs.imgix.net',
+      host: 'https://livingdocs-images.imgix.net',
       preferWebp: true,
       backgroundImage: {
         maxWidth: 2048

@@ -20,14 +20,14 @@
         "profile": "Ken Schwencke is a journalist and developer on ProPublica's news apps team, covering hate crimes and white supremacist movements.",
         "biography": "Ken Schwencke is a journalist and developer on ProPublica's news apps team, covering hate crimes and white supremacist movements. Previously, he worked on The New York Times’ interactive news team and the Los Angeles Times data desk.",
         "authorImage": {
-            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/621ee203-f472-4820-a84e-206bdce56e78.png",
-            "url": "https://livingdocs-dev.imgix.net/2018/5/10/621ee203-f472-4820-a84e-206bdce56e78.png?w=1024&auto=format",
+            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/37363b55-966a-45f1-a545-3d49b2dc582e.png",
+            "url": "https://livingdocs-images.imgix.net/2018/8/22/37363b55-966a-45f1-a545-3d49b2dc582e.png?w=1024&auto=format",
             "width": 504,
             "height": 468,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/621ee203-f472-4820-a84e-206bdce56e78.png?rect=18%2C0%2C468%2C468&w=1024&auto=format",
+                    "url": "https://livingdocs-images.imgix.net/2018/8/22/37363b55-966a-45f1-a545-3d49b2dc582e.png?rect=18%2C0%2C468%2C468&w=1024&auto=format",
                     "name": "1:1",
                     "x": 18,
                     "y": 0,
@@ -36,19 +36,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/621ee203-f472-4820-a84e-206bdce56e78.png?rect=18%2C0%2C468%2C468&w=2048&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/37363b55-966a-45f1-a545-3d49b2dc582e.png?rect=18%2C0%2C468%2C468&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/621ee203-f472-4820-a84e-206bdce56e78.png?rect=18%2C0%2C468%2C468&w=1024&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/37363b55-966a-45f1-a545-3d49b2dc582e.png?rect=18%2C0%2C468%2C468&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/621ee203-f472-4820-a84e-206bdce56e78.png?rect=18%2C0%2C468%2C468&w=620&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/37363b55-966a-45f1-a545-3d49b2dc582e.png?rect=18%2C0%2C468%2C468&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/621ee203-f472-4820-a84e-206bdce56e78.png?rect=18%2C0%2C468%2C468&w=320&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/37363b55-966a-45f1-a545-3d49b2dc582e.png?rect=18%2C0%2C468%2C468&w=320&auto=format"
                         }
                     ]
                 }

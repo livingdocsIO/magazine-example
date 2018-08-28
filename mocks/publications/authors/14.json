@@ -20,14 +20,14 @@
         "profile": "Annie Waldman is a reporter at ProPublica covering education.",
         "biography": "Annie Waldman is a reporter at ProPublica covering education. She has been a finalist twice and won two awards from the Education Writers Association for her education reporting. She has won an award from the Society of American Business Editors and Writers and was a finalist for the Loeb Awards for her reporting with Paul Kiel and Al Shaw on the racial disparity of wage garnishment.<br><br>Prior to joining ProPublica, she was a recipient of a Fulbright Fellowship to Israel, where she reported on the plight of refugees from Darfur and Eritrea. She was also a recipient of a residency at Cité International des Arts in Paris, France. She had a documentary film in the 2009 Sundance Film Festival, on the lives of homeless high school students after Hurricane Katrina, which was later broadcast nationally on PBS.",
         "authorImage": {
-            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/e346c7a1-2baa-4cad-a1bc-79f71ceb8e29.png",
-            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e346c7a1-2baa-4cad-a1bc-79f71ceb8e29.png?w=1024&auto=format",
+            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/22a1f7e8-1ef6-4f0a-a1b8-f718e3905b20.png",
+            "url": "https://livingdocs-images.imgix.net/2018/8/22/22a1f7e8-1ef6-4f0a-a1b8-f718e3905b20.png?w=1024&auto=format",
             "width": 500,
             "height": 490,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/e346c7a1-2baa-4cad-a1bc-79f71ceb8e29.png?rect=5%2C0%2C490%2C490&w=1024&auto=format",
+                    "url": "https://livingdocs-images.imgix.net/2018/8/22/22a1f7e8-1ef6-4f0a-a1b8-f718e3905b20.png?rect=5%2C0%2C490%2C490&w=1024&auto=format",
                     "name": "1:1",
                     "x": 5,
                     "y": 0,
@@ -36,19 +36,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e346c7a1-2baa-4cad-a1bc-79f71ceb8e29.png?rect=5%2C0%2C490%2C490&w=2048&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/22a1f7e8-1ef6-4f0a-a1b8-f718e3905b20.png?rect=5%2C0%2C490%2C490&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e346c7a1-2baa-4cad-a1bc-79f71ceb8e29.png?rect=5%2C0%2C490%2C490&w=1024&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/22a1f7e8-1ef6-4f0a-a1b8-f718e3905b20.png?rect=5%2C0%2C490%2C490&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e346c7a1-2baa-4cad-a1bc-79f71ceb8e29.png?rect=5%2C0%2C490%2C490&w=620&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/22a1f7e8-1ef6-4f0a-a1b8-f718e3905b20.png?rect=5%2C0%2C490%2C490&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e346c7a1-2baa-4cad-a1bc-79f71ceb8e29.png?rect=5%2C0%2C490%2C490&w=320&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/22a1f7e8-1ef6-4f0a-a1b8-f718e3905b20.png?rect=5%2C0%2C490%2C490&w=320&auto=format"
                         }
                     ]
                 }

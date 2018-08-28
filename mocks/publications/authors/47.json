@@ -20,14 +20,14 @@
         "profile": "Jason Grotto covers issues related to municipal finance, including pensions, debt and taxation.",
         "biography": "Born and raised in Chicago, ProPublica Illinois reporter Jason Grotto specializes in quantitative analysis, using databases, statistics and mapping to ferret out corruption, negligence and bad public policy. Previously, he worked as an investigative reporter for the Chicago Tribune and the Miami Herald. His most recent project, which exposed widespread inaccuracies and disparities in Cook County’s property tax assessment system, was a Pulitzer Prize finalist for local reporting in 2018. He has also reported on the pension crisis in Chicago and Illinois and led a Gerald Loeb Award-winning investigation on Chicago Public Schools’ disastrous use of auction-rate securities, uncovered fraud in federal poverty programs, problems in Iraq war contracting and flaws in the Chicago Housing Authority's Plan for Transformation.<br><br>He was a 2015 Nieman Fellow at Harvard University, where he studied municipal finance. Other honors include a Chicago/Midwest Emmy Award, an Investigative Reporters and Editors Award and the Society of Environmental Journalists Award. He earned a master's degree in journalism from the University of Missouri in 2000 and a bachelor's in U.S. history from the University of Oregon in 1995.",
         "authorImage": {
-            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/fe65272b-1845-4990-aee3-4ab768490642.png",
-            "url": "https://livingdocs-dev.imgix.net/2018/5/10/fe65272b-1845-4990-aee3-4ab768490642.png?w=1024&auto=format",
+            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/19bd6f3e-1978-4ec9-ba14-8e37474a9396.png",
+            "url": "https://livingdocs-images.imgix.net/2018/8/22/19bd6f3e-1978-4ec9-ba14-8e37474a9396.png?w=1024&auto=format",
             "width": 472,
             "height": 456,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/fe65272b-1845-4990-aee3-4ab768490642.png?rect=8%2C0%2C456%2C456&w=1024&auto=format",
+                    "url": "https://livingdocs-images.imgix.net/2018/8/22/19bd6f3e-1978-4ec9-ba14-8e37474a9396.png?rect=8%2C0%2C456%2C456&w=1024&auto=format",
                     "name": "1:1",
                     "x": 8,
                     "y": 0,
@@ -36,19 +36,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/fe65272b-1845-4990-aee3-4ab768490642.png?rect=8%2C0%2C456%2C456&w=2048&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/19bd6f3e-1978-4ec9-ba14-8e37474a9396.png?rect=8%2C0%2C456%2C456&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/fe65272b-1845-4990-aee3-4ab768490642.png?rect=8%2C0%2C456%2C456&w=1024&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/19bd6f3e-1978-4ec9-ba14-8e37474a9396.png?rect=8%2C0%2C456%2C456&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/fe65272b-1845-4990-aee3-4ab768490642.png?rect=8%2C0%2C456%2C456&w=620&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/19bd6f3e-1978-4ec9-ba14-8e37474a9396.png?rect=8%2C0%2C456%2C456&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/fe65272b-1845-4990-aee3-4ab768490642.png?rect=8%2C0%2C456%2C456&w=320&auto=format"
+                            "url": "https://livingdocs-images.imgix.net/2018/8/22/19bd6f3e-1978-4ec9-ba14-8e37474a9396.png?rect=8%2C0%2C456%2C456&w=320&auto=format"
                         }
                     ]
                 }
