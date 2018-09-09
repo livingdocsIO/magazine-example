@@ -605,12 +605,6 @@
       "isEditable": true
     },
     {
-      "identifier": "author",
-      "type": "text",
-      "matches": ["head.author"],
-      "isEditable": true
-    },
-    {
       "identifier": "teaserImage",
       "type": "image",
       "matches": ["image.image"],
