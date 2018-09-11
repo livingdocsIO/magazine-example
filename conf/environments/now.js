@@ -2,7 +2,7 @@
 
 module.exports = {
   client: {
-    url: 'http://localhost:3000',
+    url: 'https://server.livingdocs.io',
     accessToken: 'your access token'
   },
   imageServices: {
