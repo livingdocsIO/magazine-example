@@ -1,7 +1,6 @@
 /* eslint no-console: 0 */
 const path = require('path')
 const express = require('express')
-const jsonServer = require('json-server')
 
 // route handlers
 const homeHandler = require('./routes/home')
@@ -41,12 +40,6 @@ if (process.env.NODE_ENV === 'development') {
 app.get('/favicon', (req, res) => res.end())
 app.get('/', homeHandler)
 app.get('/article/:slug/:id', publicationHandler)
-
-// setup json-server middleware
-const routes = require(path.join(__dirname, '../mocks/routes.json'))
-const db = require(path.join(__dirname, '../mocks/db.js'))()
-app.use(jsonServer.rewriter(routes))
-app.use(jsonServer.router(db))
 
 // go
 app.listen(port, '0.0.0.0', (err) => {
