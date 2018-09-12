@@ -7,7 +7,7 @@
   },
   "scripts": {
     "design:dev": "NODE_ENV=development npm run start:magazine",
-    "design:dev:mocked": "NODE_ENV=development run-p start:json-server start:magazine:watch",
+    "design:dev:mocked": "NODE_ENV=development npm run start:magazine:watch",
     "design:build": "NODE_ENV=production webpack --display-error-details",
     "design:publish": "npm run design:build && ldm design:publish design/dist",
     "now-build": "npm run design:build",
