@@ -13,10 +13,8 @@
     "now-build": "npm run design:build",
     "now-deploy": "now",
     "now-start": "ENVIRONMENT=now node app/index.js",
-    "start:json-server": "nodemon --watch ./mocks --exec 'json-server ./mocks/db.js --routes ./mocks/routes.json --port 3001'",
     "start:magazine": "node app/index.js",
     "start:magazine:watch": "nodemon --watch conf --watch lib --watch app app/index.js",
-    "start:magazine:mocked": "run-p start:json-server start:magazine",
     "start": "npm-run-all design:build design:dev:mocked"
   },
   "devDependencies": {
