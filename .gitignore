@@ -4,3 +4,4 @@ design/dist
 npm-debug.log
 conf/secrets/*
 !conf/secrets/secret.sample.js
+.fusebox
