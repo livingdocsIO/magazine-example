@@ -22,8 +22,24 @@ function generateHTML ({title, description, bodyContent}) {
       <meta charset="utf-8" />
       <meta http-equiv="Content-Language" content="en">
       <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-      <meta name="Description" content="${description}" />
-      <title>Living Times - ${title}</title>
+      <title>Livingdocs - Demo Magazine</title>
+      <meta property="og:title" content="Livingdocs - Demo Magazine" />
+      <meta name="Description" content="Livingdocs offers developers a free, open-source
+        Demo Magazine in Node.js to start with. Check it out!" />
+      <meta property="og:description" content="Livingdocs offers developers a free, open-source
+        Demo Magazine in Node.js to start with. Check it out!" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="http://livingdocs-assets.s3.amazonaws.com/ld_logo_final@2x.png" />
+      <meta property="og:image:secure_url" content="https://livingdocs-assets.s3.amazonaws.com/ld_logo_final@2x.png" />
+      <meta property="og:image:alt" content="Livingdocs" />
+      <meta property="og:site_name" content="www.Livingdocs.io" />
+      <meta property="og:url" content="https://github.com/livingdocsIO/magazine-example" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="http://livingdocs-assets.s3.amazonaws.com/assets/images/ld_signet_128x128.png" />
+      <meta name="twitter:image:alt" content="Livingdocs" />
+      <meta name="twitter:site" content="@livingdocsIO" />
+      <meta name="twitter:description" content="Livingdocs offers developers a free, open-source
+        Demo Magazine in Node.js to start with. Check it out!" />
       ${isDev ? '' : cssLink}
     </head>
     <body lang="en">
