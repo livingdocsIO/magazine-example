@@ -40,6 +40,7 @@ function generateHTML ({title, description, bodyContent}) {
       <meta name="twitter:site" content="@livingdocsIO" />
       <meta name="twitter:description" content="Livingdocs offers developers a free, open-source
         Demo Magazine in Node.js to start with. Check it out!" />
+      <link rel="canonical" href="https://living-times.com" />
       ${isDev ? '' : cssLink}
     </head>
     <body lang="en">
