@@ -53,16 +53,14 @@
         },
         "dependencies": {},
         "flag": "Politics",
-        "authors": [
-            {
-                "id": 25,
-                "name": "Derek Kravitz"
-            },
-            {
-                "id": 26,
-                "name": "Al Shaw"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "25"
+            }, {
+                "id": "26"
+            }]
+        }
     },
     "content": [
         {

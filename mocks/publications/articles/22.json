@@ -53,12 +53,12 @@
         },
         "dependencies": {},
         "flag": "Politics",
-        "authors": [
-            {
-                "id": 23,
-                "name": "Mick Dumke"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "23"
+            }]
+        }
     },
     "content": [
         {

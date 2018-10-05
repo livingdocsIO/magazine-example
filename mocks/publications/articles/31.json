@@ -53,12 +53,12 @@
         },
         "dependencies": {},
         "flag": "Technology",
-        "authors": [
-            {
-                "id": 32,
-                "name": "Julia Angwin"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "32"
+            }]
+        }
     },
     "content": [
         {

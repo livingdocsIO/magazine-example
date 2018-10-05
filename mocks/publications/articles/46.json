@@ -53,12 +53,12 @@
         },
         "dependencies": {},
         "flag": "Politics",
-        "authors": [
-            {
-                "id": 47,
-                "name": "Jason Grotto"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "47"
+            }]
+        }
     },
     "content": [
         {

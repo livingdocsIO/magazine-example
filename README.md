@@ -7,6 +7,8 @@ In order to run it locally with your own data, you will need to create an access
 
 The design is written in scss and you find the sources in `design/source/stylesheets`. This is a good place to start making the magazine look like yours.
 
+Before starting to develop make sure to check out our SDK: https://github.com/livingdocsIO/livingdocs-node-sdk
+
 ## Prerequisites
 Node v8.x.x
 

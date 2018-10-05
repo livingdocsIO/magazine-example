@@ -53,12 +53,12 @@
         },
         "dependencies": {},
         "flag": "Technology",
-        "authors": [
-            {
-                "id": 21,
-                "name": "Jennifer Valentino-DeVries"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "21"
+            }]
+        }
     },
     "content": [
         {

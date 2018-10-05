@@ -53,12 +53,12 @@
         },
         "dependencies": {},
         "flag": "Education",
-        "authors": [
-            {
-                "id": 14,
-                "name": "Annie Waldmann"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "14"
+            }]
+        }
     },
     "content": [
         {

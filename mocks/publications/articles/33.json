@@ -53,12 +53,12 @@
         },
         "dependencies": {},
         "flag": "Environment",
-        "authors": [
-            {
-                "id": 34,
-                "name": "Andrew Revkin"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "34"
+            }]
+        }
     },
     "content": [
         {

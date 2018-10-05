@@ -53,12 +53,12 @@
         },
         "dependencies": {},
         "flag": "Health Care",
-        "authors": [
-            {
-                "id": 30,
-                "name": "Marshall Allen"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "30"
+            }]
+        }
     },
     "content": [
         {
