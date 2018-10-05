@@ -53,12 +53,12 @@
         },
         "dependencies": {},
         "flag": "Environment",
-        "authors": [
-            {
-                "id": 28,
-                "name": "Alec MacGillis"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "28"
+            }]
+        }
     },
     "content": [
         {

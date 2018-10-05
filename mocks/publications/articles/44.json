@@ -53,12 +53,12 @@
         },
         "dependencies": {},
         "flag": "Immigration",
-        "authors": [
-            {
-                "id": 45,
-                "name": "Marcelo Rochabrun"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "45"
+            }]
+        }
     },
     "content": [
         {

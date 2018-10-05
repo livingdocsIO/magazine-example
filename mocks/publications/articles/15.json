@@ -53,12 +53,12 @@
         },
         "dependencies": {},
         "flag": "Immigration",
-        "authors": [
-            {
-                "id": 16,
-                "name": "Adriana Gallardo"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "16"
+            }]
+        }
     },
     "content": [
         {

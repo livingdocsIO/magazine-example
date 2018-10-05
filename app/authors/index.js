@@ -42,8 +42,8 @@ module.exports = async function createAuthorPage (livingdoc, publication, liClie
 
   const publications = await liClient.getPublications({limit: 100, fields: 'metadata,systemdata'})
   for (const recentPublication of publications) {
-    const authors = _.get(recentPublication, 'metadata.authors')
-    if (authors && _.find(authors, (a) => a.id === authorId)) {
+    const authors = _.get(recentPublication, 'metadata.authors.references')
+    if (authors && _.find(authors, (a) => +a.id === +authorId)) {
       const teaser = tree.createComponent('teaser-card')
       const includeDirective = teaser.directives.get('teaser')
       teaser.setStyle('teaser-image-position', 'teaser-card--left-aligned-img')

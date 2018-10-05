@@ -53,12 +53,12 @@
         },
         "dependencies": {},
         "flag": "Immigration",
-        "authors": [
-            {
-                "id": 18,
-                "name": "Michael Grabell"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "18"
+            }]
+        }
     },
     "content": [
         {

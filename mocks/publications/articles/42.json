@@ -53,12 +53,12 @@
         },
         "dependencies": {},
         "flag": "Technology",
-        "authors": [
-            {
-                "id": 43,
-                "name": "Ken Schwenke"
-            }
-        ]
+        "authors": {
+            "$ref": "documents",
+            "references": [{
+                "id": "43"
+            }]
+        }
     },
     "content": [
         {
