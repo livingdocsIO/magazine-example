@@ -1,12 +1,12 @@
 const slugify = require('../../../app/helpers/li-slugify')
-const _ = require('lodash')
+const getAuthorPublication = require('./helpers/get_author_publication')
 
 module.exports = async function enrichTeaserContentWithAuthor ({liClient, publication} = {}) {
-  const firstAuthor = _.get(publication, 'metadata.authors[0]')
-  if (!firstAuthor) return
+  const authorPublication = await getAuthorPublication({liClient, publication})
 
+  const {metadata, systemdata} = authorPublication
   return {
-    author: firstAuthor.name,
-    authorLink: slugify(firstAuthor.name, firstAuthor.id)
+    author: `${metadata.prename} ${metadata.surname}`,
+    authorLink: slugify(metadata.title, systemdata.documentId)
   }
 }
