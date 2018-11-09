@@ -1,11 +1,11 @@
 {
   "name": "living-times",
   "label": "Living Times",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "license": "Copyright (c) 2018 Livingdocs AG, all rights reserved",
 
   "assets": {
-    "basePath": "https://cdn.livingdocs.io/designs/living-times/0.0.13",
+    "basePath": "https://cdn.livingdocs.io/designs/living-times/0.0.14",
     "css": ["./styles.css"],
     "js": ["./scripts.js"]
   },
@@ -183,7 +183,7 @@
             ],
             "footer": [
               {
-                "identifier": "living-times.halves",
+                "identifier": "living-times.halves-article-footer",
                 "content": {
                   "title": "Recommended Stories"
                 },
@@ -209,7 +209,7 @@
         },
         {
           "label": "Text",
-          "components": ["paragraph", "quote", "separator", "bullet-list"]
+          "components": ["paragraph", "quote", "separator", "bullet-list", "bullet-list-item"]
         },
         {
           "label": "Images",
@@ -264,7 +264,7 @@
         },
         {
           "label": "Text",
-          "components": ["paragraph", "quote", "separator", "bullet-list"]
+          "components": ["paragraph", "quote", "separator", "bullet-list", "bullet-list-item"]
         },
         {
           "label": "Images",
