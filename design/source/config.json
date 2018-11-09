@@ -183,7 +183,7 @@
             ],
             "footer": [
               {
-                "identifier": "living-times.halves",
+                "identifier": "living-times.halves-article-footer",
                 "content": {
                   "title": "Recommended Stories"
                 },
@@ -209,7 +209,7 @@
         },
         {
           "label": "Text",
-          "components": ["paragraph", "quote", "separator", "bullet-list"]
+          "components": ["paragraph", "quote", "separator", "bullet-list", "bullet-list-item"]
         },
         {
           "label": "Images",
@@ -264,7 +264,7 @@
         },
         {
           "label": "Text",
-          "components": ["paragraph", "quote", "separator", "bullet-list"]
+          "components": ["paragraph", "quote", "separator", "bullet-list", "bullet-list-item"]
         },
         {
           "label": "Images",
