@@ -17,6 +17,15 @@
     "start:magazine:watch": "nodemon --watch conf --watch lib --watch app app/index.js",
     "start": "npm-run-all design:build design:dev:mocked"
   },
+  "dependencies": {
+    "@livingdocs/conf": "^1.0.1",
+    "@livingdocs/node-sdk": "^0.1.0",
+    "combined-slugify": "^2.1.0",
+    "compression": "^1.7.2",
+    "express": "^4.16.3",
+    "moment": "^2.11.0",
+    "photoswipe": "^4.1.2"
+  },
   "devDependencies": {
     "autoprefixer": "^8.0.0",
     "babel-core": "^6.25.0",
@@ -48,14 +57,5 @@
     "webpack-cli": "^3.0.3",
     "webpack-dev-middleware": "^3.1.0",
     "webpack-hot-middleware": "^2.21.2"
-  },
-  "dependencies": {
-    "@livingdocs/conf": "^1.0.1",
-    "@livingdocs/node-sdk": "^0.1.0",
-    "combined-slugify": "^2.1.0",
-    "compression": "^1.7.2",
-    "express": "^4.16.3",
-    "moment": "^2.11.0",
-    "photoswipe": "^4.1.2"
   }
 }
