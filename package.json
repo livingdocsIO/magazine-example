@@ -1,6 +1,6 @@
 {
-  "name": "livingdocs-magazine-boilerplate",
   "version": "0.1.0",
+  "name": "magazine-example",
   "repository": {
     "type": "git",
     "url": "https://github.com/livingdocsIO/magazine-example"
