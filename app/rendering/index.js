@@ -1,5 +1,5 @@
-const liSDK = require('@livingdocs/node-sdk')
 const _ = require('lodash')
+const liSDK = require('@livingdocs/node-sdk')
 
 const resolveIncludes = require('../includes')
 const createAuthorPage = require('../authors')
@@ -12,62 +12,10 @@ const includesConfig = conf.get('includes')
 
 // constants
 const isDev = process.env.NODE_ENV === 'development'
-const cssLink = `<link href="/styles.css" media="screen" rel="stylesheet" type="text/css" />`
 
-function generateHTML ({title, description, bodyContent}) {
-  return `
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <meta http-equiv="Content-Language" content="en">
-      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-      <title>Livingdocs - Demo Magazine</title>
-      <meta property="og:title" content="Livingdocs - Demo Magazine" />
-      <meta name="Description" content="Livingdocs offers developers a free, open-source
-        Demo Magazine in Node.js to start with. Check it out!" />
-      <meta property="og:description" content="Livingdocs offers developers a free, open-source
-        Demo Magazine in Node.js to start with. Check it out!" />
-      <meta property="og:type" content="website" />
-      <meta property="og:image" content="http://livingdocs-assets.s3.amazonaws.com/ld_logo_final@2x.png" />
-      <meta property="og:image:secure_url" content="https://livingdocs-assets.s3.amazonaws.com/ld_logo_final@2x.png" />
-      <meta property="og:image:alt" content="Livingdocs" />
-      <meta property="og:site_name" content="www.Livingdocs.io" />
-      <meta property="og:url" content="https://github.com/livingdocsIO/magazine-example" />
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:image" content="http://livingdocs-assets.s3.amazonaws.com/assets/images/ld_signet_128x128.png" />
-      <meta name="twitter:image:alt" content="Livingdocs" />
-      <meta name="twitter:site" content="@livingdocsIO" />
-      <meta name="twitter:description" content="Livingdocs offers developers a free, open-source
-        Demo Magazine in Node.js to start with. Check it out!" />
-      <link rel="canonical" href="https://living-times.com" />
-      ${isDev ? '' : cssLink}
-    </head>
-    <body lang="en">
-      ${bodyContent}
-      <script src="/scripts.js"></script>
-      ${isDev ? `<script src="/helpers.js"></script>` : ''}
-      <script
-        src="https://code.jquery.com/jquery-2.2.4.min.js"
-        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-        crossorigin="anonymous">
-      </script>
-      <script>
-      window.twttr = (function (d, s, id) {
-      var t, js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src= "https://platform.twitter.com/widgets.js";
-      fjs.parentNode.insertBefore(js, fjs);
-      return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
-      }(document, "script", "twitter-wjs"));
-      window.twttr.ready(function(twttr){
-      twttr.widgets.load();
-      });
-      </script>
-    </body>
-  </html>
-  `
+module.exports = {
+  renderPage,
+  renderError
 }
 
 async function renderPage ({menu, location, publication, liClient}) {
@@ -129,7 +77,58 @@ function renderError (error) {
   })
 }
 
-module.exports = {
-  renderPage,
-  renderError
+function generateHTML ({title, description, bodyContent}) {
+  return `
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="Content-Language" content="en">
+      <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+      <title>Livingdocs - Demo Magazine</title>
+      <meta property="og:title" content="Livingdocs - Demo Magazine" />
+      <meta name="Description" content="Livingdocs offers developers a free, open-source
+        Demo Magazine in Node.js to start with. Check it out!" />
+      <meta property="og:description" content="Livingdocs offers developers a free, open-source
+        Demo Magazine in Node.js to start with. Check it out!" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="http://livingdocs-assets.s3.amazonaws.com/ld_logo_final@2x.png" />
+      <meta property="og:image:secure_url" content="https://livingdocs-assets.s3.amazonaws.com/ld_logo_final@2x.png" />
+      <meta property="og:image:alt" content="Livingdocs" />
+      <meta property="og:site_name" content="www.Livingdocs.io" />
+      <meta property="og:url" content="https://github.com/livingdocsIO/magazine-example" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:image" content="http://livingdocs-assets.s3.amazonaws.com/assets/images/ld_signet_128x128.png" />
+      <meta name="twitter:image:alt" content="Livingdocs" />
+      <meta name="twitter:site" content="@livingdocsIO" />
+      <meta name="twitter:description" content="Livingdocs offers developers a free, open-source
+        Demo Magazine in Node.js to start with. Check it out!" />
+      <link rel="canonical" href="https://living-times.com" />
+      ${isDev ? '' : '<link href="/styles.css" media="screen" rel="stylesheet" type="text/css" />'}
+    </head>
+    <body lang="en">
+      ${bodyContent}
+      <script src="/scripts.js"></script>
+      ${isDev ? '<script src="/helpers.js"></script>' : ''}
+      <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous">
+      </script>
+      <script>
+      window.twttr = (function (d, s, id) {
+      var t, js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src= "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+      }(document, "script", "twitter-wjs"));
+      window.twttr.ready(function(twttr){
+      twttr.widgets.load();
+      });
+      </script>
+    </body>
+  </html>
+  `
 }
