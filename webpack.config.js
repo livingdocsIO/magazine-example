@@ -3,17 +3,14 @@ const webpack = require('webpack')
 const autoprefixer = require('autoprefixer')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
-const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OpenBrowserPlugin = require('open-browser-webpack-plugin')
 const BuildDesignPlugin = require('./lib/build_design_plugin')
 
 const isDev = process.env.NODE_ENV !== 'production'
 const distPath = path.resolve('./design/dist')
-const HMRClient =
-  'webpack-hot-middleware/client?reload=true'
-
-const scriptPath = (folder, filename) => ([
-  isDev && HMRClient,
+const hmrPath = (folder, filename) => ([
+  isDev && 'webpack-hot-middleware/client?reload=true',
   `./design/source/${folder}/${filename}`
 ].filter(Boolean))
 
@@ -22,9 +19,9 @@ module.exports = {
   mode: isDev ? 'development' : 'production',
   devtool: isDev ? 'source-map' : 'nosources-source-map',
   entry: Object.assign({}, {
-    scripts: scriptPath('scripts', 'index.js')
+    scripts: hmrPath('scripts', 'index.js')
   }, isDev ? {
-    helpers: scriptPath('helpers', 'index.js')
+    helpers: hmrPath('helpers', 'index.js')
   } : {}),
   output: {
     path: distPath,
@@ -52,51 +49,10 @@ module.exports = {
       loader: 'html-loader'
     }, {
       test: /\.css$/,
-      use: ExtractTextPlugin.extract({
-        use: [isDev && {
-          loader: 'style-loader'
-        }, {
-          loader: 'css-loader',
-          options: {
-            minimize: true
-          }
-        }, {
-          loader: 'resolve-url-loader'
-        }, {
-          loader: 'postcss-loader',
-          options: {
-            plugins: function () {
-              return [autoprefixer]
-            }
-          }
-        }].filter(Boolean)
-      })
+      use: getStyleLoaders({sass: false})
     }, {
-      test: /living-times\.scss$/,
-      use: ExtractTextPlugin.extract({
-        use: [isDev && {
-          loader: 'style-loader'
-        }, {
-          loader: 'css-loader',
-          options: {
-            minimize: true
-          }
-        }, {
-          loader: 'resolve-url-loader',
-          options: {
-            root: path.resolve('./design/source/stylesheets')
-          }
-        }, {
-          loader: 'postcss-loader',
-          options: {
-            plugins: function () {
-              return [autoprefixer]
-            }
-          }
-        }, {
-          loader: 'sass-loader'
-        }].filter(Boolean)
-      })
+      test: /\.(sa|sc)ss$/,
+      use: getStyleLoaders({sass: true})
     }]
   },
   resolve: {
@@ -112,9 +68,8 @@ module.exports = {
       src: path.resolve('./design/source'),
       dest: distPath
     }),
-    new ExtractTextPlugin({
-      filename: 'styles.css',
-      disable: isDev
+    new MiniCssExtractPlugin({
+      filename: 'styles.css'
     }),
     new CopyWebpackPlugin([{
       context: 'design/source',
@@ -131,4 +86,33 @@ module.exports = {
       })
     ] : []
   )
+}
+
+function getStyleLoaders ({sass}) {
+  const loaders = []
+  if (isDev) {
+    loaders.push({loader: 'style-loader', options: {hmr: true}})
+  } else {
+    loaders.push({loader: MiniCssExtractPlugin.loader})
+  }
+  loaders.push(...[{
+    loader: 'css-loader',
+    options: {
+      minimize: !isDev
+    }
+  }, {
+    loader: 'resolve-url-loader',
+    options: sass ? {
+      root: path.resolve('./design/source/stylesheets')
+    } : {}
+  }, {
+    loader: 'postcss-loader',
+    options: {
+      plugins: function () {
+        return [autoprefixer]
+      }
+    }
+  }])
+  if (sass) loaders.push({loader: 'sass-loader'})
+  return loaders
 }
