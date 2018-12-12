@@ -78,13 +78,7 @@ module.exports = {
     }]),
     new webpack.optimize.OccurrenceOrderPlugin(true)
   ].concat(
-    isDev ? [
-      new webpack.HotModuleReplacementPlugin(),
-      new OpenBrowserPlugin({
-        url: `http://0.0.0.0:${process.env.PORT || 3000}`,
-        ignoreErrors: true
-      })
-    ] : []
+    getDevPlugins()
   )
 }
 
@@ -115,4 +109,19 @@ function getStyleLoaders ({sass}) {
   }])
   if (sass) loaders.push({loader: 'sass-loader'})
   return loaders
+}
+
+function getDevPlugins () {
+  const devPlugins = []
+  if (!isDev) return devPlugins
+
+  devPlugins.push(new webpack.HotModuleReplacementPlugin())
+  if (process.argv.includes('--open')) {
+    devPlugins.push(new OpenBrowserPlugin({
+      url: `http://0.0.0.0:${process.env.PORT || 3000}`,
+      ignoreErrors: true
+    }))
+  }
+
+  return devPlugins
 }
