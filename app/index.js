@@ -1,7 +1,6 @@
 /* eslint no-console: 0 */
 const path = require('path')
 const express = require('express')
-const jsonServer = require('json-server')
 
 // route handlers
 const homeHandler = require('./routes/home')
@@ -14,17 +13,16 @@ const app = express()
 app.use(express.static(distPath))
 
 // setup app configurations
-app.disable('x-powered-by')
-
 const hostName = require('os').hostname()
 const compression = require('compression')()
+app.disable('x-powered-by')
 app.use(function (req, res, next) {
   res.setHeader('X-Served-By', hostName)
   res.setHeader('X-DNS-Prefetch-Control', 'on')
   compression(req, res, next)
 })
 
-// setup dev middlewares and watchers
+// setup dev middleware and watchers
 if (process.env.NODE_ENV === 'development') {
   require('../lib/dev_setup')({
     app,
@@ -42,11 +40,10 @@ app.get('/favicon', (req, res) => res.end())
 app.get('/', homeHandler)
 app.get('/article/:slug/:id', publicationHandler)
 
-// setup json-server middleware
-const routes = require(path.join(__dirname, '../mocks/routes.json'))
-const db = require(path.join(__dirname, '../mocks/db.js'))()
-app.use(jsonServer.rewriter(routes))
-app.use(jsonServer.router(db))
+// setup mock json-server middleware
+if (process.argv.includes('--mocked')) {
+  require('../lib/mock_setup')(app)
+}
 
 // go
 app.listen(port, '0.0.0.0', (err) => {
