@@ -6,16 +6,19 @@
     "url": "https://github.com/livingdocsIO/magazine-example"
   },
   "scripts": {
-    "design:dev": "NODE_ENV=development npm run start:magazine",
-    "design:dev:mocked": "NODE_ENV=development npm run start:magazine:watch",
+    "design:dev": "NODE_ENV=development npm-run-all design:build start:magazine:watch",
+    "design:dev:open": "NODE_ENV=development npm-run-all design:build start:magazine:watch -- --open",
+    "design:dev:mocked": "NODE_ENV=development npm-run-all design:build start:magazine:watch -- --watch mocks --mocked",
+    "design:dev:mocked:open": "NODE_ENV=development npm-run-all design:build start:magazine:watch -- --watch mocks --mocked --open",
     "design:build": "NODE_ENV=production webpack --display-error-details",
     "design:publish": "npm run design:build && ldm design:publish design/dist",
+    "start:magazine:watch": "nodemon --watch conf --watch lib --watch app app/index.js",
+    "start:open": "npm run design:dev:mocked:open",
+    "start": "npm run design:dev:mocked",
+    "start:magazine": "node app/index.js",
     "now-build": "npm run design:build",
     "now-deploy": "now",
-    "now-start": "ENVIRONMENT=now node app/index.js",
-    "start:magazine": "node app/index.js",
-    "start:magazine:watch": "nodemon --watch conf --watch lib --watch app app/index.js",
-    "start": "npm-run-all design:build design:dev:mocked"
+    "now-start": "ENVIRONMENT=now npm run start:magazine"
   },
   "dependencies": {
     "@livingdocs/conf": "^1.0.1",
