@@ -15,15 +15,23 @@ Node v8.x.x
 ## Getting Started
 
 ### First of all
+
 ```
 npm install
 ```
 
-### Running the demo magazine locally
+### Running the demo magazine locally (dev mode with mocks)
+
 Start the server:
 
 ```
 ENVIRONMENT=local npm start
+```
+
+To automatically open the magazine in the browser run:
+
+```
+ENVIRONMENT=local npm run start:open
 ```
 
 ### Deploy to now.sh
