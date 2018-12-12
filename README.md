@@ -64,13 +64,35 @@ To automatically open the magazine in the browser run:
 ENVIRONMENT=local npm run design:dev:open
 ```
 
+### Running the demo magazine for production (no dev helpers and watchers)
+
+Build the design:
+
+```
+npm run design:build
+```
+
+Start the server:
+
+```
+ENVIRONMENT=local npm run start:magazine
+```
+(or use your custom environment e.g. `production`, make sure to create a corresponding file under `conf/environments`, learn more about this on the "Deploy to now.sh" section)
+
+To run the demo magazine with mocks in production mode:
+
+```
+ENVIRONMENT=local npm run start:magazine -- --mocked
+```
+
 ### Deploy to now.sh
 
 The deployment to now.sh serves as a sample deployment.
 
 1. Create an account on https://zeit.co/now
 2. Add a file `now.js` to `conf/environments` with the following content:
-```
+
+```js
 /* eslint-disable max-len */
 
 module.exports = {
@@ -85,6 +107,6 @@ module.exports = {
   }
 }
 ```
-(make sure to replace 'your access token')
+(make sure to replace `'your access token'`)
 
 3. From your command line at the root directory of this repository run `rm -rf node_modules && npm install && now`
