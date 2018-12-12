@@ -34,6 +34,36 @@ To automatically open the magazine in the browser run:
 ENVIRONMENT=local npm run start:open
 ```
 
+### Running the demo magazine locally (dev mode with backend data source, no mocks)
+
+Open `conf/environments/local.js` and set your target data source, e.g. see client:
+
+```js
+module.exports = {
+  client: {
+    url: 'https://server.livingdocs.io', // we take the production livingdocs service server here
+    accessToken: 'your access token' // the access token to your magazine project
+  },
+  imageServices: {
+    imgix: {
+      host: 'https://livingdocs-images.imgix.net'
+    }
+  }
+}
+```
+
+Start the server:
+
+```
+ENVIRONMENT=local npm run design:dev
+```
+
+To automatically open the magazine in the browser run:
+
+```
+ENVIRONMENT=local npm run design:dev:open
+```
+
 ### Deploy to now.sh
 
 The deployment to now.sh serves as a sample deployment.
