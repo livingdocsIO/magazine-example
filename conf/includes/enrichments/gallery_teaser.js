@@ -1,4 +1,4 @@
-const createLivingdoc = require('./helpers/create_livingdoc')
+const createLivingdoc = require('../helpers/create_livingdoc')
 
 module.exports = function enrichGalleryTeaserContent ({component, publication} = {}) {
   const galleryLivingdoc = createLivingdoc(publication)
