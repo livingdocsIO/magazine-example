@@ -7,8 +7,8 @@ module.exports = {
         template: 'teaser-author-template',
         contentSpec: {
           title: contentExtractor.authorName,
-          link: contentExtractor.link,
-          authorLink: contentExtractor.link,
+          link: contentExtractor.authorLink,
+          authorLink: contentExtractor.authorLink,
           text: contentExtractor.profile,
           image: contentExtractor.image({crop: '1:1', target: 'authorImage'})
         }
@@ -83,8 +83,7 @@ module.exports = {
         template: 'teaser-card-author-template',
         contentSpec: {
           link: contentExtractor.link,
-          text: contentExtractor.title,
-          image: contentExtractor.image({crop: '16:9'})
+          text: contentExtractor.title
         },
         contentEnrichments: [
           require('./enrichments/author_teaser')

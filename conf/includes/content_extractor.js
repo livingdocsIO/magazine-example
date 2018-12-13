@@ -1,6 +1,6 @@
-const slugify = require('../../app/helpers/li-slugify')
 const moment = require('moment')
-const _ = require('lodash')
+const slugify = require('../../app/helpers/li-slugify')
+const getAuthorName = require('./helpers/get_author_name')
 
 module.exports = {
   link,
@@ -8,14 +8,17 @@ module.exports = {
   description,
   image,
   flag,
-  author,
   publishDate,
-  profile,
-  authorName
+  authorName,
+  authorLink,
+  profile
 }
 
 function link ({metadata = {}, systemdata = {}} = {}) {
-  return slugify(metadata.title, systemdata.documentId)
+  const documentId = systemdata.documentId
+  if (!documentId) return '#'
+  const slugTitle = metadata.title || 'publication'
+  return slugify(slugTitle, documentId)
 }
 
 function title ({metadata = {}} = {}) {
@@ -26,15 +29,19 @@ function description ({metadata = {}} = {}) {
   return metadata.description || ''
 }
 
-function profile ({metadata = {}} = {}) {
-  return metadata.profile || ''
+function authorName ({metadata = {}} = {}) {
+  return getAuthorName(metadata)
 }
 
-function authorName ({metadata = {}} = {}) {
-  if (metadata.prename && metadata.surname) return `${metadata.prename} ${metadata.surname}`
-  if (metadata.prename) return metadata.prename
-  if (metadata.surname) return metadata.surname
-  return 'No Name'
+function authorLink ({metadata = {}, systemdata = {}} = {}) {
+  const documentId = systemdata.documentId
+  if (!documentId) return '#'
+  const slugTitle = authorName({metadata}) || 'author'
+  return slugify(slugTitle, documentId)
+}
+
+function profile ({metadata = {}} = {}) {
+  return metadata.profile || ''
 }
 
 function image (imageExtractionConfig = {}) {
@@ -59,10 +66,6 @@ function image (imageExtractionConfig = {}) {
 
 function flag ({metadata = {}} = {}) {
   return metadata.flag
-}
-
-function author ({metadata = {}} = {}) {
-  return metadata.author || ''
 }
 
 function publishDate ({metadata = {}, first_publication: firstPublication = {}} = {}) {
