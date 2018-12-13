@@ -7,9 +7,9 @@
   },
   "scripts": {
     "design:dev": "NODE_ENV=development npm-run-all design:build start:magazine:watch",
-    "design:dev:open": "NODE_ENV=development npm-run-all design:build start:magazine:watch -- --open",
-    "design:dev:mocked": "NODE_ENV=development npm-run-all design:build start:magazine:watch -- --watch mocks --mocked",
-    "design:dev:mocked:open": "NODE_ENV=development npm-run-all design:build start:magazine:watch -- --watch mocks --mocked --open",
+    "design:dev:open": "NODE_ENV=development npm-run-all design:build \"start:magazine:watch -- --open\"",
+    "design:dev:mocked": "NODE_ENV=development npm-run-all design:build \"start:magazine:watch -- --watch mocks --mocked\"",
+    "design:dev:mocked:open": "NODE_ENV=development npm-run-all design:build \"start:magazine:watch -- --watch mocks --mocked --open\"",
     "design:build": "NODE_ENV=production webpack --display-error-details",
     "design:publish": "npm run design:build && ldm design:publish design/dist",
     "start:magazine:watch": "nodemon --watch conf --watch lib --watch app app/index.js",
