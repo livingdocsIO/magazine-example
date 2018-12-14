@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@livingdocs/conf": "^1.0.1",
-    "@livingdocs/node-sdk": "^0.2.1",
+    "@livingdocs/node-sdk": "^0.3.1",
     "combined-slugify": "^2.1.0",
     "compression": "^1.7.2",
     "express": "^4.16.3",
