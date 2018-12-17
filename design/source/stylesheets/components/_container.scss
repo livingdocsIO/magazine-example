@@ -25,23 +25,28 @@
 // Modifiers: column widths
 .container--halves .container-grid__item {
   flex: 0 0 50%;
+  max-width: 50%;
 }
 
 .container--thirds .container-grid__item {
   flex: 0 0 33.33%;
+  max-width: 33.33%;
 }
 
 .container--quarter .container-grid__item {
   flex: 0 0 25%;
+  max-width: 25%;
 }
 
 .container--halves-uneven {
   .container-grid__item:first-child {
     flex: 0 0 25%;
+    max-width: 25%;
   }
 
   .container-grid__item:last-child {
     flex: 0 0 75%;
+    max-width: 75%;
   }
 
   .teaser-card {
@@ -111,6 +116,7 @@
 
   .container--quarter .container-grid__item {
     flex: 0 0 50%;
+    max-width: 50%;
   }
 
   .container--lined.container--quarter .container-grid__item:nth-child(even)::after {
@@ -135,16 +141,22 @@
   .container--halves-uneven {
     .container-grid__item:first-child {
       flex: 0 0 33.33%;
+      max-width: 33.33%;
     }
 
     .container-grid__item:last-child {
       flex: 0 0 66.33%;
+      max-width: 66.33%;
     }
   }
 
 }
 
 @media (max-width: $mq-small) {
+  .container-grid__item {
+    max-width: 100% !important;
+  }
+
   .container--thirds {
 
     .container-grid__item {
