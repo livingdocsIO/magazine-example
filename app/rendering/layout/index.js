@@ -9,7 +9,7 @@ module.exports = function renderLayout (design, livingdoc,
   const config = {}
   if (Object.keys(imageServicesConfig).length) config.imageServices = imageServicesConfig
 
-  const wrapperLivingdoc = liSDK.document.create({design, content: {}, config})
+  const wrapperLivingdoc = liSDK.document.create({design, content: [], config})
   const tree = wrapperLivingdoc.componentTree
 
   const layoutComponent = tree.createComponent(layout)
