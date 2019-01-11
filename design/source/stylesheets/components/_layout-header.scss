@@ -15,8 +15,8 @@
 
 // Logo
 .logo {
-  max-width: 322px;
-  margin: $base-spacing-unit auto $base-spacing-unit;
+  max-width: 375px;
+  margin: 20px auto;
 }
 
 // Meta navgation styles
@@ -98,8 +98,8 @@
 @media (max-width: $mq-small) {
   .logo {
     max-width: 250px;
+    margin: 24px 0 24px halve($base-spacing-unit);
     margin-right: 0;
-    margin-left: halve($base-spacing-unit);
   }
 
   .meta-nav {
@@ -116,7 +116,7 @@
 @media (max-width: $mq-extra-small) {
   .logo {
     max-width: 180px;
-    margin: halve($base-spacing-unit) 0 halve($base-spacing-unit) halve($base-spacing-unit);
+    margin: 12px 0 12px halve($base-spacing-unit);
   }
 
   .meta-nav {
