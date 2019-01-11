@@ -19,6 +19,10 @@
   margin: 20px auto;
 }
 
+.logo__handheld {
+  display: none;
+}
+
 // Meta navgation styles
 .meta-nav {
   top: 36px;
@@ -100,6 +104,14 @@
     max-width: 250px;
     margin: 24px 0 24px halve($base-spacing-unit);
     margin-right: 0;
+  }
+
+  .logo__desktop {
+    display: none;
+  }
+
+  .logo__handheld {
+    display: block;
   }
 
   .meta-nav {
