@@ -1,7 +1,7 @@
 # Magazine Example
 
 This is an open-source demo magazine for developers working with the Livingdocs service.
-By default it will run with mock data from the `mocks` folder. An online version can be found on https://www.living-times.com
+By default it will run with mock data from the `mocks` folder. An online version can be found on https://jovial-shaw-3479ee.netlify.com/
 
 In order to run it locally with your own data, you will need to create an access token in Livingdocs and add it to `conf/environments/local.js`.
 
