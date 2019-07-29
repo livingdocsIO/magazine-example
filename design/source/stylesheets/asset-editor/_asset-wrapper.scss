@@ -1,0 +1,6 @@
+.asset-wrapper {
+  max-width: 580px + double($base-spacing-unit);
+  border: 1px dashed #29b96f;
+  margin: $base-spacing-unit auto;
+  padding: $base-spacing-unit;
+}

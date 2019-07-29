@@ -1,0 +1,14 @@
+.asset-head {
+  &__type {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: normal;
+    &::after {
+      content: '/';
+    }
+  }
+
+  &__title {
+    font-size: 20px;
+  }
+}
