@@ -291,7 +291,7 @@
       "icon": null,
       "defaultContent": [
         {
-          "identifier": "living-times.article-container",
+          "identifier": "living-times.asset-container",
           "containers": {
             "header": [
               { "identifier": "living-times.head" }

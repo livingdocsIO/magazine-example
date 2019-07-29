@@ -14,14 +14,18 @@ module.exports = function renderLayout (design, livingdoc,
 
   const layoutComponent = tree.createComponent(layout)
 
-  const headerComponent = getHeaderComponent(tree, {header, headerItem}, {menu, location})
-  layoutComponent.append('header', headerComponent)
+  if (header !== null && headerItem !== null) {
+    const headerComponent = getHeaderComponent(tree, {header, headerItem}, {menu, location})
+    layoutComponent.append('header', headerComponent)
+  }
 
   const contentContainer = layoutComponent.containers.get('content')
   contentContainer.appendTree(livingdoc.componentTree)
 
-  const footerComponent = tree.createComponent(footer)
-  layoutComponent.append('footer', footerComponent)
+  if (footer !== null) {
+    const footerComponent = tree.createComponent(footer)
+    layoutComponent.append('footer', footerComponent)
+  }
 
   tree.append(layoutComponent)
   return liSDK.document.render(wrapperLivingdoc)
