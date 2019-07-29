@@ -15,7 +15,7 @@
     "metadata": {
         "title": "Asset Editor",
         "dependencies": {},
-        "homepage": true
+        "homepage": false
     },
     "content": [
       {
@@ -23,13 +23,9 @@
         "containers": {
           "header": [
             {
-              "identifier": "living-times.head",
+              "identifier": "living-times.asset-head",
               "content": {
-                "flag": "Lorem ipsum dolor",
-                "title": "Lorem ipsum dolor",
-                "text": "Lorem ipsum dolor",
-                "author": "Lorem ipsum dolor",
-                "date": "Lorem ipsum dolor"
+                "title": "Lorem ipsum dolor"
               }
             }
           ],
