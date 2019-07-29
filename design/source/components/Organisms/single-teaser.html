@@ -1,0 +1,43 @@
+<script type="ld-conf">
+{
+  "name": "1-teaser-row",
+  "label": "1 Teaser Row",
+  "description": "2 Teasers next to each other",
+  "iconUrl": "https://livingdocs-assets.s3.amazonaws.com/magazine-design/assets/images/icons-components/icon_teaser_with_image.svg",
+  "properties": ["container-style-lined"],
+  "directives": {
+    "teaser": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "card"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "regular"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "regular"}
+          ]
+        }
+      }
+    }
+  }
+}
+</script>
+
+<div class="container container--whole">
+  <h2 class="container__title" doc-editable="title" doc-optional="true">
+    Topic
+  </h2>
+  <div class="container-grid">
+    <div class="container-grid__item">
+      <div doc-include="teaser" class="placeholder--teaser-card">
+        <div class="placeholder__img"></div>
+      </div>
+    </div>
+  </div>
+</div>
