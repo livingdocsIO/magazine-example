@@ -1,0 +1,199 @@
+<script type="ld-conf">
+{
+  "name": "2-col-teaser-stack",
+  "label": "2 Column Teaser Stack",
+  "description": "Two stacks of Article Teasers",
+  "iconUrl": "https://livingdocs-assets.s3.amazonaws.com/magazine-design/assets/images/icons-components/icon_teaser_with_image.svg",
+  "properties": ["container-style-lined"],
+  "directives": {
+    "teaser1-left": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "card"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "regular"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "regular"}
+          ]
+        }
+      }
+    },
+    "teaser2-left": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "card"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "regular"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "regular"}
+          ]
+        }
+      }
+    },
+    "teaser3-left": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "card"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "regular"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "regular"}
+          ]
+        }
+      }
+    },
+    "teaser4-left": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "card"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "regular"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "regular"}
+          ]
+        }
+      }
+    },
+    "teaser1-right": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "card"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "regular"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "regular"}
+          ]
+        }
+      }
+    },
+    "teaser2-right": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "card"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "regular"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "regular"}
+          ]
+        }
+      }
+    },
+    "teaser3-right": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "card"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "regular"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "regular"}
+          ]
+        }
+      }
+    },
+    "teaser4-right": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "card"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "regular"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "regular"}
+          ]
+        }
+      }
+    }
+  }
+}
+</script>
+
+<div class="container container--halves">
+  <h2 class="container__title" doc-editable="title" doc-optional="true">
+    Topic
+  </h2>
+  <div class="container-grid">
+    <div class="container-grid__item">
+      <div doc-include="teaser1-left" class="placeholder--teaser-card">
+        <div class="placeholder__img"></div>
+      </div>
+      <div doc-include="teaser2-left" class="placeholder--teaser-card">
+        <div class="placeholder__img"></div>
+      </div>
+      <div doc-include="teaser3-left" class="placeholder--teaser-card">
+        <div class="placeholder__img"></div>
+      </div>
+      <div doc-include="teaser4-left" class="placeholder--teaser-card">
+        <div class="placeholder__img"></div>
+      </div>
+    </div>
+    <div class="container-grid__item">
+      <div doc-include="teaser1-right" class="placeholder--teaser-card">
+        <div class="placeholder__img"></div>
+      </div>
+      <div doc-include="teaser2-right" class="placeholder--teaser-card">
+        <div class="placeholder__img"></div>
+      </div>
+      <div doc-include="teaser3-right" class="placeholder--teaser-card">
+        <div class="placeholder__img"></div>
+      </div>
+      <div doc-include="teaser4-right" class="placeholder--teaser-card">
+        <div class="placeholder__img"></div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -183,19 +183,9 @@
             ],
             "footer": [
               {
-                "identifier": "living-times.halves-article-footer",
+                "identifier": "living-times.2-col-teaser-stack",
                 "content": {
                   "title": "Recommended Stories"
-                },
-                "containers": {
-                  "column-one": [
-                    { "identifier": "living-times.teaser-card" },
-                    { "identifier": "living-times.teaser-card" }
-                  ],
-                  "column-two": [
-                    { "identifier": "living-times.teaser-card" },
-                    { "identifier": "living-times.teaser-card" }
-                  ]
                 }
               }
             ]
@@ -221,7 +211,7 @@
         },
         {
           "label": "Footer",
-          "components": ["halves-article-footer", "teaser-card"]
+          "components": ["2-col-teaser-stack"]
         },
         {
           "label": "Embeds",
