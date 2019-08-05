@@ -1,0 +1,37 @@
+.asset-head {
+  &__bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    padding: 22px;
+    border-bottom: $asset-color-border 1px solid;
+  }
+
+  &__type {
+    color: $asset-color-gray-one;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  &__section {
+    margin: 22px;
+    border-bottom: $asset-color-border 1px solid;
+  }
+
+  &__title {
+    font-size: 20px;
+  }
+}
+
+.asset-a-input {
+  @extend %asset-box-shadow;
+  padding: 6px;
+  font-size: 13px;
+  color: $asset-color-form-text;
+  background-color: $asset-color-white;
+  border: 1px solid $asset-color-form-border;
+  border-radius: 2px;
+}
