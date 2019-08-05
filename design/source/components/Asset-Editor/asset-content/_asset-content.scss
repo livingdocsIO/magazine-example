@@ -1,7 +1,11 @@
-.asset-content {
+.m-asset-content {
   @extend %asset-box-shadow;
   max-width: 500px + double($base-spacing-unit);
   margin: 0 auto;
   background-color: $asset-color-gray-nine;
   border: 1px solid $asset-color-gray-seven;
+
+  &__main {
+    padding: 0 $asset-unit $asset-unit;
+  }
 }
