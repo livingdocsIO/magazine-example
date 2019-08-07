@@ -1,0 +1,17 @@
+.m-asset-image {
+  &:not(:last-child) {
+    padding-bottom: $asset-unit;
+    margin-bottom: $asset-unit;
+    border-bottom: $asset-color-border 1px solid;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .a-asset-input {
+    margin-top: $asset-unit / 2;
+  }
+}
+
+@import 'asset-image-numbered';

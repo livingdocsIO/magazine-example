@@ -5,8 +5,8 @@
         "channelId": 1,
         "documentId": 41,
         "contentType": "gallery",
-        "documentType": "article",
-        "layout": "gallery",
+        "documentType": "asset",
+        "layout": "asset",
         "design": {
             "name": "living-times",
             "version": "0.0.14"
@@ -54,12 +54,12 @@
     "content": [
         {
             "id": "doc-1cd59vs8t0",
-            "identifier": "living-times.article-container",
+            "identifier": "living-times.asset-content",
             "containers": {
                 "header": [
                     {
                         "id": "doc-1cd59vs8t1",
-                        "identifier": "living-times.head",
+                        "identifier": "living-times.asset-head-gallery",
                         "content": {
                             "title": "Festival of colors 2012"
                         }
@@ -68,12 +68,12 @@
                 "main": [
                     {
                         "id": "doc-1cd59vs8t2",
-                        "identifier": "living-times.gallery-container",
+                        "identifier": "living-times.asset-container-gallery",
                         "containers": {
                             "gallery": [
                                 {
                                     "id": "doc-1cd5a02um0",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/735d6df7-c7de-43ca-93ab-58dbff7cec2b.jpeg?auto=format",
@@ -87,7 +87,7 @@
                                 },
                                 {
                                     "id": "doc-1cd5a02ua0",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/7cfde540-5aab-47fa-8654-fd2861555755.jpeg?auto=format",
@@ -101,7 +101,7 @@
                                 },
                                 {
                                     "id": "doc-1cd5a02ug0",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/99d465fd-7c91-4aca-8e3d-96560ff7a7ef.jpeg?auto=format",
@@ -115,7 +115,7 @@
                                 },
                                 {
                                     "id": "doc-1cd59vs8t3",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/8a56a25d-4c4e-42e6-8574-6ecd0faa975b.jpeg?auto=format",
@@ -130,11 +130,7 @@
                             ]
                         }
                     }
-                ],
-                "sidebar-ads-top": [],
-                "sidebar": [],
-                "sidebar-ads-bottom": [],
-                "footer": []
+                ]
             }
         }
     ]

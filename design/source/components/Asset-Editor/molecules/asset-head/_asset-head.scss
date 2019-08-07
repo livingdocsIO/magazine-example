@@ -1,4 +1,7 @@
 .m-asset-head {
+  margin-bottom: $asset-unit;
+  border-bottom: $asset-color-border 1px solid;
+
   &__bar {
     display: flex;
     align-items: center;

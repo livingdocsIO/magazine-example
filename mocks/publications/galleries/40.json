@@ -5,8 +5,8 @@
         "channelId": 1,
         "documentId": 40,
         "contentType": "gallery",
-        "documentType": "article",
-        "layout": "gallery",
+        "documentType": "asset",
+        "layout": "asset",
         "design": {
             "name": "living-times",
             "version": "0.0.14"
@@ -54,12 +54,12 @@
     "content": [
         {
             "id": "doc-1cd59rj8o0",
-            "identifier": "living-times.article-container",
+            "identifier": "living-times.asset-content",
             "containers": {
                 "header": [
                     {
                         "id": "doc-1cd59rj8o1",
-                        "identifier": "living-times.head",
+                        "identifier": "living-times.asset-head-gallery",
                         "content": {
                             "title": "Everyone loves a parade"
                         }
@@ -68,12 +68,12 @@
                 "main": [
                     {
                         "id": "doc-1cd59rj8o2",
-                        "identifier": "living-times.gallery-container",
+                        "identifier": "living-times.asset-container-gallery",
                         "containers": {
                             "gallery": [
                                 {
                                     "id": "doc-1cd59s04l0",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/de77f14e-af5b-4868-b0ca-92847e604502.jpeg?auto=format",
@@ -87,7 +87,7 @@
                                 },
                                 {
                                     "id": "doc-1cd59rj8o3",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/c0c00a85-2b28-4e3e-9efd-d659932fe806.jpeg?auto=format",
@@ -101,7 +101,7 @@
                                 },
                                 {
                                     "id": "doc-1cd59s04b0",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/2f3ac3cf-443a-4d6a-8391-1a12cad9793f.jpeg?auto=format",
@@ -115,7 +115,7 @@
                                 },
                                 {
                                     "id": "doc-1cd59s04h0",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/6b980fa0-279a-4edf-b966-82580b35e959.jpeg?auto=format",
@@ -130,11 +130,7 @@
                             ]
                         }
                     }
-                ],
-                "sidebar-ads-top": [],
-                "sidebar": [],
-                "sidebar-ads-bottom": [],
-                "footer": []
+                ]
             }
         }
     ]

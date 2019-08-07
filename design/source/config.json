@@ -288,7 +288,7 @@
             ],
             "main": [
               {
-                "identifier": "living-times.gallery-container",
+                "identifier": "living-times.asset-container-gallery",
                 "containers": {
                   "gallery": [
                     { "identifier": "living-times.image" },
@@ -303,11 +303,11 @@
       "groups": [
         {
           "label": "Headers",
-          "components": ["head"]
+          "components": ["asset-head-gallery"]
         },
         {
           "label": "Image",
-          "components": ["image"]
+          "components": ["asset-image"]
         }
       ]
     },

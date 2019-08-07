@@ -4,6 +4,7 @@
   margin: 0 auto;
   background-color: $asset-color-gray-nine;
   border: 1px solid $asset-color-gray-seven;
+  counter-reset: item-counter;
 
   &__main {
     padding: 0 $asset-unit $asset-unit;

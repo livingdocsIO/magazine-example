@@ -23,7 +23,7 @@
         "containers": {
           "header": [
             {
-              "identifier": "living-times.asset-head",
+              "identifier": "living-times.asset-head-gallery",
               "content": {
                 "title": "Lorem ipsum dolor"
               }
@@ -31,74 +31,74 @@
           ],
           "main": [
             {
-              "identifier": "living-times.gallery-container",
+              "identifier": "living-times.asset-container-gallery",
               "containers": {
                 "gallery": [
                   {
-                    "identifier": "living-times.image",
+                    "identifier": "living-times.asset-image",
                     "content": {
                       "image": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343",
                       "caption": "Lorem ipsum dolor"
                     }
                   },
                   {
-                    "identifier": "living-times.image",
+                    "identifier": "living-times.asset-image",
                     "content": {
                       "image": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343",
                       "caption": "Lorem ipsum dolor"
                     }
                   },
                   {
-                    "identifier": "living-times.image",
+                    "identifier": "living-times.asset-image",
                     "content": {
                       "image": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343",
                       "caption": "Lorem ipsum dolor"
                     }
                   },
                   {
-                    "identifier": "living-times.image",
+                    "identifier": "living-times.asset-image",
                     "content": {
                       "image": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343",
                       "caption": "Lorem ipsum dolor"
                     }
                   },
                   {
-                    "identifier": "living-times.image",
+                    "identifier": "living-times.asset-image",
                     "content": {
                       "image": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343",
                       "caption": "Lorem ipsum dolor"
                     }
                   },
                   {
-                    "identifier": "living-times.image",
+                    "identifier": "living-times.asset-image",
                     "content": {
                       "image": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343",
                       "caption": "Lorem ipsum dolor"
                     }
                   },
                   {
-                    "identifier": "living-times.image",
+                    "identifier": "living-times.asset-image",
                     "content": {
                       "image": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343",
                       "caption": "Lorem ipsum dolor"
                     }
                   },
                   {
-                    "identifier": "living-times.image",
+                    "identifier": "living-times.asset-image",
                     "content": {
                       "image": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343",
                       "caption": "Lorem ipsum dolor"
                     }
                   },
                   {
-                    "identifier": "living-times.image",
+                    "identifier": "living-times.asset-image",
                     "content": {
                       "image": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343",
                       "caption": "Lorem ipsum dolor"
                     }
                   },
                   {
-                    "identifier": "living-times.image",
+                    "identifier": "living-times.asset-image",
                     "content": {
                       "image": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343",
                       "caption": "Lorem ipsum dolor"

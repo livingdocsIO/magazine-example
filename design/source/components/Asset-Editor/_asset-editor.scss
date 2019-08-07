@@ -1,22 +1,7 @@
-$asset-color-white: #fff;
-$asset-color-gray-nine: #fcfcfb;
-$asset-color-gray-seven: #f1f1ed;
-$asset-color-gray-one: #3a2f3c;
-$asset-color-black: #000;
-$asset-color-green-two: #29b96f;
-
-$asset-color-border: rgba($asset-color-black, .08);
-$asset-color-shadow: rgba($asset-color-black, .08);
-$asset-color-form-border: $asset-color-gray-seven;
-$asset-color-form-text: rgba($asset-color-black, .8);
-
-$asset-unit: 22px;
-
-%asset-box-shadow {
-	box-shadow: 0 1px 2px $asset-color-shadow;
-}
-
-@import 'asset-input/asset-input';
-@import 'asset-head/asset-head';
-@import 'asset-content/asset-content';
-@import 'asset-layout/asset-layout';
+@import 'general';
+@import 'atoms/asset-input/asset-input';
+@import 'atoms/asset-number/asset-number';
+@import 'molecules/asset-content/asset-content';
+@import 'molecules/asset-head/asset-head';
+@import 'molecules/asset-image/asset-image';
+@import 'organisms/asset-layout/asset-layout';

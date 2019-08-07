@@ -1,0 +1,12 @@
+.m-asset-image--numbered {
+  position: relative;
+
+  &::before {
+    @extend %a-asset-number;
+    counter-increment: item-counter;
+    content: counter(item-counter);
+    position: absolute;
+    top: $asset-unit;
+    right: $asset-unit;
+  }
+}

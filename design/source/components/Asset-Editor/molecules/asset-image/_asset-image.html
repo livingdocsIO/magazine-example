@@ -1,0 +1,23 @@
+<script type="ld-conf">
+{
+  "name": "asset-image",
+  "label": "Asset Image",
+  "description": "Image with caption",
+  "allowedParents": [
+    "asset-content",
+    "asset-container-gallery"
+  ],
+  "iconUrl": "https://livingdocs-assets.s3.amazonaws.com/magazine-design/assets/images/icons-components/icon_image.svg",
+  "directives": {
+    "image": {
+      "imageRatios": ["16:9", "1:1", "4:3", "3:4"],
+      "allowOriginalRatio": true
+    }
+  }
+}
+</script>
+
+<div class="m-asset-image m-asset-image--numbered">
+  <img doc-image="image" />
+  <div class="a-asset-input" doc-editable="caption">Add image caption</div>
+</div>
