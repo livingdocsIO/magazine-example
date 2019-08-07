@@ -1,0 +1,13 @@
+.m-asset-image--compact {
+  .m-asset-image {
+    &__image {
+      width: calc((100% - #{$asset-unit}) / 3);
+    }
+  }
+
+  .a-asset-input {
+    margin-top: 0;
+    float: right;
+    width: calc((100% - #{$asset-unit} - 2 * 6px) * 2 / 3);
+  }
+}

@@ -1,0 +1,7 @@
+.m-asset-picker {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  right: $asset-unit;
+  transform: translateY(-50%);
+}

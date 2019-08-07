@@ -5,8 +5,9 @@
     border-bottom: $asset-color-border 1px solid;
   }
 
-  img {
+  &__image {
     width: 100%;
+    transition: width .2s;
   }
 
   .a-asset-input {
@@ -15,3 +16,4 @@
 }
 
 @import 'asset-image-numbered';
+@import 'asset-image-compact';

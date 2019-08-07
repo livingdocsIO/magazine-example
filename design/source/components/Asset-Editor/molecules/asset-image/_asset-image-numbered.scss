@@ -6,7 +6,7 @@
     counter-increment: item-counter;
     content: counter(item-counter);
     position: absolute;
-    top: $asset-unit;
-    right: $asset-unit;
+    top: $asset-unit / 2;
+    left: $asset-unit / 2;
   }
 }
