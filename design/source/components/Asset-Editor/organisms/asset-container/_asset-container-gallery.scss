@@ -1,0 +1,5 @@
+.o-asset-container-gallery {
+  .m-asset-image {
+    @extend %m-asset-image--numbered;
+  }
+}
