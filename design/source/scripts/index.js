@@ -11,4 +11,6 @@ require('./init_video_teasers')(window, document)
 
 // asset editor
 const assetHeadGallery = require('../components/Asset-Editor/molecules/asset-head/asset-head-gallery')
-assetHeadGallery.init()
+document.addEventListener('DOMContentLoaded', function () {
+  assetHeadGallery.init()
+})
