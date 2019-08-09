@@ -1,6 +1,6 @@
 .m-asset-image--compact {
   display: grid;
-  grid-template-columns: calc(100% / 3) calc(100% * 2 / 3);
+  grid-template-columns: calc(100% / 3) auto;
   grid-template-rows: auto;
   grid-gap: $asset-unit / 2;
 
