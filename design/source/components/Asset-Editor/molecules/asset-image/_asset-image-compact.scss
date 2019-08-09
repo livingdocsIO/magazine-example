@@ -1,13 +1,26 @@
 .m-asset-image--compact {
+  display: grid;
+  grid-template-columns: calc(100% / 3) calc(100% * 2 / 3);
+  grid-template-rows: auto;
+  grid-gap: $asset-unit / 2;
+
   .m-asset-image {
     &__image {
-      width: calc((100% - #{$asset-unit}) / 3);
+      grid-column-start: 1;
+      grid-column-end: 1;
+      grid-row-start: 1;
+      grid-row-end: 1;
+    }
+
+    &__options {
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 1;
     }
   }
 
   .a-asset-input {
-    margin-top: 0;
-    float: right;
-    width: calc((100% - #{$asset-unit} - 2 * 6px) * 2 / 3);
+    margin: 0 0 $asset-unit / 2 0;
   }
 }

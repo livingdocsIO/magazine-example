@@ -82,7 +82,9 @@
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
                                             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/de77f14e-af5b-4868-b0ca-92847e604502.jpeg"
-                                        }
+                                        },
+                                        "caption": "Lorem ipsum dolor",
+                                        "source": "@ 2019 sic amet"
                                     }
                                 },
                                 {
@@ -96,7 +98,9 @@
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
                                             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/c0c00a85-2b28-4e3e-9efd-d659932fe806.jpeg"
-                                        }
+                                        },
+                                        "caption": "Lorem ipsum dolor",
+                                        "source": "@ 2019 sic amet"
                                     }
                                 },
                                 {
@@ -110,7 +114,9 @@
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
                                             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/2f3ac3cf-443a-4d6a-8391-1a12cad9793f.jpeg"
-                                        }
+                                        },
+                                        "caption": "Lorem ipsum dolor",
+                                        "source": "@ 2019 sic amet"
                                     }
                                 },
                                 {
@@ -124,7 +130,9 @@
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
                                             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/6b980fa0-279a-4edf-b966-82580b35e959.jpeg"
-                                        }
+                                        },
+                                        "caption": "Lorem ipsum dolor",
+                                        "source": "@ 2019 sic amet"
                                     }
                                 }
                             ]
