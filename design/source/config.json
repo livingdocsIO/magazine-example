@@ -284,7 +284,7 @@
           "identifier": "living-times.asset-content",
           "containers": {
             "header": [
-              { "identifier": "living-times.head" }
+              { "identifier": "living-times.asset-head-gallery" }
             ],
             "main": [
               {
@@ -318,22 +318,14 @@
       "icon": null,
       "defaultContent": [
         {
-          "identifier": "living-times.article-container",
+          "identifier": "living-times.asset-content",
           "containers": {
             "header": [
-              { "identifier": "living-times.head" }
+              { "identifier": "living-times.asset-head-video" }
             ],
             "main": [
               {
-                "identifier": "living-times.video-container",
-                "containers": {
-                  "image": [
-                    { "identifier": "living-times.image" }
-                  ],
-                  "video": [
-                    { "identifier": "living-times.free-html" }
-                  ]
-                }
+                "identifier": "living-times.asset-container-video"
               }
             ]
           }

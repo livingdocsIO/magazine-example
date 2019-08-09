@@ -95,7 +95,7 @@ module.exports = function initGalleryTeasers (window, document) {
   function getVideoHtml (videoTeaserEl) {
     if (!videoTeaserEl) return ''
     const videoMarkupContainer = videoTeaserEl
-      .querySelector('.teaser-video__markup > div')
+      .querySelector('.teaser-video__markup .placeholder--free-html, .teaser-video__markup .m-asset-html')
     const videoHtml = (videoMarkupContainer && videoMarkupContainer.innerHTML) || ''
     return unescape(videoHtml)
   }

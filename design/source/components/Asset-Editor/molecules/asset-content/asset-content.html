@@ -5,14 +5,14 @@
     "description": "Main container for assets",
     "directives": {
       "header": {
-        "allowedChildren": ["asset-head-gallery"]
+        "allowedChildren": ["asset-head-gallery", "asset-head-video"]
       }
     },
     "iconUrl": "https://livingdocs-assets.s3.amazonaws.com/magazine-design/assets/images/icons-components/icon_1_column.svg"
   }
 </script>
 
-<article class="m-asset-content">
+<article class="m-asset-content m-asset-content--gallery">
   <header class="m-asset-content__header" doc-container="header"></header>
   <main class="m-asset-content__main" doc-container="main"></main>
 </article>
