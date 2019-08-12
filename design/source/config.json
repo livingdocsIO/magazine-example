@@ -291,8 +291,8 @@
                 "identifier": "living-times.asset-container-gallery",
                 "containers": {
                   "gallery": [
-                    { "identifier": "living-times.image" },
-                    { "identifier": "living-times.image" }
+                    { "identifier": "living-times.asset-image" },
+                    { "identifier": "living-times.asset-image" }
                   ]
                 }
               }
@@ -301,10 +301,6 @@
         }
       ],
       "groups": [
-        {
-          "label": "Headers",
-          "components": ["asset-head-gallery"]
-        },
         {
           "label": "Image",
           "components": ["asset-image"]
@@ -332,18 +328,6 @@
         }
       ],
       "groups": [
-        {
-          "label": "Headers",
-          "components": ["head"]
-        },
-        {
-          "label": "Teaser Image",
-          "components": ["image"]
-        },
-        {
-          "label": "Video",
-          "components": ["free-html", "iframe"]
-        }
       ]
     },
     {
