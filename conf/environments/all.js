@@ -66,14 +66,6 @@ module.exports = {
         headerItem: 'article-layout-header-item',
         footer: 'article-layout-footer'
       }
-    },
-    asset: {
-      layoutComponents: {
-        layout: 'asset-layout',
-        header: null,
-        headerItem: null,
-        footer: null
-      }
     }
   }
 }

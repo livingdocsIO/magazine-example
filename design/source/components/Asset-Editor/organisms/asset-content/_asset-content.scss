@@ -1,7 +1,7 @@
 .o-asset-content {
   @extend %asset-box-shadow;
   max-width: 500px + double($base-spacing-unit);
-  margin: 0 auto;
+  margin: 0 auto $asset-unit;
   background-color: $asset-color-gray-nine;
   border: 1px solid $asset-color-gray-seven;
   counter-reset: item-counter;
