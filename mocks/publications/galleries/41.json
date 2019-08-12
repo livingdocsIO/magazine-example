@@ -6,7 +6,6 @@
         "documentId": 41,
         "contentType": "gallery",
         "documentType": "article",
-        "layout": "asset",
         "design": {
             "name": "living-times",
             "version": "0.0.14"
