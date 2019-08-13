@@ -1,0 +1,10 @@
+%a-asset-divider,
+.a-asset-divider {
+  &::after {
+    content: '';
+    display: block;
+    height: $asset-unit;
+    border-bottom: $asset-color-border 1px solid;
+    margin-bottom: $asset-unit / 2;
+  }
+}

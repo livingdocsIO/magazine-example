@@ -20,7 +20,21 @@
     }
   }
 
+  &:not(:last-child) {
+    &::after {
+      height: $asset-unit / 2;
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 2;
+    }
+  }
+
   .a-asset-input {
-    margin: 0 0 $asset-unit / 2 0;
+    margin: 0;
+
+    &:not(:last-child) {
+      margin: 0 0 $asset-unit / 2 0;
+    }
   }
 }

@@ -1,13 +1,15 @@
 %m-asset-image--numbered,
 .m-asset-image--numbered {
-  position: relative;
-
-  &::before {
-    @extend %a-asset-number;
-    counter-increment: item-counter;
-    content: counter(item-counter);
-    position: absolute;
-    top: $asset-unit / 2;
-    left: $asset-unit / 2;
+  .m-asset-image {
+    &__image {
+      &::before {
+        @extend %a-asset-number;
+        counter-increment: item-counter;
+        content: counter(item-counter);
+        position: absolute;
+        top: $asset-unit / 2;
+        right: $asset-unit / 2;
+      }
+    }
   }
 }

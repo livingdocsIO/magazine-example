@@ -1,7 +1,7 @@
 .m-asset-html {
+  padding: 0 $asset-unit / 2 $asset-unit / 2;
+
   &:not(:last-child) {
-    padding-bottom: $asset-unit;
-    margin-bottom: $asset-unit;
-    border-bottom: $asset-color-border 1px solid;
+    @extend %a-asset-divider;
   }
 }

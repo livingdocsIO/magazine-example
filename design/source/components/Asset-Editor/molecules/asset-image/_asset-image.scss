@@ -1,12 +1,13 @@
 .m-asset-image {
-  &:not(:last-child) {
-    padding-bottom: $asset-unit;
-    margin-bottom: $asset-unit;
-    border-bottom: $asset-color-border 1px solid;
-  }
+  padding: 0 $asset-unit / 2 $asset-unit / 2;
 
   &__image {
     width: 100%;
+    position: relative;
+  }
+
+  &:not(:last-child) {
+    @extend %a-asset-divider;
   }
 
   .a-asset-input {

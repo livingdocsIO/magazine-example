@@ -1,6 +1,5 @@
 .m-asset-head {
   margin-bottom: $asset-unit;
-  border-bottom: $asset-color-border 1px solid;
 
   &__bar {
     display: flex;
@@ -21,11 +20,16 @@
   }
 
   &__section {
-    margin: $asset-unit;
+    padding: $asset-unit;
     border-bottom: $asset-color-border 1px solid;
   }
 
   &__title {
     font-size: 20px;
+  }
+
+  .a-asset-section-title {
+    margin-left: 0;
+    margin-right: 0;
   }
 }
