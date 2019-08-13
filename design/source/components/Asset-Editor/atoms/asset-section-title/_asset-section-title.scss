@@ -1,7 +1,11 @@
 .a-asset-section-title {
-  margin: 0 $asset-unit / 2 $asset-unit / 2;
+  margin: 0 $asset-unit / 2;
   font-size: 13px;
   font-weight: 500;
   color: $asset-color-gray-four;
   text-transform: uppercase;
+
+  &:not(:first-child) {
+    margin-top: $asset-unit / 2;
+  }
 }
