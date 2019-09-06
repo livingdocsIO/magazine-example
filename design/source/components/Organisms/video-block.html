@@ -1,0 +1,89 @@
+<script type="ld-conf">
+{
+  "name": "video-block",
+  "label": "Video Block",
+  "description": "3 Videos in a Block",
+  "iconUrl": "https://livingdocs-icons.s3-eu-west-1.amazonaws.com/components/icon_component_video_block.svg",
+  "properties": ["container-style-lined"],
+  "directives": {
+    "teaser1": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "video-hero"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "video"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "video"}
+          ]
+        }
+      }
+    },
+    "teaser2": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "video"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "video"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "video"}
+          ]
+        }
+      }
+    },
+    "teaser3": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "video"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "video"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "video"}
+          ]
+        }
+      }
+    }
+  }
+}
+</script>
+
+<div class="container container--halves-uneven">
+  <h2 class="container__title" doc-editable="title" doc-optional="true">
+    Videos
+  </h2>
+  <div class="container-grid">
+    <div class="container-grid__item">
+      <div doc-include="teaser2" class="placeholder--teaser-video">
+        <div class="placeholder__img"></div>
+      </div>
+      <div doc-include="teaser3" class="placeholder--teaser-video">
+        <div class="placeholder__img"></div>
+      </div>
+    </div>
+    <div class="container-grid__item">
+      <div doc-include="teaser1" class="placeholder--teaser-video">
+        <div class="placeholder__img"></div>
+      </div>
+    </div>
+  </div>
+</div>

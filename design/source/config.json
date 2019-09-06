@@ -183,19 +183,9 @@
             ],
             "footer": [
               {
-                "identifier": "living-times.halves-article-footer",
+                "identifier": "living-times.2-col-teaser-stack",
                 "content": {
                   "title": "Recommended Stories"
-                },
-                "containers": {
-                  "column-one": [
-                    { "identifier": "living-times.teaser-card" },
-                    { "identifier": "living-times.teaser-card" }
-                  ],
-                  "column-two": [
-                    { "identifier": "living-times.teaser-card" },
-                    { "identifier": "living-times.teaser-card" }
-                  ]
                 }
               }
             ]
@@ -221,7 +211,7 @@
         },
         {
           "label": "Footer",
-          "components": ["halves-article-footer", "teaser-card"]
+          "components": ["2-col-teaser-stack"]
         },
         {
           "label": "Gallery Teasers",
@@ -299,18 +289,18 @@
       "icon": null,
       "defaultContent": [
         {
-          "identifier": "living-times.article-container",
+          "identifier": "living-times.asset-content",
           "containers": {
             "header": [
-              { "identifier": "living-times.head" }
+              { "identifier": "living-times.asset-head-gallery" }
             ],
             "main": [
               {
-                "identifier": "living-times.gallery-container",
+                "identifier": "living-times.asset-container-gallery",
                 "containers": {
                   "gallery": [
-                    { "identifier": "living-times.image" },
-                    { "identifier": "living-times.image" }
+                    { "identifier": "living-times.asset-image" },
+                    { "identifier": "living-times.asset-image" }
                   ]
                 }
               }
@@ -320,12 +310,8 @@
       ],
       "groups": [
         {
-          "label": "Headers",
-          "components": ["head"]
-        },
-        {
           "label": "Image",
-          "components": ["image"]
+          "components": ["asset-image"]
         }
       ]
     },
@@ -336,40 +322,20 @@
       "icon": null,
       "defaultContent": [
         {
-          "identifier": "living-times.article-container",
+          "identifier": "living-times.asset-content",
           "containers": {
             "header": [
-              { "identifier": "living-times.head" }
+              { "identifier": "living-times.asset-head-video" }
             ],
             "main": [
               {
-                "identifier": "living-times.video-container",
-                "containers": {
-                  "image": [
-                    { "identifier": "living-times.image" }
-                  ],
-                  "video": [
-                    { "identifier": "living-times.free-html" }
-                  ]
-                }
+                "identifier": "living-times.asset-container-video"
               }
             ]
           }
         }
       ],
       "groups": [
-        {
-          "label": "Headers",
-          "components": ["head"]
-        },
-        {
-          "label": "Teaser Image",
-          "components": ["image"]
-        },
-        {
-          "label": "Video",
-          "components": ["free-html", "iframe"]
-        }
       ]
     },
     {
@@ -379,158 +345,54 @@
       "icon": null,
       "defaultContent": [
         {
-          "identifier": "living-times.whole",
-          "styles": {
-            "container-style-breath": "container--breath"
-          },
-          "containers": {
-            "column-one": [
-              {
-                "identifier": "living-times.teaser-hero"
-              }
-            ]
-          }
+            "identifier": "living-times.1-teaser-row"
         },
         {
-          "identifier": "living-times.thirds",
-          "styles":  {
-            "container-style-lined": "container--lined"
-          },
-          "containers": {
-            "column-one": [
-              { "identifier": "living-times.teaser-card" }
-            ],
-            "column-two": [
-              { "identifier": "living-times.teaser-card" }
-            ],
-            "column-three": [
-              { "identifier": "living-times.teaser-card" }
-            ]
-          }
+            "identifier": "living-times.3-teaser-row",
+            "styles" : {
+              "container-style-lined": "container--lined"
+            }
         },
         {
-          "identifier": "living-times.quarter",
-          "styles":  {
-            "container-style-lined": "container--lined"
-          },
-          "containers": {
-            "column-one": [
-              { "identifier": "living-times.teaser-card-no-image" }
-            ],
-            "column-two": [
-              { "identifier": "living-times.teaser-card-no-image" }
-            ],
-            "column-three": [
-              { "identifier": "living-times.teaser-card-no-image" }
-            ],
-            "column-four": [
-              { "identifier": "living-times.teaser-card-no-image" }
-            ]
-          }
+            "identifier": "living-times.4-teaser-row-textonly",
+            "styles" : {
+              "container-style-lined": "container--lined"
+            }
         },
         {
-          "identifier": "living-times.whole",
+          "identifier": "living-times.teaser-stack",
           "styles" : {
-            "container-style-lined": "container--lined",
-            "container-style-breath": "container--breath"
+            "container-style-lined": "container--lined"
           },
           "content": {
             "title": "The latest"
-          },
-          "containers": {
-            "column-one": [
-              {
-                "identifier": "living-times.teaser-card",
-                "styles": {
-                  "teaser-image-position": "teaser-card--left-aligned-img"
-                }
-              },
-              {
-                "identifier": "living-times.teaser-card",
-                "styles": {
-                  "teaser-image-position": "teaser-card--left-aligned-img"
-                }
-              },
-              {
-                "identifier": "living-times.teaser-card",
-                "styles": {
-                  "teaser-image-position": "teaser-card--left-aligned-img"
-                }
-              },
-              {
-                "identifier": "living-times.teaser-card",
-                "styles": {
-                  "teaser-image-position": "teaser-card--left-aligned-img"
-                }
-              },
-              {
-                "identifier": "living-times.teaser-card",
-                "styles": {
-                  "teaser-image-position": "teaser-card--left-aligned-img"
-                }
-              }
-            ]
           }
         },
         {
-          "identifier": "living-times.quarter",
+          "identifier": "living-times.4-teaser-row",
           "styles":  {
             "container-style-lined": "container--lined"
           },
           "content": {
             "title": "Spotlight"
-          },
-          "containers": {
-            "column-one": [
-              { "identifier": "living-times.teaser-card" }
-            ],
-            "column-two": [
-              { "identifier": "living-times.teaser-card" }
-            ],
-            "column-three": [
-              { "identifier": "living-times.teaser-card" }
-            ],
-            "column-four": [
-              { "identifier": "living-times.teaser-card" }
-            ]
           }
         },
         {
-          "identifier": "living-times.halves-uneven",
+          "identifier": "living-times.video-block",
           "styles":  {
             "container-style-lined": "container--lined"
           },
           "content": {
             "title": "Videos"
-          },
-          "containers": {
-            "column-one": [
-              { "identifier": "living-times.teaser-video" },
-              { "identifier": "living-times.teaser-video" },
-              { "identifier": "living-times.teaser-video" }
-            ],
-            "column-two": [
-              { "identifier": "living-times.teaser-video-hero" }
-            ]
           }
         },
         {
-          "identifier": "living-times.halves-uneven",
+          "identifier": "living-times.gallery-block",
           "styles":  {
             "container-style-lined": "container--lined"
           },
           "content": {
-            "title": "Photo galleries"
-          },
-          "containers": {
-            "column-one": [
-              { "identifier": "living-times.teaser-gallery" },
-              { "identifier": "living-times.teaser-gallery" },
-              { "identifier": "living-times.teaser-gallery" }
-            ],
-            "column-two": [
-              { "identifier": "living-times.teaser-gallery-hero" }
-            ]
+            "title": "Photo Galleries"
           }
         }
       ],
@@ -540,24 +402,16 @@
           "components": ["section-title"]
         },
         {
-          "label": "Containers",
-          "components": ["whole", "halves", "halves-uneven", "thirds", "quarter"]
+          "label": "Image Teasers",
+          "components": ["1-teaser-row", "2-teaser-row", "3-teaser-row", "4-teaser-row", "teaser-stack"]
         },
         {
-          "label": "Teasers",
-          "components": ["teaser-hero", "teaser-card", "teaser-card-no-image", "teaser-card-numbered", "teaser-card-author"]
+          "label": "Text Teasers",
+          "components": ["3-teaser-row-textonly", "4-teaser-row-textonly"]
         },
         {
-          "label": "Gallery Teasers",
-          "components": ["teaser-gallery-hero", "teaser-gallery"]
-        },
-        {
-          "label": "Video Teasers",
-          "components": ["teaser-video-hero", "teaser-video"]
-        },
-        {
-          "label": "Embeds",
-          "components": ["tweet", "iframe", "free-html"]
+          "label": "Blocks",
+          "components": ["authors-and-popular", "gallery-block", "video-block"]
         }
       ]
     }

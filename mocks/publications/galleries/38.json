@@ -6,7 +6,6 @@
         "documentId": 38,
         "contentType": "gallery",
         "documentType": "article",
-        "layout": "gallery",
         "design": {
             "name": "living-times",
             "version": "0.0.14"
@@ -54,12 +53,12 @@
     "content": [
         {
             "id": "doc-1cd58vd3s0",
-            "identifier": "living-times.article-container",
+            "identifier": "living-times.asset-content",
             "containers": {
                 "header": [
                     {
                         "id": "doc-1cd58vd3s1",
-                        "identifier": "living-times.head",
+                        "identifier": "living-times.asset-head-gallery",
                         "content": {
                             "title": "Burning Man 2016"
                         }
@@ -68,12 +67,12 @@
                 "main": [
                     {
                         "id": "doc-1cd58vd3s2",
-                        "identifier": "living-times.gallery-container",
+                        "identifier": "living-times.asset-container-gallery",
                         "containers": {
                             "gallery": [
                                 {
                                     "id": "doc-1cd5932pc0",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/697ed8bc-c87d-4751-a07d-45e6a38d65f8.jpeg?auto=format",
@@ -82,12 +81,14 @@
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
                                             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/697ed8bc-c87d-4751-a07d-45e6a38d65f8.jpeg"
-                                        }
+                                        },
+                                        "caption": "Lorem ipsum dolor",
+                                        "source": "@ 2019 sic amet"
                                     }
                                 },
                                 {
                                     "id": "doc-1cd5932k90",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/7518db4d-3bca-4cb6-9cdf-f190b6405753.jpeg?auto=format",
@@ -96,12 +97,14 @@
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
                                             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/7518db4d-3bca-4cb6-9cdf-f190b6405753.jpeg"
-                                        }
+                                        },
+                                        "caption": "Lorem ipsum dolor",
+                                        "source": "@ 2019 sic amet"
                                     }
                                 },
                                 {
                                     "id": "doc-1cd5932kk0",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/267ffa75-c3ed-48dd-8227-bf0dd29164f6.jpeg?auto=format",
@@ -110,12 +113,14 @@
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
                                             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/267ffa75-c3ed-48dd-8227-bf0dd29164f6.jpeg"
-                                        }
+                                        },
+                                        "caption": "Lorem ipsum dolor",
+                                        "source": "@ 2019 sic amet"
                                     }
                                 },
                                 {
                                     "id": "doc-1cd5932lf0",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/26e3d133-a1f6-496a-9c40-16a14f58d9ab.jpeg?auto=format",
@@ -124,12 +129,14 @@
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
                                             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/26e3d133-a1f6-496a-9c40-16a14f58d9ab.jpeg"
-                                        }
+                                        },
+                                        "caption": "Lorem ipsum dolor",
+                                        "source": "@ 2019 sic amet"
                                     }
                                 },
                                 {
                                     "id": "doc-1cd5932m40",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/a1ffefb4-bf2d-4b3b-87e2-04e4b03e1516.jpeg?auto=format",
@@ -138,12 +145,14 @@
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
                                             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/a1ffefb4-bf2d-4b3b-87e2-04e4b03e1516.jpeg"
-                                        }
+                                        },
+                                        "caption": "Lorem ipsum dolor",
+                                        "source": "@ 2019 sic amet"
                                     }
                                 },
                                 {
                                     "id": "doc-1cd5932q50",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/49dbbc81-a182-45eb-9b2e-98d284156bc6.jpeg?auto=format",
@@ -152,12 +161,14 @@
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
                                             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/49dbbc81-a182-45eb-9b2e-98d284156bc6.jpeg"
-                                        }
+                                        },
+                                        "caption": "Lorem ipsum dolor",
+                                        "source": "@ 2019 sic amet"
                                     }
                                 },
                                 {
                                     "id": "doc-1cd5932qo0",
-                                    "identifier": "living-times.image",
+                                    "identifier": "living-times.asset-image",
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-images.imgix.net/2018/8/22/8423aad6-1c09-4259-a86f-27a5fdc5d5a2.jpeg?auto=format",
@@ -166,17 +177,15 @@
                                             "mimeType": "image/jpeg",
                                             "imageService": "imgix",
                                             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/8423aad6-1c09-4259-a86f-27a5fdc5d5a2.jpeg"
-                                        }
+                                        },
+                                        "caption": "Lorem ipsum dolor",
+                                        "source": "@ 2019 sic amet"
                                     }
                                 }
                             ]
                         }
                     }
-                ],
-                "sidebar-ads-top": [],
-                "sidebar": [],
-                "sidebar-ads-bottom": [],
-                "footer": []
+                ]
             }
         }
     ]

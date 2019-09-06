@@ -1,0 +1,12 @@
+%a-asset-number,
+.a-asset-number {
+  @extend %asset-box-shadow;
+  display: block;
+  font-size: $asset-unit / 2;
+  height: $asset-unit;
+  width: $asset-unit;
+  line-height: $asset-unit;
+  text-align: center;
+  border-radius: 50%;
+  background-color: $asset-color-white;
+}

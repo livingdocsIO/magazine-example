@@ -1,0 +1,89 @@
+<script type="ld-conf">
+{
+  "name": "gallery-block",
+  "label": "Gallery Block",
+  "description": "3 Galleries in a Block",
+  "iconUrl": "https://livingdocs-icons.s3-eu-west-1.amazonaws.com/components/icon_component_slideshow_block.svg",
+  "properties": ["container-style-lined"],
+  "directives": {
+    "teaser1": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "gallery-hero"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "gallery"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "gallery"}
+          ]
+        }
+      }
+    },
+    "teaser2": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "gallery"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "gallery"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "gallery"}
+          ]
+        }
+      }
+    },
+    "teaser3": {
+      "service": "teaser",
+      "defaultParams": {
+        "layout": "gallery"
+      },
+      "config": {
+        "search": {
+          "displayFilters": ["documentState", "timeRange"],
+          "defaultQueries": [
+            {"type": "sortBy", "value": "relevance"},
+            {"type": "contentType", "value": "gallery"}
+          ],
+          "emptySearchQueries": [
+            {"type": "sortBy", "value": "-updated_at"},
+            {"type": "contentType", "value": "gallery"}
+          ]
+        }
+      }
+    }
+  }
+}
+</script>
+
+<div class="container container--halves-uneven">
+  <h2 class="container__title" doc-editable="title" doc-optional="true">
+    Photo Galleries
+  </h2>
+  <div class="container-grid">
+    <div class="container-grid__item">
+      <div doc-include="teaser2" class="placeholder--teaser-gallery">
+        <div class="placeholder__img"></div>
+      </div>
+      <div doc-include="teaser3" class="placeholder--teaser-gallery">
+        <div class="placeholder__img"></div>
+      </div>
+    </div>
+    <div class="container-grid__item">
+      <div doc-include="teaser1" class="placeholder--teaser-gallery">
+        <div class="placeholder__img"></div>
+      </div>
+    </div>
+  </div>
+</div>

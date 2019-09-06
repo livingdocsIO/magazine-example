@@ -1,0 +1,24 @@
+<script type="ld-conf">
+  {
+    "name": "asset-container-gallery",
+    "label": "Gallery Container",
+    "description": "1 column to add images",
+    "iconUrl": "https://livingdocs-icons.s3-eu-west-1.amazonaws.com/components/icon_component_layout.svg",
+    "directives": {
+      "gallery": {
+        "allowedChildren": [
+          "asset-image"
+        ],
+        "defaultComponents": {
+          "asset-image": "asset-image"
+        }
+      }
+    }
+  }
+</script>
+
+<div class="m-asset-main-gallery">
+  <h3 class="a-asset-section-title">Images</h3>
+  <div doc-container="gallery">
+  </div>
+</div>

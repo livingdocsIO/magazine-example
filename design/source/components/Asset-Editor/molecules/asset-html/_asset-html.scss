@@ -1,0 +1,7 @@
+.m-asset-html {
+  padding: $asset-unit / 2;
+
+  &:not(:last-child) {
+    @extend %a-asset-divider;
+  }
+}

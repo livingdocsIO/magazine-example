@@ -4,9 +4,12 @@ module.exports = function enrichVideoTeaserContent ({component, publication} = {
   const videoLivingdoc = createLivingdoc(publication)
   const tree = videoLivingdoc.componentTree
 
+  const containerVideoComponents = tree.find('asset-container-video')
   const freeHtmlComponents = tree.find('free-html')
   const iframeComponents = tree.find('iframe')
+
   component.append('video',
+    getFirstEscaped(containerVideoComponents, 'iframe') ||
     getFirstEscaped(freeHtmlComponents, 'free-html') ||
     getFirstEscaped(iframeComponents, 'iframe')
   )

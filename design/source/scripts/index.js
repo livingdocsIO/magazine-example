@@ -8,3 +8,9 @@ require('../stylesheets/living-times.scss')
 // image and video gallery
 require('./init_gallery_teasers')(window, document)
 require('./init_video_teasers')(window, document)
+
+// asset editor
+const assetHeadGallery = require('../components/Asset-Editor/molecules/asset-head/asset-head-gallery')
+document.addEventListener('DOMContentLoaded', function () {
+  assetHeadGallery.init()
+})

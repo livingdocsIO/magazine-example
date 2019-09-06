@@ -1,0 +1,9 @@
+.a-asset-picker-option {
+  margin-left: $asset-unit / 2;
+  fill: $asset-color-gray-five;
+  cursor: pointer;
+
+  &.is-active {
+    fill: $asset-color--cyan-one;
+  }
+}

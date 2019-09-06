@@ -6,7 +6,6 @@
         "documentId": 37,
         "contentType": "video",
         "documentType": "article",
-        "layout": "video",
         "design": {
             "name": "living-times",
             "version": "0.0.14"
@@ -54,12 +53,12 @@
     "content": [
         {
             "id": "doc-1cd58kmr60",
-            "identifier": "living-times.article-container",
+            "identifier": "living-times.asset-content",
             "containers": {
                 "header": [
                     {
                         "id": "doc-1cd58kmr61",
-                        "identifier": "living-times.head",
+                        "identifier": "living-times.asset-head-video",
                         "content": {
                             "title": "Hong Kong is home"
                         }
@@ -68,45 +67,20 @@
                 "main": [
                     {
                         "id": "doc-1cd58kmr62",
-                        "identifier": "living-times.video-container",
-                        "containers": {
-                            "image": [
-                                {
-                                    "id": "doc-1cd58kmr63",
-                                    "identifier": "living-times.image",
-                                    "content": {
-                                        "image": {
-                                            "url": "https://livingdocs-images.imgix.net/2018/8/22/8427df05-9555-4e76-baba-76ab46424113.jpeg?auto=format",
-                                            "width": 1920,
-                                            "height": 1280,
-                                            "mimeType": "image/jpeg",
-                                            "imageService": "imgix",
-                                            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/8427df05-9555-4e76-baba-76ab46424113.jpeg"
-                                        }
-                                    }
-                                }
-                            ],
-                            "video": [
-                                {
-                                    "id": "doc-1cd58krm10",
-                                    "identifier": "living-times.iframe",
-                                    "content": {
-                                        "iframe": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://player.vimeo.com/video/65620112?color=f58943\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></div>"
-                                    },
-                                    "data": {
-                                        "_iframeDirective": {
-                                            "_embedHandler": "iframe"
-                                        }
-                                    }
-                                }
-                            ]
+                        "identifier": "living-times.asset-container-video",
+                        "content": {
+                            "image": {
+                                "url": "https://livingdocs-images.imgix.net/2018/8/22/8427df05-9555-4e76-baba-76ab46424113.jpeg?auto=format",
+                                "width": 1920,
+                                "height": 1280,
+                                "mimeType": "image/jpeg",
+                                "imageService": "imgix",
+                                "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/8427df05-9555-4e76-baba-76ab46424113.jpeg"
+                            },
+                            "iframe": "<div class=\"responsiveContainer\" style=\"position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 55%;\"><iframe src=\"https://player.vimeo.com/video/65620112?color=f58943\" frameborder=\"0\" webkitallowfullscreen=\"\" mozallowfullscreen=\"\" allowfullscreen=\"\" style=\"position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;\"></iframe></div>"
                         }
                     }
-                ],
-                "sidebar-ads-top": [],
-                "sidebar": [],
-                "sidebar-ads-bottom": [],
-                "footer": []
+                ]
             }
         }
     ]

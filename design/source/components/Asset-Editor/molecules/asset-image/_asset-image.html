@@ -1,0 +1,30 @@
+<script type="ld-conf">
+{
+  "name": "asset-image",
+  "label": "Asset Image",
+  "description": "Image with caption",
+  "allowedParents": [
+    "asset-content",
+    "asset-container-gallery",
+    "teaser-gallery-template",
+    "teaser-gallery-hero-template"
+  ],
+  "iconUrl": "https://livingdocs-icons.s3-eu-west-1.amazonaws.com/components/icon_component_image.svg",
+  "directives": {
+    "image": {
+      "imageRatios": ["16:9", "1:1", "4:3", "3:4"],
+      "allowOriginalRatio": true
+    }
+  }
+}
+</script>
+
+<div class="m-asset-image">
+  <div class="m-asset-image__image">
+    <img doc-image="image" />
+  </div>
+  <div class="m-asset-image__options">
+    <div class="a-asset-input" doc-editable="caption">Caption</div>
+    <div class="a-asset-input" doc-editable="source">Source</div>
+  </div>
+</div>

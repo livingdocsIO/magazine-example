@@ -19,539 +19,280 @@
     },
     "content": [
         {
-            "id": "doc-1cd5186ll0",
-            "identifier": "living-times.whole",
-            "styles": {
-                "container-style-breath": "container--breath"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd5186ll1",
-                        "identifier": "living-times.teaser-hero",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "hero",
-                                    "mediaId": 11
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "id": "doc-1cd5186ll2",
-            "identifier": "living-times.thirds",
-            "styles": {
-                "container-style-lined": "container--lined"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd5186ll3",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 13
-                                }
-                            }
-                        }
-                    }
-                ],
-                "column-two": [
-                    {
-                        "id": "doc-1cd5186ll4",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 15
-                                }
-                            }
-                        }
-                    }
-                ],
-                "column-three": [
-                    {
-                        "id": "doc-1cd5186ll5",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 17
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "id": "doc-1cd5186ll6",
-            "identifier": "living-times.quarter",
-            "styles": {
-                "container-style-lined": "container--lined"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd5186ll7",
-                        "identifier": "living-times.teaser-card-no-image",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card-no-image",
-                                    "mediaId": 20
-                                }
-                            }
-                        }
-                    }
-                ],
-                "column-two": [
-                    {
-                        "id": "doc-1cd5186lm0",
-                        "identifier": "living-times.teaser-card-no-image",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card-no-image",
-                                    "mediaId": 22
-                                }
-                            }
-                        }
-                    }
-                ],
-                "column-three": [
-                    {
-                        "id": "doc-1cd5186lm1",
-                        "identifier": "living-times.teaser-card-no-image",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card-no-image",
-                                    "mediaId": 24
-                                }
-                            }
-                        }
-                    }
-                ],
-                "column-four": [
-                    {
-                        "id": "doc-1cd5186lm2",
-                        "identifier": "living-times.teaser-card-no-image",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card-no-image",
-                                    "mediaId": 27
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "id": "doc-1cd5186lm3",
-            "identifier": "living-times.whole",
+            "identifier": "living-times.1-teaser-row",
             "content": {
-                "title": "The latest"
-            },
-            "styles": {
-                "container-style-lined": "container--lined",
-                "container-style-breath": "container--breath"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd5186lm4",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 29
-                                }
-                            }
-                        },
-                        "styles": {
-                            "teaser-image-position": "teaser-card--left-aligned-img"
-                        }
-                    },
-                    {
-                        "id": "doc-1cd5186lm5",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 31
-                                }
-                            }
-                        },
-                        "styles": {
-                            "teaser-image-position": "teaser-card--left-aligned-img"
-                        }
-                    },
-                    {
-                        "id": "doc-1cd5186lm6",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 33
-                                }
-                            }
-                        },
-                        "styles": {
-                            "teaser-image-position": "teaser-card--left-aligned-img"
-                        }
-                    },
-                    {
-                        "id": "doc-1cd5186lm7",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 24
-                                }
-                            }
-                        },
-                        "styles": {
-                            "teaser-image-position": "teaser-card--left-aligned-img"
-                        }
+                "teaser": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "hero",
+                        "mediaId": 11
                     }
-                ]
+                }
             }
         },
         {
-            "id": "doc-1cd5186lm9",
-            "identifier": "living-times.quarter",
+            "identifier": "living-times.3-teaser-row",
             "content": {
-                "title": "Spotlight"
+                "teaser1": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card",
+                        "mediaId": 13
+                    }
+                },
+                "teaser2": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card",
+                        "mediaId": 15
+                    }
+                },
+                "teaser3": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card",
+                        "mediaId": 17
+                    }
+                }
             },
             "styles": {
                 "container-style-lined": "container--lined"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd5186lm10",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 39
-                                }
-                            }
-                        }
-                    }
-                ],
-                "column-two": [
-                    {
-                        "id": "doc-1cd5186lm11",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 42
-                                }
-                            }
-                        }
-                    }
-                ],
-                "column-three": [
-                    {
-                        "id": "doc-1cd5186lm12",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 44
-                                }
-                            }
-                        }
-                    }
-                ],
-                "column-four": [
-                    {
-                        "id": "doc-1cd5186lm13",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 46
-                                }
-                            }
-                        }
-                    }
-                ]
             }
         },
         {
-            "id": "doc-1cd57sb080",
-            "identifier": "living-times.halves",
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd57u8gv0",
-                        "identifier": "living-times.section-title",
-                        "content": {
-                            "title": "By Author"
-                        }
-                    },
-                    {
-                        "id": "doc-1cd57tddo0",
-                        "identifier": "living-times.teaser-card-author",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card-author",
-                                    "mediaId": 13
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": "doc-1cd57v4070",
-                        "identifier": "living-times.teaser-card-author",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card-author",
-                                    "mediaId": 15
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": "doc-1cd57v1uq0",
-                        "identifier": "living-times.teaser-card-author",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card-author",
-                                    "mediaId": 24
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": "doc-1cd57uug50",
-                        "identifier": "living-times.teaser-card-author",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card-author",
-                                    "mediaId": 29
-                                }
-                            }
-                        }
-                    }
-                ],
-                "column-two": [
-                    {
-                        "id": "doc-1cd57uel90",
-                        "identifier": "living-times.section-title",
-                        "content": {
-                            "title": "Most Popular"
-                        }
-                    },
-                    {
-                        "id": "doc-1cd5817ap0",
-                        "identifier": "living-times.teaser-card-numbered",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card-numbered",
-                                    "mediaId": 11
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": "doc-1cd581csn0",
-                        "identifier": "living-times.teaser-card-numbered",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card-numbered",
-                                    "mediaId": 17
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": "doc-1cd581bhi0",
-                        "identifier": "living-times.teaser-card-numbered",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card-numbered",
-                                    "mediaId": 27
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": "doc-1cd5819qn0",
-                        "identifier": "living-times.teaser-card-numbered",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card-numbered",
-                                    "mediaId": 31
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "id": "doc-1cd5186lm14",
-            "identifier": "living-times.halves-uneven",
+            "identifier": "living-times.4-teaser-row-textonly",
             "content": {
-                "title": "Videos"
+                "teaser1": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card-no-image",
+                        "mediaId": 20
+                    }
+                },
+                "teaser2": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card-no-image",
+                        "mediaId": 22
+                    }
+                },
+                "teaser3": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card-no-image",
+                        "mediaId": 24
+                    }
+                },
+                "teaser4": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card-no-image",
+                        "mediaId": 27
+                    }
+                }
             },
             "styles": {
                 "container-style-lined": "container--lined"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd5186lm15",
-                        "identifier": "living-times.teaser-video",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "video",
-                                    "mediaId": 35
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": "doc-1cd5186lm16",
-                        "identifier": "living-times.teaser-video",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "video",
-                                    "mediaId": 36
-                                }
-                            }
-                        }
-                    }
-                ],
-                "column-two": [
-                    {
-                        "id": "doc-1cd5186ln1",
-                        "identifier": "living-times.teaser-video-hero",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "video-hero",
-                                    "mediaId": 37
-                                }
-                            }
-                        }
-                    }
-                ]
             }
         },
         {
-            "id": "doc-1cd5186ln2",
-            "identifier": "living-times.halves-uneven",
+            "identifier": "living-times.teaser-stack",
             "content": {
-                "title": "Photo galleries"
+                "title": "The latest",
+                "teaser1": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card",
+                        "mediaId": 29
+                    }
+                },
+                "teaser2": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card",
+                        "mediaId": 31
+                    }
+                },
+                "teaser3": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card",
+                        "mediaId": 33
+                    }
+                },
+                "teaser4": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card",
+                        "mediaId": 24
+                    }
+                }
             },
             "styles": {
                 "container-style-lined": "container--lined"
+            }
+        },
+        {
+            "identifier": "living-times.4-teaser-row",
+            "content": {
+                "title": "Spotlight",
+                "teaser1": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card",
+                        "mediaId": 39
+                    }
+                },
+                "teaser2": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card",
+                        "mediaId": 42
+                    }
+                },
+                "teaser3": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card",
+                        "mediaId": 44
+                    }
+                },
+                "teaser4": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card",
+                        "mediaId": 46
+                    }
+                }
             },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd5186ln3",
-                        "identifier": "living-times.teaser-gallery",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "gallery",
-                                    "mediaId": 40
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": "doc-1cd5186ln4",
-                        "identifier": "living-times.teaser-gallery",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "gallery",
-                                    "mediaId": 41
-                                }
-                            }
-                        }
+            "styles": {
+                "container-style-lined": "container--lined"
+            }
+        },
+        {
+            "identifier": "authors-and-popular",
+            "content": {
+                "title-left": "By Author",
+                "title-right": "Most Popular",
+                "teaser1-left": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card-author",
+                        "mediaId": 13
                     }
-                ],
-                "column-two": [
-                    {
-                        "id": "doc-1cd5186ln6",
-                        "identifier": "living-times.teaser-gallery-hero",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "gallery-hero",
-                                    "mediaId": 38
-                                }
-                            }
-                        }
+                },
+                "teaser2-left": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card-author",
+                        "mediaId": 15
                     }
-                ]
+                },
+                "teaser3-left": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card-author",
+                        "mediaId": 24
+                    }
+                },
+                "teaser4-left": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card-author",
+                        "mediaId": 29
+                    }
+                },
+                "teaser1-right": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card-numbered",
+                        "mediaId": 11
+                    }
+                },
+                "teaser2-right": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card-numbered",
+                        "mediaId": 17
+                    }
+                },
+                "teaser3-right": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card-numbered",
+                        "mediaId": 27
+                    }
+                },
+                "teaser4-right": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "card-numbered",
+                        "mediaId": 31
+                    }
+                }
+            },
+            "styles": {
+                "container-style-lined": "container--lined"
+            }
+        },
+        {
+            "identifier": "living-times.video-block",
+            "content": {
+                "title": "Videos",
+                "teaser1": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "video-hero",
+                        "mediaId": 37
+                    }
+                },
+                "teaser2": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "video",
+                        "mediaId": 35
+                    }
+                },
+                "teaser3": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "video",
+                        "mediaId": 36
+                    }
+                }
+            },
+            "styles": {
+                "container-style-lined": "container--lined"
+            }
+        },
+        {
+            "identifier": "living-times.gallery-block",
+            "content": {
+                "title": "Photo Galleries",
+                "teaser1": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "gallery-hero",
+                        "mediaId": 38
+                    }
+                },
+                "teaser2": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "gallery",
+                        "mediaId": 40
+                    }
+                },
+                "teaser3": {
+                    "service": "teaser",
+                    "params": {
+                        "layout": "gallery",
+                        "mediaId": 41
+                    }
+                }
+            },
+            "styles": {
+                "container-style-lined": "container--lined"
             }
         }
     ]

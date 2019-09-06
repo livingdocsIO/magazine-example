@@ -1,0 +1,19 @@
+.m-asset-image {
+  padding: $asset-unit / 2;
+
+  &__image {
+    width: 100%;
+    position: relative;
+  }
+
+  &:not(:last-child) {
+    @extend %a-asset-divider;
+  }
+
+  .a-asset-input {
+    margin-top: $asset-unit / 2;
+  }
+}
+
+@import 'asset-image-numbered';
+@import 'asset-image-compact';

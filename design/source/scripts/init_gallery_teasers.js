@@ -61,7 +61,7 @@ module.exports = function initGalleryTeasers (window, document) {
     const children = imageContainerEl.childNodes
     for (const figureEl of children) {
       const imageEl = figureEl.children[0]
-      const captionEl = figureEl.children.length > 1 && figureEl.children[1]
+      const captionEl = figureEl.querySelectorAll('.a-asset-input').length > 1 && figureEl.querySelectorAll('.a-asset-input')[0]
       const item = {
         src: imageEl.getAttribute('src'),
         w: imageEl.naturalWidth,
