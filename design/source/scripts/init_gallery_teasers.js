@@ -59,11 +59,11 @@ module.exports = function initGalleryTeasers (window, document) {
     if (!imageContainerEl) return items
 
     const children = imageContainerEl.childNodes
-    for (const figureEl of children) {
-      const imageEl = figureEl.children[0]
-      const captionEl = figureEl.querySelectorAll('.a-asset-input').length > 1 && figureEl.querySelectorAll('.a-asset-input')[0]
+    for (const imageDiv of children) {
+      const imageEl = imageDiv.querySelectorAll('.m-asset-image__image > img')[0]
+      const captionEl = imageDiv.querySelectorAll('.a-asset-input').length > 1 && imageDiv.querySelectorAll('.a-asset-input')[0]
       const item = {
-        src: imageEl.getAttribute('src'),
+        src: imageEl ? imageEl.getAttribute('src') : '',
         w: imageEl.naturalWidth,
         h: imageEl.naturalHeight,
         title: captionEl ? captionEl.innerHTML : ''
