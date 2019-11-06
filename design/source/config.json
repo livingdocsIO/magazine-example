@@ -470,7 +470,7 @@
     {
       "identifier": "teaserImage",
       "type": "image",
-      "matches": ["image.image"],
+      "matches": ["image.image", "asset-image.image"],
       "isEditable": true,
       "imageRatios": ["16:9"]
     }
