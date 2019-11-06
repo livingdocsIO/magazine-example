@@ -9,7 +9,7 @@
         "layout": "regular",
         "design": {
             "name": "living-times",
-            "version": "0.0.14"
+            "version": "0.0.21"
         }
     },
     "metadata": {
@@ -64,6 +64,7 @@
         {
             "id": "doc-1cd5a3t330",
             "identifier": "living-times.article-container",
+            "position": "fixed",
             "containers": {
                 "header": [
                     {
@@ -304,71 +305,40 @@
                 ],
                 "sidebar-ads-bottom": [],
                 "footer": [
-                    {
-                        "id": "doc-1cd5a3t3410",
-                        "identifier": "living-times.halves",
-                        "content": {
-                            "title": "Recommended Stories"
-                        },
-                        "containers": {
-                            "column-one": [
-                                {
-                                    "id": "doc-1cd5a3t3411",
-                                    "identifier": "living-times.teaser-card",
-                                    "content": {
-                                        "teaser": {
-                                            "service": "teaser",
-                                            "params": {
-                                                "layout": "card",
-                                                "mediaId": 22
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "id": "doc-1cd5a3t3412",
-                                    "identifier": "living-times.teaser-card",
-                                    "content": {
-                                        "teaser": {
-                                            "service": "teaser",
-                                            "params": {
-                                                "layout": "card",
-                                                "mediaId": 20
-                                            }
-                                        }
-                                    }
-                                }
-                            ],
-                            "column-two": [
-                                {
-                                    "id": "doc-1cd5a3t3413",
-                                    "identifier": "living-times.teaser-card",
-                                    "content": {
-                                        "teaser": {
-                                            "service": "teaser",
-                                            "params": {
-                                                "layout": "card",
-                                                "mediaId": 15
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "id": "doc-1cd5a3t3414",
-                                    "identifier": "living-times.teaser-card",
-                                    "content": {
-                                        "teaser": {
-                                            "service": "teaser",
-                                            "params": {
-                                                "layout": "card",
-                                                "mediaId": 44
-                                            }
-                                        }
-                                    }
-                                }
-                            ]
-                        }
+                  {
+                    "identifier": "living-times.2-col-teaser-stack",
+                    "content": {
+                      "title": "Recommended Stories",
+                      "teaser1-left": {
+                          "service": "teaser",
+                          "params": {
+                              "layout": "card",
+                              "mediaId": 22
+                          }
+                      },
+                      "teaser1-right": {
+                          "service": "teaser",
+                          "params": {
+                              "layout": "card",
+                              "mediaId": 20
+                          }
+                      },
+                      "teaser2-left": {
+                          "service": "teaser",
+                          "params": {
+                              "layout": "card",
+                              "mediaId": 15
+                          }
+                      },
+                      "teaser2-right": {
+                          "service": "teaser",
+                          "params": {
+                              "layout": "card",
+                              "mediaId": 44
+                          }
+                      }
                     }
+                  }
                 ]
             }
         }

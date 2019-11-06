@@ -9,7 +9,7 @@
         "layout": "page",
         "design": {
             "name": "living-times",
-            "version": "0.0.14"
+            "version": "0.0.21"
         }
     },
     "metadata": {
@@ -17,70 +17,48 @@
         "dependencies": {}
     },
     "content": [
-        {
-            "id": "doc-1cd4ttobm0",
-            "identifier": "living-times.whole",
-            "styles": {
-                "container-style-breath": "container--breath"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd5p266f0",
-                        "identifier": "living-times.teaser-gallery-hero",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "gallery-hero",
-                                    "mediaId": 38
-                                }
-                            }
-                        }
-                    }
-                ]
+      {
+          "identifier": "living-times.1-teaser-row",
+          "content": {
+            "teaser": {
+              "service": "teaser",
+              "params": {
+                  "layout": "hero",
+                  "mediaId": 38
+              }
             }
+          }
+      }, {
+        "identifier": "living-times.1-teaser-row",
+        "styles": {
+            "container-style-lined": "container--lined",
+            "teaser-image-position": "teaser-card--left-aligned-img"
         },
-        {
-            "id": "doc-1cd4ttobm11",
-            "identifier": "living-times.whole",
-            "content": {
-                "title": "More Galleries"
-            },
-            "styles": {
-                "container-style-lined": "container--lined",
-                "container-style-breath": "container--breath"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd5p2v7o0",
-                        "identifier": "living-times.teaser-gallery",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "gallery",
-                                    "mediaId": 40
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": "doc-1cd5p31r30",
-                        "identifier": "living-times.teaser-gallery",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "gallery",
-                                    "mediaId": 41
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
+        "content": {
+          "title": "More Galleries",
+          "teaser": {
+              "service": "teaser",
+              "params": {
+                  "layout": "card",
+                  "mediaId": 40
+              }
+          }
         }
+      }, {
+        "identifier": "living-times.1-teaser-row",
+        "styles": {
+            "container-style-lined": "container--lined",
+            "teaser-image-position": "teaser-card--left-aligned-img"
+        },
+        "content": {
+          "teaser": {
+              "service": "teaser",
+              "params": {
+                  "layout": "card",
+                  "mediaId": 41
+              }
+          }
+        }
+      }
     ]
 }

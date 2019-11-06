@@ -9,7 +9,7 @@
         "layout": "page",
         "design": {
             "name": "living-times",
-            "version": "0.0.14"
+            "version": "0.0.21"
         }
     },
     "metadata": {
@@ -18,59 +18,32 @@
     },
     "content": [
         {
-            "id": "doc-1cd4ts2mi0",
-            "identifier": "living-times.whole",
-            "styles": {
-                "container-style-breath": "container--breath"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd4ts2mi1",
-                        "identifier": "living-times.teaser-hero",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "hero",
-                                    "mediaId": 13
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "id": "doc-1cd4ts2mk0",
-            "identifier": "living-times.whole",
+            "identifier": "living-times.1-teaser-row",
             "content": {
-                "title": "More on Education"
-            },
-            "styles": {
-                "container-style-lined": "container--lined",
-                "container-style-breath": "container--breath"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd4ts2mk1",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 39
-                                }
-                            }
-                        },
-                        "styles": {
-                            "teaser-image-position": "teaser-card--left-aligned-img"
-                        }
-                    }
-                ]
+              "teaser": {
+                "service": "teaser",
+                "params": {
+                    "layout": "hero",
+                    "mediaId": 13
+                }
+              }
             }
+        }, {
+          "identifier": "living-times.1-teaser-row",
+          "styles": {
+              "container-style-lined": "container--lined",
+              "teaser-image-position": "teaser-card--left-aligned-img"
+          },
+          "content": {
+            "title": "More on Education",
+            "teaser": {
+                "service": "teaser",
+                "params": {
+                    "layout": "card",
+                    "mediaId": 39
+                }
+            }
+          }
         }
     ]
 }

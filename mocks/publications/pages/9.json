@@ -9,7 +9,7 @@
         "layout": "page",
         "design": {
             "name": "living-times",
-            "version": "0.0.14"
+            "version": "0.0.21"
         }
     },
     "metadata": {
@@ -17,70 +17,48 @@
         "dependencies": {}
     },
     "content": [
-        {
-            "id": "doc-1cd4ttdcp0",
-            "identifier": "living-times.whole",
-            "styles": {
-                "container-style-breath": "container--breath"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd5p48uh0",
-                        "identifier": "living-times.teaser-video-hero",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "video-hero",
-                                    "mediaId": 37
-                                }
-                            }
-                        }
-                    }
-                ]
+      {
+          "identifier": "living-times.1-teaser-row",
+          "content": {
+            "teaser": {
+              "service": "teaser",
+              "params": {
+                  "layout": "hero",
+                  "mediaId": 37
+              }
             }
+          }
+      }, {
+        "identifier": "living-times.1-teaser-row",
+        "styles": {
+            "container-style-lined": "container--lined",
+            "teaser-image-position": "teaser-card--left-aligned-img"
         },
-        {
-            "id": "doc-1cd4ttdcp11",
-            "identifier": "living-times.whole",
-            "content": {
-                "title": "More Videos"
-            },
-            "styles": {
-                "container-style-lined": "container--lined",
-                "container-style-breath": "container--breath"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd5p5g510",
-                        "identifier": "living-times.teaser-video",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "video",
-                                    "mediaId": 35
-                                }
-                            }
-                        }
-                    },
-                    {
-                        "id": "doc-1cd5p5olk0",
-                        "identifier": "living-times.teaser-video",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "video",
-                                    "mediaId": 36
-                                }
-                            }
-                        }
-                    }
-                ]
-            }
+        "content": {
+          "title": "More Videos",
+          "teaser": {
+              "service": "teaser",
+              "params": {
+                  "layout": "card",
+                  "mediaId": 35
+              }
+          }
         }
+      }, {
+        "identifier": "living-times.1-teaser-row",
+        "styles": {
+            "container-style-lined": "container--lined",
+            "teaser-image-position": "teaser-card--left-aligned-img"
+        },
+        "content": {
+          "teaser": {
+              "service": "teaser",
+              "params": {
+                  "layout": "card",
+                  "mediaId": 36
+              }
+          }
+        }
+      }
     ]
 }

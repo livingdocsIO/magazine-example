@@ -9,7 +9,7 @@
         "layout": "page",
         "design": {
             "name": "living-times",
-            "version": "0.0.14"
+            "version": "0.0.21"
         }
     },
     "metadata": {
@@ -18,75 +18,48 @@
     },
     "content": [
         {
-            "id": "doc-1cd4trpes0",
-            "identifier": "living-times.whole",
-            "styles": {
-                "container-style-breath": "container--breath"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd4trpet0",
-                        "identifier": "living-times.teaser-hero",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "hero",
-                                    "mediaId": 20
-                                }
-                            }
-                        }
-                    }
-                ]
+            "identifier": "living-times.1-teaser-row",
+            "content": {
+              "teaser": {
+                "service": "teaser",
+                "params": {
+                    "layout": "hero",
+                    "mediaId": 20
+                }
+              }
             }
         },
         {
-            "id": "doc-1cd4trpet10",
-            "identifier": "living-times.whole",
-            "content": {
-                "title": "More on Technology"
-            },
+            "identifier": "living-times.1-teaser-row",
             "styles": {
                 "container-style-lined": "container--lined",
-                "container-style-breath": "container--breath"
+                "teaser-image-position": "teaser-card--left-aligned-img"
             },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd4trpeu0",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 31
-                                }
-                            }
-                        },
-                        "styles": {
-                            "teaser-image-position": "teaser-card--left-aligned-img"
-                        }
-                    },
-                    {
-                        "id": "doc-1cd4trpeu1",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 42
-                                }
-                            }
-                        },
-                        "styles": {
-                            "teaser-image-position": "teaser-card--left-aligned-img"
-                        }
-                    }
-                ]
+            "content": {
+              "title": "More on Technology",
+              "teaser": {
+                  "service": "teaser",
+                  "params": {
+                      "layout": "card",
+                      "mediaId": 31
+                  }
+              }
             }
+        }, {
+          "identifier": "living-times.1-teaser-row",
+          "styles": {
+              "container-style-lined": "container--lined",
+              "teaser-image-position": "teaser-card--left-aligned-img"
+          },
+          "content": {
+            "teaser": {
+                "service": "teaser",
+                "params": {
+                    "layout": "card",
+                    "mediaId": 42
+                }
+            }
+          }
         }
     ]
 }
