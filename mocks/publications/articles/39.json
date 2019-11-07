@@ -17,14 +17,14 @@
         "description": "Converting into private schools — and using voucher programs to thrive on the public dime.",
         "publishDate": "2017-09-19T06:00:00.000Z",
         "teaserImage": {
-            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/ae2e537d-f882-4453-b49d-e17502345943.jpeg",
-            "url": "https://livingdocs-images.imgix.net/2018/8/22/ae2e537d-f882-4453-b49d-e17502345943.jpeg?w=1024&auto=format",
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?w=1024&auto=format",
             "width": 1024,
             "height": 768,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-images.imgix.net/2018/8/22/ae2e537d-f882-4453-b49d-e17502345943.jpeg?rect=0%2C96%2C1024%2C576&w=1024&auto=format",
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?rect=0%2C96%2C1024%2C576&w=1024&auto=format",
                     "name": "16:9",
                     "x": 0,
                     "y": 96,
@@ -33,19 +33,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/ae2e537d-f882-4453-b49d-e17502345943.jpeg?rect=0%2C96%2C1024%2C576&w=2048&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?rect=0%2C96%2C1024%2C576&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/ae2e537d-f882-4453-b49d-e17502345943.jpeg?rect=0%2C96%2C1024%2C576&w=1024&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?rect=0%2C96%2C1024%2C576&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/ae2e537d-f882-4453-b49d-e17502345943.jpeg?rect=0%2C96%2C1024%2C576&w=620&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?rect=0%2C96%2C1024%2C576&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/ae2e537d-f882-4453-b49d-e17502345943.jpeg?rect=0%2C96%2C1024%2C576&w=320&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?rect=0%2C96%2C1024%2C576&w=320&auto=format"
                         }
                     ]
                 }
@@ -80,17 +80,27 @@
                 ],
                 "main": [
                     {
+                      "id": "doc-FDmyzNUEqQ",
+                      "identifier": "living-times.free-html",
+                      "content": {
+                        "free-html": "<script type=\"text/javascript\" src=\"https://pixel.propublica.org/pixel.js\" async=\"true\"></script>"
+                      }
+                    },
+                    {
                         "id": "doc-1cd598hh50",
                         "identifier": "living-times.image",
                         "content": {
                             "image": {
-                                "url": "https://livingdocs-images.imgix.net/2018/8/22/ae2e537d-f882-4453-b49d-e17502345943.jpeg?auto=format",
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg?auto=format",
                                 "width": 1024,
                                 "height": 768,
                                 "mimeType": "image/jpeg",
                                 "imageService": "imgix",
-                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/8/22/ae2e537d-f882-4453-b49d-e17502345943.jpeg"
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/74fd7862-7921-4d99-b0df-9533b2640276.jpeg"
                             }
+                        },
+                        "data": {
+                          "title": "School bus"
                         }
                     },
                     {
@@ -539,7 +549,7 @@
                         "id": "doc-1cd598hh70",
                         "identifier": "living-times.free-html",
                         "content": {
-                          "free-html": "<a target='_blank' href='https://www.livingdocs.io'><img src='/assets/images/ads/rectangles/ad-secret.gif'></a>"
+                          "free-html": "<a target='_blank' href='https://www.livingdocs.io'><img src='https://livingdocs-assets.s3.amazonaws.com/ads/rectangles/ad-secret.gif'></a>"
                         }
                     }
                 ],

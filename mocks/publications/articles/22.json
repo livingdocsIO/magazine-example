@@ -17,14 +17,14 @@
         "description": "Cook County Assessor Joe Berrios, one of the last leaders of the old Democratic machine, loses the Democratic primary to a wealthy political newcomer.",
         "publishDate": "2018-03-21T04:00:00.000Z",
         "teaserImage": {
-            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg",
-            "url": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?w=1024&auto=format",
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?w=1024&auto=format",
             "width": 610,
             "height": 749,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343&w=1024&auto=format",
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?rect=0%2C203%2C610%2C343&w=1024&auto=format",
                     "name": "16:9",
                     "x": 0,
                     "y": 203,
@@ -33,19 +33,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343&w=2048&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?rect=0%2C203%2C610%2C343&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343&w=1024&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?rect=0%2C203%2C610%2C343&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343&w=620&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?rect=0%2C203%2C610%2C343&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?rect=0%2C203%2C610%2C343&w=320&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?rect=0%2C203%2C610%2C343&w=320&auto=format"
                         }
                     ]
                 }
@@ -81,17 +81,27 @@
                 ],
                 "main": [
                     {
+                      "id": "doc-FDmyzNUEqQ",
+                      "identifier": "living-times.free-html",
+                      "content": {
+                        "free-html": "<script type=\"text/javascript\" src=\"https://pixel.propublica.org/pixel.js\" async=\"true\"></script>"
+                      }
+                    },
+                    {
                         "id": "doc-1cd52cdtp0",
                         "identifier": "living-times.image",
                         "content": {
                             "image": {
-                                "url": "https://livingdocs-images.imgix.net/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg?auto=format",
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg?auto=format",
                                 "width": 610,
                                 "height": 749,
                                 "mimeType": "image/jpeg",
                                 "imageService": "imgix",
-                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/8/22/26134e3b-b3a4-40a6-bf5b-243a4499c819.jpeg"
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/f2de6d9b-77cb-4512-9b94-e7adef209539.jpeg"
                             }
+                        },
+                        "data": {
+                          "title": "Banksy Graffiti"
                         }
                     },
                     {
@@ -324,7 +334,7 @@
                         "id": "doc-1cd52cdtq0",
                         "identifier": "living-times.free-html",
                         "content": {
-                          "free-html": "<a target='_blank' href='https://www.livingdocs.io'><img src='/assets/images/ads/rectangles/ad-standard.gif'></a>"
+                          "free-html": "<a target='_blank' href='https://www.livingdocs.io'><img src='https://livingdocs-assets.s3.amazonaws.com/ads/rectangles/ad-standard.gif'></a>"
                         }
                     }
                 ],

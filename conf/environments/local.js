@@ -7,7 +7,7 @@ module.exports = {
   },
   imageServices: {
     imgix: {
-      host: 'https://livingdocs-images.imgix.net'
+      host: 'https://livingdocs-dev.imgix.net'
     }
   }
 }
