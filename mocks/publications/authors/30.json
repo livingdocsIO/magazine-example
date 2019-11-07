@@ -9,7 +9,7 @@
         "layout": "author",
         "design": {
             "name": "living-times",
-            "version": "0.0.14"
+            "version": "0.0.22"
         }
     },
     "metadata": {
@@ -21,13 +21,13 @@
         "biography": "Marshall Allen investigates why we pay so much for health care in the United States and get so little in return. He is one of the creators of ProPublica’s Surgeon Scorecard, which published the complication rates for about 17,000 surgeons who perform eight common elective procedures. He also moderates the ProPublica Patient Safety Facebook group, a vibrant online forum about the quality of care. Allen’s work has been honored with several journalism awards, including the Harvard Kennedy School’s 2011 Goldsmith Prize for Investigative Reporting and coming in as a finalist for the Pulitzer Prize for local reporting for work at the Las Vegas Sun, where he worked before coming to ProPublica in 2011. Before he was in journalism, Allen spent five years in full-time ministry, including three years in Nairobi, Kenya. He has a master’s degree in Theology.",
         "authorImage": {
             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png",
-            "url": "https://livingdocs-images.imgix.net/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png?w=1024&auto=format",
+            "url": "https://livingdocs-dev.imgix.net/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png?w=1024&auto=format",
             "width": 450,
             "height": 442,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-images.imgix.net/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png?rect=4%2C0%2C442%2C442&w=1024&auto=format",
+                    "url": "https://livingdocs-dev.imgix.net/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png?rect=4%2C0%2C442%2C442&w=1024&auto=format",
                     "name": "1:1",
                     "x": 4,
                     "y": 0,
@@ -36,19 +36,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png?rect=4%2C0%2C442%2C442&w=2048&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png?rect=4%2C0%2C442%2C442&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png?rect=4%2C0%2C442%2C442&w=1024&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png?rect=4%2C0%2C442%2C442&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png?rect=4%2C0%2C442%2C442&w=620&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png?rect=4%2C0%2C442%2C442&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png?rect=4%2C0%2C442%2C442&w=320&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/8/22/fe3e0b39-4395-41f1-a2ae-3e42524d3863.png?rect=4%2C0%2C442%2C442&w=320&auto=format"
                         }
                     ]
                 }

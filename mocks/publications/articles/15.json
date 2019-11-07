@@ -9,7 +9,7 @@
         "layout": "regular",
         "design": {
             "name": "living-times",
-            "version": "0.0.14"
+            "version": "0.0.22"
         }
     },
     "metadata": {
@@ -17,14 +17,14 @@
         "description": "Federal immigration agencies say they avoid arresting and questioning people at “sensitive locations.” Help us learn where they are conducting operations.",
         "publishDate": "2018-03-01T11:00:00.000Z",
         "teaserImage": {
-            "originalUrl": "https://livingdocs-service-images-production/2018/8/22/5b7b6337-c3c8-437c-934f-edd46226fb8a.jpeg",
-            "url": "https://livingdocs-images.imgix.net/2018/8/22/5b7b6337-c3c8-437c-934f-edd46226fb8a.jpeg?w=1024&auto=format",
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/e8de2b29-6f05-4aff-ac62-3daac5a58fa5.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e8de2b29-6f05-4aff-ac62-3daac5a58fa5.jpeg?w=1024&auto=format",
             "width": 1496,
             "height": 1122,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-images.imgix.net/2018/8/22/5b7b6337-c3c8-437c-934f-edd46226fb8a.jpeg?rect=0%2C140%2C1496%2C842&w=1024&auto=format",
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/e8de2b29-6f05-4aff-ac62-3daac5a58fa5.jpeg?rect=0%2C140%2C1496%2C842&w=1024&auto=format",
                     "name": "16:9",
                     "x": 0,
                     "y": 140,
@@ -33,19 +33,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/5b7b6337-c3c8-437c-934f-edd46226fb8a.jpeg?rect=0%2C140%2C1496%2C842&w=2048&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e8de2b29-6f05-4aff-ac62-3daac5a58fa5.jpeg?rect=0%2C140%2C1496%2C842&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/5b7b6337-c3c8-437c-934f-edd46226fb8a.jpeg?rect=0%2C140%2C1496%2C842&w=1024&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e8de2b29-6f05-4aff-ac62-3daac5a58fa5.jpeg?rect=0%2C140%2C1496%2C842&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/5b7b6337-c3c8-437c-934f-edd46226fb8a.jpeg?rect=0%2C140%2C1496%2C842&w=620&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e8de2b29-6f05-4aff-ac62-3daac5a58fa5.jpeg?rect=0%2C140%2C1496%2C842&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/5b7b6337-c3c8-437c-934f-edd46226fb8a.jpeg?rect=0%2C140%2C1496%2C842&w=320&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e8de2b29-6f05-4aff-ac62-3daac5a58fa5.jpeg?rect=0%2C140%2C1496%2C842&w=320&auto=format"
                         }
                     ]
                 }
@@ -64,6 +64,7 @@
         {
             "id": "doc-1cd50hq9s0",
             "identifier": "living-times.article-container",
+            "position": "fixed",
             "containers": {
                 "header": [
                     {
@@ -79,17 +80,27 @@
                 ],
                 "main": [
                     {
+                      "id": "doc-FDmyzNUEqQ",
+                      "identifier": "living-times.free-html",
+                      "content": {
+                        "free-html": "<script type=\"text/javascript\" src=\"https://pixel.propublica.org/pixel.js\" async=\"true\"></script>"
+                      }
+                    },
+                    {
                         "id": "doc-1cd50hq9s2",
                         "identifier": "living-times.image",
                         "content": {
                             "image": {
-                                "url": "https://livingdocs-images.imgix.net/2018/8/22/5b7b6337-c3c8-437c-934f-edd46226fb8a.jpeg?auto=format",
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/e8de2b29-6f05-4aff-ac62-3daac5a58fa5.jpeg?auto=format",
                                 "width": 1496,
                                 "height": 1122,
                                 "mimeType": "image/jpeg",
                                 "imageService": "imgix",
-                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/8/22/5b7b6337-c3c8-437c-934f-edd46226fb8a.jpeg"
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/e8de2b29-6f05-4aff-ac62-3daac5a58fa5.jpeg"
                             }
+                        },
+                        "data": {
+                          "title": "US border inspection"
                         }
                     },
                     {
@@ -181,7 +192,7 @@
                         "id": "doc-1cd50hq9s5",
                         "identifier": "living-times.free-html",
                         "content": {
-                          "free-html": "<a target='_blank' href='https://www.livingdocs.io'><img src='/assets/images/ads/rectangles/ad-standard.gif'></a>"
+                          "free-html": "<a target='_blank' href='https://www.livingdocs.io'><img src='https://livingdocs-assets.s3.amazonaws.com/ads/rectangles/ad-standard.gif'></a>"
                         }
                     }
                 ],
@@ -248,71 +259,40 @@
                 ],
                 "sidebar-ads-bottom": [],
                 "footer": [
-                    {
-                        "id": "doc-1cd50hq9s12",
-                        "identifier": "living-times.halves",
-                        "content": {
-                            "title": "Recommended Stories"
-                        },
-                        "containers": {
-                            "column-one": [
-                                {
-                                    "id": "doc-1cd50hq9s13",
-                                    "identifier": "living-times.teaser-card",
-                                    "content": {
-                                        "teaser": {
-                                            "service": "teaser",
-                                            "params": {
-                                                "layout": "card",
-                                                "mediaId": 11
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "id": "doc-1cd50hq9s14",
-                                    "identifier": "living-times.teaser-card",
-                                    "content": {
-                                        "teaser": {
-                                            "service": "teaser",
-                                            "params": {
-                                                "layout": "card",
-                                                "mediaId": 46
-                                            }
-                                        }
-                                    }
-                                }
-                            ],
-                            "column-two": [
-                                {
-                                    "id": "doc-1cd50hq9s15",
-                                    "identifier": "living-times.teaser-card",
-                                    "content": {
-                                        "teaser": {
-                                            "service": "teaser",
-                                            "params": {
-                                                "layout": "card",
-                                                "mediaId": 13
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "id": "doc-1cd50hq9s16",
-                                    "identifier": "living-times.teaser-card",
-                                    "content": {
-                                        "teaser": {
-                                            "service": "teaser",
-                                            "params": {
-                                                "layout": "card",
-                                                "mediaId": 20
-                                            }
-                                        }
-                                    }
-                                }
-                            ]
-                        }
+                  {
+                    "identifier": "living-times.2-col-teaser-stack",
+                    "content": {
+                      "title": "Recommended Stories",
+                      "teaser1-left": {
+                          "service": "teaser",
+                          "params": {
+                              "layout": "card",
+                              "mediaId": 11
+                          }
+                      },
+                      "teaser1-right": {
+                          "service": "teaser",
+                          "params": {
+                              "layout": "card",
+                              "mediaId": 46
+                          }
+                      },
+                      "teaser2-left": {
+                          "service": "teaser",
+                          "params": {
+                              "layout": "card",
+                              "mediaId": 13
+                          }
+                      },
+                      "teaser2-right": {
+                          "service": "teaser",
+                          "params": {
+                              "layout": "card",
+                              "mediaId": 20
+                          }
+                      }
                     }
+                  }
                 ]
             }
         }

@@ -1,11 +1,11 @@
 {
   "name": "living-times",
   "label": "Living Times",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "license": "Copyright (c) 2018 Livingdocs AG, all rights reserved",
 
   "assets": {
-    "basePath": "https://cdn.livingdocs.io/designs/living-times/0.0.21",
+    "basePath": "https://cdn.livingdocs.io/designs/living-times/0.0.22",
     "css": ["./styles.css"],
     "js": ["./scripts.js"]
   },
@@ -146,6 +146,7 @@
       "defaultContent": [
         {
           "identifier": "living-times.article-container",
+          "position": "fixed",
           "containers": {
             "header": [
               { "identifier": "living-times.head" }
@@ -469,7 +470,7 @@
     {
       "identifier": "teaserImage",
       "type": "image",
-      "matches": ["image.image"],
+      "matches": ["image.image", "asset-image.image"],
       "isEditable": true,
       "imageRatios": ["16:9"]
     }

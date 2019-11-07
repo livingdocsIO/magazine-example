@@ -9,7 +9,7 @@
         "layout": "author",
         "design": {
             "name": "living-times",
-            "version": "0.0.14"
+            "version": "0.0.22"
         }
     },
     "metadata": {
@@ -21,13 +21,13 @@
         "biography": "Mick Dumke is a reporter for ProPublica Illinois. He came to ProPublica after two years on the Watchdogs team at the Chicago Sun-Times, where he reported on the dismantling of public housing, the impacts of the state budget crisis on prisoner re-entry and the police department’s use of a secret watch list. Before that, he spent almost a decade as a politics writer and editor for the Chicago Reader. Among his investigations, he reported on racial disparities in drug enforcement and the privatization of Chicago’s parking meter system and other public assets. He has also worked as a reporter and editor at the Chicago Reporter magazine, taught social studies at an alternative high school and studied religion at Northwestern University and McCormick Theological Seminary.",
         "authorImage": {
             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png",
-            "url": "https://livingdocs-images.imgix.net/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png?w=1024&auto=format",
+            "url": "https://livingdocs-dev.imgix.net/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png?w=1024&auto=format",
             "width": 508,
             "height": 452,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-images.imgix.net/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png?rect=28%2C0%2C452%2C452&w=1024&auto=format",
+                    "url": "https://livingdocs-dev.imgix.net/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png?rect=28%2C0%2C452%2C452&w=1024&auto=format",
                     "name": "1:1",
                     "x": 28,
                     "y": 0,
@@ -36,19 +36,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png?rect=28%2C0%2C452%2C452&w=2048&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png?rect=28%2C0%2C452%2C452&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png?rect=28%2C0%2C452%2C452&w=1024&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png?rect=28%2C0%2C452%2C452&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png?rect=28%2C0%2C452%2C452&w=620&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png?rect=28%2C0%2C452%2C452&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png?rect=28%2C0%2C452%2C452&w=320&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/8/22/b6996546-6422-40a8-b6f9-0ab42290690f.png?rect=28%2C0%2C452%2C452&w=320&auto=format"
                         }
                     ]
                 }

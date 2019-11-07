@@ -9,7 +9,7 @@
         "layout": "page",
         "design": {
             "name": "living-times",
-            "version": "0.0.14"
+            "version": "0.0.22"
         }
     },
     "metadata": {
@@ -17,60 +17,33 @@
         "dependencies": {}
     },
     "content": [
-        {
-            "id": "doc-1cd4tsd360",
-            "identifier": "living-times.whole",
-            "styles": {
-                "container-style-breath": "container--breath"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd4tsd361",
-                        "identifier": "living-times.teaser-hero",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "hero",
-                                    "mediaId": 27
-                                }
-                            }
-                        }
-                    }
-                ]
+      {
+          "identifier": "living-times.1-teaser-row",
+          "content": {
+            "teaser": {
+              "service": "teaser",
+              "params": {
+                  "layout": "hero",
+                  "mediaId": 27
+              }
             }
+          }
+      }, {
+        "identifier": "living-times.1-teaser-row",
+        "styles": {
+            "container-style-lined": "container--lined",
+            "teaser-image-position": "teaser-card--left-aligned-img"
         },
-        {
-            "id": "doc-1cd4tsd3611",
-            "identifier": "living-times.whole",
-            "content": {
-                "title": "More on Environment"
-            },
-            "styles": {
-                "container-style-lined": "container--lined",
-                "container-style-breath": "container--breath"
-            },
-            "containers": {
-                "column-one": [
-                    {
-                        "id": "doc-1cd4tsd3612",
-                        "identifier": "living-times.teaser-card",
-                        "content": {
-                            "teaser": {
-                                "service": "teaser",
-                                "params": {
-                                    "layout": "card",
-                                    "mediaId": 33
-                                }
-                            }
-                        },
-                        "styles": {
-                            "teaser-image-position": "teaser-card--left-aligned-img"
-                        }
-                    }
-                ]
-            }
+        "content": {
+          "title": "More on Environment",
+          "teaser": {
+              "service": "teaser",
+              "params": {
+                  "layout": "card",
+                  "mediaId": 33
+              }
+          }
         }
+      }
     ]
 }

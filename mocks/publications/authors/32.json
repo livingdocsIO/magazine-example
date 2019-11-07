@@ -9,7 +9,7 @@
         "layout": "author",
         "design": {
             "name": "living-times",
-            "version": "0.0.14"
+            "version": "0.0.22"
         }
     },
     "metadata": {
@@ -21,13 +21,13 @@
         "biography": "Julia Angwin is a senior reporter at ProPublica. From 2000 to 2013, she was a reporter at The Wall Street Journal, where she led a privacy investigative team that was a finalist for a Pulitzer Prize in Explanatory Reporting in 2011 and won a Gerald Loeb Award in 2010. Her book \"Dragnet Nation: A Quest for Privacy, Security and Freedom in a World of Relentless Surveillance,\" was published by Times Books in 2014, and was shortlisted for Best Business Book of the Year by the Financial Times.<br><br>Also in 2014, Julia was named reporter of the year by the Newswomenâs Club of New York. In 2003, she was on a team of reporters at The Wall Street Journal that was awarded the Pulitzer Prize in Explanatory Reporting for coverage of corporate corruption. She is also the author of âStealing MySpace: The Battle to Control the Most Popular Website in Americaâ (Random House, March 2009). She earned a B.A. in mathematics from the University of Chicago and an MBA from the Graduate School of Business at Columbia University.<br><br>To send her encrypted PGP e-mail, you can use the following public key: F292 E93A 86B3 1713 05A6 FE9F 85C9 09BB C664 D201 (0xC664D201)",
         "authorImage": {
             "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png",
-            "url": "https://livingdocs-images.imgix.net/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png?w=1024&auto=format",
+            "url": "https://livingdocs-dev.imgix.net/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png?w=1024&auto=format",
             "width": 508,
             "height": 434,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-images.imgix.net/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png?rect=37%2C0%2C434%2C434&w=1024&auto=format",
+                    "url": "https://livingdocs-dev.imgix.net/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png?rect=37%2C0%2C434%2C434&w=1024&auto=format",
                     "name": "1:1",
                     "x": 37,
                     "y": 0,
@@ -36,19 +36,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png?rect=37%2C0%2C434%2C434&w=2048&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png?rect=37%2C0%2C434%2C434&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png?rect=37%2C0%2C434%2C434&w=1024&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png?rect=37%2C0%2C434%2C434&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png?rect=37%2C0%2C434%2C434&w=620&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png?rect=37%2C0%2C434%2C434&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png?rect=37%2C0%2C434%2C434&w=320&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/8/22/fe7703a8-1384-48ec-a611-900055957382.png?rect=37%2C0%2C434%2C434&w=320&auto=format"
                         }
                     ]
                 }

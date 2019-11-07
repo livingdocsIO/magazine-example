@@ -9,7 +9,7 @@
         "layout": "regular",
         "design": {
             "name": "living-times",
-            "version": "0.0.14"
+            "version": "0.0.22"
         }
     },
     "metadata": {
@@ -17,14 +17,14 @@
         "description": "The web services company Cloudflare appears to have ended its relationship with the neo-Nazi website The Daily Stormer.",
         "publishDate": "2018-08-16T17:05:00.000Z",
         "teaserImage": {
-            "originalUrl": "https://livingdocs-service-images-production.s3.amazonaws.com/2018/8/22/0189f957-e81e-4af6-b602-d3a61bdfd56b.jpeg",
-            "url": "https://livingdocs-images.imgix.net/2018/8/22/0189f957-e81e-4af6-b602-d3a61bdfd56b.jpeg?w=1024&auto=format",
+            "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg",
+            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?w=1024&auto=format",
             "width": 1024,
             "height": 683,
             "imageService": "imgix",
             "crops": [
                 {
-                    "url": "https://livingdocs-images.imgix.net/2018/8/22/0189f957-e81e-4af6-b602-d3a61bdfd56b.jpeg?rect=0%2C54%2C1024%2C576&w=1024&auto=format",
+                    "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?rect=0%2C54%2C1024%2C576&w=1024&auto=format",
                     "name": "16:9",
                     "x": 0,
                     "y": 54,
@@ -33,19 +33,19 @@
                     "srcSet": [
                         {
                             "width": 2048,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/0189f957-e81e-4af6-b602-d3a61bdfd56b.jpeg?rect=0%2C54%2C1024%2C576&w=2048&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?rect=0%2C54%2C1024%2C576&w=2048&auto=format"
                         },
                         {
                             "width": 1024,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/0189f957-e81e-4af6-b602-d3a61bdfd56b.jpeg?rect=0%2C54%2C1024%2C576&w=1024&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?rect=0%2C54%2C1024%2C576&w=1024&auto=format"
                         },
                         {
                             "width": 620,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/0189f957-e81e-4af6-b602-d3a61bdfd56b.jpeg?rect=0%2C54%2C1024%2C576&w=620&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?rect=0%2C54%2C1024%2C576&w=620&auto=format"
                         },
                         {
                             "width": 320,
-                            "url": "https://livingdocs-images.imgix.net/2018/8/22/0189f957-e81e-4af6-b602-d3a61bdfd56b.jpeg?rect=0%2C54%2C1024%2C576&w=320&auto=format"
+                            "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?rect=0%2C54%2C1024%2C576&w=320&auto=format"
                         }
                     ]
                 }
@@ -64,6 +64,7 @@
         {
             "id": "doc-1cd5a3t330",
             "identifier": "living-times.article-container",
+            "position": "fixed",
             "containers": {
                 "header": [
                     {
@@ -80,17 +81,27 @@
                 ],
                 "main": [
                     {
+                      "id": "doc-FDmyzNUEqQ",
+                      "identifier": "living-times.free-html",
+                      "content": {
+                        "free-html": "<script type=\"text/javascript\" src=\"https://pixel.propublica.org/pixel.js\" async=\"true\"></script>"
+                      }
+                    },
+                    {
                         "id": "doc-1cd5a3t340",
                         "identifier": "living-times.image",
                         "content": {
                             "image": {
-                                "url": "https://livingdocs-images.imgix.net/2018/8/22/0189f957-e81e-4af6-b602-d3a61bdfd56b.jpeg?auto=format",
+                                "url": "https://livingdocs-dev.imgix.net/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg?auto=format",
                                 "width": 1024,
                                 "height": 683,
                                 "mimeType": "image/jpeg",
                                 "imageService": "imgix",
-                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/8/22/0189f957-e81e-4af6-b602-d3a61bdfd56b.jpeg"
+                                "originalUrl": "https://livingdocs-images-dev.s3.amazonaws.com/2018/5/10/e9582c16-cee0-4e56-8147-53168f5b1461.jpeg"
                             }
+                        },
+                        "data": {
+                          "title": "Hate writing on wall"
                         }
                     },
                     {
@@ -304,71 +315,40 @@
                 ],
                 "sidebar-ads-bottom": [],
                 "footer": [
-                    {
-                        "id": "doc-1cd5a3t3410",
-                        "identifier": "living-times.halves",
-                        "content": {
-                            "title": "Recommended Stories"
-                        },
-                        "containers": {
-                            "column-one": [
-                                {
-                                    "id": "doc-1cd5a3t3411",
-                                    "identifier": "living-times.teaser-card",
-                                    "content": {
-                                        "teaser": {
-                                            "service": "teaser",
-                                            "params": {
-                                                "layout": "card",
-                                                "mediaId": 22
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "id": "doc-1cd5a3t3412",
-                                    "identifier": "living-times.teaser-card",
-                                    "content": {
-                                        "teaser": {
-                                            "service": "teaser",
-                                            "params": {
-                                                "layout": "card",
-                                                "mediaId": 20
-                                            }
-                                        }
-                                    }
-                                }
-                            ],
-                            "column-two": [
-                                {
-                                    "id": "doc-1cd5a3t3413",
-                                    "identifier": "living-times.teaser-card",
-                                    "content": {
-                                        "teaser": {
-                                            "service": "teaser",
-                                            "params": {
-                                                "layout": "card",
-                                                "mediaId": 15
-                                            }
-                                        }
-                                    }
-                                },
-                                {
-                                    "id": "doc-1cd5a3t3414",
-                                    "identifier": "living-times.teaser-card",
-                                    "content": {
-                                        "teaser": {
-                                            "service": "teaser",
-                                            "params": {
-                                                "layout": "card",
-                                                "mediaId": 44
-                                            }
-                                        }
-                                    }
-                                }
-                            ]
-                        }
+                  {
+                    "identifier": "living-times.2-col-teaser-stack",
+                    "content": {
+                      "title": "Recommended Stories",
+                      "teaser1-left": {
+                          "service": "teaser",
+                          "params": {
+                              "layout": "card",
+                              "mediaId": 22
+                          }
+                      },
+                      "teaser1-right": {
+                          "service": "teaser",
+                          "params": {
+                              "layout": "card",
+                              "mediaId": 20
+                          }
+                      },
+                      "teaser2-left": {
+                          "service": "teaser",
+                          "params": {
+                              "layout": "card",
+                              "mediaId": 15
+                          }
+                      },
+                      "teaser2-right": {
+                          "service": "teaser",
+                          "params": {
+                              "layout": "card",
+                              "mediaId": 44
+                          }
+                      }
                     }
+                  }
                 ]
             }
         }
