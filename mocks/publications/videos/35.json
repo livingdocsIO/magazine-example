@@ -68,6 +68,9 @@
                     {
                         "id": "doc-1cd585k9o2",
                         "identifier": "living-times.asset-container-video",
+                        "data": {
+                          "title": "Rifle in bag"
+                        },
                         "content": {
                             "image": {
                                 "url": "https://livingdocs-dev.imgix.net/2018/8/22/db37d45e-9c08-4d49-97ba-5a4e164c97ab.jpeg?auto=format",

@@ -73,6 +73,9 @@
                                 {
                                     "id": "doc-1cd59s04l0",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Parade - Dancing women"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/de77f14e-af5b-4868-b0ca-92847e604502.jpeg?auto=format",
@@ -89,6 +92,9 @@
                                 {
                                     "id": "doc-1cd59rj8o3",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Parade - Costumes"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/c0c00a85-2b28-4e3e-9efd-d659932fe806.jpeg?auto=format",
@@ -105,6 +111,9 @@
                                 {
                                     "id": "doc-1cd59s04b0",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Parade - Portrait"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/2f3ac3cf-443a-4d6a-8391-1a12cad9793f.jpeg?auto=format",
@@ -121,6 +130,9 @@
                                 {
                                     "id": "doc-1cd59s04h0",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Parade - Men drinking"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/6b980fa0-279a-4edf-b966-82580b35e959.jpeg?auto=format",

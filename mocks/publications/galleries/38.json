@@ -73,6 +73,9 @@
                                 {
                                     "id": "doc-1cd5932pc0",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Burning Man - Colorful bus"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/697ed8bc-c87d-4751-a07d-45e6a38d65f8.jpeg?auto=format",
@@ -89,6 +92,9 @@
                                 {
                                     "id": "doc-1cd5932k90",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Burning Man - Bike Parkour"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/7518db4d-3bca-4cb6-9cdf-f190b6405753.jpeg?auto=format",
@@ -105,6 +111,9 @@
                                 {
                                     "id": "doc-1cd5932kk0",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Burning Man - Playground"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/267ffa75-c3ed-48dd-8227-bf0dd29164f6.jpeg?auto=format",
@@ -121,6 +130,9 @@
                                 {
                                     "id": "doc-1cd5932lf0",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Burning Man - Man in wheel"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/26e3d133-a1f6-496a-9c40-16a14f58d9ab.jpeg?auto=format",
@@ -137,6 +149,9 @@
                                 {
                                     "id": "doc-1cd5932m40",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Burning Man - Woman jumping"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/a1ffefb4-bf2d-4b3b-87e2-04e4b03e1516.jpeg?auto=format",
@@ -153,6 +168,9 @@
                                 {
                                     "id": "doc-1cd5932q50",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Burning Man - Whale figure"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/49dbbc81-a182-45eb-9b2e-98d284156bc6.jpeg?auto=format",
@@ -169,6 +187,9 @@
                                 {
                                     "id": "doc-1cd5932qo0",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Burning Man - Temple"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/8423aad6-1c09-4259-a86f-27a5fdc5d5a2.jpeg?auto=format",

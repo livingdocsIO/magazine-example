@@ -68,6 +68,9 @@
                     {
                         "id": "doc-1cd58kmr62",
                         "identifier": "living-times.asset-container-video",
+                        "data": {
+                          "title": "Hong Kong buildings"
+                        },
                         "content": {
                             "image": {
                                 "url": "https://livingdocs-dev.imgix.net/2018/8/22/8427df05-9555-4e76-baba-76ab46424113.jpeg?auto=format",

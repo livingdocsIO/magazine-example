@@ -73,6 +73,9 @@
                                 {
                                     "id": "doc-1cd5a02um0",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Festival of colors - Crowd"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/735d6df7-c7de-43ca-93ab-58dbff7cec2b.jpeg?auto=format",
@@ -89,6 +92,9 @@
                                 {
                                     "id": "doc-1cd5a02ua0",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Festival of colors - Man with sunglasses"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/7cfde540-5aab-47fa-8654-fd2861555755.jpeg?auto=format",
@@ -105,6 +111,9 @@
                                 {
                                     "id": "doc-1cd5a02ug0",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Festival of colors - Dancing"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/99d465fd-7c91-4aca-8e3d-96560ff7a7ef.jpeg?auto=format",
@@ -121,6 +130,9 @@
                                 {
                                     "id": "doc-1cd59vs8t3",
                                     "identifier": "living-times.asset-image",
+                                    "data": {
+                                      "title": "Festival of colors - Selfie"
+                                    },
                                     "content": {
                                         "image": {
                                             "url": "https://livingdocs-dev.imgix.net/2018/8/22/8a56a25d-4c4e-42e6-8574-6ecd0faa975b.jpeg?auto=format",
