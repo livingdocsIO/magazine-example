@@ -8,7 +8,7 @@
         "documentType": "article",
         "design": {
             "name": "living-times",
-            "version": "0.0.22"
+            "version": "1.0.0"
         }
     },
     "metadata": {
@@ -68,6 +68,9 @@
                     {
                         "id": "doc-1cd58elfp2",
                         "identifier": "living-times.asset-container-video",
+                        "data": {
+                          "title": "Eating with sticks"
+                        },
                         "content": {
                             "image": {
                                 "url": "https://livingdocs-dev.imgix.net/2018/8/22/49944496-ef57-4bc9-af28-93300f89a426.jpeg?auto=format",
