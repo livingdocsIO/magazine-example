@@ -1,0 +1,62 @@
+---
+kind: pipeline
+name: publish-design
+
+steps:
+- name: install
+  image: node:12
+  commands:
+    - |
+      npm install
+      npm install livingdocs-manager
+      npm install node-jq
+- name: publish
+  image: node:12
+  environment:
+    # li service production
+    LI_SERVER_SERVICE_USER:
+      from_secret: LI_SERVER_SERVICE_USER
+    LI_SERVER_SERVICE_PASSWORD:
+      from_secret: LI_SERVER_SERVICE_PASSWORD
+
+  commands:
+    - |
+      set -e
+      # get design version from design config
+      echo -----------------------------------
+      DESIGN_VERSION=`cat design/source/config.json | ./node_modules/node-jq/bin/jq '.version' | tr -d '"'`
+      echo Design Version: $DESIGN_VERSION
+      echo -----------------------------------
+      # build design
+      npm run design:build
+
+      #########################################
+      # publish design to server.livingdocs.io
+      ./node_modules/.bin/ldm design:publish design/dist --host=https://server.livingdocs.io --user="$LI_SERVER_SERVICE_USER" --password="$LI_SERVER_SERVICE_PASSWORD"
+      #########################################
+  when:
+    branch:
+    - master
+
+---
+kind: pipeline
+name: tag
+depends_on: [publish-design]
+
+clone:
+  depth: 100
+
+steps:
+- name: release
+  image: livingdocs/semantic-release:v1.0.0
+  environment:
+    GH_TOKEN:
+      from_secret: GH_TOKEN
+
+trigger:
+  event: [push]
+---
+kind: signature
+hmac: 1f5b5197308ed0aace550b351205d5a0c7b02d48f188866f1c5a4658ef5f968f
+
+...
