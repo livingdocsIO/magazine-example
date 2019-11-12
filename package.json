@@ -1,6 +1,6 @@
 {
   "name": "magazine-example",
-  "version": "0.2.4",
+  "version": "0.0.0-placeholder",
   "repository": {
     "type": "git",
     "url": "https://github.com/livingdocsIO/magazine-example"
@@ -60,5 +60,12 @@
     "webpack-cli": "^3.0.3",
     "webpack-dev-middleware": "^3.1.0",
     "webpack-hot-middleware": "^2.21.2"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "release": {
+    "npmPublish": false,
+    "extends": "@livingdocs/semantic-release-presets/github-verify"
   }
 }
