@@ -2,25 +2,21 @@ const Photoswipe = require('photoswipe')
 const PhotoSwipeUiDefault = require('photoswipe/dist/photoswipe-ui-default.js')
 
 module.exports = function initGalleryTeasers (window, document) {
-  const galleryTeasers = document.querySelectorAll('.teaser-gallery')
-
-  // ignore resrc for gallery images
-  // we need fullsize images for gallery
-  for (const galleryTeaserEl of galleryTeasers) {
-    const images = galleryTeaserEl.querySelectorAll('.teaser-gallery__images > figure > img')
-    for (const imageEl of images) {
-      if (imageEl.classList) imageEl.classList.remove('resrc')
-      else imageEl.className = imageEl.className.replace('resrc', '')
-      const dataSrc = imageEl.getAttribute('data-src')
-      if (dataSrc) imageEl.setAttribute('src', dataSrc)
-    }
+  if (window.liEditor) {
+    window.liEditor.ready(function () {
+      setTimeout(function () {
+        const galleryTeasers = document.querySelectorAll('.teaser-gallery')
+        registerClickListeners(galleryTeasers)
+      }, 1000)
+    })
+  } else {
+    const galleryTeasers = document.querySelectorAll('.teaser-gallery')
+    document.addEventListener('DOMContentLoaded', function () {
+      registerClickListeners(galleryTeasers)
+    })
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    registerClickListeners()
-  })
-
-  function registerClickListeners () {
+  function registerClickListeners (galleryTeasers) {
     for (const galleryTeaserEl of galleryTeasers) {
       const teaserHeroEl = galleryTeaserEl.querySelector('.teaser-hero')
       const teaserHeroImageEl = galleryTeaserEl.querySelector('.teaser-hero__header')
@@ -76,6 +72,7 @@ module.exports = function initGalleryTeasers (window, document) {
 
   function getGalleryOptions (galleryTeaserEl, teaserImageEl) {
     const options = {
+      history: false,
       index: 0,
       // galleryUID: galleryTeaserEl.getAttribute('data-uuid'),
       getThumbBoundsFn: function (index) {
