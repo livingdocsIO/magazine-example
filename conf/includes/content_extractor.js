@@ -68,11 +68,11 @@ function flag ({metadata = {}} = {}) {
   return metadata.flag
 }
 
-function publishDate ({metadata = {}, first_publication: firstPublication = {}} = {}) {
+function publishDate ({metadata = {}, last_publication: lastPublication = {}} = {}) {
   try {
     const metadataDate = moment(metadata.publishDate)
     if (metadataDate.isValid()) return metadataDate.calendar()
-    const recordDate = moment(firstPublication.created_at)
+    const recordDate = moment(lastPublication.created_at)
     if (recordDate.isValid()) return recordDate.calendar()
     return ''
   } catch (e) {
